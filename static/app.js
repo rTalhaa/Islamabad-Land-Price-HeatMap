@@ -1,4 +1,10 @@
-const state = {
+const GROUPS = ["house", "apartment", "plot"];
+const GROUP_COLORS = {
+  house: [255, 176, 103],
+  apartment: [76, 242, 177],
+  plot: [22, 184, 255],
+};
+const DEFAULT_FILTER_STATE = {
   layer: "heatmap",
   metric: "pricePerSqft",
   propertyGroup: "all",
@@ -6,28 +12,95 @@ const state = {
   bedrooms: "all",
   search: "",
   freshOnly: false,
+  selectedNeighborhood: null,
 };
 
+const state = { ...DEFAULT_FILTER_STATE };
 const context = {
-  listings: [],
   summary: null,
+  listings: [],
+  neighborhoods: [],
   history: [],
+  filteredListings: [],
+  filteredMappedListings: [],
+  visibleNeighborhoods: [],
+  selectedNeighborhoodData: null,
   map: null,
   overlay: null,
+  mapReady: false,
+  hasInitialMapView: false,
+  pulseValue: 0,
+  pulseTimer: null,
 };
 
-const groupColors = {
-  house: [255, 154, 87],
-  apartment: [76, 242, 177],
-  plot: [22, 184, 255],
+const $ = (id) => document.getElementById(id);
+const els = {
+  lastRunPill: $("lastRunPill"),
+  coveragePill: $("coveragePill"),
+  trackedListings: $("trackedListings"),
+  medianPrice: $("medianPrice"),
+  medianPpsf: $("medianPpsf"),
+  activeMetricBadge: $("activeMetricBadge"),
+  activeLayerBadge: $("activeLayerBadge"),
+  visibleCount: $("visibleCount"),
+  visibleNeighborhoods: $("visibleNeighborhoods"),
+  selectionPill: $("selectionPill"),
+  legendText: $("legendText"),
+  emptyState: $("emptyState"),
+  spotlightName: $("spotlightName"),
+  spotlightTier: $("spotlightTier"),
+  spotlightDominant: $("spotlightDominant"),
+  spotlightEmpty: $("spotlightEmpty"),
+  spotlightContent: $("spotlightContent"),
+  spotlightSummary: $("spotlightSummary"),
+  spotlightPpsf: $("spotlightPpsf"),
+  spotlightTicket: $("spotlightTicket"),
+  spotlightListings: $("spotlightListings"),
+  spotlightFreshness: $("spotlightFreshness"),
+  spotlightPpsfDelta: $("spotlightPpsfDelta"),
+  spotlightTicketDelta: $("spotlightTicketDelta"),
+  spotlightMix: $("spotlightMix"),
+  sampleListings: $("sampleListings"),
+  mixList: $("mixList"),
+  hotspotList: $("hotspotList"),
+  historySparkline: $("historySparkline"),
+  historyCaption: $("historyCaption"),
+  historySubcaption: $("historySubcaption"),
+  layerSelect: $("layerSelect"),
+  metricSelect: $("metricSelect"),
+  groupSelect: $("groupSelect"),
+  priceBandSelect: $("priceBandSelect"),
+  bedroomsSelect: $("bedroomsSelect"),
+  searchInput: $("searchInput"),
+  freshToggle: $("freshToggle"),
+  resetButton: $("resetButton"),
 };
 
-async function fetchJson(url) {
+function escapeHtml(value = "") {
+  return String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+}
+
+async function fetchJson(url, fallback = null) {
   const response = await fetch(url);
   if (!response.ok) {
+    if (fallback !== null) return fallback;
     throw new Error(`Failed to load ${url}`);
   }
   return response.json();
+}
+
+function roundValue(value, digits = 2) {
+  return value === null || value === undefined ? null : Number(value.toFixed(digits));
+}
+
+function median(values) {
+  const filtered = values
+    .filter((value) => value !== null && value !== undefined && Number.isFinite(Number(value)))
+    .map(Number)
+    .sort((a, b) => a - b);
+  if (!filtered.length) return null;
+  const mid = Math.floor(filtered.length / 2);
+  return filtered.length % 2 ? filtered[mid] : (filtered[mid - 1] + filtered[mid]) / 2;
 }
 
 function formatCompactNumber(value) {
@@ -35,7 +108,7 @@ function formatCompactNumber(value) {
 }
 
 function formatPkr(value) {
-  if (!value && value !== 0) return "--";
+  if (value === null || value === undefined) return "--";
   if (value >= 10_000_000) {
     const amount = value / 10_000_000;
     return `PKR ${amount.toFixed(amount >= 10 ? 1 : 2).replace(/\.0$/, "")} Cr`;
@@ -48,8 +121,7 @@ function formatPkr(value) {
 }
 
 function formatPpsf(value) {
-  if (!value && value !== 0) return "--";
-  return `PKR ${new Intl.NumberFormat("en-PK", { maximumFractionDigits: 0 }).format(value)} / sqft`;
+  return value === null || value === undefined ? "--" : `PKR ${formatCompactNumber(value)} / sqft`;
 }
 
 function formatDate(value) {
@@ -61,503 +133,519 @@ function formatDate(value) {
   }).format(new Date(value));
 }
 
+function formatSignedPct(value) {
+  if (value === null || value === undefined) return "--";
+  const sign = value > 0 ? "+" : "";
+  return `${sign}${value.toFixed(1).replace(/\.0$/, "")}%`;
+}
+
+function formatFreshness(hours) {
+  if (hours === null || hours === undefined) return "Unknown";
+  if (hours < 24) return `${hours.toFixed(hours < 10 ? 1 : 0).replace(/\.0$/, "")}h`;
+  const days = hours / 24;
+  return `${days.toFixed(days < 5 ? 1 : 0).replace(/\.0$/, "")}d`;
+}
+
+function propertyGroupLabel(group) {
+  return {
+    house: "Houses",
+    apartment: "Flats & Apartments",
+    plot: "Residential Plots",
+  }[group] || "Listings";
+}
+
 function getMetricValue(listing, metric) {
-  if (metric === "density") return 1;
-  return Number(listing[metric] || 0);
+  return metric === "density" ? 1 : Number(listing[metric] || 0);
+}
+
+function buildPropertyMix(items) {
+  const total = items.length || 1;
+  return Object.fromEntries(
+    GROUPS.map((group) => {
+      const count = items.filter((item) => item.propertyGroup === group).length;
+      return [group, { label: propertyGroupLabel(group), count, share: roundValue(count / total, 4) }];
+    }),
+  );
+}
+
+function computePriceTier(value, ordered) {
+  if (value === null || !ordered.length) return "Value";
+  const position = ordered.filter((item) => item <= value).length - 1;
+  const percentile = (position + 1) / ordered.length;
+  if (percentile >= 0.75) return "Ultra Prime";
+  if (percentile >= 0.5) return "Premium";
+  if (percentile >= 0.25) return "Mid-market";
+  return "Value";
+}
+
+function buildNeighborhoodRecords(listings) {
+  const grouped = new Map();
+  for (const listing of listings) {
+    if (!listing.neighborhood) continue;
+    if (!grouped.has(listing.neighborhood)) grouped.set(listing.neighborhood, []);
+    grouped.get(listing.neighborhood).push(listing);
+  }
+  const cityMedianPpsf = median(listings.map((item) => item.pricePerSqft));
+  const cityMedianTicket = median(listings.map((item) => item.pricePkr));
+  const records = [...grouped.entries()].map(([name, items]) => {
+    const mapped = items.filter((item) => item.latitude !== null && item.longitude !== null);
+    const propertyMix = buildPropertyMix(items);
+    const dominantPropertyGroup = GROUPS
+      .slice()
+      .sort(
+        (left, right) =>
+          propertyMix[right].count - propertyMix[left].count ||
+          propertyMix[right].share - propertyMix[left].share ||
+          propertyGroupLabel(left).localeCompare(propertyGroupLabel(right)),
+      )[0];
+    const medianPricePerSqft = roundValue(median(items.map((item) => item.pricePerSqft)));
+    const medianPricePkr = roundValue(median(items.map((item) => item.pricePkr)), 0);
+    return {
+      name,
+      centroid: {
+        latitude: mapped.length ? roundValue(mapped.reduce((sum, item) => sum + item.latitude, 0) / mapped.length, 6) : null,
+        longitude: mapped.length ? roundValue(mapped.reduce((sum, item) => sum + item.longitude, 0) / mapped.length, 6) : null,
+      },
+      listingCount: items.length,
+      mappedCount: mapped.length,
+      medianPricePkr,
+      medianPricePerSqft,
+      medianAreaSqft: roundValue(median(items.map((item) => item.areaSqft))),
+      medianFreshnessHours: roundValue(median(items.map((item) => item.freshnessHours))),
+      minPricePkr: roundValue(Math.min(...items.map((item) => item.pricePkr).filter((value) => value !== null && value !== undefined)), 0),
+      maxPricePkr: roundValue(Math.max(...items.map((item) => item.pricePkr).filter((value) => value !== null && value !== undefined)), 0),
+      dominantPropertyGroup,
+      propertyMix,
+      cityMedianPpsfDeltaPct: cityMedianPpsf && medianPricePerSqft ? roundValue(((medianPricePerSqft - cityMedianPpsf) / cityMedianPpsf) * 100) : null,
+      cityMedianTicketDeltaPct: cityMedianTicket && medianPricePkr ? roundValue(((medianPricePkr - cityMedianTicket) / cityMedianTicket) * 100) : null,
+      priceTier: "Value",
+      sampleListings: items
+        .slice()
+        .sort((a, b) => (b.pricePerSqft || 0) - (a.pricePerSqft || 0) || (b.pricePkr || 0) - (a.pricePkr || 0) || a.id - b.id)
+        .slice(0, 3)
+        .map((item) => ({
+          id: item.id,
+          title: item.title,
+          pricePkr: item.pricePkr,
+          pricePerSqft: item.pricePerSqft,
+          beds: item.beds,
+          areaSqft: item.areaSqft,
+          imageUrl: item.imageUrl,
+          url: item.url,
+        })),
+    };
+  });
+  const ordered = records.map((item) => item.medianPricePerSqft).filter((value) => value !== null).sort((a, b) => a - b);
+  for (const record of records) record.priceTier = computePriceTier(record.medianPricePerSqft, ordered);
+  return records.sort((a, b) => b.listingCount - a.listingCount || (b.medianPricePerSqft || 0) - (a.medianPricePerSqft || 0) || a.name.localeCompare(b.name));
+}
+
+function isDefaultFilterState() {
+  return ["layer", "metric", "propertyGroup", "priceBand", "bedrooms", "search", "freshOnly"].every((key) => state[key] === DEFAULT_FILTER_STATE[key]);
 }
 
 function passesPriceBand(listing) {
-  const price = listing.pricePkr || 0;
-  switch (state.priceBand) {
-    case "under2cr":
-      return price < 20_000_000;
-    case "2to8cr":
-      return price >= 20_000_000 && price < 80_000_000;
-    case "8crplus":
-      return price >= 80_000_000;
-    default:
-      return true;
-  }
-}
-
-function passesBedroomFilter(listing) {
-  const beds = listing.beds || 0;
-  switch (state.bedrooms) {
-    case "3plus":
-      return beds >= 3;
-    case "5plus":
-      return beds >= 5;
-    default:
-      return true;
-  }
+  if (state.priceBand === "under2cr") return (listing.pricePkr || 0) < 20_000_000;
+  if (state.priceBand === "2to8cr") return (listing.pricePkr || 0) >= 20_000_000 && (listing.pricePkr || 0) < 80_000_000;
+  if (state.priceBand === "8crplus") return (listing.pricePkr || 0) >= 80_000_000;
+  return true;
 }
 
 function getFilteredListings() {
+  const search = state.search.trim().toLowerCase();
   return context.listings.filter((listing) => {
     if (state.propertyGroup !== "all" && listing.propertyGroup !== state.propertyGroup) return false;
     if (!passesPriceBand(listing)) return false;
-    if (!passesBedroomFilter(listing)) return false;
-    if (
-      state.search &&
-      !`${listing.location} ${listing.neighborhood} ${listing.title}`.toLowerCase().includes(state.search.toLowerCase())
-    ) {
-      return false;
-    }
+    if (state.bedrooms === "3plus" && (listing.beds || 0) < 3) return false;
+    if (state.bedrooms === "5plus" && (listing.beds || 0) < 5) return false;
     if (state.freshOnly && (!listing.freshnessHours || listing.freshnessHours > 72)) return false;
+    if (search && !`${listing.title} ${listing.location} ${listing.neighborhood}`.toLowerCase().includes(search)) return false;
     return true;
   });
 }
 
-function median(values) {
-  const filtered = values.filter((value) => value || value === 0).sort((a, b) => a - b);
-  if (!filtered.length) return null;
-  const mid = Math.floor(filtered.length / 2);
-  return filtered.length % 2 ? filtered[mid] : (filtered[mid - 1] + filtered[mid]) / 2;
+function getVisibleNeighborhoods(filteredListings) {
+  if (isDefaultFilterState() && context.neighborhoods.length && filteredListings.length === context.listings.length) return context.neighborhoods;
+  return buildNeighborhoodRecords(filteredListings);
 }
 
-function buildNeighborhoodStats(listings) {
-  const grouped = new Map();
-  for (const listing of listings) {
-    const key = listing.neighborhood || listing.location;
-    if (!key) continue;
-    if (!grouped.has(key)) grouped.set(key, []);
-    grouped.get(key).push(listing);
-  }
-
-  return Array.from(grouped.entries())
-    .map(([neighborhood, rows]) => ({
-      neighborhood,
-      listingCount: rows.length,
-      medianPricePkr: median(rows.map((row) => row.pricePkr)),
-      medianPricePerSqft: median(rows.map((row) => row.pricePerSqft)),
-      center: rows.find((row) => row.longitude && row.latitude),
-    }))
-    .sort((a, b) => (b.medianPricePerSqft || 0) - (a.medianPricePerSqft || 0));
+function chooseDefaultNeighborhood(records) {
+  return records.slice().sort((a, b) => b.listingCount - a.listingCount || (b.medianPricePerSqft || 0) - (a.medianPricePerSqft || 0) || a.name.localeCompare(b.name))[0] || null;
 }
 
-function updateTopLevelStats(filtered) {
-  const visibleNeighborhoods = new Set(filtered.map((item) => item.neighborhood).filter(Boolean));
-  document.querySelector("#trackedListings").textContent = formatCompactNumber(filtered.length);
-  document.querySelector("#medianPrice").textContent = formatPkr(median(filtered.map((item) => item.pricePkr)));
-  document.querySelector("#medianPpsf").textContent = formatPpsf(median(filtered.map((item) => item.pricePerSqft)));
-  document.querySelector("#visibleCount").textContent = formatCompactNumber(filtered.length);
-  document.querySelector("#visibleNeighborhoods").textContent = formatCompactNumber(visibleNeighborhoods.size);
+function resolveSelectedNeighborhood(records) {
+  return records.find((item) => item.name === state.selectedNeighborhood) || chooseDefaultNeighborhood(records);
 }
 
-function renderMix(filtered) {
-  const mixList = document.querySelector("#mixList");
-  const grouped = {};
-  for (const listing of filtered) {
-    grouped[listing.propertyGroup] = grouped[listing.propertyGroup] || [];
-    grouped[listing.propertyGroup].push(listing);
-  }
-
-  const total = filtered.length || 1;
-  mixList.innerHTML = Object.entries(grouped)
-    .sort((a, b) => b[1].length - a[1].length)
-    .map(([group, rows]) => {
-      const share = (rows.length / total) * 100;
-      return `
-        <article class="mix-row">
-          <div class="mix-row__head">
-            <strong>${rows[0].propertyGroupLabel}</strong>
-            <span>${formatCompactNumber(rows.length)} listings</span>
-          </div>
-          <p>${formatPpsf(median(rows.map((row) => row.pricePerSqft)))} median spatial value.</p>
-          <div class="mix-row__bar"><div class="mix-row__fill" style="width:${share.toFixed(1)}%"></div></div>
-        </article>
-      `;
-    })
-    .join("");
+function applyDeltaTone(element, value) {
+  element.classList.remove("delta-positive", "delta-negative", "delta-neutral");
+  element.classList.add(value > 0 ? "delta-positive" : value < 0 ? "delta-negative" : "delta-neutral");
 }
 
-function renderHotspots(filtered) {
-  const hotspotList = document.querySelector("#hotspotList");
-  const neighborhoods = buildNeighborhoodStats(filtered).slice(0, 7);
+function renderSpotlight(record) {
+  els.spotlightName.textContent = record ? record.name : "Waiting for selection";
+  els.spotlightTier.textContent = record ? record.priceTier : "Tier";
+  els.spotlightDominant.textContent = record ? propertyGroupLabel(record.dominantPropertyGroup) : "Dominant mix";
+  els.spotlightEmpty.classList.toggle("hidden", Boolean(record));
+  els.spotlightContent.classList.toggle("hidden", !record);
+  if (!record) return;
+  els.spotlightSummary.textContent = `${formatCompactNumber(record.listingCount)} listings | ${record.medianAreaSqft ? `${formatCompactNumber(record.medianAreaSqft)} sqft median area` : "Area mixed"} | ${formatPkr(record.minPricePkr)} to ${formatPkr(record.maxPricePkr)}`;
+  els.spotlightPpsf.textContent = formatPpsf(record.medianPricePerSqft);
+  els.spotlightTicket.textContent = formatPkr(record.medianPricePkr);
+  els.spotlightListings.textContent = formatCompactNumber(record.listingCount);
+  els.spotlightFreshness.textContent = formatFreshness(record.medianFreshnessHours);
+  els.spotlightPpsfDelta.textContent = formatSignedPct(record.cityMedianPpsfDeltaPct);
+  els.spotlightTicketDelta.textContent = formatSignedPct(record.cityMedianTicketDeltaPct);
+  applyDeltaTone(els.spotlightPpsfDelta, record.cityMedianPpsfDeltaPct || 0);
+  applyDeltaTone(els.spotlightTicketDelta, record.cityMedianTicketDeltaPct || 0);
+  els.spotlightMix.innerHTML = GROUPS.map((group) => `<div class="mix-chip"><strong>${formatCompactNumber(record.propertyMix[group].count)}</strong><span>${escapeHtml(propertyGroupLabel(group))} | ${Math.round((record.propertyMix[group].share || 0) * 100)}%</span></div>`).join("");
+  els.sampleListings.innerHTML = record.sampleListings.length
+    ? record.sampleListings
+        .map((item) => {
+          const image = item.imageUrl ? ` style="background-image: linear-gradient(140deg, rgba(76, 242, 177, 0.22), rgba(28, 82, 136, 0.22)), url('${item.imageUrl.replace(/'/g, "%27")}');"` : "";
+          const beds = item.beds ? `${item.beds} bed` : "Open layout";
+          const area = item.areaSqft ? `${formatCompactNumber(item.areaSqft)} sqft` : "Area on request";
+          return `<a class="sample-card" href="${item.url}" target="_blank" rel="noreferrer"><div class="sample-card__image"${image}></div><div class="sample-card__body"><strong>${escapeHtml(item.title)}</strong><div class="sample-card__meta">${formatPkr(item.pricePkr)} | ${formatPpsf(item.pricePerSqft)}</div><div class="sample-card__detail">${beds} | ${area}</div></div></a>`;
+        })
+        .join("")
+    : `<div class="mix-row"><strong>No sample listings available</strong><p>This neighborhood is still valid, but the current filter set does not expose showcase cards.</p></div>`;
+}
 
-  hotspotList.innerHTML = neighborhoods
-    .map(
-      (item) => `
-        <article class="hotspot-row" data-neighborhood="${item.neighborhood}">
-          <div class="hotspot-row__head">
-            <strong>${item.neighborhood}</strong>
-            <span>${formatCompactNumber(item.listingCount)} listings</span>
-          </div>
-          <p>${formatPpsf(item.medianPricePerSqft)} median • ${formatPkr(item.medianPricePkr)} typical ticket</p>
-        </article>
-      `
-    )
-    .join("");
+function renderMix(listings) {
+  const mix = buildPropertyMix(listings);
+  els.mixList.innerHTML = GROUPS.map((group) => {
+    const item = mix[group];
+    return `<article class="mix-row"><div class="mix-row__head"><strong>${escapeHtml(item.label)}</strong><span>${formatCompactNumber(item.count)}</span></div><p>${Math.round(item.share * 100)}% of visible inventory</p><div class="mix-row__bar"><div class="mix-row__fill" style="width:${Math.max(item.share * 100, item.count ? 8 : 0)}%"></div></div></article>`;
+  }).join("");
+}
 
-  hotspotList.querySelectorAll(".hotspot-row").forEach((row) => {
-    row.addEventListener("click", () => {
-      const target = neighborhoods.find((item) => item.neighborhood === row.dataset.neighborhood);
-      if (target?.center && context.map) {
-        context.map.flyTo({
-          center: [target.center.longitude, target.center.latitude],
-          zoom: 12.8,
-          speed: 0.75,
-        });
-      }
-    });
+function renderHotspots(records) {
+  const rows = records.slice(0, 8);
+  els.hotspotList.innerHTML = rows.length
+    ? rows
+        .map(
+          (record) =>
+            `<article class="hotspot-row${record.name === state.selectedNeighborhood ? " is-selected" : ""}" data-neighborhood="${escapeHtml(record.name)}"><div class="hotspot-row__head"><strong>${escapeHtml(record.name)}</strong><span>${escapeHtml(record.priceTier)}</span></div><p>${formatCompactNumber(record.listingCount)} listings | ${formatPpsf(record.medianPricePerSqft)}</p></article>`,
+        )
+        .join("")
+    : `<article class="mix-row"><strong>No visible neighborhoods</strong><p>Adjust the active filters to bring back neighborhood rankings.</p></article>`;
+  [...els.hotspotList.querySelectorAll(".hotspot-row")].forEach((node) => {
+    node.addEventListener("click", () => setSelectedNeighborhood(node.dataset.neighborhood, { flyToSelection: true }));
   });
 }
 
 function renderHistory() {
-  const svg = document.querySelector("#historySparkline");
-  const caption = document.querySelector("#historyCaption");
-  const subcaption = document.querySelector("#historySubcaption");
-  const history = context.history || [];
-
+  const history = context.history;
   if (history.length < 2) {
-    svg.innerHTML = `<rect x="1" y="1" width="318" height="108" rx="18" fill="rgba(8,23,34,0.35)" stroke="rgba(157,211,255,0.12)"/>
-      <text x="20" y="56" fill="#8eaec0" font-size="12">Run the pipeline a few more times to see trend movement.</text>`;
-    caption.textContent = "Need more runs for a stronger market pulse.";
-    subcaption.textContent = "Each scheduled refresh appends a new historical datapoint.";
+    els.historySparkline.innerHTML = '<line x1="18" y1="58" x2="302" y2="58" stroke="rgba(140, 201, 255, 0.22)" stroke-width="2" stroke-dasharray="5 7"></line>';
+    els.historyCaption.textContent = "Need more runs for a stronger market pulse.";
+    els.historySubcaption.textContent = "Each scheduled refresh appends a new snapshot.";
     return;
   }
-
   const values = history.map((item) => item.medianPricePerSqft || 0);
-  const max = Math.max(...values);
   const min = Math.min(...values);
-  const width = 320;
-  const height = 110;
-  const xStep = width / Math.max(values.length - 1, 1);
-  const normalise = (value) => {
-    if (max === min) return height / 2;
-    return 90 - ((value - min) / (max - min)) * 60;
-  };
-  const points = values.map((value, index) => `${index * xStep},${normalise(value)}`);
-  const area = `0,110 ${points.join(" ")} ${width},110`;
-
-  svg.innerHTML = `
-    <defs>
-      <linearGradient id="sparkStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#33f1b6"/>
-        <stop offset="100%" stop-color="#ff9350"/>
-      </linearGradient>
-      <linearGradient id="sparkFill" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="rgba(51,241,182,0.32)"/>
-        <stop offset="100%" stop-color="rgba(51,241,182,0.02)"/>
-      </linearGradient>
-    </defs>
-    <rect x="1" y="1" width="318" height="108" rx="18" fill="rgba(8,23,34,0.35)" stroke="rgba(157,211,255,0.12)"/>
-    <polygon points="${area}" fill="url(#sparkFill)" stroke="none"></polygon>
-    <polyline points="${points.join(" ")}" fill="none" stroke="url(#sparkStroke)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
-    <circle cx="${(values.length - 1) * xStep}" cy="${normalise(values.at(-1))}" r="5" fill="#fff" stroke="#33f1b6" stroke-width="3"></circle>
-  `;
-
-  const delta = values.at(-1) - values.at(0);
-  caption.textContent = `${delta >= 0 ? "Upward" : "Downward"} drift of ${Math.abs(delta).toFixed(0)} PKR / sqft across saved runs.`;
-  subcaption.textContent = `First run ${formatDate(history[0].timestamp)} • Latest run ${formatDate(history.at(-1).timestamp)}`;
+  const max = Math.max(...values);
+  const points = values.map((value, index) => {
+    const x = 18 + (284 * index) / (values.length - 1 || 1);
+    const ratio = max === min ? 0.5 : (value - min) / (max - min);
+    const y = 90 - ratio * 60;
+    return `${x},${y}`;
+  });
+  els.historySparkline.innerHTML = `<polyline fill="none" stroke="rgba(76, 242, 177, 0.95)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="${points.join(" ")}"></polyline>${points.map((point, index) => `<circle cx="${point.split(",")[0]}" cy="${point.split(",")[1]}" r="${index === points.length - 1 ? 5 : 3}" fill="${index === points.length - 1 ? "#ffb067" : "#4cf2b1"}"></circle>`).join("")}`;
+  const first = values[0];
+  const last = values[values.length - 1];
+  els.historyCaption.textContent = `Median PKR / sqft moved ${formatSignedPct(first ? ((last - first) / first) * 100 : 0)} across ${formatCompactNumber(history.length)} tracked runs.`;
+  els.historySubcaption.textContent = `Latest snapshot ${formatDate(history[history.length - 1].timestamp)}`;
 }
 
-function updateSelectionCard(payload) {
-  const target = document.querySelector("#selectionCard");
-  if (!payload) {
-    target.textContent = "Hover a listing or a bin on the map to inspect the local market signal.";
-    return;
-  }
+function updateLegend() {
+  const layerLabel = { heatmap: "Heatmap", hexagon: "Hex bins", scatter: "Listing dots" }[state.layer];
+  const metricLabel = { pricePerSqft: "Price / sqft", pricePkr: "Listing price", density: "Density" }[state.metric];
+  els.activeLayerBadge.textContent = `Layer: ${layerLabel}`;
+  els.activeMetricBadge.textContent = `Metric: ${metricLabel}`;
+  els.legendText.textContent =
+    state.layer === "heatmap"
+      ? `${metricLabel} weights each listing so the brightest clusters reveal premium pressure, not just raw count.`
+      : state.layer === "hexagon"
+        ? `${metricLabel} is aggregated by neighborhood-scale bins, while elevation shows where inventory is stacking up.`
+        : `Every dot is a live listing. The active neighborhood stays bright while the rest of the city softens into context.`;
+}
 
-  if (payload.object?.title) {
-    const listing = payload.object;
-    target.innerHTML = `
-      <strong>${listing.title}</strong>
-      <p>${listing.location}</p>
-      <p>${formatPkr(listing.pricePkr)} • ${formatPpsf(listing.pricePerSqft)}</p>
-      <p>${listing.beds ? `${listing.beds} beds` : "Plot or unspecified beds"}${listing.baths ? ` • ${listing.baths} baths` : ""}</p>
-    `;
-    return;
-  }
+function updateTopLevelStats() {
+  const listings = context.filteredListings;
+  const selected = context.selectedNeighborhoodData;
+  els.lastRunPill.textContent = context.summary ? `Last run ${formatDate(context.summary.generatedAt)}` : "Waiting for dataset";
+  els.coveragePill.textContent = context.summary ? `${formatCompactNumber(context.summary.mappedListings)} mapped | ${formatCompactNumber(context.summary.neighborhoodCount)} neighborhoods` : "Coverage loading...";
+  els.trackedListings.textContent = formatCompactNumber(listings.length);
+  els.medianPrice.textContent = formatPkr(median(listings.map((item) => item.pricePkr)));
+  els.medianPpsf.textContent = formatPpsf(median(listings.map((item) => item.pricePerSqft)));
+  els.visibleCount.textContent = formatCompactNumber(listings.length);
+  els.visibleNeighborhoods.textContent = formatCompactNumber(context.visibleNeighborhoods.length);
+  els.selectionPill.textContent = selected ? selected.name : "No selection";
+}
 
-  if (payload.object?.points?.length) {
-    const pointCount = payload.object.points.length;
-    const first = payload.object.points[0].source;
-    target.innerHTML = `
-      <strong>${pointCount} listings in this bin</strong>
-      <p>${first.neighborhood || first.location}</p>
-      <p>${formatPpsf(median(payload.object.points.map((point) => point.source.pricePerSqft)))}</p>
-    `;
+function updateEmptyState() {
+  els.emptyState.classList.toggle("hidden", context.filteredListings.length > 0);
+}
+
+function getSelectionFromHexBin(object) {
+  if (!object?.points?.length) return null;
+  const ranked = new Map();
+  for (const item of object.points) {
+    const existing = ranked.get(item.neighborhood) || { count: 0, pricePerSqft: 0 };
+    existing.count += 1;
+    existing.pricePerSqft = Math.max(existing.pricePerSqft, item.pricePerSqft || 0);
+    ranked.set(item.neighborhood, existing);
   }
+  return [...ranked.entries()].sort((a, b) => b[1].count - a[1].count || b[1].pricePerSqft - a[1].pricePerSqft)[0]?.[0] || null;
 }
 
 function tooltipFor(info) {
   if (!info.object) return null;
-  if (info.object.title) {
-    return {
-      html: `
-        <div style="font-family: Space Grotesk, sans-serif; max-width: 280px;">
-          <strong>${info.object.title}</strong><br />
-          <span>${info.object.location}</span><br />
-          <span>${formatPkr(info.object.pricePkr)} • ${formatPpsf(info.object.pricePerSqft)}</span>
-        </div>
-      `,
-      style: {
-        backgroundColor: "rgba(8, 23, 34, 0.92)",
-        color: "#eef5fa",
-        border: "1px solid rgba(157, 211, 255, 0.18)",
-        borderRadius: "14px",
-      },
-    };
+  if (info.object.points) {
+    const name = getSelectionFromHexBin(info.object);
+    return { html: `<strong>${escapeHtml(name || "Mixed cluster")}</strong><div>${formatCompactNumber(info.object.points.length)} listings in bin</div>` };
   }
-  if (info.object.points?.length) {
-    const rows = info.object.points.map((point) => point.source);
-    return {
-      html: `
-        <div style="font-family: Space Grotesk, sans-serif;">
-          <strong>${rows.length} listings in view</strong><br />
-          <span>${rows[0].neighborhood || rows[0].location}</span><br />
-          <span>${formatPpsf(median(rows.map((row) => row.pricePerSqft)))}</span>
-        </div>
-      `,
-      style: {
-        backgroundColor: "rgba(8, 23, 34, 0.92)",
-        color: "#eef5fa",
-        border: "1px solid rgba(157, 211, 255, 0.18)",
-        borderRadius: "14px",
-      },
-    };
-  }
-  return null;
+  return {
+    html: `<strong>${escapeHtml(info.object.title)}</strong><div>${escapeHtml(info.object.neighborhood)} | ${formatPkr(info.object.pricePkr)}</div><div>${formatPpsf(info.object.pricePerSqft)}</div>`,
+  };
 }
 
-function updateLegend() {
-  const legendText = document.querySelector("#legendText");
-  const layerName =
-    state.layer === "heatmap" ? "Heatmap" : state.layer === "hexagon" ? "Hex bins" : "Listing dots";
-  const metricName =
-    state.metric === "pricePerSqft"
-      ? "PKR per square foot"
-      : state.metric === "pricePkr"
-        ? "listing price"
-        : "listing density";
-
-  document.querySelector("#activeMetricBadge").textContent = `Metric: ${
-    state.metric === "pricePerSqft"
-      ? "Price / sqft"
-      : state.metric === "pricePkr"
-        ? "Listing price"
-        : "Density"
-  }`;
-  document.querySelector("#activeLayerBadge").textContent = `Layer: ${layerName}`;
-
-  legendText.textContent =
-    state.layer === "heatmap"
-      ? `Heatmap weights each point by ${metricName}, so clusters glow according to market intensity rather than simple count.`
-      : state.layer === "hexagon"
-        ? `Hex bins aggregate nearby listings and expose how ${metricName} is concentrating across Islamabad's active inventory.`
-        : `Listing dots reveal sampled coordinates, colored by property type and sized by ${metricName}.`;
+function fitMapToListings(listings) {
+  if (!context.map || !listings.length) return;
+  const bounds = new maplibregl.LngLatBounds();
+  listings.forEach((item) => bounds.extend([item.longitude, item.latitude]));
+  context.map.fitBounds(bounds, { padding: 70, duration: 0, pitch: 48, bearing: -12 });
 }
 
-function updateCoverage(summary) {
-  document.querySelector("#lastRunPill").textContent = `Last pipeline run ${formatDate(summary.generatedAt)}`;
-  document.querySelector("#coveragePill").textContent = `${formatCompactNumber(summary.neighborhoodCount)} neighborhoods • ${formatCompactNumber(summary.mappedListings)} mapped points`;
+function flyToNeighborhood(record) {
+  if (!context.map || !record?.centroid?.latitude || !record?.centroid?.longitude) return;
+  context.map.easeTo({ center: [record.centroid.longitude, record.centroid.latitude], zoom: Math.max(context.map.getZoom(), 11.8), duration: 1100 });
 }
 
-function updateEmptyState(filtered) {
-  document.querySelector("#emptyState").classList.toggle("hidden", filtered.length > 0);
-}
-
-function updateMap(filtered) {
+function updateMap(mappedListings) {
   if (!context.overlay) return;
-
-  const { HeatmapLayer, HexagonLayer, ScatterplotLayer } = deck;
-  const layers = [];
-
-  if (state.layer === "heatmap") {
-    layers.push(
-      new HeatmapLayer({
-        id: "isb-heat",
-        data: filtered,
-        getPosition: (d) => [d.longitude, d.latitude],
-        getWeight: (d) => {
-          const value = getMetricValue(d, state.metric);
-          if (!value) return 0;
-          if (state.metric === "density") return 1;
-          return Math.max(1, Math.sqrt(value));
-        },
-        radiusPixels: 48,
-        intensity: 1.2,
-        threshold: 0.02,
-      })
-    );
-  }
-
-  if (state.layer === "hexagon") {
-    layers.push(
-      new HexagonLayer({
-        id: "isb-hex",
-        data: filtered,
-        getPosition: (d) => [d.longitude, d.latitude],
-        pickable: true,
-        extruded: true,
-        radius: 500,
-        elevationScale: 20,
-        colorRange: [
-          [20, 34, 51],
-          [12, 94, 126],
-          [35, 160, 170],
-          [255, 201, 92],
-          [255, 111, 76],
-          [255, 61, 102],
-        ],
-        getColorWeight: (d) => getMetricValue(d, state.metric),
-        getElevationWeight: (d) => getMetricValue(d, state.metric),
-        elevationAggregation: "MEAN",
-        colorAggregation: state.metric === "density" ? "SUM" : "MEAN",
-        material: { ambient: 0.24, diffuse: 0.6, shininess: 28, specularColor: [51, 51, 51] },
-      })
-    );
-  }
-
-  if (state.layer === "scatter") {
-    layers.push(
-      new ScatterplotLayer({
-        id: "isb-scatter",
-        data: filtered,
-        pickable: true,
-        stroked: true,
-        filled: true,
-        radiusScale: 1,
-        radiusMinPixels: 6,
-        radiusMaxPixels: 28,
-        lineWidthMinPixels: 1,
-        getPosition: (d) => [d.longitude, d.latitude],
-        getRadius: (d) => {
-          const value = getMetricValue(d, state.metric);
-          if (state.metric === "density") return 70;
-          return Math.max(90, Math.sqrt(value || 0) * 0.65);
-        },
-        getFillColor: (d) => [...(groupColors[d.propertyGroup] || [255, 255, 255]), 170],
-        getLineColor: () => [255, 255, 255, 210],
-        onClick: ({ object }) => {
-          if (object?.url) {
-            window.open(object.url, "_blank", "noopener");
-          }
-        },
-      })
-    );
-  }
-
-  context.overlay.setProps({
-    layers,
-    getTooltip: tooltipFor,
-    onHover: (info) => updateSelectionCard(info),
-  });
+  const selectedName = state.selectedNeighborhood;
+  const selectedListings = selectedName ? mappedListings.filter((item) => item.neighborhood === selectedName) : [];
+  const pulseRadius = 155 + (context.pulseValue % 5) * 28;
+  const weightFor = (item) => {
+    const base = Math.max(getMetricValue(item, state.metric), 1);
+    return selectedName && item.neighborhood !== selectedName ? base * 0.26 : base;
+  };
+  const clickToSelect = (info) => info?.object?.neighborhood && setSelectedNeighborhood(info.object.neighborhood, { flyToSelection: true });
+  const layers = [
+    state.layer === "heatmap"
+      ? new deck.HeatmapLayer({
+          id: "market-heat",
+          data: mappedListings,
+          getPosition: (item) => [item.longitude, item.latitude],
+          getWeight: weightFor,
+          colorRange: [[13, 22, 33, 0], [22, 184, 255, 120], [76, 242, 177, 180], [255, 176, 103, 210], [255, 98, 115, 255]],
+          radiusPixels: 54,
+          intensity: 0.95,
+          threshold: 0.05,
+        })
+      : null,
+    state.layer === "heatmap"
+      ? new deck.ScatterplotLayer({
+          id: "heat-hits",
+          data: mappedListings,
+          pickable: true,
+          radiusUnits: "meters",
+          getPosition: (item) => [item.longitude, item.latitude],
+          getRadius: 85,
+          getFillColor: (item) => (selectedName === item.neighborhood ? [255, 255, 255, 18] : [0, 0, 0, 0]),
+          onClick: clickToSelect,
+        })
+      : null,
+    state.layer === "hexagon"
+      ? new deck.HexagonLayer({
+          id: "market-hex",
+          data: mappedListings,
+          pickable: true,
+          extruded: true,
+          radius: 800,
+          coverage: 0.92,
+          elevationScale: 14,
+          getPosition: (item) => [item.longitude, item.latitude],
+          getColorWeight: weightFor,
+          colorAggregation: "MEAN",
+          getElevationWeight: () => 1,
+          elevationAggregation: "SUM",
+          colorRange: [[14, 28, 42], [22, 184, 255], [76, 242, 177], [255, 176, 103], [255, 98, 115]],
+          material: false,
+          onClick: (info) => {
+            const name = getSelectionFromHexBin(info.object);
+            if (name) setSelectedNeighborhood(name, { flyToSelection: true });
+          },
+        })
+      : null,
+    state.layer === "scatter"
+      ? new deck.ScatterplotLayer({
+          id: "market-scatter",
+          data: mappedListings,
+          pickable: true,
+          radiusUnits: "meters",
+          stroked: true,
+          getPosition: (item) => [item.longitude, item.latitude],
+          getRadius: (item) => (state.metric === "density" ? 95 : Math.max(95, Math.min(240, Math.sqrt(getMetricValue(item, state.metric)) * 1.2))),
+          getFillColor: (item) => [...(GROUP_COLORS[item.propertyGroup] || [255, 255, 255]), selectedName && item.neighborhood !== selectedName ? 54 : 210],
+          getLineColor: (item) => (selectedName === item.neighborhood ? [255, 255, 255, 235] : [13, 22, 33, 150]),
+          lineWidthUnits: "pixels",
+          getLineWidth: (item) => (selectedName === item.neighborhood ? 2 : 1),
+          onClick: clickToSelect,
+        })
+      : null,
+    selectedListings.length
+      ? new deck.ScatterplotLayer({
+          id: "selection-glow",
+          data: selectedListings,
+          pickable: true,
+          radiusUnits: "meters",
+          getPosition: (item) => [item.longitude, item.latitude],
+          getRadius: pulseRadius,
+          getFillColor: [76, 242, 177, 55],
+          onClick: clickToSelect,
+        })
+      : null,
+    selectedListings.length
+      ? new deck.ScatterplotLayer({
+          id: "selection-core",
+          data: selectedListings,
+          pickable: true,
+          radiusUnits: "meters",
+          stroked: true,
+          getPosition: (item) => [item.longitude, item.latitude],
+          getRadius: 92,
+          getFillColor: [255, 176, 103, 155],
+          getLineColor: [255, 255, 255, 230],
+          lineWidthUnits: "pixels",
+          getLineWidth: 2,
+          onClick: clickToSelect,
+        })
+      : null,
+  ].filter(Boolean);
+  context.overlay.setProps({ layers, getTooltip: tooltipFor });
 }
 
-function renderAll() {
-  if (!context.summary) return;
-  const filtered = getFilteredListings();
-  updateCoverage(context.summary);
-  updateTopLevelStats(filtered);
-  renderMix(filtered);
-  renderHotspots(filtered);
-  renderHistory();
+function renderAll(options = {}) {
+  context.filteredListings = getFilteredListings();
+  context.filteredMappedListings = context.filteredListings.filter((item) => item.latitude !== null && item.longitude !== null);
+  context.visibleNeighborhoods = getVisibleNeighborhoods(context.filteredListings);
+  context.selectedNeighborhoodData = resolveSelectedNeighborhood(context.visibleNeighborhoods);
+  state.selectedNeighborhood = context.selectedNeighborhoodData?.name || null;
+  updateTopLevelStats();
   updateLegend();
-  updateMap(filtered.filter((item) => item.longitude && item.latitude));
-  updateEmptyState(filtered);
+  updateEmptyState();
+  renderSpotlight(context.selectedNeighborhoodData);
+  renderMix(context.filteredListings);
+  renderHotspots(context.visibleNeighborhoods);
+  renderHistory();
+  if (context.mapReady) {
+    updateMap(context.filteredMappedListings);
+    if (!context.hasInitialMapView && context.filteredMappedListings.length) {
+      fitMapToListings(context.filteredMappedListings);
+      context.hasInitialMapView = true;
+    } else if (options.flyToSelection && context.selectedNeighborhoodData) {
+      flyToNeighborhood(context.selectedNeighborhoodData);
+    }
+  }
+}
+
+function setSelectedNeighborhood(name, options = {}) {
+  state.selectedNeighborhood = name || null;
+  renderAll(options);
 }
 
 function bindControls() {
-  document.querySelector("#layerSelect").addEventListener("change", (event) => {
+  els.layerSelect.addEventListener("change", (event) => {
     state.layer = event.target.value;
     renderAll();
   });
-
-  document.querySelector("#metricSelect").addEventListener("change", (event) => {
+  els.metricSelect.addEventListener("change", (event) => {
     state.metric = event.target.value;
     renderAll();
   });
-
-  document.querySelector("#groupSelect").addEventListener("change", (event) => {
+  els.groupSelect.addEventListener("change", (event) => {
     state.propertyGroup = event.target.value;
     renderAll();
   });
-
-  document.querySelector("#priceBandSelect").addEventListener("change", (event) => {
+  els.priceBandSelect.addEventListener("change", (event) => {
     state.priceBand = event.target.value;
     renderAll();
   });
-
-  document.querySelector("#bedroomsSelect").addEventListener("change", (event) => {
+  els.bedroomsSelect.addEventListener("change", (event) => {
     state.bedrooms = event.target.value;
     renderAll();
   });
-
-  document.querySelector("#searchInput").addEventListener("input", (event) => {
-    state.search = event.target.value.trim();
+  els.searchInput.addEventListener("input", (event) => {
+    state.search = event.target.value;
     renderAll();
   });
-
-  document.querySelector("#freshToggle").addEventListener("change", (event) => {
+  els.freshToggle.addEventListener("change", (event) => {
     state.freshOnly = event.target.checked;
     renderAll();
   });
-
-  document.querySelector("#resetButton").addEventListener("click", () => {
-    Object.assign(state, {
-      layer: "heatmap",
-      metric: "pricePerSqft",
-      propertyGroup: "all",
-      priceBand: "all",
-      bedrooms: "all",
-      search: "",
-      freshOnly: false,
-    });
-
-    document.querySelector("#layerSelect").value = state.layer;
-    document.querySelector("#metricSelect").value = state.metric;
-    document.querySelector("#groupSelect").value = state.propertyGroup;
-    document.querySelector("#priceBandSelect").value = state.priceBand;
-    document.querySelector("#bedroomsSelect").value = state.bedrooms;
-    document.querySelector("#searchInput").value = state.search;
-    document.querySelector("#freshToggle").checked = state.freshOnly;
+  els.resetButton.addEventListener("click", () => {
+    Object.assign(state, DEFAULT_FILTER_STATE);
+    els.layerSelect.value = state.layer;
+    els.metricSelect.value = state.metric;
+    els.groupSelect.value = state.propertyGroup;
+    els.priceBandSelect.value = state.priceBand;
+    els.bedroomsSelect.value = state.bedrooms;
+    els.searchInput.value = state.search;
+    els.freshToggle.checked = state.freshOnly;
     renderAll();
   });
+}
+
+function startPulseLoop() {
+  context.pulseTimer = window.setInterval(() => {
+    context.pulseValue = (context.pulseValue + 1) % 5;
+    if (context.mapReady && state.selectedNeighborhood) updateMap(context.filteredMappedListings);
+  }, 1100);
 }
 
 function initMap() {
-  const map = new maplibregl.Map({
+  context.map = new maplibregl.Map({
     container: "map",
-    style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+    style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
     center: [73.0479, 33.6844],
-    zoom: 10.4,
-    pitch: 42,
+    zoom: 10.8,
+    pitch: 48,
     bearing: -12,
-    antialias: true,
+    attributionControl: false,
   });
-
-  map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
-
-  map.on("load", () => {
-    context.overlay = new deck.MapboxOverlay({ interleaved: false, layers: [] });
-    map.addControl(context.overlay);
+  context.map.addControl(new maplibregl.NavigationControl(), "top-right");
+  context.overlay = new deck.MapboxOverlay({ interleaved: true, layers: [], getTooltip: tooltipFor });
+  context.map.addControl(context.overlay);
+  context.map.on("load", () => {
+    context.mapReady = true;
     renderAll();
   });
-
-  context.map = map;
 }
 
 async function init() {
-  bindControls();
-  initMap();
-
   try {
-    const [summary, listings, history] = await Promise.all([
+    const [summary, listings, history, neighborhoods] = await Promise.all([
       fetchJson("/api/summary"),
       fetchJson("/api/listings"),
-      fetchJson("/api/history"),
+      fetchJson("/api/history", []),
+      fetchJson("/api/neighborhoods", []),
     ]);
     context.summary = summary;
     context.listings = listings;
     context.history = history;
+    context.neighborhoods = neighborhoods;
+    bindControls();
+    initMap();
+    startPulseLoop();
     renderAll();
   } catch (error) {
-    document.querySelector("#selectionCard").textContent =
-      "The atlas could not load processed data yet. Run the pipeline first, then refresh the page.";
     console.error(error);
+    els.emptyState.classList.remove("hidden");
+    els.emptyState.innerHTML = "<strong>Unable to load the market dataset.</strong><span>Run the pipeline again and refresh this page.</span>";
   }
 }
 
-window.addEventListener("DOMContentLoaded", init);
+init();

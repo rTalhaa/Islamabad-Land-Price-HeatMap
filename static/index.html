@@ -6,7 +6,7 @@
     <title>Islamabad Price Atlas</title>
     <meta
       name="description"
-      content="An advanced Islamabad property price atlas with automated scraping, historical snapshots, and map-based market intelligence."
+      content="A premium Islamabad property intelligence map with neighborhood spotlight insights."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,36 +20,39 @@
   <body>
     <div class="aurora aurora-a"></div>
     <div class="aurora aurora-b"></div>
+    <div class="grain"></div>
+
     <main class="shell">
       <section class="hero card">
         <div class="hero__copy">
-          <p class="eyebrow">Islamabad Only • Automated Market Pipeline</p>
+          <p class="eyebrow">Islamabad only | Automated market pipeline</p>
           <h1>Islamabad Price Atlas</h1>
           <p class="hero__lede">
-            A live map-driven market view for houses, flats, and residential plots. The dashboard
-            blends fresh public listings, neighborhood price intensity, and recurring snapshots into
-            one research-grade experience.
+            A buyer-focused market map that turns live listing activity into neighborhood-level
+            pricing intelligence. Explore where value clusters, where premium zones are hardening,
+            and which pockets are moving faster than the city baseline.
           </p>
           <div class="hero__meta">
             <span id="lastRunPill" class="pill">Waiting for dataset</span>
-            <span id="coveragePill" class="pill pill--muted">Coverage loading…</span>
+            <span id="coveragePill" class="pill pill--muted">Coverage loading...</span>
           </div>
         </div>
+
         <div class="hero__stats">
           <article class="metric-card">
-            <span class="metric-card__label">Tracked listings</span>
+            <span class="metric-card__label">Visible listings</span>
             <strong id="trackedListings">--</strong>
-            <span class="metric-card__sub">Cross-seed de-duplicated inventory</span>
+            <span class="metric-card__sub">Current inventory after filters</span>
           </article>
           <article class="metric-card">
             <span class="metric-card__label">Median ticket</span>
             <strong id="medianPrice">--</strong>
-            <span class="metric-card__sub">Across the active filter set</span>
+            <span class="metric-card__sub">Typical asking price in view</span>
           </article>
           <article class="metric-card">
             <span class="metric-card__label">Median PKR / sqft</span>
             <strong id="medianPpsf">--</strong>
-            <span class="metric-card__sub">Spatial intensity anchor</span>
+            <span class="metric-card__sub">Core market intensity signal</span>
           </article>
         </div>
       </section>
@@ -58,8 +61,8 @@
         <section class="map-panel card">
           <div class="panel-header">
             <div>
-              <p class="eyebrow">Spatial Intelligence</p>
-              <h2>Heatmap, hex bins, and listing dots</h2>
+              <p class="eyebrow">Spatial intelligence</p>
+              <h2>Premium pricing, density, and demand on one map</h2>
             </div>
             <div class="status-cluster">
               <span id="activeMetricBadge" class="pill pill--accent">Metric: Price / sqft</span>
@@ -67,37 +70,37 @@
             </div>
           </div>
 
-          <div class="control-grid">
-            <label class="control">
+          <div class="toolbar">
+            <label class="toolbar-field">
               <span>Layer</span>
               <select id="layerSelect">
                 <option value="heatmap">Heatmap</option>
-                <option value="hexagon">Hex Bins</option>
-                <option value="scatter">Listing Dots</option>
+                <option value="hexagon">Hex bins</option>
+                <option value="scatter">Listing dots</option>
               </select>
             </label>
 
-            <label class="control">
+            <label class="toolbar-field">
               <span>Metric</span>
               <select id="metricSelect">
                 <option value="pricePerSqft">Price / sqft</option>
                 <option value="pricePkr">Listing price</option>
-                <option value="density">Listing density</option>
+                <option value="density">Density</option>
               </select>
             </label>
 
-            <label class="control">
-              <span>Property type</span>
+            <label class="toolbar-field">
+              <span>Type</span>
               <select id="groupSelect">
                 <option value="all">All inventory</option>
                 <option value="house">Houses</option>
-                <option value="apartment">Flats & Apartments</option>
+                <option value="apartment">Flats and apartments</option>
                 <option value="plot">Residential plots</option>
               </select>
             </label>
 
-            <label class="control">
-              <span>Budget band</span>
+            <label class="toolbar-field">
+              <span>Budget</span>
               <select id="priceBandSelect">
                 <option value="all">All price bands</option>
                 <option value="under2cr">Under 2 Crore</option>
@@ -106,8 +109,8 @@
               </select>
             </label>
 
-            <label class="control">
-              <span>Bedrooms</span>
+            <label class="toolbar-field">
+              <span>Beds</span>
               <select id="bedroomsSelect">
                 <option value="all">Any</option>
                 <option value="3plus">3+</option>
@@ -115,34 +118,41 @@
               </select>
             </label>
 
-            <label class="control control--search">
-              <span>Area search</span>
-              <input id="searchInput" type="search" placeholder="Try F-10, DHA, B-17…" />
+            <label class="toolbar-field toolbar-field--search">
+              <span>Search area</span>
+              <input id="searchInput" type="search" placeholder="Try F-10, DHA, B-17..." />
             </label>
 
-            <label class="toggle">
+            <label class="toolbar-toggle">
               <input id="freshToggle" type="checkbox" />
-              <span>Fresh only (updated within 72 hours)</span>
+              <span>Fresh only</span>
             </label>
 
-            <button id="resetButton" class="ghost-button" type="button">Reset filters</button>
+            <button id="resetButton" class="ghost-button" type="button">Reset</button>
           </div>
 
           <div class="map-stage">
             <div id="map"></div>
+            <div class="map-stage__veil"></div>
+
             <div class="map-overlay">
               <div class="overlay-card">
                 <span class="overlay-card__label">Visible listings</span>
                 <strong id="visibleCount">--</strong>
               </div>
               <div class="overlay-card">
-                <span class="overlay-card__label">Mapped neighborhoods</span>
+                <span class="overlay-card__label">Visible neighborhoods</span>
                 <strong id="visibleNeighborhoods">--</strong>
               </div>
+              <div class="overlay-card overlay-card--selection">
+                <span class="overlay-card__label">Selected area</span>
+                <strong id="selectionPill">Auto</strong>
+              </div>
             </div>
+
             <div id="emptyState" class="empty-state hidden">
-              <strong>No listings match the current filter set.</strong>
-              <span>Relax one of the filters to light the atlas back up.</span>
+              <strong>No listings match the active filter set.</strong>
+              <span>Relax a filter to restore the map and spotlight.</span>
             </div>
           </div>
 
@@ -150,8 +160,8 @@
             <div>
               <span class="legend__title">Atlas note</span>
               <p id="legendText">
-                Heatmap weights each point by PKR per square foot so concentrated premium zones glow
-                brighter than raw listing density alone.
+                Heatmap weights each point by PKR per square foot so clusters glow according to
+                pricing intensity rather than simple volume.
               </p>
             </div>
             <div class="legend__scale">
@@ -163,51 +173,105 @@
         </section>
 
         <aside class="side-panel">
-          <section class="card side-card">
+          <section class="card side-card spotlight-card">
             <div class="panel-header panel-header--tight">
               <div>
-                <p class="eyebrow">Market Pulse</p>
-                <h2>Inventory mix</h2>
+                <p class="eyebrow">Neighborhood spotlight</p>
+                <h2 id="spotlightName">Waiting for selection</h2>
+              </div>
+              <div class="spotlight-badges">
+                <span id="spotlightTier" class="pill pill--accent">Tier</span>
+                <span id="spotlightDominant" class="pill pill--muted">Dominant mix</span>
               </div>
             </div>
-            <div id="mixList" class="mix-list"></div>
+
+            <div id="spotlightEmpty" class="spotlight-empty">
+              Click a hotspot row, scatter point, or hex bin to lock a neighborhood and inspect its
+              pricing profile.
+            </div>
+
+            <div id="spotlightContent" class="spotlight-content hidden">
+              <p id="spotlightSummary" class="muted-copy"></p>
+
+              <div class="spotlight-metrics">
+                <article class="mini-metric">
+                  <span>Median PKR / sqft</span>
+                  <strong id="spotlightPpsf">--</strong>
+                </article>
+                <article class="mini-metric">
+                  <span>Median ticket</span>
+                  <strong id="spotlightTicket">--</strong>
+                </article>
+                <article class="mini-metric">
+                  <span>Visible listings</span>
+                  <strong id="spotlightListings">--</strong>
+                </article>
+                <article class="mini-metric">
+                  <span>Median freshness</span>
+                  <strong id="spotlightFreshness">--</strong>
+                </article>
+              </div>
+
+              <div class="delta-grid">
+                <article class="delta-card">
+                  <span>vs city PKR / sqft</span>
+                  <strong id="spotlightPpsfDelta">--</strong>
+                </article>
+                <article class="delta-card">
+                  <span>vs city ticket</span>
+                  <strong id="spotlightTicketDelta">--</strong>
+                </article>
+              </div>
+
+              <div class="section-block">
+                <div class="section-block__head">
+                  <h3>Property mix</h3>
+                </div>
+                <div id="spotlightMix" class="mix-chips"></div>
+              </div>
+
+              <div class="section-block">
+                <div class="section-block__head">
+                  <h3>High-signal listings</h3>
+                </div>
+                <div id="sampleListings" class="sample-listings"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="card side-card pulse-card">
+            <div class="panel-header panel-header--tight">
+              <div>
+                <p class="eyebrow">City pulse</p>
+                <h2>Visible market balance</h2>
+              </div>
+            </div>
+
+            <div class="pulse-section">
+              <h3>Inventory mix</h3>
+              <div id="mixList" class="mix-list"></div>
+            </div>
+
+            <div class="pulse-section">
+              <h3>Neighborhood leaders</h3>
+              <div id="hotspotList" class="hotspot-list"></div>
+            </div>
           </section>
 
           <section class="card side-card">
             <div class="panel-header panel-header--tight">
               <div>
-                <p class="eyebrow">Heat Zones</p>
-                <h2>Neighborhood leaders</h2>
+                <p class="eyebrow">Historical drift</p>
+                <h2>Run-to-run movement</h2>
               </div>
             </div>
-            <div id="hotspotList" class="hotspot-list"></div>
-          </section>
 
-          <section class="card side-card">
-            <div class="panel-header panel-header--tight">
-              <div>
-                <p class="eyebrow">Historical Snapshots</p>
-                <h2>Run-to-run drift</h2>
-              </div>
-            </div>
             <div class="history-block">
               <svg id="historySparkline" viewBox="0 0 320 110" preserveAspectRatio="none"></svg>
               <div class="history-meta">
                 <strong id="historyCaption">Need more runs for a stronger market pulse.</strong>
-                <span id="historySubcaption">Each pipeline refresh appends a new snapshot.</span>
+                <span id="historySubcaption">Each scheduled refresh appends a new snapshot.</span>
               </div>
-            </div>
-          </section>
-
-          <section class="card side-card">
-            <div class="panel-header panel-header--tight">
-              <div>
-                <p class="eyebrow">Inspector</p>
-                <h2>Hover state</h2>
-              </div>
-            </div>
-            <div id="selectionCard" class="selection-card">
-              Hover a listing or a bin on the map to inspect the local market signal.
             </div>
           </section>
         </aside>
