@@ -34,21 +34,85 @@ Instead of reading through isolated listings one by one, the dashboard helps ans
 
 ## Architecture
 
+The product is easiest to understand as three connected layers:
+
+- `Data acquisition` collects and caches Islamabad listing pages.
+- `Market intelligence` normalizes listings into reusable atlas datasets.
+- `Delivery` serves the same processed data through local FastAPI or the public GitHub Pages snapshot.
+
+### System Architecture
+
+```mermaid
+flowchart TB
+    subgraph Sources["1. Source Layer"]
+        Z["Public Islamabad listing pages"]
+    end
+
+    subgraph Ingestion["2. Ingestion Layer"]
+        S["Search collectors<br/>seeded category scans"]
+        D["Detail enrichers<br/>coordinates, freshness, media"]
+        RC["Raw HTML cache<br/>data/raw/*"]
+    end
+
+    subgraph Intelligence["3. Intelligence Layer"]
+        N["Normalization engine<br/>price, area, neighborhoods"]
+        M["Market metrics<br/>price-per-sqft, medians, tiers"]
+        P["Processed datasets<br/>listings, neighborhoods, summary,<br/>history, report, geojson"]
+        H["Snapshot history<br/>data/snapshots/*"]
+    end
+
+    subgraph Delivery["4. Delivery Layer"]
+        F["FastAPI runtime<br/>local API mode"]
+        G["Static site export<br/>GitHub Pages mode"]
+        U["Atlas frontend<br/>MapLibre + deck.gl + spotlight UI"]
+    end
+
+    Z --> S
+    S --> RC
+    S --> D
+    D --> RC
+    D --> N
+    N --> M
+    M --> P
+    M --> H
+    P --> F
+    P --> G
+    F --> U
+    G --> U
+```
+
+### Delivery Architecture
+
 ```mermaid
 flowchart LR
-    A["Public Islamabad Listing Pages"] --> B["Search Page Scraper"]
-    B --> C["Raw HTML Cache<br/>data/raw/search_pages"]
-    B --> D["Detail Page Enricher"]
-    D --> E["Raw HTML Cache<br/>data/raw/detail_pages"]
-    D --> F["Normalization + Metrics Engine"]
-    F --> G["Processed Artifacts<br/>data/processed/*.json"]
-    F --> H["Snapshot History<br/>data/snapshots/*"]
-    G --> I["FastAPI Endpoints"]
-    I --> J["Map Dashboard<br/>MapLibre + deck.gl"]
-    K["GitHub Actions<br/>12-hour refresh workflow"] --> B
-    K --> G
-    K --> H
+    subgraph Refresh["Scheduled Refresh"]
+        A["GitHub Actions refresh workflow"]
+        B["Pipeline run"]
+        C["Updated data/processed artifacts"]
+    end
+
+    subgraph Publish["Public Publish"]
+        D["GitHub Pages deploy workflow"]
+        E["Static atlas bundle<br/>site/"]
+        F["Live public URL"]
+    end
+
+    subgraph Local["Developer Mode"]
+        G["FastAPI app"]
+        H["Local API endpoints"]
+        I["localhost atlas"]
+    end
+
+    A --> B --> C
+    C --> D --> E --> F
+    C --> G --> H --> I
 ```
+
+### What The Diagrams Mean
+
+- The scraper and parser layer is not the product by itself; it exists to continuously build reusable market datasets.
+- The core asset is `data/processed`, because both the local app and the deployed public atlas are driven from that same intelligence layer.
+- The frontend is delivery-mode aware, which means the same experience can run from live FastAPI routes locally or from static JSON on GitHub Pages.
 
 ## How It Works
 
