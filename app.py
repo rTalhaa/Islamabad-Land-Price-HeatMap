@@ -45,6 +45,11 @@ def history() -> Any:
     return _load_processed_file("history.json")
 
 
+@app.get("/api/neighborhoods")
+def neighborhoods() -> Any:
+    return _load_processed_file("neighborhoods.json")
+
+
 @app.get("/api/map-points")
 def map_points() -> Any:
     return _load_processed_file("map_points.geojson")

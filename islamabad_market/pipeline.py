@@ -18,6 +18,13 @@ from .scraper import ZameenScraper, parse_detail_page, parse_search_page
 from .utils import compact_json, ensure_directories, median_or_none, round_or_none, utc_now_iso, write_json
 
 
+PROPERTY_GROUP_LABELS = {
+    "house": "Houses",
+    "apartment": "Flats & Apartments",
+    "plot": "Residential Plots",
+}
+
+
 def merge_summary(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
     merged = dict(existing)
     for key, value in incoming.items():
@@ -253,6 +260,125 @@ def build_neighborhood_summary(listings: list[dict[str, Any]]) -> list[dict[str,
     return rows
 
 
+def compute_price_tier(median_price_per_sqft: float | None, ordered_values: list[float]) -> str:
+    if median_price_per_sqft is None or not ordered_values:
+        return "Value"
+
+    position = sum(1 for value in ordered_values if value <= median_price_per_sqft) - 1
+    percentile = (position + 1) / len(ordered_values)
+    if percentile >= 0.75:
+        return "Ultra Prime"
+    if percentile >= 0.5:
+        return "Premium"
+    if percentile >= 0.25:
+        return "Mid-market"
+    return "Value"
+
+
+def build_property_mix(items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    total = len(items) or 1
+    mix: dict[str, dict[str, Any]] = {}
+    for group in ("house", "apartment", "plot"):
+        count = sum(1 for item in items if item.get("propertyGroup") == group)
+        mix[group] = {
+            "label": PROPERTY_GROUP_LABELS[group],
+            "count": count,
+            "share": round(count / total, 4),
+        }
+    return mix
+
+
+def build_neighborhood_intelligence(listings: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for listing in listings:
+        neighborhood = clean_text(listing.get("neighborhood"))
+        if neighborhood:
+            grouped[neighborhood].append(listing)
+
+    city_median_ppsf = median_or_none(item.get("pricePerSqft") for item in listings)
+    city_median_ticket = median_or_none(item.get("pricePkr") for item in listings)
+    rows = []
+
+    for neighborhood, items in grouped.items():
+        mapped_items = [item for item in items if item.get("latitude") is not None and item.get("longitude") is not None]
+        latitudes = [item["latitude"] for item in mapped_items]
+        longitudes = [item["longitude"] for item in mapped_items]
+        median_price_per_sqft = median_or_none(item.get("pricePerSqft") for item in items)
+        median_price_pkr = median_or_none(item.get("pricePkr") for item in items)
+        property_mix = build_property_mix(items)
+        dominant_property_group = max(
+            property_mix,
+            key=lambda group: (property_mix[group]["count"], property_mix[group]["share"], PROPERTY_GROUP_LABELS[group]),
+        )
+
+        sample_listings = sorted(
+            items,
+            key=lambda item: (
+                item.get("pricePerSqft") is None,
+                -(item.get("pricePerSqft") or 0),
+                -(item.get("pricePkr") or 0),
+                item["id"],
+            ),
+        )[:3]
+
+        rows.append(
+            {
+                "name": neighborhood,
+                "centroid": {
+                    "latitude": round(sum(latitudes) / len(latitudes), 6) if latitudes else None,
+                    "longitude": round(sum(longitudes) / len(longitudes), 6) if longitudes else None,
+                },
+                "listingCount": len(items),
+                "mappedCount": len(mapped_items),
+                "medianPricePkr": round_or_none(median_price_pkr, 0),
+                "medianPricePerSqft": round_or_none(median_price_per_sqft, 2),
+                "medianAreaSqft": round_or_none(median_or_none(item.get("areaSqft") for item in items), 2),
+                "medianFreshnessHours": round_or_none(median_or_none(item.get("freshnessHours") for item in items), 2),
+                "minPricePkr": round_or_none(min((item.get("pricePkr") for item in items if item.get("pricePkr") is not None), default=None), 0),
+                "maxPricePkr": round_or_none(max((item.get("pricePkr") for item in items if item.get("pricePkr") is not None), default=None), 0),
+                "dominantPropertyGroup": dominant_property_group,
+                "propertyMix": property_mix,
+                "cityMedianPpsfDeltaPct": round_or_none(
+                    (((median_price_per_sqft or 0) - city_median_ppsf) / city_median_ppsf) * 100 if city_median_ppsf and median_price_per_sqft else None,
+                    2,
+                ),
+                "cityMedianTicketDeltaPct": round_or_none(
+                    (((median_price_pkr or 0) - city_median_ticket) / city_median_ticket) * 100 if city_median_ticket and median_price_pkr else None,
+                    2,
+                ),
+                "priceTier": "Value",
+                "sampleListings": [
+                    {
+                        "id": listing["id"],
+                        "title": listing["title"],
+                        "pricePkr": listing["pricePkr"],
+                        "pricePerSqft": listing["pricePerSqft"],
+                        "beds": listing["beds"],
+                        "areaSqft": listing["areaSqft"],
+                        "imageUrl": listing["imageUrl"],
+                        "url": listing["url"],
+                    }
+                    for listing in sample_listings
+                ],
+            }
+        )
+
+    valid_ppsf = sorted(
+        [item["medianPricePerSqft"] for item in rows if item.get("medianPricePerSqft") is not None]
+    )
+    for row in rows:
+        row["priceTier"] = compute_price_tier(row.get("medianPricePerSqft"), valid_ppsf)
+
+    rows.sort(
+        key=lambda item: (
+            -item["listingCount"],
+            -(item.get("medianPricePerSqft") or 0),
+            item["name"],
+        )
+    )
+    return rows
+
+
 def build_summary(
     listings: list[dict[str, Any]],
     seed_stats: list[dict[str, Any]],
@@ -304,6 +430,7 @@ def write_snapshot_bundle(
     snapshot_root: Path,
     timestamp: str,
     listings: list[dict[str, Any]],
+    neighborhoods: list[dict[str, Any]],
     summary: dict[str, Any],
     geojson: dict[str, Any],
     report: dict[str, Any],
@@ -312,6 +439,7 @@ def write_snapshot_bundle(
     bundle_dir = snapshot_root / slug
     ensure_directories([bundle_dir])
     write_json(bundle_dir / "listings.json", listings)
+    write_json(bundle_dir / "neighborhoods.json", neighborhoods)
     write_json(bundle_dir / "summary.json", summary)
     write_json(bundle_dir / "map_points.geojson", geojson)
     write_json(bundle_dir / "report.json", report)
@@ -372,6 +500,7 @@ async def run_pipeline(
 
         generated_at = utc_now_iso()
         geojson = build_geojson(listings)
+        neighborhoods = build_neighborhood_intelligence(listings)
         report = {
             "generatedAt": generated_at,
             "searchCardCount": len(all_summaries),
@@ -385,13 +514,15 @@ async def run_pipeline(
         history = update_history(history_path, build_history_entry(summary))
 
         write_json(config.processed_dir / "listings.json", listings)
+        write_json(config.processed_dir / "neighborhoods.json", neighborhoods)
         compact_json(config.processed_dir / "map_points.geojson", geojson)
         write_json(config.processed_dir / "summary.json", summary)
         write_json(history_path, history)
         write_json(config.processed_dir / "report.json", report)
-        write_snapshot_bundle(config.snapshot_dir, generated_at, listings, summary, geojson, report)
+        write_snapshot_bundle(config.snapshot_dir, generated_at, listings, neighborhoods, summary, geojson, report)
 
         return {
+            "neighborhoods": neighborhoods,
             "summary": summary,
             "history": history,
             "report": report,
