@@ -1,6 +1,7 @@
 # Islamabad Land Price HeatMap
 
 [![Data Refresh](https://img.shields.io/github/actions/workflow/status/rTalhaa/Islamabad-Land-Price-HeatMap/refresh-market-data.yml?label=data%20refresh&style=for-the-badge)](https://github.com/rTalhaa/Islamabad-Land-Price-HeatMap/actions/workflows/refresh-market-data.yml)
+[![Live Atlas](https://img.shields.io/badge/live-atlas-0B1F2A?style=for-the-badge&logo=githubpages&logoColor=white)](https://rtalhaa.github.io/Islamabad-Land-Price-HeatMap/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/api-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![MapLibre](https://img.shields.io/badge/map-MapLibre-396CB2?style=for-the-badge)](https://maplibre.org/)
@@ -8,6 +9,8 @@
 [![Islamabad Focus](https://img.shields.io/badge/focus-Islamabad-1F9D55?style=for-the-badge)](https://github.com/rTalhaa/Islamabad-Land-Price-HeatMap)
 
 An Islamabad-only property intelligence project that turns public listing data into a map-first market research experience.
+
+Live atlas: [https://rtalhaa.github.io/Islamabad-Land-Price-HeatMap/](https://rtalhaa.github.io/Islamabad-Land-Price-HeatMap/)
 
 The repository combines:
 
