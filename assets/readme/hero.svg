@@ -1,0 +1,117 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="170" y1="66" x2="1372" y2="876" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081824"/>
+      <stop offset="0.55" stop-color="#0A1E2F"/>
+      <stop offset="1" stop-color="#07121B"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(297 203) rotate(21.173) scale(532.714 344.938)">
+      <stop stop-color="#4CF2B1" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#4CF2B1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1227 182) rotate(154.827) scale(467.609 306.82)">
+      <stop stop-color="#FFB067" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFB067" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="1044" y1="220" x2="1462" y2="741" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2233" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#091723" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="mapPanel" x1="111" y1="246" x2="1015" y2="748" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1C2B" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#06131D" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="heat" x1="292" y1="598" x2="799" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CF2B1"/>
+      <stop offset="0.5" stop-color="#FFD25C"/>
+      <stop offset="1" stop-color="#FF6273"/>
+    </linearGradient>
+    <filter id="shadow" x="50" y="152" width="1510" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="30"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.0235294 0 0 0 0 0.0431373 0 0 0 0.42 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="36" fill="url(#glowA)"/>
+  <rect width="1600" height="900" rx="36" fill="url(#glowB)"/>
+
+  <g opacity="0.35">
+    <path d="M72 98H1528" stroke="#A8D6F6" stroke-opacity="0.14"/>
+    <path d="M72 206H1528" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M72 314H1528" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M72 422H1528" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M72 530H1528" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M72 638H1528" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M72 746H1528" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M180 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M384 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M588 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M792 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M996 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M1200 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+    <path d="M1404 72V828" stroke="#A8D6F6" stroke-opacity="0.08"/>
+  </g>
+
+  <text x="110" y="124" fill="#4CF2B1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5.4">ISLAMABAD ONLY  |  LIVE PROPERTY INTELLIGENCE</text>
+  <text x="108" y="222" fill="#F1F7FB" font-family="Georgia, Times New Roman, serif" font-size="90" font-weight="700">Islamabad Price Atlas</text>
+  <text x="110" y="282" fill="#C4D8E5" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">A premium land and property intelligence system for exploring neighborhood pricing,</text>
+  <text x="110" y="322" fill="#C4D8E5" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="500">inventory mix, market drift, and high-signal listing clusters across Islamabad.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="374" width="1460" height="340" rx="28" fill="#081520" fill-opacity="0.18"/>
+    <rect x="110" y="392" width="910" height="304" rx="28" fill="url(#mapPanel)" stroke="#8CC9FF" stroke-opacity="0.16"/>
+    <rect x="1044" y="392" width="418" height="304" rx="28" fill="url(#panel)" stroke="#8CC9FF" stroke-opacity="0.16"/>
+  </g>
+
+  <text x="144" y="438" fill="#4CF2B1" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3.4">ATLAS OVERVIEW</text>
+  <text x="144" y="476" fill="#EEF6FB" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Neighborhood-aware pricing map</text>
+
+  <rect x="144" y="514" width="154" height="62" rx="18" fill="#0C2234" stroke="#8CC9FF" stroke-opacity="0.12"/>
+  <text x="166" y="541" fill="#8FAEBF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">VISIBLE LISTINGS</text>
+  <text x="166" y="567" fill="#F3F8FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">139</text>
+
+  <rect x="314" y="514" width="188" height="62" rx="18" fill="#0C2234" stroke="#8CC9FF" stroke-opacity="0.12"/>
+  <text x="336" y="541" fill="#8FAEBF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">NEIGHBORHOODS</text>
+  <text x="336" y="567" fill="#F3F8FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">37 sectors and zones</text>
+
+  <rect x="764" y="514" width="220" height="70" rx="18" fill="#0B2030" stroke="#FFB067" stroke-opacity="0.22"/>
+  <text x="788" y="542" fill="#8FAEBF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">SELECTED AREA</text>
+  <text x="788" y="573" fill="#F7FBFD" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Gulberg</text>
+
+  <circle cx="287" cy="615" r="62" fill="#32D9A0" fill-opacity="0.17"/>
+  <circle cx="382" cy="560" r="78" fill="#16B8FF" fill-opacity="0.14"/>
+  <circle cx="512" cy="604" r="44" fill="#FFD25C" fill-opacity="0.18"/>
+  <circle cx="637" cy="548" r="56" fill="#FF6273" fill-opacity="0.16"/>
+  <circle cx="734" cy="630" r="66" fill="#FFB067" fill-opacity="0.14"/>
+  <path d="M240 624C329 554 411 661 501 595C598 524 659 590 788 532" stroke="url(#heat)" stroke-width="12" stroke-linecap="round"/>
+
+  <text x="1080" y="438" fill="#4CF2B1" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3.4">NEIGHBORHOOD SPOTLIGHT</text>
+  <text x="1080" y="478" fill="#F2F8FC" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Gulberg</text>
+
+  <rect x="1080" y="506" width="112" height="40" rx="20" fill="#FFB067" fill-opacity="0.14" stroke="#FFB067" stroke-opacity="0.28"/>
+  <text x="1106" y="532" fill="#FFE7D0" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Value</text>
+
+  <rect x="1208" y="506" width="168" height="40" rx="20" fill="#8CC9FF" fill-opacity="0.08" stroke="#8CC9FF" stroke-opacity="0.16"/>
+  <text x="1235" y="532" fill="#D3E6F1" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Plots dominant</text>
+
+  <text x="1080" y="590" fill="#8FAEBF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">MEDIAN PKR / SQFT</text>
+  <text x="1080" y="623" fill="#F3F8FC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">PKR 5,278 / sqft</text>
+
+  <text x="1080" y="665" fill="#8FAEBF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">CITY COMPARISON</text>
+  <text x="1080" y="698" fill="#4CF2B1" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">+142.9% ticket delta</text>
+
+  <rect x="110" y="778" width="244" height="54" rx="27" fill="#0C2234" stroke="#8CC9FF" stroke-opacity="0.14"/>
+  <text x="140" y="811" fill="#E4F1F8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">FastAPI + GitHub Pages</text>
+
+  <rect x="374" y="778" width="212" height="54" rx="27" fill="#0C2234" stroke="#8CC9FF" stroke-opacity="0.14"/>
+  <text x="406" y="811" fill="#E4F1F8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">deck.gl + MapLibre</text>
+
+  <rect x="606" y="778" width="237" height="54" rx="27" fill="#0C2234" stroke="#8CC9FF" stroke-opacity="0.14"/>
+  <text x="638" y="811" fill="#E4F1F8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Automated data refresh</text>
+</svg>
