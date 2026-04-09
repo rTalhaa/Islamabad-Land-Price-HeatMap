@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-04-08T22:50:50+00:00",
+  "city": "Islamabad",
+  "trackedListings": 139,
+  "mappedListings": 139,
+  "neighborhoodCount": 37,
+  "medianPricePkr": 35000000.0,
+  "medianPricePerSqft": 14444.44,
+  "medianFreshnessHours": 4.0,
+  "propertyGroups": [
+    {
+      "propertyGroup": "house",
+      "label": "Houses",
+      "listingCount": 50,
+      "mappedCount": 50,
+      "medianPricePkr": 52750000.0,
+      "medianPricePerSqft": 23222.22
+    },
+    {
+      "propertyGroup": "plot",
+      "label": "Residential Plots",
+      "listingCount": 50,
+      "mappedCount": 50,
+      "medianPricePkr": 40000000.0,
+      "medianPricePerSqft": 6966.66
+    },
+    {
+      "propertyGroup": "apartment",
+      "label": "Flats & Apartments",
+      "listingCount": 39,
+      "mappedCount": 39,
+      "medianPricePkr": 24240000.0,
+      "medianPricePerSqft": 16500.0
+    }
+  ],
+  "topNeighborhoods": [
+    {
+      "neighborhood": "F-6",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 250000000.0,
+      "medianPricePerSqft": 69444.44,
+      "medianPricePerMarla": 15625000.0
+    },
+    {
+      "neighborhood": "F-7",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 610000000.0,
+      "medianPricePerSqft": 56481.48,
+      "medianPricePerMarla": 12708333.33
+    },
+    {
+      "neighborhood": "F-8",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 57500000.0,
+      "medianPricePerSqft": 50130.78,
+      "medianPricePerMarla": 11279424.59
+    },
+    {
+      "neighborhood": "Diplomatic Enclave",
+      "listingCount": 7,
+      "mappedCount": 7,
+      "medianPricePkr": 67500000.0,
+      "medianPricePerSqft": 45454.55,
+      "medianPricePerMarla": 10227272.73
+    },
+    {
+      "neighborhood": "Karakoram Diplomatic Enclave",
+      "listingCount": 5,
+      "mappedCount": 5,
+      "medianPricePkr": 85000000.0,
+      "medianPricePerSqft": 42500.0,
+      "medianPricePerMarla": 9562500.0
+    },
+    {
+      "neighborhood": "G-13",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 95000000.0,
+      "medianPricePerSqft": 42222.22,
+      "medianPricePerMarla": 9500000.0
+    },
+    {
+      "neighborhood": "F-10",
+      "listingCount": 5,
+      "mappedCount": 5,
+      "medianPricePkr": 210000000.0,
+      "medianPricePerSqft": 38888.89,
+      "medianPricePerMarla": 8750000.0
+    },
+    {
+      "neighborhood": "Kashmir Highway",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 29500000.0,
+      "medianPricePerSqft": 30412.37,
+      "medianPricePerMarla": 6842783.51
+    }
+  ],
+  "seedStats": [
+    {
+      "seed": "houses",
+      "label": "Houses",
+      "propertyGroup": "house",
+      "pagesScraped": 2,
+      "pageCountDiscovered": 536,
+      "listingCardsCollected": 50
+    },
+    {
+      "seed": "apartments",
+      "label": "Flats & Apartments",
+      "propertyGroup": "apartment",
+      "pagesScraped": 2,
+      "pageCountDiscovered": 154,
+      "listingCardsCollected": 49
+    },
+    {
+      "seed": "plots",
+      "label": "Residential Plots",
+      "propertyGroup": "plot",
+      "pagesScraped": 2,
+      "pageCountDiscovered": 947,
+      "listingCardsCollected": 50
+    }
+  ]
+}

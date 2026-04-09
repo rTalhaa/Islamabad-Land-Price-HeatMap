@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-04-08T22:50:50+00:00",
+  "searchCardCount": 149,
+  "uniqueListingCount": 139,
+  "exportedListingCount": 139,
+  "seedStats": [
+    {
+      "seed": "houses",
+      "label": "Houses",
+      "propertyGroup": "house",
+      "pagesScraped": 2,
+      "pageCountDiscovered": 536,
+      "listingCardsCollected": 50
+    },
+    {
+      "seed": "apartments",
+      "label": "Flats & Apartments",
+      "propertyGroup": "apartment",
+      "pagesScraped": 2,
+      "pageCountDiscovered": 154,
+      "listingCardsCollected": 49
+    },
+    {
+      "seed": "plots",
+      "label": "Residential Plots",
+      "propertyGroup": "plot",
+      "pagesScraped": 2,
+      "pageCountDiscovered": 947,
+      "listingCardsCollected": 50
+    }
+  ]
+}
