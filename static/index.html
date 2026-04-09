@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Islamabad Price Atlas</title>
+    <meta
+      name="description"
+      content="An advanced Islamabad property price atlas with automated scraping, historical snapshots, and map-based market intelligence."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/maplibre-gl@^5.12.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-a"></div>
+    <div class="aurora aurora-b"></div>
+    <main class="shell">
+      <section class="hero card">
+        <div class="hero__copy">
+          <p class="eyebrow">Islamabad Only • Automated Market Pipeline</p>
+          <h1>Islamabad Price Atlas</h1>
+          <p class="hero__lede">
+            A live map-driven market view for houses, flats, and residential plots. The dashboard
+            blends fresh public listings, neighborhood price intensity, and recurring snapshots into
+            one research-grade experience.
+          </p>
+          <div class="hero__meta">
+            <span id="lastRunPill" class="pill">Waiting for dataset</span>
+            <span id="coveragePill" class="pill pill--muted">Coverage loading…</span>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <article class="metric-card">
+            <span class="metric-card__label">Tracked listings</span>
+            <strong id="trackedListings">--</strong>
+            <span class="metric-card__sub">Cross-seed de-duplicated inventory</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-card__label">Median ticket</span>
+            <strong id="medianPrice">--</strong>
+            <span class="metric-card__sub">Across the active filter set</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-card__label">Median PKR / sqft</span>
+            <strong id="medianPpsf">--</strong>
+            <span class="metric-card__sub">Spatial intensity anchor</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <section class="map-panel card">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Spatial Intelligence</p>
+              <h2>Heatmap, hex bins, and listing dots</h2>
+            </div>
+            <div class="status-cluster">
+              <span id="activeMetricBadge" class="pill pill--accent">Metric: Price / sqft</span>
+              <span id="activeLayerBadge" class="pill">Layer: Heatmap</span>
+            </div>
+          </div>
+
+          <div class="control-grid">
+            <label class="control">
+              <span>Layer</span>
+              <select id="layerSelect">
+                <option value="heatmap">Heatmap</option>
+                <option value="hexagon">Hex Bins</option>
+                <option value="scatter">Listing Dots</option>
+              </select>
+            </label>
+
+            <label class="control">
+              <span>Metric</span>
+              <select id="metricSelect">
+                <option value="pricePerSqft">Price / sqft</option>
+                <option value="pricePkr">Listing price</option>
+                <option value="density">Listing density</option>
+              </select>
+            </label>
+
+            <label class="control">
+              <span>Property type</span>
+              <select id="groupSelect">
+                <option value="all">All inventory</option>
+                <option value="house">Houses</option>
+                <option value="apartment">Flats & Apartments</option>
+                <option value="plot">Residential plots</option>
+              </select>
+            </label>
+
+            <label class="control">
+              <span>Budget band</span>
+              <select id="priceBandSelect">
+                <option value="all">All price bands</option>
+                <option value="under2cr">Under 2 Crore</option>
+                <option value="2to8cr">2 to 8 Crore</option>
+                <option value="8crplus">8+ Crore</option>
+              </select>
+            </label>
+
+            <label class="control">
+              <span>Bedrooms</span>
+              <select id="bedroomsSelect">
+                <option value="all">Any</option>
+                <option value="3plus">3+</option>
+                <option value="5plus">5+</option>
+              </select>
+            </label>
+
+            <label class="control control--search">
+              <span>Area search</span>
+              <input id="searchInput" type="search" placeholder="Try F-10, DHA, B-17…" />
+            </label>
+
+            <label class="toggle">
+              <input id="freshToggle" type="checkbox" />
+              <span>Fresh only (updated within 72 hours)</span>
+            </label>
+
+            <button id="resetButton" class="ghost-button" type="button">Reset filters</button>
+          </div>
+
+          <div class="map-stage">
+            <div id="map"></div>
+            <div class="map-overlay">
+              <div class="overlay-card">
+                <span class="overlay-card__label">Visible listings</span>
+                <strong id="visibleCount">--</strong>
+              </div>
+              <div class="overlay-card">
+                <span class="overlay-card__label">Mapped neighborhoods</span>
+                <strong id="visibleNeighborhoods">--</strong>
+              </div>
+            </div>
+            <div id="emptyState" class="empty-state hidden">
+              <strong>No listings match the current filter set.</strong>
+              <span>Relax one of the filters to light the atlas back up.</span>
+            </div>
+          </div>
+
+          <div class="legend">
+            <div>
+              <span class="legend__title">Atlas note</span>
+              <p id="legendText">
+                Heatmap weights each point by PKR per square foot so concentrated premium zones glow
+                brighter than raw listing density alone.
+              </p>
+            </div>
+            <div class="legend__scale">
+              <span>Lower</span>
+              <div class="gradient-bar"></div>
+              <span>Higher</span>
+            </div>
+          </div>
+        </section>
+
+        <aside class="side-panel">
+          <section class="card side-card">
+            <div class="panel-header panel-header--tight">
+              <div>
+                <p class="eyebrow">Market Pulse</p>
+                <h2>Inventory mix</h2>
+              </div>
+            </div>
+            <div id="mixList" class="mix-list"></div>
+          </section>
+
+          <section class="card side-card">
+            <div class="panel-header panel-header--tight">
+              <div>
+                <p class="eyebrow">Heat Zones</p>
+                <h2>Neighborhood leaders</h2>
+              </div>
+            </div>
+            <div id="hotspotList" class="hotspot-list"></div>
+          </section>
+
+          <section class="card side-card">
+            <div class="panel-header panel-header--tight">
+              <div>
+                <p class="eyebrow">Historical Snapshots</p>
+                <h2>Run-to-run drift</h2>
+              </div>
+            </div>
+            <div class="history-block">
+              <svg id="historySparkline" viewBox="0 0 320 110" preserveAspectRatio="none"></svg>
+              <div class="history-meta">
+                <strong id="historyCaption">Need more runs for a stronger market pulse.</strong>
+                <span id="historySubcaption">Each pipeline refresh appends a new snapshot.</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="card side-card">
+            <div class="panel-header panel-header--tight">
+              <div>
+                <p class="eyebrow">Inspector</p>
+                <h2>Hover state</h2>
+              </div>
+            </div>
+            <div id="selectionCard" class="selection-card">
+              Hover a listing or a bin on the map to inspect the local market signal.
+            </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/maplibre-gl@^5.12.0/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/deck.gl@^9.0.0/dist.min.js"></script>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
