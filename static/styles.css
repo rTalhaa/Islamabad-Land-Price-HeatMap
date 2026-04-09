@@ -197,6 +197,18 @@ body::before {
   color: #ffe9d7;
 }
 
+.pill--warning {
+  background: rgba(255, 176, 103, 0.14);
+  border-color: rgba(255, 176, 103, 0.28);
+  color: #ffe7d0;
+}
+
+.pill--danger {
+  background: rgba(255, 98, 115, 0.12);
+  border-color: rgba(255, 98, 115, 0.28);
+  color: #ffd9df;
+}
+
 .workspace {
   display: grid;
   grid-template-columns: minmax(0, 1.65fr) minmax(360px, 0.78fr);

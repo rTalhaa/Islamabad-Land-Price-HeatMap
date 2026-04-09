@@ -4,6 +4,9 @@ const GROUP_COLORS = {
   apartment: [76, 242, 177],
   plot: [22, 184, 255],
 };
+const STATIC_RUNTIME = window.__ATLAS_STATIC__ || null;
+const DATA_WARNING_HOURS = 18;
+const DATA_STALE_HOURS = 36;
 const DEFAULT_FILTER_STATE = {
   layer: "heatmap",
   metric: "pricePerSqft",
@@ -31,12 +34,15 @@ const context = {
   hasInitialMapView: false,
   pulseValue: 0,
   pulseTimer: null,
+  deliveryMode: STATIC_RUNTIME?.deliveryMode || "Live API",
 };
 
 const $ = (id) => document.getElementById(id);
 const els = {
   lastRunPill: $("lastRunPill"),
+  dataStatusPill: $("dataStatusPill"),
   coveragePill: $("coveragePill"),
+  deliveryPill: $("deliveryPill"),
   trackedListings: $("trackedListings"),
   medianPrice: $("medianPrice"),
   medianPpsf: $("medianPpsf"),
@@ -87,6 +93,37 @@ async function fetchJson(url, fallback = null) {
     throw new Error(`Failed to load ${url}`);
   }
   return response.json();
+}
+
+function buildStaticDatasetUrl(name) {
+  if (!STATIC_RUNTIME?.dataRoot) return null;
+  const root = STATIC_RUNTIME.dataRoot.replace(/\/+$/, "");
+  return `${root}/${name}.json`;
+}
+
+async function fetchDataset(name, fallback = null) {
+  const candidates = [];
+  if (!STATIC_RUNTIME?.forceStatic) candidates.push(`/api/${name}`);
+  const staticUrl = buildStaticDatasetUrl(name);
+  if (staticUrl) candidates.push(staticUrl);
+  if (!candidates.length) candidates.push(`/api/${name}`);
+
+  let lastError = null;
+  for (const candidate of candidates) {
+    try {
+      const response = await fetch(candidate, { cache: "no-store" });
+      if (!response.ok) {
+        lastError = new Error(`Failed to load ${candidate}`);
+        continue;
+      }
+      return response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  if (fallback !== null) return fallback;
+  throw lastError || new Error(`Failed to load dataset ${name}`);
 }
 
 function roundValue(value, digits = 2) {
@@ -144,6 +181,33 @@ function formatFreshness(hours) {
   if (hours < 24) return `${hours.toFixed(hours < 10 ? 1 : 0).replace(/\.0$/, "")}h`;
   const days = hours / 24;
   return `${days.toFixed(days < 5 ? 1 : 0).replace(/\.0$/, "")}d`;
+}
+
+function computeDataHealth(timestamp) {
+  if (!timestamp) {
+    return {
+      label: "Snapshot timing unavailable",
+      tone: "pill--muted",
+    };
+  }
+
+  const ageHours = Math.max(0, (Date.now() - new Date(timestamp).getTime()) / 3_600_000);
+  if (ageHours <= DATA_WARNING_HOURS) {
+    return {
+      label: `Fresh snapshot | ${formatFreshness(ageHours)} old`,
+      tone: "",
+    };
+  }
+  if (ageHours <= DATA_STALE_HOURS) {
+    return {
+      label: `Aging snapshot | ${formatFreshness(ageHours)} old`,
+      tone: "pill--warning",
+    };
+  }
+  return {
+    label: `Stale snapshot | ${formatFreshness(ageHours)} old`,
+    tone: "pill--danger",
+  };
 }
 
 function propertyGroupLabel(group) {
@@ -374,8 +438,13 @@ function updateLegend() {
 function updateTopLevelStats() {
   const listings = context.filteredListings;
   const selected = context.selectedNeighborhoodData;
+  const health = computeDataHealth(context.summary?.generatedAt);
   els.lastRunPill.textContent = context.summary ? `Last run ${formatDate(context.summary.generatedAt)}` : "Waiting for dataset";
+  els.dataStatusPill.textContent = health.label;
+  els.dataStatusPill.className = `pill ${health.tone}`.trim();
   els.coveragePill.textContent = context.summary ? `${formatCompactNumber(context.summary.mappedListings)} mapped | ${formatCompactNumber(context.summary.neighborhoodCount)} neighborhoods` : "Coverage loading...";
+  els.deliveryPill.textContent = `Delivery: ${context.deliveryMode}`;
+  els.deliveryPill.className = STATIC_RUNTIME ? "pill pill--accent" : "pill pill--muted";
   els.trackedListings.textContent = formatCompactNumber(listings.length);
   els.medianPrice.textContent = formatPkr(median(listings.map((item) => item.pricePkr)));
   els.medianPpsf.textContent = formatPpsf(median(listings.map((item) => item.pricePerSqft)));
@@ -628,10 +697,10 @@ function initMap() {
 async function init() {
   try {
     const [summary, listings, history, neighborhoods] = await Promise.all([
-      fetchJson("/api/summary"),
-      fetchJson("/api/listings"),
-      fetchJson("/api/history", []),
-      fetchJson("/api/neighborhoods", []),
+      fetchDataset("summary"),
+      fetchDataset("listings"),
+      fetchDataset("history", []),
+      fetchDataset("neighborhoods", []),
     ]);
     context.summary = summary;
     context.listings = listings;
@@ -644,7 +713,9 @@ async function init() {
   } catch (error) {
     console.error(error);
     els.emptyState.classList.remove("hidden");
-    els.emptyState.innerHTML = "<strong>Unable to load the market dataset.</strong><span>Run the pipeline again and refresh this page.</span>";
+    els.emptyState.innerHTML = STATIC_RUNTIME
+      ? "<strong>Unable to load the published snapshot.</strong><span>Wait for the next Pages deployment or inspect the deployment workflow.</span>"
+      : "<strong>Unable to load the market dataset.</strong><span>Run the pipeline again and refresh this page.</span>";
   }
 }
 
