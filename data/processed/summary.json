@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-04-30T14:02:13+00:00",
+  "generatedAt": "2026-05-01T03:37:18+00:00",
   "city": "Islamabad",
-  "trackedListings": 411,
-  "mappedListings": 411,
-  "neighborhoodCount": 69,
-  "medianPricePkr": 23313468.0,
-  "medianPricePerSqft": 13492.06,
-  "medianFreshnessHours": 3.0,
+  "trackedListings": 408,
+  "mappedListings": 408,
+  "neighborhoodCount": 56,
+  "medianPricePkr": 23000000.0,
+  "medianPricePerSqft": 13238.9,
+  "medianFreshnessHours": 8.0,
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses",
-      "listingCount": 148,
-      "mappedCount": 148,
-      "medianPricePkr": 47100000.0,
-      "medianPricePerSqft": 26555.56
+      "listingCount": 150,
+      "mappedCount": 150,
+      "medianPricePkr": 47600000.0,
+      "medianPricePerSqft": 23492.06
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
-      "listingCount": 147,
-      "mappedCount": 147,
-      "medianPricePkr": 14900000.0,
-      "medianPricePerSqft": 5422.22
+      "listingCount": 150,
+      "mappedCount": 150,
+      "medianPricePkr": 16500000.0,
+      "medianPricePerSqft": 6666.67
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 116,
-      "mappedCount": 116,
-      "medianPricePkr": 15500000.0,
-      "medianPricePerSqft": 14423.92
+      "listingCount": 108,
+      "mappedCount": 108,
+      "medianPricePkr": 14684000.0,
+      "medianPricePerSqft": 14500.0
     }
   ],
   "topNeighborhoods": [
@@ -38,17 +38,9 @@
       "neighborhood": "F-7",
       "listingCount": 2,
       "mappedCount": 2,
-      "medianPricePkr": 525000000.0,
-      "medianPricePerSqft": 66252.59,
-      "medianPricePerMarla": 14906832.3
-    },
-    {
-      "neighborhood": "New Blue Area",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "medianPricePkr": 110000000.0,
-      "medianPricePerSqft": 62857.14,
-      "medianPricePerMarla": 14142857.14
+      "medianPricePkr": 450000000.0,
+      "medianPricePerSqft": 73870.58,
+      "medianPricePerMarla": 16620879.12
     },
     {
       "neighborhood": "Blue Area",
@@ -59,44 +51,52 @@
       "medianPricePerMarla": 13950000.0
     },
     {
-      "neighborhood": "F-10",
-      "listingCount": 11,
-      "mappedCount": 11,
-      "medianPricePkr": 80000000.0,
-      "medianPricePerSqft": 58333.33,
-      "medianPricePerMarla": 13125000.0
-    },
-    {
-      "neighborhood": "F-6",
-      "listingCount": 2,
-      "mappedCount": 2,
-      "medianPricePkr": 317500000.0,
-      "medianPricePerSqft": 58158.51,
-      "medianPricePerMarla": 13085664.34
+      "neighborhood": "D-12",
+      "listingCount": 5,
+      "mappedCount": 5,
+      "medianPricePkr": 65000000.0,
+      "medianPricePerSqft": 51111.11,
+      "medianPricePerMarla": 11500000.0
     },
     {
       "neighborhood": "Constitution Avenue",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "medianPricePkr": 55000000.0,
-      "medianPricePerSqft": 50925.93,
-      "medianPricePerMarla": 11458333.33
+      "listingCount": 3,
+      "mappedCount": 3,
+      "medianPricePkr": 80000000.0,
+      "medianPricePerSqft": 50505.05,
+      "medianPricePerMarla": 11363636.36
     },
     {
-      "neighborhood": "D-12",
-      "listingCount": 12,
-      "mappedCount": 12,
-      "medianPricePkr": 77000000.0,
-      "medianPricePerSqft": 50555.56,
-      "medianPricePerMarla": 11375000.0
+      "neighborhood": "I-9",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 85000000.0,
+      "medianPricePerSqft": 47222.22,
+      "medianPricePerMarla": 10625000.0
     },
     {
       "neighborhood": "F-8",
+      "listingCount": 2,
+      "mappedCount": 2,
+      "medianPricePkr": 92500000.0,
+      "medianPricePerSqft": 45814.76,
+      "medianPricePerMarla": 10308320.95
+    },
+    {
+      "neighborhood": "I-8",
       "listingCount": 3,
       "mappedCount": 3,
-      "medianPricePkr": 98900000.0,
-      "medianPricePerSqft": 48984.65,
-      "medianPricePerMarla": 11021545.32
+      "medianPricePkr": 120000000.0,
+      "medianPricePerSqft": 44444.44,
+      "medianPricePerMarla": 10000000.0
+    },
+    {
+      "neighborhood": "F-10",
+      "listingCount": 5,
+      "mappedCount": 5,
+      "medianPricePkr": 190000000.0,
+      "medianPricePerSqft": 42068.97,
+      "medianPricePerMarla": 9465517.24
     }
   ],
   "seedStats": [
@@ -105,7 +105,7 @@
       "label": "Houses",
       "propertyGroup": "house",
       "pagesScraped": 6,
-      "pageCountDiscovered": 560,
+      "pageCountDiscovered": 554,
       "listingCardsCollected": 150
     },
     {
@@ -121,7 +121,7 @@
       "label": "Residential Plots",
       "propertyGroup": "plot",
       "pagesScraped": 6,
-      "pageCountDiscovered": 923,
+      "pageCountDiscovered": 946,
       "listingCardsCollected": 150
     }
   ]
