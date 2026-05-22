@@ -1,94 +1,78 @@
 {
-  "generatedAt": "2026-05-21T15:33:22+00:00",
+  "generatedAt": "2026-05-22T03:53:22+00:00",
   "city": "Islamabad",
-  "trackedListings": 425,
-  "mappedListings": 425,
-  "neighborhoodCount": 60,
-  "medianPricePkr": 35000000.0,
-  "medianPricePerSqft": 15555.56,
-  "medianFreshnessHours": 4.0,
+  "trackedListings": 415,
+  "mappedListings": 415,
+  "neighborhoodCount": 54,
+  "medianPricePkr": 32500000.0,
+  "medianPricePerSqft": 14000.0,
+  "medianFreshnessHours": 8.0,
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses",
       "listingCount": 150,
       "mappedCount": 150,
-      "medianPricePkr": 55000000.0,
-      "medianPricePerSqft": 24444.44
+      "medianPricePkr": 62750000.0,
+      "medianPricePerSqft": 24375.0
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
       "listingCount": 150,
       "mappedCount": 150,
-      "medianPricePkr": 33000000.0,
-      "medianPricePerSqft": 8638.89
+      "medianPricePkr": 29450000.0,
+      "medianPricePerSqft": 7261.91
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 125,
-      "mappedCount": 125,
-      "medianPricePkr": 17316000.0,
-      "medianPricePerSqft": 15813.95
+      "listingCount": 115,
+      "mappedCount": 115,
+      "medianPricePkr": 16000000.0,
+      "medianPricePerSqft": 14130.43
     }
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "Blue Area",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "medianPricePkr": 74000000.0,
-      "medianPricePerSqft": 108187.13,
-      "medianPricePerMarla": 24342105.26
-    },
-    {
-      "neighborhood": "New Blue Area",
-      "listingCount": 3,
-      "mappedCount": 3,
-      "medianPricePkr": 73872000.0,
-      "medianPricePerSqft": 104500.0,
-      "medianPricePerMarla": 23512500.0
-    },
-    {
       "neighborhood": "F-7",
-      "listingCount": 7,
-      "mappedCount": 7,
-      "medianPricePkr": 400000000.0,
-      "medianPricePerSqft": 68376.07,
-      "medianPricePerMarla": 15384615.38
+      "listingCount": 6,
+      "mappedCount": 6,
+      "medianPricePkr": 540000000.0,
+      "medianPricePerSqft": 94074.07,
+      "medianPricePerMarla": 21166666.66
     },
     {
       "neighborhood": "F-6",
       "listingCount": 2,
       "mappedCount": 2,
-      "medianPricePkr": 304000000.0,
-      "medianPricePerSqft": 56933.22,
-      "medianPricePerMarla": 12809973.05
+      "medianPricePkr": 1025000000.0,
+      "medianPricePerSqft": 87782.58,
+      "medianPricePerMarla": 19751082.25
     },
     {
       "neighborhood": "F-8",
-      "listingCount": 8,
-      "mappedCount": 8,
-      "medianPricePkr": 327500000.0,
-      "medianPricePerSqft": 49060.85,
-      "medianPricePerMarla": 11038690.47
+      "listingCount": 6,
+      "mappedCount": 6,
+      "medianPricePkr": 332450000.0,
+      "medianPricePerSqft": 66655.55,
+      "medianPricePerMarla": 14997500.0
     },
     {
-      "neighborhood": "Constitution Avenue",
-      "listingCount": 2,
-      "mappedCount": 2,
-      "medianPricePkr": 80000000.0,
-      "medianPricePerSqft": 47058.82,
-      "medianPricePerMarla": 10588235.29
+      "neighborhood": "Diplomatic Enclave",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 75000000.0,
+      "medianPricePerSqft": 51724.14,
+      "medianPricePerMarla": 11637931.03
     },
     {
-      "neighborhood": "F-10",
-      "listingCount": 7,
-      "mappedCount": 7,
-      "medianPricePkr": 67896000.0,
-      "medianPricePerSqft": 45161.29,
-      "medianPricePerMarla": 10161290.32
+      "neighborhood": "D-12",
+      "listingCount": 13,
+      "mappedCount": 13,
+      "medianPricePkr": 110000000.0,
+      "medianPricePerSqft": 48484.85,
+      "medianPricePerMarla": 10909090.91
     },
     {
       "neighborhood": "Mumtaz City",
@@ -97,6 +81,22 @@
       "medianPricePkr": 8500000.0,
       "medianPricePerSqft": 42500.0,
       "medianPricePerMarla": 9562500.0
+    },
+    {
+      "neighborhood": "Park View City",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 23000000.0,
+      "medianPricePerSqft": 38079.47,
+      "medianPricePerMarla": 8567880.79
+    },
+    {
+      "neighborhood": "F-10",
+      "listingCount": 2,
+      "mappedCount": 2,
+      "medianPricePkr": 137500000.0,
+      "medianPricePerSqft": 38034.18,
+      "medianPricePerMarla": 8557692.31
     }
   ],
   "seedStats": [
@@ -105,7 +105,7 @@
       "label": "Houses",
       "propertyGroup": "house",
       "pagesScraped": 6,
-      "pageCountDiscovered": 586,
+      "pageCountDiscovered": 583,
       "listingCardsCollected": 150
     },
     {
@@ -113,7 +113,7 @@
       "label": "Flats & Apartments",
       "propertyGroup": "apartment",
       "pagesScraped": 6,
-      "pageCountDiscovered": 168,
+      "pageCountDiscovered": 166,
       "listingCardsCollected": 150
     },
     {
@@ -121,7 +121,7 @@
       "label": "Residential Plots",
       "propertyGroup": "plot",
       "pagesScraped": 6,
-      "pageCountDiscovered": 1004,
+      "pageCountDiscovered": 1008,
       "listingCardsCollected": 150
     }
   ]
