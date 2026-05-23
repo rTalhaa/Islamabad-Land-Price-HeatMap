@@ -1,70 +1,62 @@
 {
-  "generatedAt": "2026-05-22T14:43:47+00:00",
+  "generatedAt": "2026-05-23T03:30:39+00:00",
   "city": "Islamabad",
   "trackedListings": 408,
   "mappedListings": 408,
   "neighborhoodCount": 62,
-  "medianPricePkr": 25899250.0,
-  "medianPricePerSqft": 14340.58,
-  "medianFreshnessHours": 3.0,
+  "medianPricePkr": 29000000.0,
+  "medianPricePerSqft": 13333.33,
+  "medianFreshnessHours": 8.0,
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses",
-      "listingCount": 147,
-      "mappedCount": 147,
-      "medianPricePkr": 55000000.0,
-      "medianPricePerSqft": 24444.44
+      "listingCount": 149,
+      "mappedCount": 149,
+      "medianPricePkr": 42500000.0,
+      "medianPricePerSqft": 22222.22
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
-      "listingCount": 147,
-      "mappedCount": 147,
-      "medianPricePkr": 14000000.0,
-      "medianPricePerSqft": 6388.89
+      "listingCount": 149,
+      "mappedCount": 149,
+      "medianPricePkr": 24500000.0,
+      "medianPricePerSqft": 6666.67
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 114,
-      "mappedCount": 114,
-      "medianPricePkr": 17000000.0,
-      "medianPricePerSqft": 13800.0
+      "listingCount": 110,
+      "mappedCount": 110,
+      "medianPricePkr": 17408000.0,
+      "medianPricePerSqft": 14316.77
     }
   ],
   "topNeighborhoods": [
     {
       "neighborhood": "F-6",
-      "listingCount": 2,
-      "mappedCount": 2,
+      "listingCount": 1,
+      "mappedCount": 1,
       "medianPricePkr": 385000000.0,
-      "medianPricePerSqft": 80970.9,
-      "medianPricePerMarla": 18218452.89
+      "medianPricePerSqft": 96129.84,
+      "medianPricePerMarla": 21629213.48
     },
     {
       "neighborhood": "F-7",
-      "listingCount": 7,
-      "mappedCount": 7,
-      "medianPricePkr": 480000000.0,
-      "medianPricePerSqft": 65555.56,
-      "medianPricePerMarla": 14750000.0
+      "listingCount": 6,
+      "mappedCount": 6,
+      "medianPricePkr": 470000000.0,
+      "medianPricePerSqft": 58333.33,
+      "medianPricePerMarla": 13125000.0
     },
     {
-      "neighborhood": "F-8",
-      "listingCount": 8,
-      "mappedCount": 8,
-      "medianPricePkr": 280000000.0,
-      "medianPricePerSqft": 49166.67,
-      "medianPricePerMarla": 11062500.0
-    },
-    {
-      "neighborhood": "Constitution Avenue",
-      "listingCount": 2,
-      "mappedCount": 2,
-      "medianPricePkr": 157500000.0,
-      "medianPricePerSqft": 48010.38,
-      "medianPricePerMarla": 10802336.78
+      "neighborhood": "Diplomatic Enclave",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 75000000.0,
+      "medianPricePerSqft": 51724.14,
+      "medianPricePerMarla": 11637931.03
     },
     {
       "neighborhood": "Karakoram Diplomatic Enclave",
@@ -75,28 +67,36 @@
       "medianPricePerMarla": 10563380.28
     },
     {
-      "neighborhood": "Diplomatic Enclave",
-      "listingCount": 2,
-      "mappedCount": 2,
-      "medianPricePkr": 65000000.0,
-      "medianPricePerSqft": 44195.4,
-      "medianPricePerMarla": 9943965.52
+      "neighborhood": "F-8",
+      "listingCount": 6,
+      "mappedCount": 6,
+      "medianPricePkr": 280000000.0,
+      "medianPricePerSqft": 46666.67,
+      "medianPricePerMarla": 10500000.0
     },
     {
       "neighborhood": "G-13",
-      "listingCount": 3,
-      "mappedCount": 3,
-      "medianPricePkr": 87500000.0,
+      "listingCount": 5,
+      "mappedCount": 5,
+      "medianPricePkr": 41000000.0,
       "medianPricePerSqft": 40657.28,
       "medianPricePerMarla": 9147887.32
     },
     {
       "neighborhood": "F-10",
-      "listingCount": 6,
-      "mappedCount": 6,
+      "listingCount": 10,
+      "mappedCount": 10,
       "medianPricePkr": 74500000.0,
-      "medianPricePerSqft": 39947.09,
-      "medianPricePerMarla": 8988095.23
+      "medianPricePerSqft": 40000.0,
+      "medianPricePerMarla": 9000000.0
+    },
+    {
+      "neighborhood": "Islamabad - Murree Expressway",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 17316000.0,
+      "medianPricePerSqft": 36000.0,
+      "medianPricePerMarla": 8100000.0
     }
   ],
   "seedStats": [
@@ -105,24 +105,24 @@
       "label": "Houses",
       "propertyGroup": "house",
       "pagesScraped": 6,
-      "pageCountDiscovered": 584,
-      "listingCardsCollected": 147
+      "pageCountDiscovered": 579,
+      "listingCardsCollected": 149
     },
     {
       "seed": "apartments",
       "label": "Flats & Apartments",
       "propertyGroup": "apartment",
       "pagesScraped": 6,
-      "pageCountDiscovered": 166,
-      "listingCardsCollected": 143
+      "pageCountDiscovered": 165,
+      "listingCardsCollected": 144
     },
     {
       "seed": "plots",
       "label": "Residential Plots",
       "propertyGroup": "plot",
       "pagesScraped": 6,
-      "pageCountDiscovered": 977,
-      "listingCardsCollected": 147
+      "pageCountDiscovered": 964,
+      "listingCardsCollected": 149
     }
   ]
 }
