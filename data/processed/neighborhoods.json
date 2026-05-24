@@ -2,48 +2,48 @@
   {
     "name": "DHA Defence",
     "centroid": {
-      "latitude": 33.521597,
-      "longitude": 73.172639
+      "latitude": 33.515966,
+      "longitude": 73.18035
     },
-    "listingCount": 119,
-    "mappedCount": 119,
-    "medianPricePkr": 39000000.0,
-    "medianPricePerSqft": 12608.7,
+    "listingCount": 142,
+    "mappedCount": 142,
+    "medianPricePkr": 33500000.0,
+    "medianPricePerSqft": 11143.74,
     "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 9.0,
-    "minPricePkr": 3900000,
+    "medianFreshnessHours": 2.0,
+    "minPricePkr": 3300000,
     "maxPricePkr": 460000000,
-    "dominantPropertyGroup": "house",
+    "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 63,
-        "share": 0.5294
+        "count": 60,
+        "share": 0.4225
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 24,
-        "share": 0.2017
+        "count": 22,
+        "share": 0.1549
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 32,
-        "share": 0.2689
+        "count": 60,
+        "share": 0.4225
       }
     },
-    "cityMedianPpsfDeltaPct": 0.91,
-    "cityMedianTicketDeltaPct": 56.0,
-    "priceTier": "Premium",
+    "cityMedianPpsfDeltaPct": -16.68,
+    "cityMedianTicketDeltaPct": 11.85,
+    "priceTier": "Mid-market",
     "sampleListings": [
       {
-        "id": 54240717,
-        "title": "Top of the Line Brand New Triple Storey House 1 Kanal | DHA Phase 2 Islamabad",
-        "pricePkr": 175000000,
-        "pricePerSqft": 38888.89,
-        "beds": 7,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298083658/0931bb5711b240ffaeadcbf714ba2ca9",
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_2_top_of_the_line_brand_new_triple_storey_house_1_kanal_dha_phase_2_islamabad-54240717-339-1.html"
+        "id": 53925522,
+        "title": "Buying A House In DHA Defence Phase 5 Islamabad?",
+        "pricePkr": 92500000,
+        "pricePerSqft": 41111.11,
+        "beds": 6,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295233980/5991e28270f44f18ad8e3591e124d69f",
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_5_buying_a_house_in_dha_defence_phase_5_islamabad-53925522-10991-1.html"
       },
       {
         "id": 53656054,
@@ -56,120 +56,52 @@
         "url": "https://www.zameen.com/Property/dha_phase_2_sector_c_florence_galleria_own_a_hotel_suite_in_residence_inn_by_marriott_dha_2_islamabad-53656054-22022-1.html"
       },
       {
-        "id": 54196826,
-        "title": "2 KANAL BRAND NEW DESIGNER HOUSE FOR SALE WITH SWIMMING POOL.",
-        "pricePkr": 320000000,
+        "id": 53925006,
+        "title": "1 Kanal Fully Furnished Luxury House For Sale In DHA Phase 2 Islamabad",
+        "pricePkr": 160000000,
         "pricePerSqft": 35555.56,
-        "beds": 8,
-        "areaSqft": 9000.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297696509/2ccb68e15858413c886ffe99b5185b1d",
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_2_2_kanal_brand_new_designer_house_for_sale_with_swimming_pool-54196826-339-1.html"
-      }
-    ]
-  },
-  {
-    "name": "B-17",
-    "centroid": {
-      "latitude": 36.623627,
-      "longitude": 69.875854
-    },
-    "listingCount": 40,
-    "mappedCount": 40,
-    "medianPricePkr": 24100000.0,
-    "medianPricePerSqft": 11864.29,
-    "medianAreaSqft": 1800.0,
-    "medianFreshnessHours": 12.5,
-    "minPricePkr": 5000000,
-    "maxPricePkr": 105000000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 12,
-        "share": 0.3
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 16,
-        "share": 0.4
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 12,
-        "share": 0.3
-      }
-    },
-    "cityMedianPpsfDeltaPct": -5.05,
-    "cityMedianTicketDeltaPct": -3.6,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": 54111272,
-        "title": "5 Marla (25x50) Brand New Double Unit House For Sale In Block C1 Mpchs Multi Garden B-17 Islamabad",
-        "pricePkr": 27900000,
-        "pricePerSqft": 24800.0,
-        "beds": 4,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296902095/23f433e35a9b4ed89bbd9034108bd367",
-        "url": "https://www.zameen.com/Property/b_17_mpchs_-_multi_gardens_5_marla_25x50_brand_new_double_unit_house_for_sale_in_block_c1_mpchs_multi_garden_b-17_islamabad-54111272-3115-1.html"
-      },
-      {
-        "id": 54254035,
-        "title": "8 Marla Ultra Luxury Corner Double highted Designer House For Sale in Block E mpchs Multi Garden B17 Islamabad",
-        "pricePkr": 44000000,
-        "pricePerSqft": 24444.44,
-        "beds": 4,
-        "areaSqft": 1800.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298194682/07dc27767ee14b33ac7f006fdd37d6e5",
-        "url": "https://www.zameen.com/Property/b_17_mpchs_-_multi_gardens_8_marla_ultra_luxury_corner_double_highted_designer_house_for_sale_in_block_e_mpchs_multi_garden_b17_islamabad-54254035-3115-1.html"
-      },
-      {
-        "id": 54194131,
-        "title": "1 Kanal (50x90) Ultra Luxury Designer Corner House For sale in Block C Mpchs Multi Garden B-17 Islamabad",
-        "pricePkr": 105000000,
-        "pricePerSqft": 23333.33,
         "beds": 6,
         "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297673015/2ced539c21524c7f8955d7453edb7f01",
-        "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_c_1_kanal_50x90_ultra_luxury_designer_corner_house_for_sale_in_block_c_mpchs_multi_garden_b-17_islamabad-54194131-3118-1.html"
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295226613/23866ffa9cad4ae0a9d7f27b3bca59f9",
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_2_1_kanal_fully_furnished_luxury_house_for_sale_in_dha_phase_2_islamabad-53925006-339-1.html"
       }
     ]
   },
   {
     "name": "Gulberg",
     "centroid": {
-      "latitude": 33.603333,
-      "longitude": 73.185674
+      "latitude": 33.602431,
+      "longitude": 73.187471
     },
-    "listingCount": 38,
-    "mappedCount": 38,
-    "medianPricePkr": 24540000.0,
-    "medianPricePerSqft": 7492.07,
-    "medianAreaSqft": 1985.0,
-    "medianFreshnessHours": 7.0,
+    "listingCount": 28,
+    "mappedCount": 28,
+    "medianPricePkr": 20500000.0,
+    "medianPricePerSqft": 13666.67,
+    "medianAreaSqft": 1575.0,
+    "medianFreshnessHours": 4.0,
     "minPricePkr": 6700000,
-    "maxPricePkr": 850000000,
+    "maxPricePkr": 600000000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 5,
-        "share": 0.1316
+        "count": 8,
+        "share": 0.2857
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 8,
-        "share": 0.2105
+        "count": 10,
+        "share": 0.3571
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 25,
-        "share": 0.6579
+        "count": 10,
+        "share": 0.3571
       }
     },
-    "cityMedianPpsfDeltaPct": -40.04,
-    "cityMedianTicketDeltaPct": -1.84,
-    "priceTier": "Value",
+    "cityMedianPpsfDeltaPct": 2.19,
+    "cityMedianTicketDeltaPct": -31.55,
+    "priceTier": "Mid-market",
     "sampleListings": [
       {
         "id": 54164037,
@@ -192,121 +124,63 @@
         "url": "https://www.zameen.com/Property/gulberg_greens_skypark_one_gulberg_green_islamabad_sky_park_one_one_bed_apartment_available_for_sale_prime_location_retail-54153983-15266-1.html"
       },
       {
-        "id": 54142482,
-        "title": "Ideal Investment Opportunity Luxury 2 Bed Apartment In Sky Park One",
-        "pricePkr": 33500000,
-        "pricePerSqft": 19590.64,
+        "id": 54100604,
+        "title": "TWO BED APARTMENT ON GULBERG EXPRESSWAY",
+        "pricePkr": 22500000,
+        "pricePerSqft": 20454.55,
         "beds": 2,
-        "areaSqft": 1710.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297185286/887be1e3a639484a93d46786314a1220",
-        "url": "https://www.zameen.com/Property/gulberg_greens_skypark_one_ideal_investment_opportunity_luxury_2_bed_apartment_in_sky_park_one-54142482-15266-1.html"
-      }
-    ]
-  },
-  {
-    "name": "Top City 1",
-    "centroid": {
-      "latitude": 33.578972,
-      "longitude": 72.867696
-    },
-    "listingCount": 30,
-    "mappedCount": 30,
-    "medianPricePkr": 18000000.0,
-    "medianPricePerSqft": 9666.67,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 13.5,
-    "minPricePkr": 4900000,
-    "maxPricePkr": 85000000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 7,
-        "share": 0.2333
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 8,
-        "share": 0.2667
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 15,
-        "share": 0.5
-      }
-    },
-    "cityMedianPpsfDeltaPct": -22.64,
-    "cityMedianTicketDeltaPct": -28.0,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": 54226149,
-        "title": "Get In Touch Now To Buy A 10 Marla House In Top City 1 - Block D",
-        "pricePkr": 69500000,
-        "pricePerSqft": 30888.89,
-        "beds": 4,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297986386/c1445dd0d6964466ab627d7443edb01d",
-        "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_block_d_get_in_touch_now_to_buy_a_10_marla_house_in_top_city_1_-_block_d-54226149-9233-1.html"
-      },
-      {
-        "id": 54232097,
-        "title": "10 Marla Designer Made / Proper Corner / Sunface House Available For Sale In Topcity-1 Islamabad.",
-        "pricePkr": 69500000,
-        "pricePerSqft": 30888.89,
-        "beds": 5,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298006834/0d6aa691125244a08c6229b783475596",
-        "url": "https://www.zameen.com/Property/islamabad_top_city_1_10_marla_designer_made_proper_corner_sunface_house_available_for_sale_in_topcity-1_islamabad-54232097-1383-1.html"
-      },
-      {
-        "id": 54225061,
-        "title": "Corner 10 Marla Semi Furnished House For Sale",
-        "pricePkr": 63500000,
-        "pricePerSqft": 28222.22,
-        "beds": 6,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297947139/fcb2824fdb8a499a856c39df8c3e33cd",
-        "url": "https://www.zameen.com/Property/islamabad_top_city_1_corner_10_marla_semi_furnished_house_for_sale-54225061-1383-1.html"
+        "areaSqft": 1100.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296803890/e529a73bed304129804ff37bde520043",
+        "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_two_bed_apartment_on_gulberg_expressway-54100604-8312-1.html"
       }
     ]
   },
   {
     "name": "Bahria Town",
     "centroid": {
-      "latitude": 33.611865,
-      "longitude": 73.186163
+      "latitude": 33.630915,
+      "longitude": 73.193375
     },
-    "listingCount": 23,
-    "mappedCount": 23,
+    "listingCount": 27,
+    "mappedCount": 27,
     "medianPricePkr": 16500000.0,
-    "medianPricePerSqft": 8111.11,
+    "medianPricePerSqft": 8333.33,
     "medianAreaSqft": 2000.0,
-    "medianFreshnessHours": 11.0,
-    "minPricePkr": 9900000,
-    "maxPricePkr": 42500000,
+    "medianFreshnessHours": 19.0,
+    "minPricePkr": 9000000,
+    "maxPricePkr": 65000000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 3,
-        "share": 0.1304
+        "count": 5,
+        "share": 0.1852
       },
       "apartment": {
         "label": "Flats & Apartments",
         "count": 9,
-        "share": 0.3913
+        "share": 0.3333
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 11,
-        "share": 0.4783
+        "count": 13,
+        "share": 0.4815
       }
     },
-    "cityMedianPpsfDeltaPct": -35.09,
-    "cityMedianTicketDeltaPct": -34.0,
-    "priceTier": "Value",
+    "cityMedianPpsfDeltaPct": -37.69,
+    "cityMedianTicketDeltaPct": -44.91,
+    "priceTier": "Mid-market",
     "sampleListings": [
+      {
+        "id": 54198973,
+        "title": "Beautiful Corner House For Sale 11 Marla Sector C1, Bahria Enclave",
+        "pricePkr": 65000000,
+        "pricePerSqft": 26262.63,
+        "beds": 5,
+        "areaSqft": 2475.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297716272/a041ee8959364835aaccbf62706750fb",
+        "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_c1_beautiful_corner_house_for_sale_11_marla_sector_c1_bahria_enclave-54198973-11987-1.html"
+      },
       {
         "id": 54204276,
         "title": "Luxurious 8 Marla Triple-Sided Open Home with Huge Lawn 1.5 Kanal in Bahria Enclave, Sector J - PKR 4.25 Crore",
@@ -316,16 +190,6 @@
         "areaSqft": 1800.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297760127/cc20f5ba1ee1486988ecec49ca0271bb",
         "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_j_luxurious_8_marla_triple-sided_open_home_with_huge_lawn_1_5_kanal_in_bahria_enclave_sector_j_-_pkr_4_25_crore-54204276-11981-1.html"
-      },
-      {
-        "id": 53685921,
-        "title": "Brand-New 5-Marla House For Sale In Sector H, Bahria Enclave, Islamabad",
-        "pricePkr": 26000000,
-        "pricePerSqft": 23111.11,
-        "beds": 3,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293072031/fe1e8ca2055b4f7f80ddd1f42a487e27",
-        "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_h_brand-new_5-marla_house_for_sale_in_sector_h_bahria_enclave_islamabad-53685921-11983-1.html"
       },
       {
         "id": 54185105,
@@ -340,30 +204,166 @@
     ]
   },
   {
+    "name": "Top City 1",
+    "centroid": {
+      "latitude": 33.582207,
+      "longitude": 72.866686
+    },
+    "listingCount": 20,
+    "mappedCount": 20,
+    "medianPricePkr": 30750000.0,
+    "medianPricePerSqft": 16444.44,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 19.5,
+    "minPricePkr": 5500000,
+    "maxPricePkr": 90000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 10,
+        "share": 0.5
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 4,
+        "share": 0.2
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 6,
+        "share": 0.3
+      }
+    },
+    "cityMedianPpsfDeltaPct": 22.96,
+    "cityMedianTicketDeltaPct": 2.67,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 54226149,
+        "title": "Get In Touch Now To Buy A 10 Marla House In Top City 1 - Block D",
+        "pricePkr": 69500000,
+        "pricePerSqft": 30888.89,
+        "beds": 4,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297986386/c1445dd0d6964466ab627d7443edb01d",
+        "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_block_d_get_in_touch_now_to_buy_a_10_marla_house_in_top_city_1_-_block_d-54226149-9233-1.html"
+      },
+      {
+        "id": 54225061,
+        "title": "Corner 10 Marla Semi Furnished House For Sale",
+        "pricePkr": 63500000,
+        "pricePerSqft": 28222.22,
+        "beds": 6,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297947139/fcb2824fdb8a499a856c39df8c3e33cd",
+        "url": "https://www.zameen.com/Property/islamabad_top_city_1_corner_10_marla_semi_furnished_house_for_sale-54225061-1383-1.html"
+      },
+      {
+        "id": 53681427,
+        "title": "10 Marla Brand New House For Sale In Top City-1 Islamabad",
+        "pricePkr": 51000000,
+        "pricePerSqft": 22666.67,
+        "beds": 5,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297438415/880f6dabd1cf43b6a0eb5abfb8274ae0",
+        "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_block_d_10_marla_brand_new_house_for_sale_in_top_city-1_islamabad-53681427-9233-1.html"
+      }
+    ]
+  },
+  {
+    "name": "B-17",
+    "centroid": {
+      "latitude": 37.604832,
+      "longitude": 68.905034
+    },
+    "listingCount": 20,
+    "mappedCount": 20,
+    "medianPricePkr": 34206250.0,
+    "medianPricePerSqft": 15500.0,
+    "medianAreaSqft": 1905.5,
+    "medianFreshnessHours": 24.0,
+    "minPricePkr": 4800000,
+    "maxPricePkr": 105000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 7,
+        "share": 0.35
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 11,
+        "share": 0.55
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 2,
+        "share": 0.1
+      }
+    },
+    "cityMedianPpsfDeltaPct": 15.9,
+    "cityMedianTicketDeltaPct": 14.21,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 52984851,
+        "title": "Corner 5 Marla Designer House For Sale In FMC Adjacent To B17 C1 Block",
+        "pricePkr": 40000000,
+        "pricePerSqft": 35555.56,
+        "beds": 6,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/283352613/5a7f06aa5fad4ae1a9b6adcd1dc7a697",
+        "url": "https://www.zameen.com/Property/b_17_mpchs_-_multi_gardens_corner_5_marla_designer_house_for_sale_in_fmc_adjacent_to_b17_c1_block-52984851-3115-1.html"
+      },
+      {
+        "id": 54194131,
+        "title": "1 Kanal (50x90) Ultra Luxury Designer Corner House For sale in Block C Mpchs Multi Garden B-17 Islamabad",
+        "pricePkr": 105000000,
+        "pricePerSqft": 23333.33,
+        "beds": 6,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297673015/2ced539c21524c7f8955d7453edb7f01",
+        "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_c_1_kanal_50x90_ultra_luxury_designer_corner_house_for_sale_in_block_c_mpchs_multi_garden_b-17_islamabad-54194131-3118-1.html"
+      },
+      {
+        "id": 54253369,
+        "title": "5 Marla (25x50) Ultra Luxury Hybrid Unit House For sale in mpchs multi Garden B17 Islamabad",
+        "pricePkr": 26000000,
+        "pricePerSqft": 23111.11,
+        "beds": 3,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298189541/b74b5d0c9cde48869764e29ab1320a9d",
+        "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_f_5_marla_25x50_ultra_luxury_hybrid_unit_house_for_sale_in_mpchs_multi_garden_b17_islamabad-54253369-8527-1.html"
+      }
+    ]
+  },
+  {
     "name": "F-11",
     "centroid": {
-      "latitude": 33.687842,
-      "longitude": 72.999374
+      "latitude": 33.686935,
+      "longitude": 72.995101
     },
-    "listingCount": 12,
-    "mappedCount": 12,
-    "medianPricePkr": 47500000.0,
-    "medianPricePerSqft": 22823.05,
-    "medianAreaSqft": 2350.0,
-    "medianFreshnessHours": 9.0,
+    "listingCount": 10,
+    "mappedCount": 10,
+    "medianPricePkr": 36250000.0,
+    "medianPricePerSqft": 19284.19,
+    "medianAreaSqft": 1875.0,
+    "medianFreshnessHours": 17.0,
     "minPricePkr": 17500000,
     "maxPricePkr": 420000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 8,
-        "share": 0.6667
+        "count": 5,
+        "share": 0.5
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 4,
-        "share": 0.3333
+        "count": 5,
+        "share": 0.5
       },
       "plot": {
         "label": "Residential Plots",
@@ -371,9 +371,9 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 82.65,
-    "cityMedianTicketDeltaPct": 90.0,
-    "priceTier": "Ultra Prime",
+    "cityMedianPpsfDeltaPct": 44.19,
+    "cityMedianTicketDeltaPct": 21.04,
+    "priceTier": "Premium",
     "sampleListings": [
       {
         "id": 54210718,
@@ -396,63 +396,257 @@
         "url": "https://www.zameen.com/Property/f_11_f-11_2_f-11_2_brand_new_666_yards_fully-furnished_house_high-end_construction_9_bedrooms_full_basement_unparalleled_luxury_and_sophistication_price_30_crores-52722809-3283-1.html"
       },
       {
-        "id": 52809414,
-        "title": "F-11/2 Brand New Luxury 666-Yard Fully-Furnished House - 9 Beds, Full Basement, Price 30 Crores",
-        "pricePkr": 300000000,
-        "pricePerSqft": 51282.05,
+        "id": 53341779,
+        "title": "HOUSE FOR SALE IN F-11",
+        "pricePkr": 95000000,
+        "pricePerSqft": 42222.22,
+        "beds": 5,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/289016726/1b7c65d8801b4a3594db67068d2a2429",
+        "url": "https://www.zameen.com/Property/islamabad_f-11_house_for_sale_in_f-11-53341779-163-1.html"
+      }
+    ]
+  },
+  {
+    "name": "G-14",
+    "centroid": {
+      "latitude": 33.643738,
+      "longitude": 72.94316
+    },
+    "listingCount": 9,
+    "mappedCount": 9,
+    "medianPricePkr": 38500000.0,
+    "medianPricePerSqft": 17111.11,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 3.0,
+    "minPricePkr": 9200000,
+    "maxPricePkr": 93000000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 0.1111
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 8,
+        "share": 0.8889
+      }
+    },
+    "cityMedianPpsfDeltaPct": 27.94,
+    "cityMedianTicketDeltaPct": 28.55,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 53611689,
+        "title": "Highly-Desirable Prime Location House Available In G-14/4 For Sale",
+        "pricePkr": 93000000,
+        "pricePerSqft": 29523.81,
+        "beds": 8,
+        "areaSqft": 3150.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292373545/a336e225b34b48abaa2ccc5056fe53b9",
+        "url": "https://www.zameen.com/Property/g_14_g-14_4_highly-desirable_prime_location_house_available_in_g-14_4_for_sale-53611689-3346-1.html"
+      },
+      {
+        "id": 53971651,
+        "title": "7 MARLA PLOT FOR SALE",
+        "pricePkr": 33000000,
+        "pricePerSqft": 20952.38,
+        "beds": null,
+        "areaSqft": 1575.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/g_14_g-14_2_7_marla_plot_for_sale-53971651-3344-2.html"
+      },
+      {
+        "id": 54002220,
+        "title": "4 Marla Short Corner Plot For Sale",
+        "pricePkr": 18000000,
+        "pricePerSqft": 20000.0,
+        "beds": null,
+        "areaSqft": 900.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/g_14_g-14_2_4_marla_short_corner_plot_for_sale-54002220-3344-2.html"
+      }
+    ]
+  },
+  {
+    "name": "E-11",
+    "centroid": {
+      "latitude": 33.697749,
+      "longitude": 72.980305
+    },
+    "listingCount": 9,
+    "mappedCount": 9,
+    "medianPricePkr": 25000000.0,
+    "medianPricePerSqft": 15419.5,
+    "medianAreaSqft": 1700.0,
+    "medianFreshnessHours": 21.0,
+    "minPricePkr": 8500000,
+    "maxPricePkr": 170000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 4,
+        "share": 0.4444
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 5,
+        "share": 0.5556
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 15.29,
+    "cityMedianTicketDeltaPct": -16.53,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 54206366,
+        "title": "DESIGNER HOUSE FOR SALE E- 11",
+        "pricePkr": 73000000,
+        "pricePerSqft": 40555.56,
+        "beds": 5,
+        "areaSqft": 1800.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297774340/8d0407db834f4bb6a3e68157fe6a30f7",
+        "url": "https://www.zameen.com/Property/islamabad_e-11_designer_house_for_sale_e-_11-54206366-329-1.html"
+      },
+      {
+        "id": 53637335,
+        "title": "TRIPLE STORY E-11 MAIN DOUBLE HOUSE FOR SALE",
+        "pricePkr": 170000000,
+        "pricePerSqft": 37777.78,
+        "beds": 8,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292629647/b7b7c228457a41c79672efd657d8fd40",
+        "url": "https://www.zameen.com/Property/islamabad_e-11_triple_story_e-11_main_double_house_for_sale-53637335-329-1.html"
+      },
+      {
+        "id": 54183372,
+        "title": "FOR SALE 40x90 Renovated Triple Storey 9 Beds E_11/2",
+        "pricePkr": 130000000,
+        "pricePerSqft": 36111.11,
         "beds": 9,
-        "areaSqft": 5850.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/280927014/3d8e4bafd400416db2c93833f5fb4e8e",
-        "url": "https://www.zameen.com/Property/islamabad_f-11_f-11_2_brand_new_luxury_666-yard_fully-furnished_house_-_9_beds_full_basement_price_30_crores-52809414-163-1.html"
+        "areaSqft": 3600.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297568773/fcb198546ce844f4bc615c5298dcdb0c",
+        "url": "https://www.zameen.com/Property/islamabad_e-11_for_sale_40x90_renovated_triple_storey_9_beds_e_11_2-54183372-329-1.html"
+      }
+    ]
+  },
+  {
+    "name": "Kashmir Highway",
+    "centroid": {
+      "latitude": 33.600219,
+      "longitude": 72.887718
+    },
+    "listingCount": 8,
+    "mappedCount": 8,
+    "medianPricePkr": 64347002.0,
+    "medianPricePerSqft": 18576.2,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 35000000,
+    "maxPricePkr": 170000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 5,
+        "share": 0.625
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 2,
+        "share": 0.25
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 1,
+        "share": 0.125
+      }
+    },
+    "cityMedianPpsfDeltaPct": 38.9,
+    "cityMedianTicketDeltaPct": 114.85,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 54155599,
+        "title": "3 Bed Fully Fitted Luxury and Spacious Apartment in Eighteen for Sale",
+        "pricePkr": 68000000,
+        "pricePerSqft": 33211.23,
+        "beds": 3,
+        "areaSqft": 2047.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297299731/0dce47d042624bd5a0ee261dbe65a6cc",
+        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_3_bed_fully_fitted_luxury_and_spacious_apartment_in_eighteen_for_sale-54155599-12602-1.html"
+      },
+      {
+        "id": 54023441,
+        "title": "Luxury 3-Bed Fully Fitted Golf View Apartment| Flexible Payment Plan",
+        "pricePkr": 65000000,
+        "pricePerSqft": 32500.0,
+        "beds": 3,
+        "areaSqft": 2000.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297622984/24dc6f4208be4f91b9f951b0d2712ae0",
+        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_luxury_3-bed_fully_fitted_golf_view_apartment_flexible_payment_plan-54023441-12602-1.html"
+      },
+      {
+        "id": 53561621,
+        "title": "3 Beds Apartment For Sale",
+        "pricePkr": 58000000,
+        "pricePerSqft": 26291.93,
+        "beds": 3,
+        "areaSqft": 2206.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/291916123/ad016a3b1a214fc7b6b4a9ac2d2563c5",
+        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_3_beds_apartment_for_sale-53561621-12602-1.html"
       }
     ]
   },
   {
     "name": "Faisal Hills",
     "centroid": {
-      "latitude": 36.967487,
-      "longitude": 69.526934
+      "latitude": 33.707831,
+      "longitude": 72.783397
     },
-    "listingCount": 12,
-    "mappedCount": 12,
-    "medianPricePkr": 6415000.0,
-    "medianPricePerSqft": 4266.66,
+    "listingCount": 8,
+    "mappedCount": 8,
+    "medianPricePkr": 6840000.0,
+    "medianPricePerSqft": 3644.44,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 18.0,
-    "minPricePkr": 3800000,
-    "maxPricePkr": 24000000,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 3600000,
+    "maxPricePkr": 13160000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 1,
-        "share": 0.0833
+        "count": 0,
+        "share": 0.0
       },
       "apartment": {
         "label": "Flats & Apartments",
         "count": 3,
-        "share": 0.25
+        "share": 0.375
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 8,
-        "share": 0.6667
+        "count": 5,
+        "share": 0.625
       }
     },
-    "cityMedianPpsfDeltaPct": -65.85,
-    "cityMedianTicketDeltaPct": -74.34,
+    "cityMedianPpsfDeltaPct": -72.75,
+    "cityMedianTicketDeltaPct": -77.16,
     "priceTier": "Value",
     "sampleListings": [
-      {
-        "id": 54242185,
-        "title": "Faisal Hills House Sized 5 Marla",
-        "pricePkr": 24000000,
-        "pricePerSqft": 21333.33,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298155320/35a07e34f2884096bda9938bee3dca3a",
-        "url": "https://www.zameen.com/Property/islamabad_faisal_hills_faisal_hills_house_sized_5_marla-54242185-10859-1.html"
-      },
       {
         "id": 54244802,
         "title": "THE RESIDENCES BY ALTAF DEVELOPMENT STUDIO APARTMENTS",
@@ -472,23 +666,305 @@
         "areaSqft": 800.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/289529467/b308aea554404edab7938956c37421bb",
         "url": "https://www.zameen.com/Property/islamabad_faisal_hills_2_bedroom_apartment_for_sale-53378960-10859-1.html"
+      },
+      {
+        "id": 53367435,
+        "title": "One Bedroom Apartment On Installment Plan",
+        "pricePkr": 7980000,
+        "pricePerSqft": 15000.0,
+        "beds": 1,
+        "areaSqft": 532.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/289370329/272985a89c7a47f59135e196e2f24d09",
+        "url": "https://www.zameen.com/Property/islamabad_faisal_hills_one_bedroom_apartment_on_installment_plan-53367435-10859-1.html"
       }
     ]
   },
   {
-    "name": "E-16",
+    "name": "F-8",
     "centroid": {
-      "latitude": 33.655114,
-      "longitude": 72.883501
+      "latitude": 33.710924,
+      "longitude": 73.043566
     },
-    "listingCount": 12,
-    "mappedCount": 12,
-    "medianPricePkr": 8250000.0,
-    "medianPricePerSqft": 3733.33,
+    "listingCount": 7,
+    "mappedCount": 7,
+    "medianPricePkr": 222500000.0,
+    "medianPricePerSqft": 49444.44,
+    "medianAreaSqft": 4500.0,
+    "medianFreshnessHours": 24.0,
+    "minPricePkr": 55000000,
+    "maxPricePkr": 1250000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 4,
+        "share": 0.5714
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 3,
+        "share": 0.4286
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 269.71,
+    "cityMedianTicketDeltaPct": 642.9,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 53492540,
+        "title": "Brand New Triple-Storey Designer House For Sale In F-8",
+        "pricePkr": 415000000,
+        "pricePerSqft": 92222.22,
+        "beds": 6,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/291020021/d189841f1c9f45d0b77c3e2062e763d4",
+        "url": "https://www.zameen.com/Property/islamabad_f-8_brand_new_triple-storey_designer_house_for_sale_in_f-8-53492540-166-1.html"
+      },
+      {
+        "id": 53657967,
+        "title": "F-8 New House For Sale ! 2000 Sq Yard ! 100 By 180! CDA Transfer",
+        "pricePkr": 1250000000,
+        "pricePerSqft": 69444.44,
+        "beds": 8,
+        "areaSqft": 18000.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292825811/d4dc06d6b45e477681b4bc6428584cf2",
+        "url": "https://www.zameen.com/Property/islamabad_f-8_f-8_new_house_for_sale_2000_sq_yard_100_by_180_cda_transfer-53657967-166-1.html"
+      },
+      {
+        "id": 53612669,
+        "title": "Old House Is For SALE In F-8",
+        "pricePkr": 240000000,
+        "pricePerSqft": 53333.33,
+        "beds": 4,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296553147/c85a3b06347840fb9bdfce42ae8f0bac",
+        "url": "https://www.zameen.com/Property/islamabad_f-8_old_house_is_for_sale_in_f-8-53612669-166-1.html"
+      }
+    ]
+  },
+  {
+    "name": "F-7",
+    "centroid": {
+      "latitude": 33.720413,
+      "longitude": 73.056493
+    },
+    "listingCount": 6,
+    "mappedCount": 6,
+    "medianPricePkr": 515000000.0,
+    "medianPricePerSqft": 63888.89,
+    "medianAreaSqft": 7650.0,
+    "medianFreshnessHours": 14.0,
+    "minPricePkr": 280000000,
+    "maxPricePkr": 1750000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 6,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 377.71,
+    "cityMedianTicketDeltaPct": 1619.53,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 53604121,
+        "title": "Offer Offer! 6 Months Time Modern Brand-New House Is For SALE",
+        "pricePkr": 580000000,
+        "pricePerSqft": 99145.3,
+        "beds": 6,
+        "areaSqft": 5850.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292299469/a318b6d12c6d468fbf3c1509e9c5d0a5",
+        "url": "https://www.zameen.com/Property/islamabad_f-7_offer_offer_6_months_time_modern_brand-new_house_is_for_sale-53604121-165-1.html"
+      },
+      {
+        "id": 53998467,
+        "title": "Prime 2000 Sq Yards House with 4 Kanal Extra Land Nearly 8 Kanal Total F-7 Islamabad",
+        "pricePkr": 1750000000,
+        "pricePerSqft": 97222.22,
+        "beds": null,
+        "areaSqft": 18000.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295880898/cd7baf9fe84a4bf3b35466bb293be53b",
+        "url": "https://www.zameen.com/Property/islamabad_f-7_prime_2000_sq_yards_house_with_4_kanal_extra_land_nearly_8_kanal_total_f-7_islamabad-53998467-165-1.html"
+      },
+      {
+        "id": 54000891,
+        "title": "50X90 Prime Location Old House Is Available For Sale",
+        "pricePkr": 295000000,
+        "pricePerSqft": 65555.56,
+        "beds": 4,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295855599/c07d975e13614ff8899dab0517152e58",
+        "url": "https://www.zameen.com/Property/islamabad_f-7_50x90_prime_location_old_house_is_available_for_sale-54000891-165-1.html"
+      }
+    ]
+  },
+  {
+    "name": "F-10",
+    "centroid": {
+      "latitude": 33.692338,
+      "longitude": 73.013844
+    },
+    "listingCount": 6,
+    "mappedCount": 6,
+    "medianPricePkr": 102000000.0,
+    "medianPricePerSqft": 42362.15,
+    "medianAreaSqft": 1987.5,
+    "medianFreshnessHours": 23.5,
+    "minPricePkr": 25000000,
+    "maxPricePkr": 219000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 0.1667
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 5,
+        "share": 0.8333
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 216.75,
+    "cityMedianTicketDeltaPct": 240.57,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 54230736,
+        "title": "Sukh Chayn Residence 3 Bedrooms Flat For Sale",
+        "pricePkr": 115000000,
+        "pricePerSqft": 58673.47,
+        "beds": 3,
+        "areaSqft": 1960.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297993691/29238030812a46e4bdef92d8dead6306",
+        "url": "https://www.zameen.com/Property/f_10_sukh_chayn_residence_sukh_chayn_residence_3_bedrooms_flat_for_sale-54230736-13589-1.html"
+      },
+      {
+        "id": 52550604,
+        "title": "4 Bed Corner Apartment Available For Sale In Sukh Chayn Resident F-10 Apartment",
+        "pricePkr": 132500000,
+        "pricePerSqft": 47321.43,
+        "beds": 4,
+        "areaSqft": 2800.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/278173345/3b6fd2423f6c4420b5c6de5c2a8dc5ea",
+        "url": "https://www.zameen.com/Property/f_10_sukh_chayn_residence_4_bed_corner_apartment_available_for_sale_in_sukh_chayn_resident_f-10_apartment-52550604-13589-1.html"
+      },
+      {
+        "id": 52465161,
+        "title": "Brand New 3 Bed Apartment Available For Sale In The Heart Of Islamabad, All Facilities Available",
+        "pricePkr": 89000000,
+        "pricePerSqft": 44168.73,
+        "beds": 3,
+        "areaSqft": 2015.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/278321765/e4e0bb863fda4cccbf0ca816430e8d9b",
+        "url": "https://www.zameen.com/Property/f_10_sukh_chayn_residence_brand_new_3_bed_apartment_available_for_sale_in_the_heart_of_islamabad_all_facilities_available-52465161-13589-1.html"
+      }
+    ]
+  },
+  {
+    "name": "FECHS",
+    "centroid": {
+      "latitude": 33.571391,
+      "longitude": 73.167273
+    },
+    "listingCount": 6,
+    "mappedCount": 6,
+    "medianPricePkr": 31856792.0,
+    "medianPricePerSqft": 21600.02,
+    "medianAreaSqft": 1542.0,
+    "medianFreshnessHours": 24.0,
+    "minPricePkr": 5500000,
+    "maxPricePkr": 43814057,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 2,
+        "share": 0.3333
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 4,
+        "share": 0.6667
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 61.51,
+    "cityMedianTicketDeltaPct": 6.37,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 52864531,
+        "title": "Luxury Branded Residence for Sale in IMARAT Downtown",
+        "pricePkr": 28073600,
+        "pricePerSqft": 31020.55,
+        "beds": 1,
+        "areaSqft": 905.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/287510114/796bbe8d16074f18b99cfac59ae98504",
+        "url": "https://www.zameen.com/Property/jinnah_gardens_mall_of_imarat_luxury_branded_residence_for_sale_in_imarat_downtown-52864531-22031-1.html"
+      },
+      {
+        "id": 54190631,
+        "title": "Masterpiece Living: The Finest 07 Marla Designer Villa in Jinnah Garden, Islamabad",
+        "pricePkr": 40000000,
+        "pricePerSqft": 25396.83,
+        "beds": 4,
+        "areaSqft": 1575.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297637932/cfa588795c7746a49574036bfad2eeae",
+        "url": "https://www.zameen.com/Property/jinnah_gardens_jinnah_gardens_phase_1_masterpiece_living_the_finest_07_marla_designer_villa_in_jinnah_garden_islamabad-54190631-1421-1.html"
+      },
+      {
+        "id": 53764734,
+        "title": "Own A Luxury 3 Bed Apartment At IMARAT Residences",
+        "pricePkr": 43814057,
+        "pricePerSqft": 21852.4,
+        "beds": 3,
+        "areaSqft": 2005.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295085096/d61cf05c8cb14b4c8c09ddec3108eeeb",
+        "url": "https://www.zameen.com/Property/jinnah_gardens_mall_of_imarat_own_a_luxury_3_bed_apartment_at_imarat_residences-53764734-22031-1.html"
+      }
+    ]
+  },
+  {
+    "name": "Margalla Avenue",
+    "centroid": {
+      "latitude": 33.694117,
+      "longitude": 73.004885
+    },
+    "listingCount": 6,
+    "mappedCount": 6,
+    "medianPricePkr": 40000000.0,
+    "medianPricePerSqft": 15000.0,
     "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 3500000,
-    "maxPricePkr": 13000000,
+    "medianFreshnessHours": 3.5,
+    "minPricePkr": 14000000,
+    "maxPricePkr": 65000000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -498,18 +974,426 @@
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 4,
-        "share": 0.3333
+        "count": 0,
+        "share": 0.0
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 8,
-        "share": 0.6667
+        "count": 6,
+        "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -70.12,
-    "cityMedianTicketDeltaPct": -67.0,
+    "cityMedianPpsfDeltaPct": 12.16,
+    "cityMedianTicketDeltaPct": 33.56,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 54254360,
+        "title": "ME-1 10 Marla Corner & Ring Road Plots Available on Installments",
+        "pricePkr": 45000000,
+        "pricePerSqft": 20000.0,
+        "beds": null,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298197412/737c442106844f8a98157109ab3b3d79",
+        "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_me-1_10_marla_corner_ring_road_plots_available_on_installments-54254360-21436-2.html"
+      },
+      {
+        "id": 54182219,
+        "title": "Margalla Enclave Islamabad 5 Marla Plot Available For Best Location And Hieghted Plot",
+        "pricePkr": 18000000,
+        "pricePerSqft": 16000.0,
+        "beds": null,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297553278/c0c33d8eb41442b5a872f01cf58ef8f7",
+        "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_islamabad_5_marla_plot_available_for_best_location_and_hieghted_plot-54182219-21436-2.html"
+      },
+      {
+        "id": 54000473,
+        "title": "Margalla Enclave Islamabad 10 Marla Plot For Sale In Easy Installment Plan For Best Location",
+        "pricePkr": 35000000,
+        "pricePerSqft": 15555.56,
+        "beds": null,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295851178/fec219d6d02c43fba4f6d4e9c2338d0a",
+        "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_islamabad_10_marla_plot_for_sale_in_easy_installment_plan_for_best_location-54000473-21436-2.html"
+      }
+    ]
+  },
+  {
+    "name": "Soan Garden",
+    "centroid": {
+      "latitude": 33.559958,
+      "longitude": 73.156473
+    },
+    "listingCount": 5,
+    "mappedCount": 5,
+    "medianPricePkr": 28000000.0,
+    "medianPricePerSqft": 19568.82,
+    "medianAreaSqft": 1507.5,
+    "medianFreshnessHours": 3.0,
+    "minPricePkr": 26000000,
+    "maxPricePkr": 29500000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 3,
+        "share": 0.6
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 2,
+        "share": 0.4
+      }
+    },
+    "cityMedianPpsfDeltaPct": 46.32,
+    "cityMedianTicketDeltaPct": -6.51,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 53759062,
+        "title": "6 Marla Brand New House Available For Sale In Soan Garden Islamabad",
+        "pricePkr": 29000000,
+        "pricePerSqft": 21481.48,
+        "beds": 4,
+        "areaSqft": 1350.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293721487/80b1fe178583432da8aa1df549712768",
+        "url": "https://www.zameen.com/Property/soan_garden_soan_garden_-_block_h_6_marla_brand_new_house_available_for_sale_in_soan_garden_islamabad-53759062-3498-1.html"
+      },
+      {
+        "id": 53832440,
+        "title": "6 Marla Brand New Double Storey House for Sale in Soan Garden Housing Society, H Block Prime Location on Islamabad Expressway",
+        "pricePkr": 28000000,
+        "pricePerSqft": 20740.74,
+        "beds": 4,
+        "areaSqft": 1350.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294382673/e1dc51d4b0814345a0b444bf76abc81a",
+        "url": "https://www.zameen.com/Property/soan_garden_soan_garden_-_block_h_6_marla_brand_new_double_storey_house_for_sale_in_soan_garden_housing_society_h_block_prime_location_on_islamabad_expressway-53832440-3498-1.html"
+      },
+      {
+        "id": 51874408,
+        "title": "Brand New Double Storey House Available For Sale In Soan Garden Islamabad",
+        "pricePkr": 29500000,
+        "pricePerSqft": 19568.82,
+        "beds": 4,
+        "areaSqft": 1507.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/271965569/e98c56769de247efb29ac9d05fc31857",
+        "url": "https://www.zameen.com/Property/islamabad_soan_garden_brand_new_double_storey_house_available_for_sale_in_soan_garden_islamabad-51874408-338-1.html"
+      }
+    ]
+  },
+  {
+    "name": "G-11",
+    "centroid": {
+      "latitude": 33.674124,
+      "longitude": 73.000076
+    },
+    "listingCount": 5,
+    "mappedCount": 5,
+    "medianPricePkr": 29800000.0,
+    "medianPricePerSqft": 19225.97,
+    "medianAreaSqft": 1542.0,
+    "medianFreshnessHours": 22.0,
+    "minPricePkr": 17000000,
+    "maxPricePkr": 38500000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 0.2
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 4,
+        "share": 0.8
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 43.76,
+    "cityMedianTicketDeltaPct": -0.5,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 53988968,
+        "title": "700 Square Feet Apartment Available For Sale In G 11 /3 New PHA Isb",
+        "pricePkr": 17000000,
+        "pricePerSqft": 24285.71,
+        "beds": 2,
+        "areaSqft": 700.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297188211/a586c860babc4139867e219ddf8b35bb",
+        "url": "https://www.zameen.com/Property/g_11_g-11_3_700_square_feet_apartment_available_for_sale_in_g_11_3_new_pha_isb-53988968-3332-1.html"
+      },
+      {
+        "id": 52851943,
+        "title": "Flat Is Available For Sale In G-11/3",
+        "pricePkr": 31500000,
+        "pricePerSqft": 21951.22,
+        "beds": 2,
+        "areaSqft": 1435.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297617290/84d6479243ac4f52a6ad3907ffd689a4",
+        "url": "https://www.zameen.com/Property/g_11_g-11_3_flat_is_available_for_sale_in_g-11_3-52851943-3332-1.html"
+      },
+      {
+        "id": 53549740,
+        "title": "3 Bed Luxury Apartment (TOP FLOOR CORNER) Is Available For SALE At Warda Hamna Residencia III G-11/3 Islamabad",
+        "pricePkr": 38500000,
+        "pricePerSqft": 19225.97,
+        "beds": 3,
+        "areaSqft": 2002.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/291771181/e9d6969a3f6b4847bb3b8200388c1948",
+        "url": "https://www.zameen.com/Property/g_11_3_warda_hamna_residencia_3_3_bed_luxury_apartment_top_floor_corner_is_available_for_sale_at_warda_hamna_residencia_iii_g-11_3_islamabad-53549740-11863-1.html"
+      }
+    ]
+  },
+  {
+    "name": "G-15",
+    "centroid": {
+      "latitude": 33.635039,
+      "longitude": 72.927324
+    },
+    "listingCount": 5,
+    "mappedCount": 5,
+    "medianPricePkr": 16500000.0,
+    "medianPricePerSqft": 15348.84,
+    "medianAreaSqft": 1237.5,
+    "medianFreshnessHours": 23.0,
+    "minPricePkr": 11700000,
+    "maxPricePkr": 32000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 0.2
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 3,
+        "share": 0.6
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 1,
+        "share": 0.2
+      }
+    },
+    "cityMedianPpsfDeltaPct": 14.77,
+    "cityMedianTicketDeltaPct": -44.91,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 53817034,
+        "title": "1 BED FOR SALE IN ZARKON HEIGHTS G15 ISLAMABAD",
+        "pricePkr": 11700000,
+        "pricePerSqft": 18901.45,
+        "beds": 1,
+        "areaSqft": 619.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294241059/24c7900b34a84656a58d87e0cca54e1d",
+        "url": "https://www.zameen.com/Property/g_15_zarkon_heights_1_bed_for_sale_in_zarkon_heights_g15_islamabad-53817034-10169-1.html"
+      },
+      {
+        "id": 54186281,
+        "title": "2 BED FOR SALE IN ZARKON HEIGHTS G15 ISLAMBAD BLOCK B,C,D,E,F",
+        "pricePkr": 19000000,
+        "pricePerSqft": 15353.54,
+        "beds": 2,
+        "areaSqft": 1237.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297595828/2c01056944074f5797032e042389b9ac",
+        "url": "https://www.zameen.com/Property/g_15_zarkon_heights_2_bed_for_sale_in_zarkon_heights_g15_islambad_block_b_c_d_e_f-54186281-10169-1.html"
+      },
+      {
+        "id": 54138526,
+        "title": "Flat Of 1075 Square Feet In Zarkon Heights For sale",
+        "pricePkr": 16500000,
+        "pricePerSqft": 15348.84,
+        "beds": 2,
+        "areaSqft": 1075.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297184449/3abb9753fc5f492aab2c9130413fb1de",
+        "url": "https://www.zameen.com/Property/g_15_zarkon_heights_flat_of_1075_square_feet_in_zarkon_heights_for_sale-54138526-10169-1.html"
+      }
+    ]
+  },
+  {
+    "name": "I-12",
+    "centroid": {
+      "latitude": 33.63039,
+      "longitude": 73.002639
+    },
+    "listingCount": 5,
+    "mappedCount": 5,
+    "medianPricePkr": 14000000.0,
+    "medianPricePerSqft": 11555.56,
+    "medianAreaSqft": 1125.0,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 6000000,
+    "maxPricePkr": 17000000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 1,
+        "share": 0.2
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 4,
+        "share": 0.8
+      }
+    },
+    "cityMedianPpsfDeltaPct": -13.6,
+    "cityMedianTicketDeltaPct": -53.26,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": 54069079,
+        "title": "Plot Number In Series 352 Is Available For Sale",
+        "pricePkr": 14800000,
+        "pricePerSqft": 13155.56,
+        "beds": null,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296493154/7c17562e2c634ce39e974bd5e71b2630",
+        "url": "https://www.zameen.com/Property/islamabad_i-12_plot_number_in_series_352_is_available_for_sale-54069079-1418-2.html"
+      },
+      {
+        "id": 54141697,
+        "title": "Park Face Plot Is Available For Sale",
+        "pricePkr": 14000000,
+        "pricePerSqft": 12444.44,
+        "beds": null,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297178538/4facf50a20c548b7a6687677f9258535",
+        "url": "https://www.zameen.com/Property/i_12_i-12_3_park_face_plot_is_available_for_sale-54141697-13802-2.html"
+      },
+      {
+        "id": 53676292,
+        "title": "Top Location Level And Heighted Plot",
+        "pricePkr": 13000000,
+        "pricePerSqft": 11555.56,
+        "beds": null,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292981508/c971c53cbfc445ca8b5b667882ae11e2",
+        "url": "https://www.zameen.com/Property/i_12_i-12_3_top_location_level_and_heighted_plot-53676292-13802-2.html"
+      }
+    ]
+  },
+  {
+    "name": "Islamabad - Murree Expressway",
+    "centroid": {
+      "latitude": 33.802818,
+      "longitude": 73.298704
+    },
+    "listingCount": 5,
+    "mappedCount": 5,
+    "medianPricePkr": 14500000.0,
+    "medianPricePerSqft": 7242.8,
+    "medianAreaSqft": 1507.5,
+    "medianFreshnessHours": 0.17,
+    "minPricePkr": 4400000,
+    "maxPricePkr": 26294000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 5,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -45.84,
+    "cityMedianTicketDeltaPct": -51.59,
     "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": 53538099,
+        "title": "Luxury Living Premium 2-Bed Residence In Prestigious 360 Residencies",
+        "pricePkr": 26294000,
+        "pricePerSqft": 17442.12,
+        "beds": 2,
+        "areaSqft": 1507.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/291607896/de81ebdb666040dd8a9c8eac7a44ab39",
+        "url": "https://www.zameen.com/Property/islamabad_islamabad_-_murree_expressway_luxury_living_premium_2-bed_residence_in_prestigious_360_residencies-53538099-342-1.html"
+      },
+      {
+        "id": 53335614,
+        "title": "Breathtaking Views: 2-Bed Apartment Overlooking Margalla And Murree Hills At 360 The Residencies",
+        "pricePkr": 19717500,
+        "pricePerSqft": 16534.59,
+        "beds": 2,
+        "areaSqft": 1192.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/288939947/6f3f226b04dd4e6eb8990f911665d7ae",
+        "url": "https://www.zameen.com/Property/islamabad_islamabad_-_murree_expressway_breathtaking_views_2-bed_apartment_overlooking_margalla_and_murree_hills_at_360_the_residencies-53335614-342-1.html"
+      },
+      {
+        "id": 53682449,
+        "title": "The Perfect Weekend Escape: Low-Maintenance 1-Bed at Country Club Apartments",
+        "pricePkr": 4400000,
+        "pricePerSqft": 7242.8,
+        "beds": 1,
+        "areaSqft": 607.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293039551/647b0418a6d644e68bc9d0debc4eabcb",
+        "url": "https://www.zameen.com/Property/islamabad_murree_expressway_country_club_apartments_the_perfect_weekend_escape_low-maintenance_1-bed_at_country_club_apartments-53682449-9681-1.html"
+      }
+    ]
+  },
+  {
+    "name": "E-16",
+    "centroid": {
+      "latitude": 33.655031,
+      "longitude": 72.883815
+    },
+    "listingCount": 4,
+    "mappedCount": 4,
+    "medianPricePkr": 5300000.0,
+    "medianPricePerSqft": 9123.78,
+    "medianAreaSqft": 582.5,
+    "medianFreshnessHours": 48.0,
+    "minPricePkr": 3500000,
+    "maxPricePkr": 6100000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 4,
+        "share": 1.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -31.78,
+    "cityMedianTicketDeltaPct": -82.3,
+    "priceTier": "Mid-market",
     "sampleListings": [
       {
         "id": 49361958,
@@ -544,686 +1428,6 @@
     ]
   },
   {
-    "name": "F-10",
-    "centroid": {
-      "latitude": 33.692925,
-      "longitude": 73.013058
-    },
-    "listingCount": 10,
-    "mappedCount": 10,
-    "medianPricePkr": 102000000.0,
-    "medianPricePerSqft": 45381.86,
-    "medianAreaSqft": 1987.5,
-    "medianFreshnessHours": 17.0,
-    "minPricePkr": 25000000,
-    "maxPricePkr": 700000000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 3,
-        "share": 0.3
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 7,
-        "share": 0.7
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 263.19,
-    "cityMedianTicketDeltaPct": 308.0,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 53717731,
-        "title": "F-10: Ultra-Luxury 1111 Yards, 10-Bed, Prestigious Residence, Designed For High-Profile Families, Ample Parking For 6+ SUVS/VIGOES. Price 70 Crores",
-        "pricePkr": 700000000,
-        "pricePerSqft": 70707.07,
-        "beds": 10,
-        "areaSqft": 9900.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293353575/f1d3d8ed87fc4f599408433cec902bdf",
-        "url": "https://www.zameen.com/Property/islamabad_f-10_f-10_ultra-luxury_1111_yards_10-bed_prestigious_residence_designed_for_high-profile_families_ample_parking_for_6_suvs_vigoes_price_70_crores-53717731-162-1.html"
-      },
-      {
-        "id": 54230736,
-        "title": "Sukh Chayn Residence 3 Bedrooms Flat For Sale",
-        "pricePkr": 115000000,
-        "pricePerSqft": 58673.47,
-        "beds": 3,
-        "areaSqft": 1960.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297993691/29238030812a46e4bdef92d8dead6306",
-        "url": "https://www.zameen.com/Property/f_10_sukh_chayn_residence_sukh_chayn_residence_3_bedrooms_flat_for_sale-54230736-13589-1.html"
-      },
-      {
-        "id": 51924737,
-        "title": "Brand New Project 2024, SUKH Chayn F-10, Front Of F-9 Park & Attached With F-10 Markaz ,All Life Facilities Available",
-        "pricePkr": 67000000,
-        "pricePerSqft": 55833.33,
-        "beds": 2,
-        "areaSqft": 1200.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/279986269/0f8748026270488590dd1f233a167bf5",
-        "url": "https://www.zameen.com/Property/f_10_sukh_chayn_residence_brand_new_project_2024_sukh_chayn_f-10_front_of_f-9_park_attached_with_f-10_markaz_all_life_facilities_available-51924737-13589-1.html"
-      }
-    ]
-  },
-  {
-    "name": "D-12",
-    "centroid": {
-      "latitude": 42.43786,
-      "longitude": 64.224933
-    },
-    "listingCount": 9,
-    "mappedCount": 9,
-    "medianPricePkr": 75000000.0,
-    "medianPricePerSqft": 40317.46,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 35500000,
-    "maxPricePkr": 160000000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 4,
-        "share": 0.4444
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 5,
-        "share": 0.5556
-      }
-    },
-    "cityMedianPpsfDeltaPct": 222.66,
-    "cityMedianTicketDeltaPct": 200.0,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 53337440,
-        "title": "D12/4 Luxury Furnished Brand New Double Storey House 5 Bed Attach Bath",
-        "pricePkr": 135000000,
-        "pricePerSqft": 60000.0,
-        "beds": 5,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/288969311/c28ae2e1001846bd92347be11164805c",
-        "url": "https://www.zameen.com/Property/d_12_d-12_4_d12_4_luxury_furnished_brand_new_double_storey_house_5_bed_attach_bath-53337440-3157-1.html"
-      },
-      {
-        "id": 51821715,
-        "title": "On Excellent Location 10 Marla House In Stunning D-12/1 Is Available For sale",
-        "pricePkr": 120000000,
-        "pricePerSqft": 53333.33,
-        "beds": 7,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/271436686/124756e35f3347928296f34ccde27351",
-        "url": "https://www.zameen.com/Property/d_12_d-12_1_on_excellent_location_10_marla_house_in_stunning_d-12_1_is_available_for_sale-51821715-3154-1.html"
-      },
-      {
-        "id": 53870788,
-        "title": "4 Marla Brand New House for Sale",
-        "pricePkr": 47000000,
-        "pricePerSqft": 52222.22,
-        "beds": 4,
-        "areaSqft": 900.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294746313/68d5a0c1da334f79b9eabc6e42d55c5e",
-        "url": "https://www.zameen.com/Property/d_12_d-12_1_4_marla_brand_new_house_for_sale-53870788-3154-1.html"
-      }
-    ]
-  },
-  {
-    "name": "G-11",
-    "centroid": {
-      "latitude": 33.671827,
-      "longitude": 72.999759
-    },
-    "listingCount": 8,
-    "mappedCount": 8,
-    "medianPricePkr": 32000000.0,
-    "medianPricePerSqft": 21278.64,
-    "medianAreaSqft": 1592.25,
-    "medianFreshnessHours": 20.0,
-    "minPricePkr": 17000000,
-    "maxPricePkr": 48000000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 2,
-        "share": 0.25
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 6,
-        "share": 0.75
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 70.29,
-    "cityMedianTicketDeltaPct": 28.0,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 53911697,
-        "title": "4 Marla Brand New Luxury Double Storey House For Sale In ( Sector G-11 ) , Islamabad",
-        "pricePkr": 46000000,
-        "pricePerSqft": 51111.11,
-        "beds": 3,
-        "areaSqft": 900.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295100432/860524a2ba6e4070a3089a5ef1e4490b",
-        "url": "https://www.zameen.com/Property/islamabad_g-11_4_marla_brand_new_luxury_double_storey_house_for_sale_in_sector_g-11_islamabad-53911697-168-1.html"
-      },
-      {
-        "id": 53452784,
-        "title": "Warda Hamna Tower 4 Brand New 3Bed Luxury Apartment Available For Sale",
-        "pricePkr": 48000000,
-        "pricePerSqft": 24489.8,
-        "beds": 3,
-        "areaSqft": 1960.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/290510067/91fed36973da4287ad5d1f1438d4cfb4",
-        "url": "https://www.zameen.com/Property/g_11_markaz_warda_hamna_residencia_warda_hamna_tower_4_brand_new_3bed_luxury_apartment_available_for_sale-53452784-22209-1.html"
-      },
-      {
-        "id": 53988968,
-        "title": "700 Square Feet Apartment Available For Sale In G 11 /3 New PHA Isb",
-        "pricePkr": 17000000,
-        "pricePerSqft": 24285.71,
-        "beds": 2,
-        "areaSqft": 700.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297188211/a586c860babc4139867e219ddf8b35bb",
-        "url": "https://www.zameen.com/Property/g_11_g-11_3_700_square_feet_apartment_available_for_sale_in_g_11_3_new_pha_isb-53988968-3332-1.html"
-      }
-    ]
-  },
-  {
-    "name": "G-15",
-    "centroid": {
-      "latitude": 33.633733,
-      "longitude": 72.926392
-    },
-    "listingCount": 8,
-    "mappedCount": 8,
-    "medianPricePkr": 14150000.0,
-    "medianPricePerSqft": 13160.32,
-    "medianAreaSqft": 1156.25,
-    "medianFreshnessHours": 16.0,
-    "minPricePkr": 3500000,
-    "maxPricePkr": 51000000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 3,
-        "share": 0.375
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 5,
-        "share": 0.625
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 5.32,
-    "cityMedianTicketDeltaPct": -43.4,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 53817034,
-        "title": "1 BED FOR SALE IN ZARKON HEIGHTS G15 ISLAMABAD",
-        "pricePkr": 11700000,
-        "pricePerSqft": 18901.45,
-        "beds": 1,
-        "areaSqft": 619.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294241059/24c7900b34a84656a58d87e0cca54e1d",
-        "url": "https://www.zameen.com/Property/g_15_zarkon_heights_1_bed_for_sale_in_zarkon_heights_g15_islamabad-53817034-10169-1.html"
-      },
-      {
-        "id": 53974259,
-        "title": "Beautiful Designer 14 Marla ( 40*80 ) House For Sale in G-15 Islamabad.",
-        "pricePkr": 51000000,
-        "pricePerSqft": 16190.48,
-        "beds": 7,
-        "areaSqft": 3150.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295627110/32c99593b3bb43738e231d77efab54a6",
-        "url": "https://www.zameen.com/Property/islamabad_g-15_beautiful_designer_14_marla_40_80_house_for_sale_in_g-15_islamabad-53974259-764-1.html"
-      },
-      {
-        "id": 54186281,
-        "title": "2 BED FOR SALE IN ZARKON HEIGHTS G15 ISLAMBAD BLOCK B,C,D,E,F",
-        "pricePkr": 19000000,
-        "pricePerSqft": 15353.54,
-        "beds": 2,
-        "areaSqft": 1237.5,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297595828/2c01056944074f5797032e042389b9ac",
-        "url": "https://www.zameen.com/Property/g_15_zarkon_heights_2_bed_for_sale_in_zarkon_heights_g15_islambad_block_b_c_d_e_f-54186281-10169-1.html"
-      }
-    ]
-  },
-  {
-    "name": "F-8",
-    "centroid": {
-      "latitude": 33.710924,
-      "longitude": 73.043566
-    },
-    "listingCount": 7,
-    "mappedCount": 7,
-    "medianPricePkr": 222500000.0,
-    "medianPricePerSqft": 49444.44,
-    "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 17.0,
-    "minPricePkr": 55000000,
-    "maxPricePkr": 700000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 4,
-        "share": 0.5714
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 3,
-        "share": 0.4286
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 295.71,
-    "cityMedianTicketDeltaPct": 790.0,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 53492540,
-        "title": "Brand New Triple-Storey Designer House For Sale In F-8",
-        "pricePkr": 415000000,
-        "pricePerSqft": 92222.22,
-        "beds": 6,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/291020021/d189841f1c9f45d0b77c3e2062e763d4",
-        "url": "https://www.zameen.com/Property/islamabad_f-8_brand_new_triple-storey_designer_house_for_sale_in_f-8-53492540-166-1.html"
-      },
-      {
-        "id": 54169872,
-        "title": "Prime Location On Marrgalla Road 1000sqyds In Coming Rent $5000 Only Serious Buyers-",
-        "pricePkr": 700000000,
-        "pricePerSqft": 77777.78,
-        "beds": 5,
-        "areaSqft": 9000.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297436175/5baf52539e594ae4b68de7842704f47e",
-        "url": "https://www.zameen.com/Property/islamabad_f-8_prime_location_on_marrgalla_road_1000sqyds_in_coming_rent_5000_only_serious_buyers--54169872-166-1.html"
-      },
-      {
-        "id": 53612669,
-        "title": "Old House Is For SALE In F-8",
-        "pricePkr": 240000000,
-        "pricePerSqft": 53333.33,
-        "beds": 4,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296553147/c85a3b06347840fb9bdfce42ae8f0bac",
-        "url": "https://www.zameen.com/Property/islamabad_f-8_old_house_is_for_sale_in_f-8-53612669-166-1.html"
-      }
-    ]
-  },
-  {
-    "name": "F-7",
-    "centroid": {
-      "latitude": 33.720413,
-      "longitude": 73.056493
-    },
-    "listingCount": 6,
-    "mappedCount": 6,
-    "medianPricePkr": 490000000.0,
-    "medianPricePerSqft": 53068.79,
-    "medianAreaSqft": 9225.0,
-    "medianFreshnessHours": 48.0,
-    "minPricePkr": 295000000,
-    "maxPricePkr": 1750000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 6,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 324.71,
-    "cityMedianTicketDeltaPct": 1860.0,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 53604121,
-        "title": "Offer Offer! 6 Months Time Modern Brand-New House Is For SALE",
-        "pricePkr": 580000000,
-        "pricePerSqft": 99145.3,
-        "beds": 6,
-        "areaSqft": 5850.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292299469/a318b6d12c6d468fbf3c1509e9c5d0a5",
-        "url": "https://www.zameen.com/Property/islamabad_f-7_offer_offer_6_months_time_modern_brand-new_house_is_for_sale-53604121-165-1.html"
-      },
-      {
-        "id": 54000891,
-        "title": "50X90 Prime Location Old House Is Available For Sale",
-        "pricePkr": 295000000,
-        "pricePerSqft": 65555.56,
-        "beds": 4,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295855599/c07d975e13614ff8899dab0517152e58",
-        "url": "https://www.zameen.com/Property/islamabad_f-7_50x90_prime_location_old_house_is_available_for_sale-54000891-165-1.html"
-      },
-      {
-        "id": 54150880,
-        "title": "Prime Location House 1066sqyds Size 80x120= CDA Transfer Two Owners-",
-        "pricePkr": 520000000,
-        "pricePerSqft": 55026.46,
-        "beds": 8,
-        "areaSqft": 9450.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297256016/907ebd759ea647b9942a4d2ab0374f13",
-        "url": "https://www.zameen.com/Property/islamabad_f-7_prime_location_house_1066sqyds_size_80x120_cda_transfer_two_owners--54150880-165-1.html"
-      }
-    ]
-  },
-  {
-    "name": "E-11",
-    "centroid": {
-      "latitude": 33.697555,
-      "longitude": 72.981351
-    },
-    "listingCount": 6,
-    "mappedCount": 6,
-    "medianPricePkr": 22000000.0,
-    "medianPricePerSqft": 14138.65,
-    "medianAreaSqft": 1550.0,
-    "medianFreshnessHours": 20.5,
-    "minPricePkr": 15500000,
-    "maxPricePkr": 130000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 3,
-        "share": 0.5
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 3,
-        "share": 0.5
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 13.15,
-    "cityMedianTicketDeltaPct": -12.0,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 54183372,
-        "title": "FOR SALE 40x90 Renovated Triple Storey 9 Beds E_11/2",
-        "pricePkr": 130000000,
-        "pricePerSqft": 36111.11,
-        "beds": 9,
-        "areaSqft": 3600.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297568773/fcb198546ce844f4bc615c5298dcdb0c",
-        "url": "https://www.zameen.com/Property/islamabad_e-11_for_sale_40x90_renovated_triple_storey_9_beds_e_11_2-54183372-329-1.html"
-      },
-      {
-        "id": 54115150,
-        "title": "Prime location fully furnished flat for sale owner shifting abroad reasionable price-",
-        "pricePkr": 17000000,
-        "pricePerSqft": 15419.5,
-        "beds": 2,
-        "areaSqft": 1102.5,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296968730/64ef6d8e99f44423a4fbfe0d75646220",
-        "url": "https://www.zameen.com/Property/islamabad_e-11_prime_location_fully_furnished_flat_for_sale_owner_shifting_abroad_reasionable_price--54115150-329-1.html"
-      },
-      {
-        "id": 54251879,
-        "title": "Three Bed Luxury Furnished Apartment Available For Sale In E11-4 Apollo Tower Islamabad",
-        "pricePkr": 25000000,
-        "pricePerSqft": 14705.88,
-        "beds": 3,
-        "areaSqft": 1700.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298176621/f9abc8e61fa74711aeef768a0c87cbd9",
-        "url": "https://www.zameen.com/Property/e_11_e-11_4_three_bed_luxury_furnished_apartment_available_for_sale_in_e11-4_apollo_tower_islamabad-54251879-3241-1.html"
-      }
-    ]
-  },
-  {
-    "name": "H-13",
-    "centroid": {
-      "latitude": 33.637489,
-      "longitude": 72.972193
-    },
-    "listingCount": 5,
-    "mappedCount": 5,
-    "medianPricePkr": 13500000.0,
-    "medianPricePerSqft": 13414.63,
-    "medianAreaSqft": 1070.0,
-    "medianFreshnessHours": 12.0,
-    "minPricePkr": 5500000,
-    "maxPricePkr": 23000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 3,
-        "share": 0.6
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 2,
-        "share": 0.4
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 7.36,
-    "cityMedianTicketDeltaPct": -46.0,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 52696774,
-        "title": "5 Marla Triple Storey House For Sale",
-        "pricePkr": 23000000,
-        "pricePerSqft": 20444.44,
-        "beds": 6,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/279538035/449346a080c64d92a1ea967c683a6b9d",
-        "url": "https://www.zameen.com/Property/islamabad_h-13_5_marla_triple_storey_house_for_sale-52696774-1039-1.html"
-      },
-      {
-        "id": 52649385,
-        "title": "Flat For Sale Situated In H-13",
-        "pricePkr": 15000000,
-        "pricePerSqft": 14184.4,
-        "beds": 2,
-        "areaSqft": 1057.5,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/279135117/a2031bcf86da4c278d3a130e7a779f35",
-        "url": "https://www.zameen.com/Property/islamabad_h-13_flat_for_sale_situated_in_h-13-52649385-1039-1.html"
-      },
-      {
-        "id": 53384465,
-        "title": "One Bed Flat Is For Sale",
-        "pricePkr": 5500000,
-        "pricePerSqft": 13414.63,
-        "beds": 1,
-        "areaSqft": 410.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/289606857/1a6b9d082aad4ec3b7ac0c79d6ba1699",
-        "url": "https://www.zameen.com/Property/islamabad_h-13_one_bed_flat_is_for_sale-53384465-1039-1.html"
-      }
-    ]
-  },
-  {
-    "name": "FECHS",
-    "centroid": {
-      "latitude": 33.571074,
-      "longitude": 73.163489
-    },
-    "listingCount": 4,
-    "mappedCount": 4,
-    "medianPricePkr": 31856792.0,
-    "medianPricePerSqft": 21600.02,
-    "medianAreaSqft": 1542.0,
-    "medianFreshnessHours": 15.0,
-    "minPricePkr": 28073600,
-    "maxPricePkr": 43814057,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 0.25
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 3,
-        "share": 0.75
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 72.87,
-    "cityMedianTicketDeltaPct": 27.43,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 52864531,
-        "title": "Luxury Branded Residence for Sale in IMARAT Downtown",
-        "pricePkr": 28073600,
-        "pricePerSqft": 31020.55,
-        "beds": 1,
-        "areaSqft": 905.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/287510114/796bbe8d16074f18b99cfac59ae98504",
-        "url": "https://www.zameen.com/Property/jinnah_gardens_mall_of_imarat_luxury_branded_residence_for_sale_in_imarat_downtown-52864531-22031-1.html"
-      },
-      {
-        "id": 53764734,
-        "title": "Own A Luxury 3 Bed Apartment At IMARAT Residences",
-        "pricePkr": 43814057,
-        "pricePerSqft": 21852.4,
-        "beds": 3,
-        "areaSqft": 2005.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295085096/d61cf05c8cb14b4c8c09ddec3108eeeb",
-        "url": "https://www.zameen.com/Property/jinnah_gardens_mall_of_imarat_own_a_luxury_3_bed_apartment_at_imarat_residences-53764734-22031-1.html"
-      },
-      {
-        "id": 53803004,
-        "title": "2-Bed Luxury Apartment With Margalla Hills View At IMARAT Residences-2",
-        "pricePkr": 32213584,
-        "pricePerSqft": 21347.64,
-        "beds": 2,
-        "areaSqft": 1509.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294112000/b11b84270f0b41babc6d881ab8487920",
-        "url": "https://www.zameen.com/Property/jinnah_gardens_mall_of_imarat_2-bed_luxury_apartment_with_margalla_hills_view_at_imarat_residences-2-53803004-22031-1.html"
-      }
-    ]
-  },
-  {
-    "name": "Islamabad Expressway",
-    "centroid": {
-      "latitude": 33.620993,
-      "longitude": 73.12109
-    },
-    "listingCount": 4,
-    "mappedCount": 4,
-    "medianPricePkr": 19850000.0,
-    "medianPricePerSqft": 16151.51,
-    "medianAreaSqft": 907.5,
-    "medianFreshnessHours": 32.0,
-    "minPricePkr": 7200000,
-    "maxPricePkr": 24310000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 0.25
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 3,
-        "share": 0.75
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 29.26,
-    "cityMedianTicketDeltaPct": -20.6,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 53814441,
-        "title": "Limited Time Offer Smart Living Apartments Available At The Future Of Islamabad, ISLAMABAD DOWNTOWN!",
-        "pricePkr": 24310000,
-        "pricePerSqft": 34000.0,
-        "beds": 1,
-        "areaSqft": 715.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294270617/1b56ce88c46a459a8e7f85ebb54589de",
-        "url": "https://www.zameen.com/Property/islamabad_islamabad_expressway_limited_time_offer_smart_living_apartments_available_at_the_future_of_islamabad_islamabad_downtown-53814441-9014-1.html"
-      },
-      {
-        "id": 54110400,
-        "title": "6 Marla Triple Story House for Sale Ovaisco Villas (Near Gulberg Greens, Islamabad",
-        "pricePkr": 22500000,
-        "pricePerSqft": 16666.67,
-        "beds": 4,
-        "areaSqft": 1350.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296892557/4a033ecf16f24b33aa524dc2ce4722dd",
-        "url": "https://www.zameen.com/Property/islamabad_islamabad_expressway_6_marla_triple_story_house_for_sale_ovaisco_villas_near_gulberg_greens_islamabad-54110400-9014-1.html"
-      },
-      {
-        "id": 54202644,
-        "title": "Prime Location 2 Bed Furnished Apartment For Sale",
-        "pricePkr": 17200000,
-        "pricePerSqft": 15636.36,
-        "beds": 2,
-        "areaSqft": 1100.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297742683/80f95590c5ac4a0bb258ce8ff5370817",
-        "url": "https://www.zameen.com/Property/islamabad_islamabad_expressway_prime_location_2_bed_furnished_apartment_for_sale-54202644-9014-1.html"
-      }
-    ]
-  },
-  {
     "name": "F-17",
     "centroid": {
       "latitude": 33.626596,
@@ -1232,11 +1436,11 @@
     "listingCount": 4,
     "mappedCount": 4,
     "medianPricePkr": 7800000.0,
-    "medianPricePerSqft": 5344.7,
-    "medianAreaSqft": 1292.0,
-    "medianFreshnessHours": 21.5,
+    "medianPricePerSqft": 6537.88,
+    "medianAreaSqft": 971.5,
+    "medianFreshnessHours": 84.0,
     "minPricePkr": 4600000,
-    "maxPricePkr": 11500000,
+    "maxPricePkr": 12500000,
     "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
@@ -1246,19 +1450,29 @@
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 3,
-        "share": 0.75
+        "count": 4,
+        "share": 1.0
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 1,
-        "share": 0.25
+        "count": 0,
+        "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": -57.23,
-    "cityMedianTicketDeltaPct": -68.8,
+    "cityMedianPpsfDeltaPct": -51.11,
+    "cityMedianTicketDeltaPct": -73.96,
     "priceTier": "Value",
     "sampleListings": [
+      {
+        "id": 54140270,
+        "title": "2 BED LUXURY APARTMENT AVAILABLE FOR SALE 1ST FLOOR ALL FACILITIES AVAILABLE",
+        "pricePkr": 12500000,
+        "pricePerSqft": 13255.57,
+        "beds": 2,
+        "areaSqft": 943.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297164112/ebe184e0d082484882e9b1a674757606",
+        "url": "https://www.zameen.com/Property/islamabad_f-17_2_bed_luxury_apartment_available_for_sale_1st_floor_all_facilities_available-54140270-335-1.html"
+      },
       {
         "id": 53842457,
         "title": "3 BED FLAT FOR SALE MULTI F-17 ISLAMABAD ALL FACILITY AVAILABLE CDA PPROVED SECTOR MPCHS",
@@ -1278,33 +1492,227 @@
         "areaSqft": 825.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296627881/24e45eeca4014659aa56178ef8399090",
         "url": "https://www.zameen.com/Property/f_17_telegardens_t_t_echs_2_bed_flat_for_sale_zam_zam_heights_f-17_islamabad_all_facility_available_cda_approved_sector-53453756-12136-1.html"
+      }
+    ]
+  },
+  {
+    "name": "I-15",
+    "centroid": {
+      "latitude": 33.608052,
+      "longitude": 72.951958
+    },
+    "listingCount": 4,
+    "mappedCount": 4,
+    "medianPricePkr": 6925000.0,
+    "medianPricePerSqft": 5602.38,
+    "medianAreaSqft": 1260.0,
+    "medianFreshnessHours": 0.33,
+    "minPricePkr": 6400000,
+    "maxPricePkr": 8400000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 4,
+        "share": 1.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -58.11,
+    "cityMedianTicketDeltaPct": -76.88,
+    "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": 53928630,
+        "title": "I-15/3 Street No 35 Plot No 8 Size 25x50",
+        "pricePkr": 8400000,
+        "pricePerSqft": 6666.67,
+        "beds": null,
+        "areaSqft": 1260.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/i_15_i-15_3_i-15_3_street_no_35_plot_no_8_size_25x50-53928630-8264-2.html"
       },
       {
-        "id": 54252131,
-        "title": "3 BEDROOM FLAT FOR SALE MULTI F-17 ISLAMABAD ALL FACILITY AVAILABLE",
-        "pricePkr": 8100000,
-        "pricePerSqft": 5113.64,
-        "beds": 3,
-        "areaSqft": 1584.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298178941/aaab88830dfc435fb0bd559c961de109",
-        "url": "https://www.zameen.com/Property/islamabad_f-17_3_bedroom_flat_for_sale_multi_f-17_islamabad_all_facility_available-54252131-335-1.html"
+        "id": 53637094,
+        "title": "Top Location Plot Near To Park And Masjid",
+        "pricePkr": 6400000,
+        "pricePerSqft": 5688.89,
+        "beds": null,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292627338/e38749e010d249a3b6550069913a1ab1",
+        "url": "https://www.zameen.com/Property/i_15_i-15_3_top_location_plot_near_to_park_and_masjid-53637094-8264-2.html"
+      },
+      {
+        "id": 54170746,
+        "title": "I-15/3 Street No 4 Plot No 9 Size 25x50.",
+        "pricePkr": 6950000,
+        "pricePerSqft": 5515.87,
+        "beds": null,
+        "areaSqft": 1260.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297444300/50ae7337d23b4fb8b6ad9d267ed9d929",
+        "url": "https://www.zameen.com/Property/i_15_i-15_3_i-15_3_street_no_4_plot_no_9_size_25x50-54170746-8264-2.html"
+      }
+    ]
+  },
+  {
+    "name": "F-14",
+    "centroid": {
+      "latitude": 33.652637,
+      "longitude": 72.933769
+    },
+    "listingCount": 4,
+    "mappedCount": 4,
+    "medianPricePkr": 18250000.0,
+    "medianPricePerSqft": 5592.89,
+    "medianAreaSqft": 3195.0,
+    "medianFreshnessHours": 7.0,
+    "minPricePkr": 14000000,
+    "maxPricePkr": 20000000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 4,
+        "share": 1.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -58.18,
+    "cityMedianTicketDeltaPct": -39.07,
+    "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": 54156314,
+        "title": "Buying A Residential Plot In F-14?",
+        "pricePkr": 19000000,
+        "pricePerSqft": 5946.79,
+        "beds": null,
+        "areaSqft": 3195.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297307080/9863cef099284b5ab42a49b715b9cda6",
+        "url": "https://www.zameen.com/Property/islamabad_f-14_buying_a_residential_plot_in_f-14-54156314-3290-2.html"
+      },
+      {
+        "id": 54114991,
+        "title": "Perfect 2450 Square Feet Residential Plot In F-14 For sale",
+        "pricePkr": 14000000,
+        "pricePerSqft": 5708.46,
+        "beds": null,
+        "areaSqft": 2452.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296946817/01bd714f56e1473ba36ceb1a4c04f611",
+        "url": "https://www.zameen.com/Property/islamabad_f-14_perfect_2450_square_feet_residential_plot_in_f-14_for_sale-54114991-3290-2.html"
+      },
+      {
+        "id": 54252530,
+        "title": "F-14/4 Plot 40x80 Available For Sale",
+        "pricePkr": 17500000,
+        "pricePerSqft": 5477.31,
+        "beds": null,
+        "areaSqft": 3195.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/islamabad_f-14_f-14_4_plot_40x80_available_for_sale-54252530-3290-2.html"
+      }
+    ]
+  },
+  {
+    "name": "F-6",
+    "centroid": {
+      "latitude": 33.732311,
+      "longitude": 73.075449
+    },
+    "listingCount": 3,
+    "mappedCount": 3,
+    "medianPricePkr": 1300000000.0,
+    "medianPricePerSqft": 62222.22,
+    "medianAreaSqft": 13500.0,
+    "medianFreshnessHours": 1.0,
+    "minPricePkr": 340000000,
+    "maxPricePkr": 1400000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 3,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 365.25,
+    "cityMedianTicketDeltaPct": 4240.57,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 53579753,
+        "title": "F-6 Brand New House For Sale With Modern Architecture Design",
+        "pricePkr": 1300000000,
+        "pricePerSqft": 96296.3,
+        "beds": 7,
+        "areaSqft": 13500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292080370/cbf2f19bb59d4842a02f7c78d67ab011",
+        "url": "https://www.zameen.com/Property/islamabad_f-6_f-6_brand_new_house_for_sale_with_modern_architecture_design-53579753-164-1.html"
+      },
+      {
+        "id": 54022921,
+        "title": "F 6/2 Proper Corner House Available 2500 Square Yards Close And Street Near To Margla Road",
+        "pricePkr": 1400000000,
+        "pricePerSqft": 62222.22,
+        "beds": 10,
+        "areaSqft": 22500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296073797/53d0a30a8c354df59d100183fb909b54",
+        "url": "https://www.zameen.com/Property/f_6_f-6_3_f_6_2_proper_corner_house_available_2500_square_yards_close_and_street_near_to_margla_road-54022921-3301-1.html"
+      },
+      {
+        "id": 53657227,
+        "title": "F-6 House For Sale Most Prime Location! Closed End Street",
+        "pricePkr": 340000000,
+        "pricePerSqft": 47222.22,
+        "beds": 5,
+        "areaSqft": 7200.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292814119/7542b004a6ea41a89e81e61dc947d39a",
+        "url": "https://www.zameen.com/Property/islamabad_f-6_f-6_house_for_sale_most_prime_location_closed_end_street-53657227-164-1.html"
       }
     ]
   },
   {
     "name": "G-13",
     "centroid": {
-      "latitude": 33.651006,
-      "longitude": 72.963705
+      "latitude": 33.653834,
+      "longitude": 72.962288
     },
     "listingCount": 3,
     "mappedCount": 3,
-    "medianPricePkr": 65000000.0,
-    "medianPricePerSqft": 40657.28,
-    "medianAreaSqft": 3195.0,
-    "medianFreshnessHours": 19.0,
+    "medianPricePkr": 56800000.0,
+    "medianPricePerSqft": 39365.08,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 3.0,
     "minPricePkr": 37500000,
-    "maxPricePkr": 129900000,
+    "maxPricePkr": 124000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
@@ -1323,8 +1731,8 @@
         "share": 0.3333
       }
     },
-    "cityMedianPpsfDeltaPct": 225.38,
-    "cityMedianTicketDeltaPct": 160.0,
+    "cityMedianPpsfDeltaPct": 194.34,
+    "cityMedianTicketDeltaPct": 89.65,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -1338,41 +1746,109 @@
         "url": "https://www.zameen.com/Property/islamabad_g-13_corner_25x40_house_g-13_islamabad-54158101-330-1.html"
       },
       {
-        "id": 53949517,
-        "title": "THE MOST ELEGANT DESIGNER 4080 HOUSE OF G13 WITH SOLAR ON 70ft ROAD",
-        "pricePkr": 129900000,
-        "pricePerSqft": 40657.28,
-        "beds": 7,
-        "areaSqft": 3195.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295436112/e1715f01c08941638b15acbe20e5e62d",
-        "url": "https://www.zameen.com/Property/g_13_g-13_1_the_most_elegant_designer_4080_house_of_g13_with_solar_on_70ft_road-53949517-3337-1.html"
+        "id": 54231117,
+        "title": "BRAND NEW 14 MARLA DOUBLE UNIT HOUSE FOR SALE IN G13",
+        "pricePkr": 124000000,
+        "pricePerSqft": 39365.08,
+        "beds": 6,
+        "areaSqft": 3150.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297997486/43a3cda3471a4126a12ae38e5f08868a",
+        "url": "https://www.zameen.com/Property/g_13_g-13_3_brand_new_14_marla_double_unit_house_for_sale_in_g13-54231117-3339-1.html"
       },
       {
-        "id": 52896904,
-        "title": "Corner Level Heighted Location Plot 70 Feet Road",
-        "pricePkr": 65000000,
-        "pricePerSqft": 20344.29,
+        "id": 54003177,
+        "title": "10 Marla Park Face Plot For Sale",
+        "pricePkr": 56800000,
+        "pricePerSqft": 25244.44,
         "beds": null,
-        "areaSqft": 3195.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/287415488/41c159f4cd5e42319db7999dee6fb476",
-        "url": "https://www.zameen.com/Property/g_13_g-13_3_corner_level_heighted_location_plot_70_feet_road-52896904-3339-2.html"
+        "areaSqft": 2250.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/g_13_g-13_2_10_marla_park_face_plot_for_sale-54003177-3338-2.html"
       }
     ]
   },
   {
-    "name": "G-14",
+    "name": "I-11",
     "centroid": {
-      "latitude": 46.770578,
-      "longitude": 59.84416
+      "latitude": 33.64113,
+      "longitude": 73.016218
     },
     "listingCount": 3,
     "mappedCount": 3,
-    "medianPricePkr": 47700000.0,
-    "medianPricePerSqft": 14444.44,
-    "medianAreaSqft": 3150.0,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 45500000,
-    "maxPricePkr": 93000000,
+    "medianPricePkr": 30000000.0,
+    "medianPricePerSqft": 29629.63,
+    "medianAreaSqft": 900.0,
+    "medianFreshnessHours": 0.8,
+    "minPricePkr": 13800000,
+    "maxPricePkr": 40000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 2,
+        "share": 0.6667
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 1,
+        "share": 0.3333
+      }
+    },
+    "cityMedianPpsfDeltaPct": 121.55,
+    "cityMedianTicketDeltaPct": 0.17,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 53844259,
+        "title": "Brand New 4 Marla House For Sale In Rs. 30000000 Only",
+        "pricePkr": 30000000,
+        "pricePerSqft": 33333.33,
+        "beds": 5,
+        "areaSqft": 900.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296862699/542902d8cd1949b59c929287f705121e",
+        "url": "https://www.zameen.com/Property/i_11_i-11_2_brand_new_4_marla_house_for_sale_in_rs_30000000_only-53844259-9879-1.html"
+      },
+      {
+        "id": 54037442,
+        "title": "6 Marla Brand New Beautiful House For Sale In I-11",
+        "pricePkr": 40000000,
+        "pricePerSqft": 29629.63,
+        "beds": 5,
+        "areaSqft": 1350.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296204189/8d1fcc88708c4cc5877da8f1520e8753",
+        "url": "https://www.zameen.com/Property/islamabad_i-11_6_marla_brand_new_beautiful_house_for_sale_in_i-11-54037442-706-1.html"
+      },
+      {
+        "id": 51862391,
+        "title": "4 Marla Residential Plot For Sale In I 11 Sector Islamabad",
+        "pricePkr": 13800000,
+        "pricePerSqft": 15333.33,
+        "beds": null,
+        "areaSqft": 900.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/i_11_i-11_2_4_marla_residential_plot_for_sale_in_i_11_sector_islamabad-51862391-9879-2.html"
+      }
+    ]
+  },
+  {
+    "name": "Park View City",
+    "centroid": {
+      "latitude": 33.717812,
+      "longitude": 73.209984
+    },
+    "listingCount": 3,
+    "mappedCount": 3,
+    "medianPricePkr": 35000000.0,
+    "medianPricePerSqft": 27739.25,
+    "medianAreaSqft": 1442.0,
+    "medianFreshnessHours": 0.5,
+    "minPricePkr": 23000000,
+    "maxPricePkr": 40000000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -1382,66 +1858,134 @@
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
+        "count": 1,
+        "share": 0.3333
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 2,
-        "share": 0.6667
+        "count": 1,
+        "share": 0.3333
       }
     },
-    "cityMedianPpsfDeltaPct": 15.6,
-    "cityMedianTicketDeltaPct": 90.8,
-    "priceTier": "Premium",
+    "cityMedianPpsfDeltaPct": 107.41,
+    "cityMedianTicketDeltaPct": 16.86,
+    "priceTier": "Ultra Prime",
     "sampleListings": [
       {
-        "id": 53611689,
-        "title": "Highly-Desirable Prime Location House Available In G-14/4 For Sale",
-        "pricePkr": 93000000,
-        "pricePerSqft": 29523.81,
-        "beds": 8,
-        "areaSqft": 3150.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292373545/a336e225b34b48abaa2ccc5056fe53b9",
-        "url": "https://www.zameen.com/Property/g_14_g-14_4_highly-desirable_prime_location_house_available_in_g-14_4_for_sale-53611689-3346-1.html"
+        "id": 54031251,
+        "title": "Fully Furnished 1 Bed Lake Facing Apartment | Top Floor | Park View City Downtown",
+        "pricePkr": 23000000,
+        "pricePerSqft": 37860.08,
+        "beds": 1,
+        "areaSqft": 607.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296149811/8a447ada6f2744f89f6c437871047922",
+        "url": "https://www.zameen.com/Property/park_view_city_park_view_city_-_downtown_block_fully_furnished_1_bed_lake_facing_apartment_top_floor_park_view_city_downtown-54031251-20871-1.html"
       },
       {
-        "id": 54252891,
-        "title": "Salaam want to sale 14 Marla size 40\"80 plot in g. 14.3 street 108 plot 42 margallah phase solid near direct approach from double road near to park and masjid For any sale or purchase in sector G. 14.1,2,3,4 residential or commercial please contact",
-        "pricePkr": 45500000,
-        "pricePerSqft": 14444.44,
-        "beds": null,
-        "areaSqft": 3150.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298184842/cf1d2a9b55a04b3e8394657bc43cff65",
-        "url": "https://www.zameen.com/Property/g_14_g-14_3_salaam_want_to_sale_14_marla_size_40_80_plot_in_g_14_3_street_108_plot_42_margallah_phase_solid_near_direct_approach_from_double_road_near_to_park_and_masjid_for_any_sale_or_purchase_in_sector_g_14_1_2_3_4_residential_or_commercial_please_contact-54252891-3345-2.html"
+        "id": 53575501,
+        "title": "Furnished Corner Two-Bed Apartment For Sale Park View City Downtown The Walk Urgent For Sale",
+        "pricePkr": 40000000,
+        "pricePerSqft": 27739.25,
+        "beds": 2,
+        "areaSqft": 1442.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/292153833/f4ee7972ec0c4ea5bf2bdf3739eb46de",
+        "url": "https://www.zameen.com/Property/park_view_city_park_view_city_-_downtown_block_furnished_corner_two-bed_apartment_for_sale_park_view_city_downtown_the_walk_urgent_for_sale-53575501-20871-1.html"
       },
       {
-        "id": 54190206,
-        "title": "STREET 118 PLOT? POSSESSION Level Solid Land Ready To Construction Investor Price",
-        "pricePkr": 47700000,
-        "pricePerSqft": 10600.0,
+        "id": 54182478,
+        "title": "Prime 1 Kanal Plot For Sale In E Block Park View City Islamabad CDA Approved & Ready For Possession",
+        "pricePkr": 35000000,
+        "pricePerSqft": 7777.78,
         "beds": null,
         "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297634736/88639206b2c84010a90f33dc7e019087",
-        "url": "https://www.zameen.com/Property/g_14_g-14_3_street_118_plot_possession_level_solid_land_ready_to_construction_investor_price-54190206-3345-2.html"
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297559330/9ea1330c2ef746da95dfdea8a683a658",
+        "url": "https://www.zameen.com/Property/islamabad_park_view_city_prime_1_kanal_plot_for_sale_in_e_block_park_view_city_islamabad_cda_approved_ready_for_possession-54182478-10933-2.html"
       }
     ]
   },
   {
-    "name": "E-12",
+    "name": "GT Road",
     "centroid": {
-      "latitude": 33.691686,
-      "longitude": 72.961855
+      "latitude": 33.521462,
+      "longitude": 72.488787
     },
     "listingCount": 3,
     "mappedCount": 3,
-    "medianPricePkr": 20000000.0,
-    "medianPricePerSqft": 12626.26,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 12500000,
-    "maxPricePkr": 49000000,
-    "dominantPropertyGroup": "plot",
+    "medianPricePkr": 41500000.0,
+    "medianPricePerSqft": 27529.02,
+    "medianAreaSqft": 1507.5,
+    "medianFreshnessHours": 3.0,
+    "minPricePkr": 11000000,
+    "maxPricePkr": 42000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 0.3333
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 2,
+        "share": 0.6667
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 105.84,
+    "cityMedianTicketDeltaPct": 38.56,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 53752799,
+        "title": "Stunning Flat Is Available For sale In Zeta-1 Mall",
+        "pricePkr": 42000000,
+        "pricePerSqft": 27814.57,
+        "beds": 2,
+        "areaSqft": 1510.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293668281/8556b4f544c1450dabcb6c277ceb9b91",
+        "url": "https://www.zameen.com/Property/gt_road_zeta-1_mall_stunning_flat_is_available_for_sale_in_zeta-1_mall-53752799-16699-1.html"
+      },
+      {
+        "id": 53813359,
+        "title": "2 Bed Apartment",
+        "pricePkr": 41500000,
+        "pricePerSqft": 27529.02,
+        "beds": 2,
+        "areaSqft": 1507.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294204942/03944b02732f4c79932e6100686c9095",
+        "url": "https://www.zameen.com/Property/gt_road_zeta-1_mall_2_bed_apartment-53813359-16699-1.html"
+      },
+      {
+        "id": 54223016,
+        "title": "2 Bed For Sale In E L Ceilo Tower A",
+        "pricePkr": 11000000,
+        "pricePerSqft": 11652.54,
+        "beds": 2,
+        "areaSqft": 944.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297931468/fccfa91094ee4035a8affa5efdeb97aa",
+        "url": "https://www.zameen.com/Property/gt_road_el_cielo_2_bed_for_sale_in_e_l_ceilo_tower_a-54223016-10358-1.html"
+      }
+    ]
+  },
+  {
+    "name": "Islamabad Expressway",
+    "centroid": {
+      "latitude": 33.632166,
+      "longitude": 73.111507
+    },
+    "listingCount": 3,
+    "mappedCount": 3,
+    "medianPricePkr": 17200000.0,
+    "medianPricePerSqft": 15636.36,
+    "medianAreaSqft": 715.0,
+    "medianFreshnessHours": 24.0,
+    "minPricePkr": 7200000,
+    "maxPricePkr": 24310000,
+    "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
         "label": "Houses",
@@ -1450,48 +1994,116 @@
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
+        "count": 3,
+        "share": 1.0
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 3,
-        "share": 1.0
+        "count": 0,
+        "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 1.05,
-    "cityMedianTicketDeltaPct": -20.0,
+    "cityMedianPpsfDeltaPct": 16.92,
+    "cityMedianTicketDeltaPct": -42.57,
     "priceTier": "Premium",
     "sampleListings": [
       {
-        "id": 53847942,
-        "title": "5 Marla Cutting Area Plot",
-        "pricePkr": 20000000,
-        "pricePerSqft": 17777.78,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294718707/f8d1be73064840a08a4745b83bba5506",
-        "url": "https://www.zameen.com/Property/e_12_e-12_3_5_marla_cutting_area_plot-53847942-8179-2.html"
+        "id": 53814441,
+        "title": "Limited Time Offer Smart Living Apartments Available At The Future Of Islamabad, ISLAMABAD DOWNTOWN!",
+        "pricePkr": 24310000,
+        "pricePerSqft": 34000.0,
+        "beds": 1,
+        "areaSqft": 715.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294270617/1b56ce88c46a459a8e7f85ebb54589de",
+        "url": "https://www.zameen.com/Property/islamabad_islamabad_expressway_limited_time_offer_smart_living_apartments_available_at_the_future_of_islamabad_islamabad_downtown-53814441-9014-1.html"
       },
       {
-        "id": 54100140,
-        "title": "A Residential Plot Of 1000 Square Feet In E-12/4",
+        "id": 54202644,
+        "title": "Prime Location 2 Bed Furnished Apartment For Sale",
+        "pricePkr": 17200000,
+        "pricePerSqft": 15636.36,
+        "beds": 2,
+        "areaSqft": 1100.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297742683/80f95590c5ac4a0bb258ce8ff5370817",
+        "url": "https://www.zameen.com/Property/islamabad_islamabad_expressway_prime_location_2_bed_furnished_apartment_for_sale-54202644-9014-1.html"
+      },
+      {
+        "id": 54202617,
+        "title": "Prime Location Studio Furnished Apartment For Sale",
+        "pricePkr": 7200000,
+        "pricePerSqft": 14400.0,
+        "beds": null,
+        "areaSqft": 500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297742421/b9df2ce36eeb4aa089b8626caf93dc29",
+        "url": "https://www.zameen.com/Property/islamabad_islamabad_expressway_prime_location_studio_furnished_apartment_for_sale-54202617-9014-1.html"
+      }
+    ]
+  },
+  {
+    "name": "H-13",
+    "centroid": {
+      "latitude": 33.637489,
+      "longitude": 72.972193
+    },
+    "listingCount": 3,
+    "mappedCount": 3,
+    "medianPricePkr": 12500000.0,
+    "medianPricePerSqft": 13414.63,
+    "medianAreaSqft": 1050.0,
+    "medianFreshnessHours": 22.0,
+    "minPricePkr": 5500000,
+    "maxPricePkr": 15000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 3,
+        "share": 1.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 0.3,
+    "cityMedianTicketDeltaPct": -58.26,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": 52649385,
+        "title": "Flat For Sale Situated In H-13",
+        "pricePkr": 15000000,
+        "pricePerSqft": 14285.71,
+        "beds": 2,
+        "areaSqft": 1050.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/279135117/a2031bcf86da4c278d3a130e7a779f35",
+        "url": "https://www.zameen.com/Property/islamabad_h-13_flat_for_sale_situated_in_h-13-52649385-1039-1.html"
+      },
+      {
+        "id": 53384465,
+        "title": "One Bed Flat Is For Sale",
+        "pricePkr": 5500000,
+        "pricePerSqft": 13414.63,
+        "beds": 1,
+        "areaSqft": 410.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/289606857/1a6b9d082aad4ec3b7ac0c79d6ba1699",
+        "url": "https://www.zameen.com/Property/islamabad_h-13_one_bed_flat_is_for_sale-53384465-1039-1.html"
+      },
+      {
+        "id": 54148131,
+        "title": "Fully Furnished 2-Bed Apartment for Sale KK Residencia, H-13 Islamabad",
         "pricePkr": 12500000,
-        "pricePerSqft": 12626.26,
-        "beds": null,
-        "areaSqft": 990.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296801460/2647624e5a694887bfd56ee2a17b836b",
-        "url": "https://www.zameen.com/Property/e_12_e-12_4_a_residential_plot_of_1000_square_feet_in_e-12_4-54100140-8180-2.html"
-      },
-      {
-        "id": 53896301,
-        "title": "1 Kanal Investor Rate Plot",
-        "pricePkr": 49000000,
-        "pricePerSqft": 12098.77,
-        "beds": null,
-        "areaSqft": 4050.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295126786/16f62c13f2784a838f4cca0597a3a794",
-        "url": "https://www.zameen.com/Property/islamabad_e-12_1_kanal_investor_rate_plot-53896301-161-2.html"
+        "pricePerSqft": 11682.24,
+        "beds": 2,
+        "areaSqft": 1070.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297231592/267db554abec4783b0ceaea1c1ee13eb",
+        "url": "https://www.zameen.com/Property/islamabad_h-13_fully_furnished_2-bed_apartment_for_sale_kk_residencia_h-13_islamabad-54148131-1039-1.html"
       }
     ]
   },
@@ -1503,12 +2115,12 @@
     },
     "listingCount": 3,
     "mappedCount": 3,
-    "medianPricePkr": 14000000.0,
-    "medianPricePerSqft": 12444.44,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 19.0,
+    "medianPricePkr": 25000000.0,
+    "medianPricePerSqft": 11111.11,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 9.0,
     "minPricePkr": 14000000,
-    "maxPricePkr": 14800000,
+    "maxPricePkr": 50000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
@@ -1527,20 +2139,10 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": -0.41,
-    "cityMedianTicketDeltaPct": -44.0,
-    "priceTier": "Premium",
+    "cityMedianPpsfDeltaPct": -16.92,
+    "cityMedianTicketDeltaPct": -16.53,
+    "priceTier": "Mid-market",
     "sampleListings": [
-      {
-        "id": 54246913,
-        "title": "5 Marla Most Beautiful House For Sale",
-        "pricePkr": 14800000,
-        "pricePerSqft": 13155.56,
-        "beds": 3,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298164729/608b7a88cf554b7dbe35091adec39ba1",
-        "url": "https://www.zameen.com/Property/islamabad_bani_gala_5_marla_most_beautiful_house_for_sale-54246913-340-1.html"
-      },
       {
         "id": 53774818,
         "title": "Brand New 1.5 Storey House For Sale In Bani Gala",
@@ -1552,31 +2154,41 @@
         "url": "https://www.zameen.com/Property/islamabad_bani_gala_brand_new_1_5_storey_house_for_sale_in_bani_gala-53774818-340-1.html"
       },
       {
-        "id": 54188082,
-        "title": "1.5 Storey House",
-        "pricePkr": 14000000,
-        "pricePerSqft": 12444.44,
-        "beds": 3,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297613341/0ac301bd07b944d99af10fe0ab414ef4",
-        "url": "https://www.zameen.com/Property/islamabad_bani_gala_1_5_storey_house-54188082-340-1.html"
+        "id": 53421452,
+        "title": "10 Marla Newly Built House For Sale In Bani Gala",
+        "pricePkr": 25000000,
+        "pricePerSqft": 11111.11,
+        "beds": 5,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/290246043/3ce8be28be59400493fa8541bc30ea17",
+        "url": "https://www.zameen.com/Property/islamabad_bani_gala_10_marla_newly_built_house_for_sale_in_bani_gala-53421452-340-1.html"
+      },
+      {
+        "id": 50367010,
+        "title": "Ideal House Is Available For Sale In Bani Gala",
+        "pricePkr": 50000000,
+        "pricePerSqft": 8547.01,
+        "beds": 5,
+        "areaSqft": 5850.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/258871236/523ab5111e0b4f8785ee791d26b89a55",
+        "url": "https://www.zameen.com/Property/islamabad_bani_gala_ideal_house_is_available_for_sale_in_bani_gala-50367010-340-1.html"
       }
     ]
   },
   {
-    "name": "Margalla Avenue",
+    "name": "Margalla Orchard",
     "centroid": {
-      "latitude": 33.693919,
-      "longitude": 72.919879
+      "latitude": 33.657204,
+      "longitude": 73.164386
     },
     "listingCount": 3,
     "mappedCount": 3,
-    "medianPricePkr": 50000000.0,
-    "medianPricePerSqft": 11555.56,
+    "medianPricePkr": 32000000.0,
+    "medianPricePerSqft": 7111.11,
     "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 12.0,
-    "minPricePkr": 26000000,
-    "maxPricePkr": 65000000,
+    "medianFreshnessHours": 7.0,
+    "minPricePkr": 21000000,
+    "maxPricePkr": 32500000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -1595,56 +2207,56 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -7.52,
-    "cityMedianTicketDeltaPct": 100.0,
-    "priceTier": "Mid-market",
+    "cityMedianPpsfDeltaPct": -46.83,
+    "cityMedianTicketDeltaPct": 6.84,
+    "priceTier": "Value",
     "sampleListings": [
       {
-        "id": 54253562,
-        "title": "1 Kanal Plot in DHA Margalla",
-        "pricePkr": 65000000,
-        "pricePerSqft": 14444.44,
+        "id": 54223715,
+        "title": "A 1 Kanal Residential Plot Located In Margalla Orchard Is Available For sale",
+        "pricePkr": 32500000,
+        "pricePerSqft": 7222.22,
         "beds": null,
         "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298191422/aa05c947638642f68da0b767a9743725",
-        "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_1_kanal_plot_in_dha_margalla-54253562-21436-2.html"
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297936654/a2801c6d79ad46a69949713f84e17834",
+        "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_a_1_kanal_residential_plot_located_in_margalla_orchard_is_available_for_sale-54223715-21948-2.html"
       },
       {
-        "id": 54241953,
-        "title": "10 Marla Plot in Margalla Enclave",
-        "pricePkr": 26000000,
-        "pricePerSqft": 11555.56,
-        "beds": null,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298096288/663a673a578b4d23a8d7fa166f802e29",
-        "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_10_marla_plot_in_margalla_enclave-54241953-21436-2.html"
-      },
-      {
-        "id": 53164181,
-        "title": "Exclusive Offering: Premium Plot In Sector ME 2 Street 19 OldBallot 3 years and Street 27 2 Year Installment Plan And ME 3 New Ballot Margalla Enclave, Islamabad",
-        "pricePkr": 50000000,
-        "pricePerSqft": 11111.11,
+        "id": 54219107,
+        "title": "Reserve A Centrally Located Residential Plot In Margalla Orchard",
+        "pricePkr": 32000000,
+        "pricePerSqft": 7111.11,
         "beds": null,
         "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/286348112/2123c3ffcdee4d10a5a77d682e0689cb",
-        "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_exclusive_offering_premium_plot_in_sector_me_2_street_19_oldballot_3_years_and_street_27_2_year_installment_plan_and_me_3_new_ballot_margalla_enclave_islamabad-53164181-21436-2.html"
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298119404/980ca7a446d54b90b4bbc241a3f9398b",
+        "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_reserve_a_centrally_located_residential_plot_in_margalla_orchard-54219107-21948-2.html"
+      },
+      {
+        "id": 54219097,
+        "title": "A Centrally Located Residential Plot Is Available For Sale In Margalla Orchard",
+        "pricePkr": 21000000,
+        "pricePerSqft": 6666.67,
+        "beds": null,
+        "areaSqft": 3150.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298119578/aaeffb3e133b4b2a8947c29e136f50c9",
+        "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_a_centrally_located_residential_plot_is_available_for_sale_in_margalla_orchard-54219097-21948-2.html"
       }
     ]
   },
   {
-    "name": "I-12",
+    "name": "D-17",
     "centroid": {
-      "latitude": 33.630263,
-      "longitude": 73.002602
+      "latitude": 33.65974,
+      "longitude": 72.855298
     },
     "listingCount": 3,
     "mappedCount": 3,
     "medianPricePkr": 16000000.0,
-    "medianPricePerSqft": 10158.73,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 19.0,
-    "minPricePkr": 6000000,
-    "maxPricePkr": 17500000,
+    "medianPricePerSqft": 6212.66,
+    "medianAreaSqft": 2092.5,
+    "medianFreshnessHours": 2.0,
+    "minPricePkr": 13000000,
+    "maxPricePkr": 21500000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -1663,243 +2275,107 @@
         "share": 0.6667
       }
     },
-    "cityMedianPpsfDeltaPct": -18.7,
-    "cityMedianTicketDeltaPct": -36.0,
-    "priceTier": "Mid-market",
+    "cityMedianPpsfDeltaPct": -53.55,
+    "cityMedianTicketDeltaPct": -46.58,
+    "priceTier": "Value",
     "sampleListings": [
       {
-        "id": 53305902,
-        "title": "25x50 NUST DOUBLE ROAD PLOT FOR Sale i-12/3.",
-        "pricePkr": 17500000,
-        "pricePerSqft": 15555.56,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "",
-        "url": "https://www.zameen.com/Property/i_12_i-12_3_25x50_nust_double_road_plot_for_sale_i-12_3-53305902-13802-2.html"
-      },
-      {
-        "id": 53306788,
-        "title": "30x60 Lavel Ideal Location Plot I-12/1 500 Series",
+        "id": 54254324,
+        "title": "3 Bed Pine Heights Luxury Apartment For Sale In D-17 Islamabad",
         "pricePkr": 16000000,
-        "pricePerSqft": 10158.73,
-        "beds": null,
-        "areaSqft": 1575.0,
-        "imageUrl": "",
-        "url": "https://www.zameen.com/Property/islamabad_i-12_30x60_lavel_ideal_location_plot_i-12_1_500_series-53306788-1418-2.html"
-      },
-      {
-        "id": 52685994,
-        "title": "I-12/1 Margalla Face E-Type 3rd Floor ADC Apartment",
-        "pricePkr": 6000000,
-        "pricePerSqft": 8450.7,
-        "beds": 2,
-        "areaSqft": 710.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/279448346/a0e986669565482e87b5aefcc22ec4cc",
-        "url": "https://www.zameen.com/Property/i_12_i-12_1_i-12_1_margalla_face_e-type_3rd_floor_adc_apartment-52685994-13800-1.html"
-      }
-    ]
-  },
-  {
-    "name": "I-14",
-    "centroid": {
-      "latitude": 33.61419,
-      "longitude": 72.963313
-    },
-    "listingCount": 3,
-    "mappedCount": 3,
-    "medianPricePkr": 15800000.0,
-    "medianPricePerSqft": 10031.75,
-    "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 11000000,
-    "maxPricePkr": 22000000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 3,
-        "share": 1.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": -19.72,
-    "cityMedianTicketDeltaPct": -36.8,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": 54208558,
-        "title": "SUNFACING PLOT WITH IDEAL ACCESS",
-        "pricePkr": 22000000,
-        "pricePerSqft": 13968.25,
-        "beds": null,
-        "areaSqft": 1575.0,
-        "imageUrl": "",
-        "url": "https://www.zameen.com/Property/i_14_i-14_3_sunfacing_plot_with_ideal_access-54208558-8342-2.html"
-      },
-      {
-        "id": 53029523,
-        "title": "Ideal Location Corner Plot",
-        "pricePkr": 15800000,
-        "pricePerSqft": 10031.75,
-        "beds": null,
-        "areaSqft": 1575.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/288561020/8236c43eaec04626a95259efc198d78a",
-        "url": "https://www.zameen.com/Property/i_14_i-14_2_ideal_location_corner_plot-53029523-8341-2.html"
-      },
-      {
-        "id": 54149777,
-        "title": "8 Marla plot for sale (plot no. 340series. sector i 14/2)",
-        "pricePkr": 11000000,
-        "pricePerSqft": 6111.11,
-        "beds": null,
-        "areaSqft": 1800.0,
-        "imageUrl": "",
-        "url": "https://www.zameen.com/Property/i_14_i-14_2_8_marla_plot_for_sale_plot_no_340series_sector_i_14_2-54149777-8341-2.html"
-      }
-    ]
-  },
-  {
-    "name": "I-15",
-    "centroid": {
-      "latitude": 33.604564,
-      "longitude": 72.948542
-    },
-    "listingCount": 3,
-    "mappedCount": 3,
-    "medianPricePkr": 7000000.0,
-    "medianPricePerSqft": 6222.22,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 13.0,
-    "minPricePkr": 5800000,
-    "maxPricePkr": 7300000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 3,
-        "share": 1.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": -50.2,
-    "cityMedianTicketDeltaPct": -72.0,
-    "priceTier": "Value",
-    "sampleListings": [
-      {
-        "id": 53762658,
-        "title": "5 Marla Ideal Corner Option",
-        "pricePkr": 7300000,
-        "pricePerSqft": 6488.89,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294696889/642e9b1dc1974713aed35af46b6cd236",
-        "url": "https://www.zameen.com/Property/i_15_i-15_3_5_marla_ideal_corner_option-53762658-8264-2.html"
-      },
-      {
-        "id": 54189948,
-        "title": "5 Marla Plot For Sale (Plot No. 37 Street No. 28)",
-        "pricePkr": 7000000,
-        "pricePerSqft": 6222.22,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "",
-        "url": "https://www.zameen.com/Property/islamabad_i-15_5_marla_plot_for_sale_plot_no_37_street_no_28-54189948-543-2.html"
-      },
-      {
-        "id": 54149895,
-        "title": "5 Marla Plot For Sale (Plot No. 20 Street 61 )( I 15/2)",
-        "pricePkr": 5800000,
-        "pricePerSqft": 5155.56,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "",
-        "url": "https://www.zameen.com/Property/i_15_i-15_2_5_marla_plot_for_sale_plot_no_20_street_61_i_15_2-54149895-8263-2.html"
-      }
-    ]
-  },
-  {
-    "name": "Multi Residencia & Orchards",
-    "centroid": {
-      "latitude": 33.71817,
-      "longitude": 72.712006
-    },
-    "listingCount": 3,
-    "mappedCount": 3,
-    "medianPricePkr": 30500000.0,
-    "medianPricePerSqft": 1355.56,
-    "medianAreaSqft": 22500.0,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 14500000,
-    "maxPricePkr": 59500000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 0.3333
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 2,
-        "share": 0.6667
-      }
-    },
-    "cityMedianPpsfDeltaPct": -89.15,
-    "cityMedianTicketDeltaPct": 22.0,
-    "priceTier": "Value",
-    "sampleListings": [
-      {
-        "id": 53847163,
-        "title": "5 Marla House In Multi Ochrard Residence Islamabad",
-        "pricePkr": 14500000,
-        "pricePerSqft": 12888.89,
+        "pricePerSqft": 10666.67,
         "beds": 3,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294524909/aa5f66e8caf243c89bbc45988a944e16",
-        "url": "https://www.zameen.com/Property/islamabad_multi_residencia_orchards_5_marla_house_in_multi_ochrard_residence_islamabad-53847163-8332-1.html"
+        "areaSqft": 1500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298196770/160132fe6fae4bd39507bd185fa66633",
+        "url": "https://www.zameen.com/Property/islamabad_d-17_3_bed_pine_heights_luxury_apartment_for_sale_in_d-17_islamabad-54254324-737-1.html"
       },
       {
-        "id": 53847158,
-        "title": "Prime 5 Kanal Plot Main Major Road Location",
-        "pricePkr": 30500000,
-        "pricePerSqft": 1355.56,
+        "id": 54255155,
+        "title": "plot For sale 30x70",
+        "pricePkr": 13000000,
+        "pricePerSqft": 6212.66,
         "beds": null,
-        "areaSqft": 22500.0,
+        "areaSqft": 2092.5,
         "imageUrl": "",
-        "url": "https://www.zameen.com/Property/islamabad_multi_residencia_orchards_prime_5_kanal_plot_main_major_road_location-53847158-8332-2.html"
+        "url": "https://www.zameen.com/Property/islamabad_d-17_plot_for_sale_30x70-54255155-737-2.html"
       },
       {
-        "id": 53847119,
-        "title": "Prime 10 Kanal Farm House Plot In Multi Orchards M2 Bahtar Interchange",
-        "pricePkr": 59500000,
-        "pricePerSqft": 1322.22,
+        "id": 54255150,
+        "title": "plot For sale 50x90 corner",
+        "pricePkr": 21500000,
+        "pricePerSqft": 4777.78,
         "beds": null,
-        "areaSqft": 45000.0,
+        "areaSqft": 4500.0,
         "imageUrl": "",
-        "url": "https://www.zameen.com/Property/multi_residencia_orchards_multi_residencia_orchards_-_block_c_prime_10_kanal_farm_house_plot_in_multi_orchards_m2_bahtar_interchange-53847119-10131-2.html"
+        "url": "https://www.zameen.com/Property/islamabad_d-17_plot_for_sale_50x90_corner-54255150-737-2.html"
+      }
+    ]
+  },
+  {
+    "name": "D-18",
+    "centroid": {
+      "latitude": 33.645159,
+      "longitude": 72.82156
+    },
+    "listingCount": 3,
+    "mappedCount": 3,
+    "medianPricePkr": 7800000.0,
+    "medianPricePerSqft": 2044.44,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 4600000,
+    "maxPricePkr": 8600000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 3,
+        "share": 1.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -84.71,
+    "cityMedianTicketDeltaPct": -73.96,
+    "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": 54139854,
+        "title": "Awt Block D 10 Marla plot",
+        "pricePkr": 7800000,
+        "pricePerSqft": 3466.67,
+        "beds": null,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297160143/f4f46d70a32d43ca9997fe97e7730369",
+        "url": "https://www.zameen.com/Property/awt_awt_-_block_d_awt_block_d_10_marla_plot-54139854-3170-2.html"
+      },
+      {
+        "id": 54219322,
+        "title": "10 Marla Residential Plot Up For sale In AWT - Block H",
+        "pricePkr": 4600000,
+        "pricePerSqft": 2044.44,
+        "beds": null,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297897989/d044316c2fad4b2da84ff54f0667a44c",
+        "url": "https://www.zameen.com/Property/awt_awt_-_block_h_10_marla_residential_plot_up_for_sale_in_awt_-_block_h-54219322-3174-2.html"
+      },
+      {
+        "id": 54144742,
+        "title": "Awt Block B Kanal Plot For Sale",
+        "pricePkr": 8600000,
+        "pricePerSqft": 1911.11,
+        "beds": null,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297201994/4917ba8f5748418ba0221ff2999020fe",
+        "url": "https://www.zameen.com/Property/awt_awt_-_block_b_awt_block_b_kanal_plot_for_sale-54144742-3168-2.html"
       }
     ]
   },
@@ -1912,22 +2388,22 @@
     "listingCount": 2,
     "mappedCount": 2,
     "medianPricePkr": 85000000.0,
-    "medianPricePerSqft": 84140.51,
-    "medianAreaSqft": 1140.75,
-    "medianFreshnessHours": 12.5,
+    "medianPricePerSqft": 84093.57,
+    "medianAreaSqft": 1142.0,
+    "medianFreshnessHours": 21.0,
     "minPricePkr": 74000000,
     "maxPricePkr": 96000000,
-    "dominantPropertyGroup": "house",
+    "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 1,
-        "share": 0.5
+        "count": 0,
+        "share": 0.0
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 1,
-        "share": 0.5
+        "count": 2,
+        "share": 1.0
       },
       "plot": {
         "label": "Residential Plots",
@@ -1935,8 +2411,8 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 573.38,
-    "cityMedianTicketDeltaPct": 240.0,
+    "cityMedianPpsfDeltaPct": 528.78,
+    "cityMedianTicketDeltaPct": 183.81,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -1953,86 +2429,28 @@
         "id": 54238223,
         "title": "Luxury Furnished Apartment For Sale In Elysium Tower | Opposite Centaurus | High Rental Income",
         "pricePkr": 96000000,
-        "pricePerSqft": 60093.9,
+        "pricePerSqft": 60000.0,
         "beds": 2,
-        "areaSqft": 1597.5,
+        "areaSqft": 1600.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298059904/24a7ac53ada14a54bbb9fe7d0717eda1",
         "url": "https://www.zameen.com/Property/blue_area_elysium_mall_luxury_furnished_apartment_for_sale_in_elysium_tower_opposite_centaurus_high_rental_income-54238223-10739-1.html"
       }
     ]
   },
   {
-    "name": "F-6",
+    "name": "Mumtaz City",
     "centroid": {
-      "latitude": 33.733013,
-      "longitude": 73.075958
+      "latitude": 33.589205,
+      "longitude": 72.860634
     },
     "listingCount": 2,
     "mappedCount": 2,
-    "medianPricePkr": 892500000.0,
-    "medianPricePerSqft": 79176.03,
-    "medianAreaSqft": 13252.5,
-    "medianFreshnessHours": 31.0,
-    "minPricePkr": 385000000,
-    "maxPricePkr": 1400000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 2,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 533.65,
-    "cityMedianTicketDeltaPct": 3470.0,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 53318282,
-        "title": "Elegant House Is For Sale In F-6",
-        "pricePkr": 385000000,
-        "pricePerSqft": 96129.84,
-        "beds": 7,
-        "areaSqft": 4005.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/288700315/c0c9cadf50cd4e43b08e54bde94c7b39",
-        "url": "https://www.zameen.com/Property/islamabad_f-6_elegant_house_is_for_sale_in_f-6-53318282-164-1.html"
-      },
-      {
-        "id": 54022921,
-        "title": "F 6/2 Proper Corner House Available 2500 Square Yards Close And Street Near To Margla Road",
-        "pricePkr": 1400000000,
-        "pricePerSqft": 62222.22,
-        "beds": 10,
-        "areaSqft": 22500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296073797/53d0a30a8c354df59d100183fb909b54",
-        "url": "https://www.zameen.com/Property/f_6_f-6_3_f_6_2_proper_corner_house_available_2500_square_yards_close_and_street_near_to_margla_road-54022921-3301-1.html"
-      }
-    ]
-  },
-  {
-    "name": "PWD Housing Scheme",
-    "centroid": {
-      "latitude": 33.570792,
-      "longitude": 73.145256
-    },
-    "listingCount": 2,
-    "mappedCount": 2,
-    "medianPricePkr": 20350000.0,
-    "medianPricePerSqft": 13867.52,
-    "medianAreaSqft": 1359.0,
-    "medianFreshnessHours": 27.5,
-    "minPricePkr": 5700000,
-    "maxPricePkr": 35000000,
+    "medianPricePkr": 20070000.0,
+    "medianPricePerSqft": 16166.67,
+    "medianAreaSqft": 1155.0,
+    "medianFreshnessHours": 12.26,
+    "minPricePkr": 7140000,
+    "maxPricePkr": 33000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
@@ -2051,68 +2469,20 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 10.98,
-    "cityMedianTicketDeltaPct": -18.6,
+    "cityMedianPpsfDeltaPct": 20.88,
+    "cityMedianTicketDeltaPct": -32.99,
     "priceTier": "Premium",
     "sampleListings": [
       {
-        "id": 54104619,
-        "title": "House For Sale In National police foundation 10 Marla Block C (Prime Location) A Beautiful And Well-Maintained House Is Available For Sale In PWD Block C With All Basic Facilities. Ideal For Families Looking For A Peaceful And Secure Environment.",
-        "pricePkr": 35000000,
-        "pricePerSqft": 15555.56,
-        "beds": 6,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297907111/804370c7c6c045a684f9dbd375e9e7fe",
-        "url": "https://www.zameen.com/Property/islamabad_pwd_housing_scheme_house_for_sale_in_national_police_foundation_10_marla_block_c_prime_location_a_beautiful_and_well-maintained_house_is_available_for_sale_in_pwd_block_c_with_all_basic_facilities_ideal_for_families_looking_for_a_peaceful_and_secure_environment-54104619-424-1.html"
+        "id": 54164639,
+        "title": "Change Your Address To Mumtaz City, Mumtaz City For A Reasonable Price Of Rs. 33000000",
+        "pricePkr": 33000000,
+        "pricePerSqft": 18333.33,
+        "beds": 5,
+        "areaSqft": 1800.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297388483/2694c302351f46b4850e6f0e22bd3514",
+        "url": "https://www.zameen.com/Property/islamabad_mumtaz_city_change_your_address_to_mumtaz_city_mumtaz_city_for_a_reasonable_price_of_rs_33000000-54164639-3464-1.html"
       },
-      {
-        "id": 54214045,
-        "title": "Prominently-Located Flat Available In PWD Housing Scheme For Sale",
-        "pricePkr": 5700000,
-        "pricePerSqft": 12179.49,
-        "beds": 2,
-        "areaSqft": 468.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297847686/f39cc304dbd54981bb9219093729ca0f",
-        "url": "https://www.zameen.com/Property/islamabad_pwd_housing_scheme_prominently-located_flat_available_in_pwd_housing_scheme_for_sale-54214045-424-1.html"
-      }
-    ]
-  },
-  {
-    "name": "Mumtaz City",
-    "centroid": {
-      "latitude": 33.588409,
-      "longitude": 72.856971
-    },
-    "listingCount": 2,
-    "mappedCount": 2,
-    "medianPricePkr": 10970000.0,
-    "medianPricePerSqft": 10536.44,
-    "medianAreaSqft": 1301.25,
-    "medianFreshnessHours": 15.0,
-    "minPricePkr": 7140000,
-    "maxPricePkr": 14800000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 0.5
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 1,
-        "share": 0.5
-      }
-    },
-    "cityMedianPpsfDeltaPct": -15.68,
-    "cityMedianTicketDeltaPct": -56.12,
-    "priceTier": "Mid-market",
-    "sampleListings": [
       {
         "id": 54090609,
         "title": "Melano Square Residence, Mumtaz City Islamabad",
@@ -2122,33 +2492,23 @@
         "areaSqft": 510.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296717674/82fc4e9084614f65826803656f051721",
         "url": "https://www.zameen.com/Property/islamabad_mumtaz_city_melano_square_residence_mumtaz_city_islamabad-54090609-3464-1.html"
-      },
-      {
-        "id": 53477444,
-        "title": "2100 Sq. Ft Plot For Sale In Mumtaz City Chanab Block Islamabad",
-        "pricePkr": 14800000,
-        "pricePerSqft": 7072.88,
-        "beds": null,
-        "areaSqft": 2092.5,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297302273/c5f214dc8c5949338cf3e0226eb4ab0f",
-        "url": "https://www.zameen.com/Property/mumtaz_city_mumtaz_city_-_chanab_block_2100_sq_ft_plot_for_sale_in_mumtaz_city_chanab_block_islamabad-53477444-14993-2.html"
       }
     ]
   },
   {
-    "name": "Park Enclave",
+    "name": "Margalla Enclave",
     "centroid": {
-      "latitude": 33.672069,
-      "longitude": 73.152571
+      "latitude": 33.691368,
+      "longitude": 73.170091
     },
     "listingCount": 2,
     "mappedCount": 2,
-    "medianPricePkr": 43750000.0,
-    "medianPricePerSqft": 9722.22,
-    "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 19.0,
-    "minPricePkr": 42500000,
-    "maxPricePkr": 45000000,
+    "medianPricePkr": 26500000.0,
+    "medianPricePerSqft": 15777.78,
+    "medianAreaSqft": 1687.5,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 18000000,
+    "maxPricePkr": 35000000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -2167,87 +2527,87 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -22.19,
-    "cityMedianTicketDeltaPct": 75.0,
-    "priceTier": "Mid-market",
+    "cityMedianPpsfDeltaPct": 17.97,
+    "cityMedianTicketDeltaPct": -11.52,
+    "priceTier": "Premium",
     "sampleListings": [
       {
-        "id": 52046510,
-        "title": "Kanal Level Plot In Park Enclave Phase 2 | Ideal Location",
-        "pricePkr": 45000000,
-        "pricePerSqft": 10000.0,
+        "id": 53901109,
+        "title": "5 Marla Plot In Sector ME1 | Prime Location | Down Payment Paid",
+        "pricePkr": 18000000,
+        "pricePerSqft": 16000.0,
         "beds": null,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/286828794/8bc429ce36704a2f9f36dca0b87ed231",
-        "url": "https://www.zameen.com/Property/park_enclave_park_enclave_2_kanal_level_plot_in_park_enclave_phase_2_ideal_location-52046510-17149-2.html"
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294999080/a24a73a8d5cd45f89d95a6f4f77e37b4",
+        "url": "https://www.zameen.com/Property/islamabad_margalla_enclave_5_marla_plot_in_sector_me1_prime_location_down_payment_paid-53901109-22293-2.html"
       },
       {
-        "id": 53520181,
-        "title": "Kanal Level Plot In Park Enclave Phase-2",
-        "pricePkr": 42500000,
-        "pricePerSqft": 9444.44,
-        "beds": null,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294679442/7037091f4a9f46d4b47d688e1855b7da",
-        "url": "https://www.zameen.com/Property/park_enclave_park_enclave_2_kanal_level_plot_in_park_enclave_phase-2-53520181-17149-2.html"
-      }
-    ]
-  },
-  {
-    "name": "Margalla Orchard",
-    "centroid": {
-      "latitude": 33.657204,
-      "longitude": 73.164386
-    },
-    "listingCount": 2,
-    "mappedCount": 2,
-    "medianPricePkr": 26250000.0,
-    "medianPricePerSqft": 8222.23,
-    "medianAreaSqft": 3375.0,
-    "medianFreshnessHours": 8.28,
-    "minPricePkr": 21500000,
-    "maxPricePkr": 31000000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 2,
-        "share": 1.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": -34.2,
-    "cityMedianTicketDeltaPct": 5.0,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": 53883975,
-        "title": "10 Marla Plot For Sale In Margalla Orchid Walk DHA Islamabad",
-        "pricePkr": 21500000,
-        "pricePerSqft": 9555.56,
+        "id": 53881648,
+        "title": "Prime 10 Marla Plot Available | Down Payment Paid | 3-Year Easy Instalment Plan | Margalla Enclave, Islamabad",
+        "pricePkr": 35000000,
+        "pricePerSqft": 15555.56,
         "beds": null,
         "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294855488/2af07d9bffb2448592a5766271fc81ce",
-        "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_10_marla_plot_for_sale_in_margalla_orchid_walk_dha_islamabad-53883975-21948-2.html"
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/294831272/fc6659d644984c4fa6eea24b517051f2",
+        "url": "https://www.zameen.com/Property/islamabad_margalla_enclave_prime_10_marla_plot_available_down_payment_paid_3-year_easy_instalment_plan_margalla_enclave_islamabad-53881648-22293-2.html"
+      }
+    ]
+  },
+  {
+    "name": "Zaraj Housing Scheme",
+    "centroid": {
+      "latitude": 33.514384,
+      "longitude": 73.153324
+    },
+    "listingCount": 2,
+    "mappedCount": 2,
+    "medianPricePkr": 23750000.0,
+    "medianPricePerSqft": 9000.0,
+    "medianAreaSqft": 2700.0,
+    "medianFreshnessHours": 10.06,
+    "minPricePkr": 23000000,
+    "maxPricePkr": 24500000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 2,
+        "share": 1.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -32.71,
+    "cityMedianTicketDeltaPct": -20.7,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": 54183105,
+        "title": "Ideal Corner Residential Plot In Islamabad Available For Rs. 23000000",
+        "pricePkr": 23000000,
+        "pricePerSqft": 10222.22,
+        "beds": null,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297568678/037383036b1d4e569d5b18c02e78ec8b",
+        "url": "https://www.zameen.com/Property/zaraj_housing_scheme_zaraj_scheme_-_sector_c_ideal_corner_residential_plot_in_islamabad_available_for_rs_23000000-54183105-3512-2.html"
       },
       {
-        "id": 54245396,
-        "title": "B Block 1 Kanal Prime Location Plot Available In Margalla Orchard DHA",
-        "pricePkr": 31000000,
-        "pricePerSqft": 6888.89,
+        "id": 53752169,
+        "title": "2nd To Corner Plot No 232 St 10 Sector A",
+        "pricePkr": 24500000,
+        "pricePerSqft": 7777.78,
         "beds": null,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298120466/8998c12330054521b7d519b9b8d55678",
-        "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_b_block_1_kanal_prime_location_plot_available_in_margalla_orchard_dha-54245396-21948-2.html"
+        "areaSqft": 3150.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293661282/7b45061782d04facbaace700117d6cad",
+        "url": "https://www.zameen.com/Property/zaraj_housing_scheme_zaraj_scheme_-_sector_a_2nd_to_corner_plot_no_232_st_10_sector_a-53752169-3509-2.html"
       }
     ]
   },
@@ -2260,22 +2620,22 @@
     "listingCount": 2,
     "mappedCount": 2,
     "medianPricePkr": 12750000.0,
-    "medianPricePerSqft": 8113.97,
-    "medianAreaSqft": 1578.75,
-    "medianFreshnessHours": 35.0,
+    "medianPricePerSqft": 8136.36,
+    "medianAreaSqft": 1575.0,
+    "medianFreshnessHours": 36.0,
     "minPricePkr": 12000000,
     "maxPricePkr": 13500000,
-    "dominantPropertyGroup": "house",
+    "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 1,
-        "share": 0.5
+        "count": 0,
+        "share": 0.0
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 1,
-        "share": 0.5
+        "count": 2,
+        "share": 1.0
       },
       "plot": {
         "label": "Residential Plots",
@@ -2283,17 +2643,17 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": -35.06,
-    "cityMedianTicketDeltaPct": -49.0,
+    "cityMedianPpsfDeltaPct": -39.16,
+    "cityMedianTicketDeltaPct": -57.43,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
         "id": 54251333,
         "title": "PHA I. 16/3 TaypB LUXURY APARTMENT GROUND FLOOR FOR SALE",
         "pricePkr": 13500000,
-        "pricePerSqft": 8955.22,
+        "pricePerSqft": 9000.0,
         "beds": 4,
-        "areaSqft": 1507.5,
+        "areaSqft": 1500.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298172494/e1a75f9332f94a239c92eacf8220e8e4",
         "url": "https://www.zameen.com/Property/i_16_i-16_3_pha_i_16_3_taypb_luxury_apartment_ground_floor_for_sale-54251333-3437-1.html"
       },
@@ -2310,25 +2670,25 @@
     ]
   },
   {
-    "name": "GT Road",
+    "name": "National Police Foundation O-9",
     "centroid": {
-      "latitude": 33.580427,
-      "longitude": 73.039032
+      "latitude": 33.571305,
+      "longitude": 73.130052
     },
     "listingCount": 2,
     "mappedCount": 2,
-    "medianPricePkr": 24250000.0,
-    "medianPricePerSqft": 6551.1,
-    "medianAreaSqft": 13297.5,
-    "medianFreshnessHours": 6.5,
-    "minPricePkr": 11000000,
-    "maxPricePkr": 37500000,
-    "dominantPropertyGroup": "house",
+    "medianPricePkr": 32750000.0,
+    "medianPricePerSqft": 7277.78,
+    "medianAreaSqft": 4500.0,
+    "medianFreshnessHours": 0.45,
+    "minPricePkr": 22500000,
+    "maxPricePkr": 43000000,
+    "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 2,
-        "share": 1.0
+        "count": 1,
+        "share": 0.5
       },
       "apartment": {
         "label": "Flats & Apartments",
@@ -2337,50 +2697,50 @@
       },
       "plot": {
         "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
+        "count": 1,
+        "share": 0.5
       }
     },
-    "cityMedianPpsfDeltaPct": -47.57,
-    "cityMedianTicketDeltaPct": -3.0,
+    "cityMedianPpsfDeltaPct": -45.58,
+    "cityMedianTicketDeltaPct": 9.35,
     "priceTier": "Value",
     "sampleListings": [
       {
-        "id": 54223016,
-        "title": "2 Bed For Sale In E L Ceilo Tower A",
-        "pricePkr": 11000000,
-        "pricePerSqft": 11640.21,
-        "beds": 2,
-        "areaSqft": 945.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297931468/fccfa91094ee4035a8affa5efdeb97aa",
-        "url": "https://www.zameen.com/Property/gt_road_el_cielo_2_bed_for_sale_in_e_l_ceilo_tower_a-54223016-10358-1.html"
+        "id": 53683644,
+        "title": "Kanal Double Storey House Available For Sale In Police Foundation On Hot Location",
+        "pricePkr": 43000000,
+        "pricePerSqft": 9555.56,
+        "beds": 4,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/293049964/40f5f54d7aeb486f982f2ed9acf9bd71",
+        "url": "https://www.zameen.com/Property/national_police_foundation_o_9_national_police_foundation_o-9_-_block_b_kanal_double_storey_house_available_for_sale_in_police_foundation_on_hot_location-53683644-16426-1.html"
       },
       {
-        "id": 49514943,
-        "title": "5 Kanal Orchard Farm House For Sale",
-        "pricePkr": 37500000,
-        "pricePerSqft": 1461.99,
-        "beds": 2,
-        "areaSqft": 25650.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/251005050/34b66b412de844b3aac64c607b468f25",
-        "url": "https://www.zameen.com/Property/islamabad_gt_road_5_kanal_orchard_farm_house_for_sale-49514943-3397-1.html"
+        "id": 54109806,
+        "title": "National Police Foundation B block 50x90",
+        "pricePkr": 22500000,
+        "pricePerSqft": 5000.0,
+        "beds": null,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296887070/5c390b4d461b4fe4b71382321177654c",
+        "url": "https://www.zameen.com/Property/national_police_foundation_o_9_national_police_foundation_o-9_-_block_b_national_police_foundation_b_block_50x90-54109806-16426-2.html"
       }
     ]
   },
   {
-    "name": "OPF Valley",
+    "name": "University Town",
     "centroid": {
-      "latitude": 33.581793,
-      "longitude": 73.240178
+      "latitude": 33.585521,
+      "longitude": 72.892249
     },
     "listingCount": 2,
     "mappedCount": 2,
-    "medianPricePkr": 14500000.0,
-    "medianPricePerSqft": 2418.62,
-    "medianAreaSqft": 6097.5,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 8000000,
-    "maxPricePkr": 21000000,
+    "medianPricePkr": 3500000.0,
+    "medianPricePerSqft": 2114.28,
+    "medianAreaSqft": 1755.0,
+    "medianFreshnessHours": 0.49,
+    "minPricePkr": 3200000,
+    "maxPricePkr": 3800000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -2399,29 +2759,77 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -80.64,
-    "cityMedianTicketDeltaPct": -42.0,
+    "cityMedianPpsfDeltaPct": -84.19,
+    "cityMedianTicketDeltaPct": -88.31,
     "priceTier": "Value",
     "sampleListings": [
       {
-        "id": 54247529,
-        "title": "Opf valley Islamabad zone V",
-        "pricePkr": 8000000,
-        "pricePerSqft": 2503.91,
+        "id": 54244250,
+        "title": "5 Marla Plot In Street 15 Of Block F",
+        "pricePkr": 3200000,
+        "pricePerSqft": 2539.68,
         "beds": null,
-        "areaSqft": 3195.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298137684/90f89c608e2046da882a6ad3cbe937be",
-        "url": "https://www.zameen.com/Property/opf_valley_opf_valley_-_block_h_opf_valley_islamabad_zone_v-54247529-16438-2.html"
+        "areaSqft": 1260.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298112901/53de9cb23d314abbb1dd1ddd4fe97cbd",
+        "url": "https://www.zameen.com/Property/university_town_university_town_-_block_f_5_marla_plot_in_street_15_of_block_f-54244250-3506-2.html"
       },
       {
-        "id": 54253984,
-        "title": "Opf valley Islamabad zone V",
-        "pricePkr": 21000000,
-        "pricePerSqft": 2333.33,
+        "id": 53932282,
+        "title": "University Town Block F Street No 26 Plot No 17 Size 35x65 For Sale",
+        "pricePkr": 3800000,
+        "pricePerSqft": 1688.89,
         "beds": null,
-        "areaSqft": 9000.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298194291/8f5d30ca5a734d329fcb2a59d8014913",
-        "url": "https://www.zameen.com/Property/opf_valley_opf_valley_-_block_b_opf_valley_islamabad_zone_v-54253984-16432-2.html"
+        "areaSqft": 2250.0,
+        "imageUrl": "",
+        "url": "https://www.zameen.com/Property/islamabad_university_town_university_town_block_f_street_no_26_plot_no_17_size_35x65_for_sale-53932282-1164-2.html"
+      }
+    ]
+  },
+  {
+    "name": "E-7",
+    "centroid": {
+      "latitude": 33.727409,
+      "longitude": 73.047581
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 670000000.0,
+    "medianPricePerSqft": 78362.57,
+    "medianAreaSqft": 8550.0,
+    "medianFreshnessHours": 5.0,
+    "minPricePkr": 670000000,
+    "maxPricePkr": 670000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 485.93,
+    "cityMedianTicketDeltaPct": 2137.06,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 54252047,
+        "title": "Prime Location 5 Bedroom Liveable House",
+        "pricePkr": 670000000,
+        "pricePerSqft": 78362.57,
+        "beds": 5,
+        "areaSqft": 8550.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298178160/34737c38a5d442c69e655b7be1413c9e",
+        "url": "https://www.zameen.com/Property/islamabad_e-7_prime_location_5_bedroom_liveable_house-54252047-343-1.html"
       }
     ]
   },
@@ -2436,7 +2844,7 @@
     "medianPricePkr": 230000000.0,
     "medianPricePerSqft": 52873.56,
     "medianAreaSqft": 4350.0,
-    "medianFreshnessHours": 17.0,
+    "medianFreshnessHours": 24.0,
     "minPricePkr": 230000000,
     "maxPricePkr": 230000000,
     "dominantPropertyGroup": "apartment",
@@ -2457,8 +2865,8 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 323.15,
-    "cityMedianTicketDeltaPct": 820.0,
+    "cityMedianPpsfDeltaPct": 295.35,
+    "cityMedianTicketDeltaPct": 667.95,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -2474,102 +2882,6 @@
     ]
   },
   {
-    "name": "Kashmir Highway",
-    "centroid": {
-      "latitude": 33.600282,
-      "longitude": 72.88833
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 28523250.0,
-    "medianPricePerSqft": 37043.18,
-    "medianAreaSqft": 770.0,
-    "medianFreshnessHours": 15.0,
-    "minPricePkr": 28523250,
-    "maxPricePkr": 28523250,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 1.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 196.46,
-    "cityMedianTicketDeltaPct": 14.09,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 54216780,
-        "title": "1 Bedroom Apartment | 3 Year Easy Payment Plan | Golf Course View | Eighteen Islamabad",
-        "pricePkr": 28523250,
-        "pricePerSqft": 37043.18,
-        "beds": 1,
-        "areaSqft": 770.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297873914/9954381b5ccb482ca93659bfa21c893f",
-        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_1_bedroom_apartment_3_year_easy_payment_plan_golf_course_view_eighteen_islamabad-54216780-12602-1.html"
-      }
-    ]
-  },
-  {
-    "name": "Islamabad - Murree Expressway",
-    "centroid": {
-      "latitude": 33.787708,
-      "longitude": 73.272972
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 17316000.0,
-    "medianPricePerSqft": 36000.0,
-    "medianAreaSqft": 481.0,
-    "medianFreshnessHours": 24.0,
-    "minPricePkr": 17316000,
-    "maxPricePkr": 17316000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 1.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 188.11,
-    "cityMedianTicketDeltaPct": -30.74,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 54119384,
-        "title": "Buy Hotel Suite In Worlds Famous Brand Radisson Blu Murree Resort On Easy Installments.",
-        "pricePkr": 17316000,
-        "pricePerSqft": 36000.0,
-        "beds": 1,
-        "areaSqft": 481.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296978347/1aa3ec1b52ef4fbfaa950217d5f25e02",
-        "url": "https://www.zameen.com/Property/islamabad_islamabad_-_murree_expressway_buy_hotel_suite_in_worlds_famous_brand_radisson_blu_murree_resort_on_easy_installments-54119384-342-1.html"
-      }
-    ]
-  },
-  {
     "name": "I-10",
     "centroid": {
       "latitude": 33.648922,
@@ -2580,7 +2892,7 @@
     "medianPricePkr": 52500000.0,
     "medianPricePerSqft": 34825.87,
     "medianAreaSqft": 1507.5,
-    "medianFreshnessHours": 17.0,
+    "medianFreshnessHours": 24.0,
     "minPricePkr": 52500000,
     "maxPricePkr": 52500000,
     "dominantPropertyGroup": "house",
@@ -2601,8 +2913,8 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 178.71,
-    "cityMedianTicketDeltaPct": 110.0,
+    "cityMedianPpsfDeltaPct": 160.4,
+    "cityMedianTicketDeltaPct": 75.29,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -2618,67 +2930,19 @@
     ]
   },
   {
-    "name": "G-10",
+    "name": "I-8",
     "centroid": {
-      "latitude": 33.675847,
-      "longitude": 73.016242
+      "latitude": 33.662782,
+      "longitude": 73.077793
     },
     "listingCount": 1,
     "mappedCount": 1,
-    "medianPricePkr": 68112000.0,
-    "medianPricePerSqft": 33000.0,
-    "medianAreaSqft": 2064.0,
-    "medianFreshnessHours": 9.0,
-    "minPricePkr": 68112000,
-    "maxPricePkr": 68112000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 1.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 164.1,
-    "cityMedianTicketDeltaPct": 172.45,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": 54244987,
-        "title": "Veranda Executive | 3BHK 2064 SqFt | Park + Margalla Facing | Investor's Goldmine",
-        "pricePkr": 68112000,
-        "pricePerSqft": 33000.0,
-        "beds": 3,
-        "areaSqft": 2064.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298154896/8d7b07922bda4d729e44f08daf088748",
-        "url": "https://www.zameen.com/Property/g_10_markaz_veranda_executive_veranda_executive_3bhk_2064_sqft_park_margalla_facing_investor_s_goldmine-54244987-21775-1.html"
-      }
-    ]
-  },
-  {
-    "name": "I-11",
-    "centroid": {
-      "latitude": 33.638775,
-      "longitude": 73.017855
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 32000000.0,
-    "medianPricePerSqft": 23703.7,
-    "medianAreaSqft": 1350.0,
-    "medianFreshnessHours": 19.0,
-    "minPricePkr": 32000000,
-    "maxPricePkr": 32000000,
+    "medianPricePkr": 88500000.0,
+    "medianPricePerSqft": 32777.78,
+    "medianAreaSqft": 2700.0,
+    "medianFreshnessHours": 0.05,
+    "minPricePkr": 88500000,
+    "maxPricePkr": 88500000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -2697,19 +2961,67 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": 89.7,
-    "cityMedianTicketDeltaPct": 28.0,
+    "cityMedianPpsfDeltaPct": 145.09,
+    "cityMedianTicketDeltaPct": 195.49,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
-        "id": 53344147,
-        "title": "25x60 Extra Land Plot North Service Road I-11/2 For Sale.",
-        "pricePkr": 32000000,
-        "pricePerSqft": 23703.7,
+        "id": 53335595,
+        "title": "Premium Location 35 X 80 Residential Plot Available For Sale In I-8 Islamabad",
+        "pricePkr": 88500000,
+        "pricePerSqft": 32777.78,
         "beds": null,
-        "areaSqft": 1350.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/289046483/2937b32f15c645059348158892ec9ac9",
-        "url": "https://www.zameen.com/Property/islamabad_i-11_25x60_extra_land_plot_north_service_road_i-11_2_for_sale-53344147-706-2.html"
+        "areaSqft": 2700.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/288938993/cfabd60ee5814d57822454accfcaf781",
+        "url": "https://www.zameen.com/Property/i_8_i-8_4_premium_location_35_x_80_residential_plot_available_for_sale_in_i-8_islamabad-53335595-3444-2.html"
+      }
+    ]
+  },
+  {
+    "name": "G-10",
+    "centroid": {
+      "latitude": 33.676104,
+      "longitude": 73.013842
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 63000000.0,
+    "medianPricePerSqft": 28865.98,
+    "medianAreaSqft": 2182.5,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 63000000,
+    "maxPricePkr": 63000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 1,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": 115.84,
+    "cityMedianTicketDeltaPct": 110.35,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": 53988225,
+        "title": "Veranda Executive G-10 Park Facing Apartment for Sale.",
+        "pricePkr": 63000000,
+        "pricePerSqft": 28865.98,
+        "beds": null,
+        "areaSqft": 2182.5,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295742722/1b29160cabee49a3b2ec8f2b74c94f1a",
+        "url": "https://www.zameen.com/Property/islamabad_g-10_veranda_executive_g-10_park_facing_apartment_for_sale-53988225-167-1.html"
       }
     ]
   },
@@ -2724,7 +3036,7 @@
     "medianPricePkr": 42500000.0,
     "medianPricePerSqft": 23611.11,
     "medianAreaSqft": 1800.0,
-    "medianFreshnessHours": 15.0,
+    "medianFreshnessHours": 24.0,
     "minPricePkr": 42500000,
     "maxPricePkr": 42500000,
     "dominantPropertyGroup": "house",
@@ -2745,8 +3057,8 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 88.96,
-    "cityMedianTicketDeltaPct": 70.0,
+    "cityMedianPpsfDeltaPct": 76.55,
+    "cityMedianTicketDeltaPct": 41.9,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -2762,115 +3074,19 @@
     ]
   },
   {
-    "name": "National Police Foundation O-9",
+    "name": "Canyon Views Cvrp",
     "centroid": {
-      "latitude": 33.570262,
-      "longitude": 73.13417
+      "latitude": 33.517796,
+      "longitude": 73.182467
     },
     "listingCount": 1,
     "mappedCount": 1,
-    "medianPricePkr": 18000000.0,
+    "medianPricePkr": 24800000.0,
     "medianPricePerSqft": 16000.0,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 21.0,
-    "minPricePkr": 18000000,
-    "maxPricePkr": 18000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 28.05,
-    "cityMedianTicketDeltaPct": -28.0,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 54236477,
-        "title": "5 Marla House Situated In National Police Foundation O-9 - Block C For Sale",
-        "pricePkr": 18000000,
-        "pricePerSqft": 16000.0,
-        "beds": 4,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298089572/73f5eef2bbfd407ab840a8ef2ab63e96",
-        "url": "https://www.zameen.com/Property/national_police_foundation_o_9_national_police_foundation_o-9_-_block_c_5_marla_house_situated_in_national_police_foundation_o-9_-_block_c_for_sale-54236477-16427-1.html"
-      }
-    ]
-  },
-  {
-    "name": "Ghauri Town",
-    "centroid": {
-      "latitude": 33.630792,
-      "longitude": 73.138835
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 16500000.0,
-    "medianPricePerSqft": 14666.67,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 1.0,
-    "minPricePkr": 16500000,
-    "maxPricePkr": 16500000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": 17.38,
-    "cityMedianTicketDeltaPct": -34.0,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": 53920778,
-        "title": "Urgent Sale Reasonable Price 5 Marla Double Storey House For Sale Ghouri Garden Lehtrar Road Islamabad Best Location Near Commercial Street Size 30 Feet",
-        "pricePkr": 16500000,
-        "pricePerSqft": 14666.67,
-        "beds": 5,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298195270/e7f03d5527184ab4b8869401337ad569",
-        "url": "https://www.zameen.com/Property/ghauri_town_ghauri_garden_urgent_sale_reasonable_price_5_marla_double_storey_house_for_sale_ghouri_garden_lehtrar_road_islamabad_best_location_near_commercial_street_size_30_feet-53920778-10660-1.html"
-      }
-    ]
-  },
-  {
-    "name": "Tarnol",
-    "centroid": {
-      "latitude": 33.605183,
-      "longitude": 72.843976
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 28000000.0,
-    "medianPricePerSqft": 12727.27,
-    "medianAreaSqft": 2200.0,
-    "medianFreshnessHours": 48.0,
-    "minPricePkr": 28000000,
-    "maxPricePkr": 28000000,
+    "medianAreaSqft": 1550.0,
+    "medianFreshnessHours": 9.0,
+    "minPricePkr": 24800000,
+    "maxPricePkr": 24800000,
     "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
@@ -2889,36 +3105,36 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": 1.86,
-    "cityMedianTicketDeltaPct": 12.0,
+    "cityMedianPpsfDeltaPct": 19.64,
+    "cityMedianTicketDeltaPct": -17.2,
     "priceTier": "Premium",
     "sampleListings": [
       {
-        "id": 50975077,
-        "title": "3 Bed Brand New Apartment For Sale In Fazaia",
-        "pricePkr": 28000000,
-        "pricePerSqft": 12727.27,
-        "beds": 3,
-        "areaSqft": 2200.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/263953713/14f455b43d454a59bf9c6b9a23af9a66",
-        "url": "https://www.zameen.com/Property/tarnol_fazaia_housing_scheme_3_bed_brand_new_apartment_for_sale_in_fazaia-50975077-10314-1.html"
+        "id": 53106984,
+        "title": "Residential Apartment For Sale",
+        "pricePkr": 24800000,
+        "pricePerSqft": 16000.0,
+        "beds": 2,
+        "areaSqft": 1550.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/286996082/7c60c4d99e0c42c98030a5901f1d66df",
+        "url": "https://www.zameen.com/Property/canyon_views_cvrp_hyde_park_one_residential_apartment_for_sale-53106984-18872-1.html"
       }
     ]
   },
   {
-    "name": "Korang Town",
+    "name": "D-12",
     "centroid": {
-      "latitude": 33.579034,
-      "longitude": 73.139591
+      "latitude": 33.701636,
+      "longitude": 72.948532
     },
     "listingCount": 1,
     "mappedCount": 1,
-    "medianPricePkr": 4000000.0,
-    "medianPricePerSqft": 11851.85,
-    "medianAreaSqft": 337.5,
-    "medianFreshnessHours": 7.0,
-    "minPricePkr": 4000000,
-    "maxPricePkr": 4000000,
+    "medianPricePkr": 35000000.0,
+    "medianPricePerSqft": 15555.56,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 0.45,
+    "minPricePkr": 35000000,
+    "maxPricePkr": 35000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
@@ -2937,17 +3153,113 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": -5.15,
-    "cityMedianTicketDeltaPct": -84.0,
+    "cityMedianPpsfDeltaPct": 16.31,
+    "cityMedianTicketDeltaPct": 16.86,
+    "priceTier": "Premium",
+    "sampleListings": [
+      {
+        "id": 52842099,
+        "title": "Luxury 4-Bed Villa For Sale In Karsaaz Villas D-12 Islamabad | Scenic Margalla Hills View | Gated Community",
+        "pricePkr": 35000000,
+        "pricePerSqft": 15555.56,
+        "beds": 4,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/281369292/dbd2024818ce4e8d9d038a2d84f85a45",
+        "url": "https://www.zameen.com/Property/islamabad_d-12_luxury_4-bed_villa_for_sale_in_karsaaz_villas_d-12_islamabad_scenic_margalla_hills_view_gated_community-52842099-160-1.html"
+      }
+    ]
+  },
+  {
+    "name": "PWD Housing Scheme",
+    "centroid": {
+      "latitude": 33.570792,
+      "longitude": 73.145256
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 5700000.0,
+    "medianPricePerSqft": 12179.49,
+    "medianAreaSqft": 468.0,
+    "medianFreshnessHours": 48.0,
+    "minPricePkr": 5700000,
+    "maxPricePkr": 5700000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 1,
+        "share": 1.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -8.93,
+    "cityMedianTicketDeltaPct": -80.97,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": 54214045,
+        "title": "Prominently-Located Flat Available In PWD Housing Scheme For Sale",
+        "pricePkr": 5700000,
+        "pricePerSqft": 12179.49,
+        "beds": 2,
+        "areaSqft": 468.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297847686/f39cc304dbd54981bb9219093729ca0f",
+        "url": "https://www.zameen.com/Property/islamabad_pwd_housing_scheme_prominently-located_flat_available_in_pwd_housing_scheme_for_sale-54214045-424-1.html"
+      }
+    ]
+  },
+  {
+    "name": "Korang Town",
+    "centroid": {
+      "latitude": 33.579034,
+      "longitude": 73.139591
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 4000000.0,
+    "medianPricePerSqft": 11695.91,
+    "medianAreaSqft": 342.0,
+    "medianFreshnessHours": 17.0,
+    "minPricePkr": 4000000,
+    "maxPricePkr": 4000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 1,
+        "share": 1.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -12.55,
+    "cityMedianTicketDeltaPct": -86.64,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
         "id": 54115852,
         "title": "Korang Town, Islamabad! Korang Square Brand New 1-Bedroom Apartment available for sale Kamyab investment ka sunehra mauqa!",
         "pricePkr": 4000000,
-        "pricePerSqft": 11851.85,
+        "pricePerSqft": 11695.91,
         "beds": 1,
-        "areaSqft": 337.5,
+        "areaSqft": 342.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296944336/44fc54c670054381a81b1137b1442453",
         "url": "https://www.zameen.com/Property/islamabad_korang_town_korang_town_islamabad_korang_square_brand_new_1-bedroom_apartment_available_for_sale_kamyab_investment_ka_sunehra_mauqa-54115852-445-1.html"
       }
@@ -2964,7 +3276,7 @@
     "medianPricePkr": 13000000.0,
     "medianPricePerSqft": 11555.56,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 22.0,
+    "medianFreshnessHours": 0.23,
     "minPricePkr": 13000000,
     "maxPricePkr": 13000000,
     "dominantPropertyGroup": "house",
@@ -2985,8 +3297,8 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": -7.52,
-    "cityMedianTicketDeltaPct": -48.0,
+    "cityMedianPpsfDeltaPct": -13.6,
+    "cityMedianTicketDeltaPct": -56.59,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
@@ -3002,115 +3314,67 @@
     ]
   },
   {
-    "name": "Zaraj Housing Scheme",
+    "name": "Park Enclave",
     "centroid": {
-      "latitude": 33.510878,
-      "longitude": 73.150706
+      "latitude": 33.67766,
+      "longitude": 73.15306
     },
     "listingCount": 1,
     "mappedCount": 1,
-    "medianPricePkr": 23000000.0,
+    "medianPricePkr": 34500000.0,
+    "medianPricePerSqft": 10952.38,
+    "medianAreaSqft": 3150.0,
+    "medianFreshnessHours": 4.0,
+    "minPricePkr": 34500000,
+    "maxPricePkr": 34500000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 1,
+        "share": 1.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -18.11,
+    "cityMedianTicketDeltaPct": 15.19,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": 54221840,
+        "title": "14 Marla Residential Plot CDA Park Enclave 3",
+        "pricePkr": 34500000,
+        "pricePerSqft": 10952.38,
+        "beds": null,
+        "areaSqft": 3150.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297918770/e1546b3c0d1a4ee89413f6f3ef766388",
+        "url": "https://www.zameen.com/Property/park_enclave_park_enclave_3_14_marla_residential_plot_cda_park_enclave_3-54221840-17150-2.html"
+      }
+    ]
+  },
+  {
+    "name": "Shah Allah Ditta",
+    "centroid": {
+      "latitude": 33.712988,
+      "longitude": 72.921281
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 11500000.0,
     "medianPricePerSqft": 10222.22,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 10.0,
-    "minPricePkr": 23000000,
-    "maxPricePkr": 23000000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": -18.19,
-    "cityMedianTicketDeltaPct": -8.0,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": 54183105,
-        "title": "Ideal Corner Residential Plot In Islamabad Available For Rs. 23000000",
-        "pricePkr": 23000000,
-        "pricePerSqft": 10222.22,
-        "beds": null,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297568678/037383036b1d4e569d5b18c02e78ec8b",
-        "url": "https://www.zameen.com/Property/zaraj_housing_scheme_zaraj_scheme_-_sector_c_ideal_corner_residential_plot_in_islamabad_available_for_rs_23000000-54183105-3512-2.html"
-      }
-    ]
-  },
-  {
-    "name": "Naval Anchorage",
-    "centroid": {
-      "latitude": 33.57081,
-      "longitude": 73.207288
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 10700000.0,
-    "medianPricePerSqft": 9511.11,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 6.0,
-    "minPricePkr": 10700000,
-    "maxPricePkr": 10700000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": -23.88,
-    "cityMedianTicketDeltaPct": -57.2,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": 53651191,
-        "title": "Residential Plot Is Available For Sale In Naval Anchorage - Block G",
-        "pricePkr": 10700000,
-        "pricePerSqft": 9511.11,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296898786/7fde698faa4b47a3bae76b9e212d54a5",
-        "url": "https://www.zameen.com/Property/naval_anchorage_naval_anchorage_-_block_g_residential_plot_is_available_for_sale_in_naval_anchorage_-_block_g-53651191-9158-2.html"
-      }
-    ]
-  },
-  {
-    "name": "E-18",
-    "centroid": {
-      "latitude": 33.628092,
-      "longitude": 72.862401
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 16500000.0,
-    "medianPricePerSqft": 9166.67,
-    "medianAreaSqft": 1800.0,
-    "medianFreshnessHours": 23.0,
-    "minPricePkr": 16500000,
-    "maxPricePkr": 16500000,
+    "medianFreshnessHours": 0.33,
+    "minPricePkr": 11500000,
+    "maxPricePkr": 11500000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
@@ -3129,36 +3393,84 @@
         "share": 0.0
       }
     },
-    "cityMedianPpsfDeltaPct": -26.64,
-    "cityMedianTicketDeltaPct": -34.0,
+    "cityMedianPpsfDeltaPct": -23.57,
+    "cityMedianTicketDeltaPct": -61.6,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
-        "id": 54133023,
-        "title": "8 Marla ( 30*60 In Block F ) Single Story. Brand New House Available For Sale. In Gulshan E Sehat E-18 Islamabad.",
-        "pricePkr": 16500000,
-        "pricePerSqft": 9166.67,
+        "id": 54081431,
+        "title": "5 Marla Single Storey House For Sale In Shah Allah Ditta | CDA Zone 3 Registered",
+        "pricePkr": 11500000,
+        "pricePerSqft": 10222.22,
+        "beds": null,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296629356/63c84f9d430444af9e83fc0310999f16",
+        "url": "https://www.zameen.com/Property/islamabad_shah_allah_ditta_5_marla_single_storey_house_for_sale_in_shah_allah_ditta_cda_zone_3_registered-54081431-8424-1.html"
+      }
+    ]
+  },
+  {
+    "name": "Faisal Town - F-18",
+    "centroid": {
+      "latitude": 33.611785,
+      "longitude": 72.86967
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 9000000.0,
+    "medianPricePerSqft": 8875.74,
+    "medianAreaSqft": 1014.0,
+    "medianFreshnessHours": 72.0,
+    "minPricePkr": 9000000,
+    "maxPricePkr": 9000000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 1,
+        "share": 1.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -33.63,
+    "cityMedianTicketDeltaPct": -69.95,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": 53334179,
+        "title": "2 BED FURNISH APARTMENT FOR SALE IN FAISAL TOWN ISLAMABAD",
+        "pricePkr": 9000000,
+        "pricePerSqft": 8875.74,
         "beds": 2,
-        "areaSqft": 1800.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297132609/9222e6bada2c42368f6a56faec003624",
-        "url": "https://www.zameen.com/Property/gulshan_e_sehat_2_gulshan-e-sehat_2_-_block_f_8_marla_30_60_in_block_f_single_story_brand_new_house_available_for_sale_in_gulshan_e_sehat_e-18_islamabad-54133023-3268-1.html"
+        "areaSqft": 1014.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/288921700/368dd2e63399413f84d5e494d38b950b",
+        "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_2_bed_furnish_apartment_for_sale_in_faisal_town_islamabad-53334179-16416-1.html"
       }
     ]
   },
   {
-    "name": "C-15",
+    "name": "Lehtrar Road",
     "centroid": {
-      "latitude": 33.666679,
-      "longitude": 73.138259
+      "latitude": 33.628735,
+      "longitude": 73.133799
     },
     "listingCount": 1,
     "mappedCount": 1,
-    "medianPricePkr": 29500000.0,
-    "medianPricePerSqft": 6555.56,
-    "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 14.0,
-    "minPricePkr": 29500000,
-    "maxPricePkr": 29500000,
+    "medianPricePkr": 24500000.0,
+    "medianPricePerSqft": 7777.78,
+    "medianAreaSqft": 3150.0,
+    "medianFreshnessHours": 0.08,
+    "minPricePkr": 24500000,
+    "maxPricePkr": 24500000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -3177,36 +3489,36 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -47.54,
-    "cityMedianTicketDeltaPct": 18.0,
+    "cityMedianPpsfDeltaPct": -41.84,
+    "cityMedianTicketDeltaPct": -18.2,
     "priceTier": "Value",
     "sampleListings": [
       {
-        "id": 54148802,
-        "title": "1 Kanal Residential Plot In C-15 Is Available",
-        "pricePkr": 29500000,
-        "pricePerSqft": 6555.56,
+        "id": 52791320,
+        "title": "14 Marla Residential Plot In Rahman Enclave Style, Security & Value",
+        "pricePkr": 24500000,
+        "pricePerSqft": 7777.78,
         "beds": null,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/297238488/6fe339bbc96446f1aa7bcf34c3d512df",
-        "url": "https://www.zameen.com/Property/islamabad_c-15_1_kanal_residential_plot_in_c-15_is_available-54148802-8915-2.html"
+        "areaSqft": 3150.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/280691220/b04755778d6947e78c490326d2e55b5d",
+        "url": "https://www.zameen.com/Property/lehtrar_road_rahman_enclave_14_marla_residential_plot_in_rahman_enclave_style_security_value-52791320-17143-2.html"
       }
     ]
   },
   {
-    "name": "AGOCHS",
+    "name": "Rawat",
     "centroid": {
-      "latitude": 33.501153,
-      "longitude": 73.151417
+      "latitude": 33.501122,
+      "longitude": 73.212987
     },
     "listingCount": 1,
     "mappedCount": 1,
-    "medianPricePkr": 15800000.0,
-    "medianPricePerSqft": 3511.11,
-    "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 9.0,
-    "minPricePkr": 15800000,
-    "maxPricePkr": 15800000,
+    "medianPricePkr": 3500000.0,
+    "medianPricePerSqft": 3111.11,
+    "medianAreaSqft": 1125.0,
+    "medianFreshnessHours": 1.0,
+    "minPricePkr": 3500000,
+    "maxPricePkr": 3500000,
     "dominantPropertyGroup": "plot",
     "propertyMix": {
       "house": {
@@ -3225,19 +3537,67 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -71.9,
-    "cityMedianTicketDeltaPct": -36.8,
+    "cityMedianPpsfDeltaPct": -76.74,
+    "cityMedianTicketDeltaPct": -88.31,
     "priceTier": "Value",
     "sampleListings": [
       {
-        "id": 54003173,
-        "title": "1 Kanal Plot For Sale Also Pair Plots Available",
-        "pricePkr": 15800000,
-        "pricePerSqft": 3511.11,
+        "id": 54255233,
+        "title": "Plot no. 213C, Block C, KRL Society, Rawat, islamabad",
+        "pricePkr": 3500000,
+        "pricePerSqft": 3111.11,
         "beds": null,
-        "areaSqft": 4500.0,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/298204107/9950dcb9cac8499f9d77890725113969",
+        "url": "https://www.zameen.com/Property/krl_employees_cooperative_housing_society_krl_housing_society_-_block_c_plot_no_213c_block_c_krl_society_rawat_islamabad-54255233-21339-2.html"
+      }
+    ]
+  },
+  {
+    "name": "Engineering Co-operative Housing (ECHS)",
+    "centroid": {
+      "latitude": 33.643062,
+      "longitude": 72.854869
+    },
+    "listingCount": 1,
+    "mappedCount": 1,
+    "medianPricePkr": 7500000.0,
+    "medianPricePerSqft": 2777.78,
+    "medianAreaSqft": 2700.0,
+    "medianFreshnessHours": 2.0,
+    "minPricePkr": 7500000,
+    "maxPricePkr": 7500000,
+    "dominantPropertyGroup": "plot",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 1,
+        "share": 1.0
+      }
+    },
+    "cityMedianPpsfDeltaPct": -79.23,
+    "cityMedianTicketDeltaPct": -74.96,
+    "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": 54255161,
+        "title": "plot For sale 45x60 d18 Echs sangjani",
+        "pricePkr": 7500000,
+        "pricePerSqft": 2777.78,
+        "beds": null,
+        "areaSqft": 2700.0,
         "imageUrl": "",
-        "url": "https://www.zameen.com/Property/agochs_phase_2_agochs_phase_2_-_block_h_1_kanal_plot_for_sale_also_pair_plots_available-54003173-15108-2.html"
+        "url": "https://www.zameen.com/Property/islamabad_engineering_co-operative_housing_echs_plot_for_sale_45x60_d18_echs_sangjani-54255161-447-2.html"
       }
     ]
   },
@@ -3252,7 +3612,7 @@
     "medianPricePkr": 55000000.0,
     "medianPricePerSqft": 2444.44,
     "medianAreaSqft": 22500.0,
-    "medianFreshnessHours": 10.0,
+    "medianFreshnessHours": 20.0,
     "minPricePkr": 55000000,
     "maxPricePkr": 55000000,
     "dominantPropertyGroup": "plot",
@@ -3273,8 +3633,8 @@
         "share": 1.0
       }
     },
-    "cityMedianPpsfDeltaPct": -80.44,
-    "cityMedianTicketDeltaPct": 120.0,
+    "cityMedianPpsfDeltaPct": -81.72,
+    "cityMedianTicketDeltaPct": 83.64,
     "priceTier": "Value",
     "sampleListings": [
       {
@@ -3286,54 +3646,6 @@
         "areaSqft": 22500.0,
         "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/295419970/63301fb4ddc3499a9eb7cc2e81e35f9f",
         "url": "https://www.zameen.com/Property/naval_farms_housing_scheme_naval_farms_housing_scheme_sector_c_south_face_level_plot_closed_end_street_for_sale-52974235-22304-2.html"
-      }
-    ]
-  },
-  {
-    "name": "University Town",
-    "centroid": {
-      "latitude": 33.583807,
-      "longitude": 72.883372
-    },
-    "listingCount": 1,
-    "mappedCount": 1,
-    "medianPricePkr": 1350000.0,
-    "medianPricePerSqft": 1200.0,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 18.0,
-    "minPricePkr": 1350000,
-    "maxPricePkr": 1350000,
-    "dominantPropertyGroup": "plot",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "cityMedianPpsfDeltaPct": -90.4,
-    "cityMedianTicketDeltaPct": -94.6,
-    "priceTier": "Value",
-    "sampleListings": [
-      {
-        "id": 54093683,
-        "title": "UNIVERSITY TOWN BLOCK C SIZE 5 MARLA PLOT FOR SALE ON GOOD LOCATION FIRST COME FIRST AVAIL THIS BIG OPERTUINTY",
-        "pricePkr": 1350000,
-        "pricePerSqft": 1200.0,
-        "beds": null,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://zameen-dev.s3.eu-west-1.amazonaws.com/image/296744016/fcd440947f234f3dbff697ab677a73f0",
-        "url": "https://www.zameen.com/Property/university_town_university_town_-_block_c_university_town_block_c_size_5_marla_plot_for_sale_on_good_location_first_come_first_avail_this_big_opertuinty-54093683-3503-2.html"
       }
     ]
   }
