@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-05-26T15:37:33+00:00",
+  "generatedAt": "2026-05-27T04:01:48+00:00",
   "city": "Islamabad",
-  "trackedListings": 416,
-  "mappedListings": 416,
-  "neighborhoodCount": 61,
-  "medianPricePkr": 25000000.0,
-  "medianPricePerSqft": 12517.81,
-  "medianFreshnessHours": 9.0,
+  "trackedListings": 421,
+  "mappedListings": 421,
+  "neighborhoodCount": 69,
+  "medianPricePkr": 29500000.0,
+  "medianPricePerSqft": 13155.56,
+  "medianFreshnessHours": 16.0,
   "propertyGroups": [
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
       "listingCount": 150,
       "mappedCount": 150,
-      "medianPricePkr": 20500000.0,
-      "medianPricePerSqft": 6711.11
+      "medianPricePkr": 22250000.0,
+      "medianPricePerSqft": 6944.44
     },
     {
       "propertyGroup": "house",
       "label": "Houses",
       "listingCount": 149,
       "mappedCount": 149,
-      "medianPricePkr": 54000000.0,
-      "medianPricePerSqft": 23333.33
+      "medianPricePkr": 69500000.0,
+      "medianPricePerSqft": 22222.22
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 117,
-      "mappedCount": 117,
-      "medianPricePkr": 17000000.0,
-      "medianPricePerSqft": 14193.03
+      "listingCount": 122,
+      "mappedCount": 122,
+      "medianPricePkr": 16750000.0,
+      "medianPricePerSqft": 14096.51
     }
   ],
   "topNeighborhoods": [
     {
       "neighborhood": "Blue Area",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "medianPricePkr": 74000000.0,
-      "medianPricePerSqft": 108187.13,
-      "medianPricePerMarla": 24342105.26
+      "listingCount": 2,
+      "mappedCount": 2,
+      "medianPricePkr": 85000000.0,
+      "medianPricePerSqft": 84140.51,
+      "medianPricePerMarla": 18931616.01
     },
     {
       "neighborhood": "New Blue Area",
@@ -52,19 +52,19 @@
     },
     {
       "neighborhood": "F-7",
-      "listingCount": 6,
-      "mappedCount": 6,
-      "medianPricePkr": 440000000.0,
-      "medianPricePerSqft": 75050.51,
-      "medianPricePerMarla": 16886363.63
+      "listingCount": 4,
+      "mappedCount": 4,
+      "medianPricePkr": 497500000.0,
+      "medianPricePerSqft": 66296.29,
+      "medianPricePerMarla": 14916666.66
     },
     {
       "neighborhood": "F-6",
-      "listingCount": 3,
-      "mappedCount": 3,
+      "listingCount": 1,
+      "mappedCount": 1,
       "medianPricePkr": 245000000.0,
-      "medianPricePerSqft": 59300.87,
-      "medianPricePerMarla": 13342696.63
+      "medianPricePerSqft": 55840.46,
+      "medianPricePerMarla": 12564102.56
     },
     {
       "neighborhood": "Constitution Avenue",
@@ -75,28 +75,28 @@
       "medianPricePerMarla": 11896551.72
     },
     {
-      "neighborhood": "D-12",
-      "listingCount": 3,
-      "mappedCount": 3,
-      "medianPricePkr": 130000000.0,
-      "medianPricePerSqft": 50000.0,
-      "medianPricePerMarla": 11250000.0
-    },
-    {
       "neighborhood": "F-8",
       "listingCount": 7,
       "mappedCount": 7,
-      "medianPricePkr": 400000000.0,
+      "medianPricePkr": 320000000.0,
       "medianPricePerSqft": 49444.44,
       "medianPricePerMarla": 11125000.0
     },
     {
-      "neighborhood": "I-9",
-      "listingCount": 2,
-      "mappedCount": 2,
-      "medianPricePkr": 62250000.0,
-      "medianPricePerSqft": 44500.0,
-      "medianPricePerMarla": 10012500.0
+      "neighborhood": "F-10",
+      "listingCount": 6,
+      "mappedCount": 6,
+      "medianPricePkr": 78448000.0,
+      "medianPricePerSqft": 42084.37,
+      "medianPricePerMarla": 9468982.63
+    },
+    {
+      "neighborhood": "G-9",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 130000000.0,
+      "medianPricePerSqft": 41269.84,
+      "medianPricePerMarla": 9285714.29
     }
   ],
   "seedStats": [
@@ -105,7 +105,7 @@
       "label": "Houses",
       "propertyGroup": "house",
       "pagesScraped": 6,
-      "pageCountDiscovered": 581,
+      "pageCountDiscovered": 578,
       "listingCardsCollected": 149
     },
     {
@@ -113,15 +113,15 @@
       "label": "Flats & Apartments",
       "propertyGroup": "apartment",
       "pagesScraped": 6,
-      "pageCountDiscovered": 164,
-      "listingCardsCollected": 147
+      "pageCountDiscovered": 163,
+      "listingCardsCollected": 148
     },
     {
       "seed": "plots",
       "label": "Residential Plots",
       "propertyGroup": "plot",
       "pagesScraped": 6,
-      "pageCountDiscovered": 961,
+      "pageCountDiscovered": 960,
       "listingCardsCollected": 150
     }
   ]
