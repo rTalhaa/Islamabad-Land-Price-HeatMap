@@ -1,86 +1,62 @@
 {
-  "generatedAt": "2026-05-28T16:03:38+00:00",
+  "generatedAt": "2026-05-29T03:52:00+00:00",
   "city": "Islamabad",
-  "trackedListings": 432,
-  "mappedListings": 432,
-  "neighborhoodCount": 52,
-  "medianPricePkr": 27500000.0,
-  "medianPricePerSqft": 15002.03,
-  "medianFreshnessHours": 6.0,
+  "trackedListings": 415,
+  "mappedListings": 415,
+  "neighborhoodCount": 48,
+  "medianPricePkr": 20500000.0,
+  "medianPricePerSqft": 13333.33,
+  "medianFreshnessHours": 10.0,
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses",
       "listingCount": 150,
       "mappedCount": 150,
-      "medianPricePkr": 53250000.0,
-      "medianPricePerSqft": 25666.67
+      "medianPricePkr": 63250000.0,
+      "medianPricePerSqft": 22666.67
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
       "listingCount": 150,
       "mappedCount": 150,
-      "medianPricePkr": 19000000.0,
-      "medianPricePerSqft": 8333.33
+      "medianPricePkr": 13200000.0,
+      "medianPricePerSqft": 6043.66
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 132,
-      "mappedCount": 132,
-      "medianPricePkr": 17000000.0,
-      "medianPricePerSqft": 14296.51
+      "listingCount": 115,
+      "mappedCount": 115,
+      "medianPricePkr": 16500000.0,
+      "medianPricePerSqft": 14374.51
     }
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "F-7",
-      "listingCount": 6,
-      "mappedCount": 6,
-      "medianPricePkr": 497500000.0,
-      "medianPricePerSqft": 88603.99,
-      "medianPricePerMarla": 19935897.43
-    },
-    {
-      "neighborhood": "F-6",
-      "listingCount": 4,
-      "mappedCount": 4,
-      "medianPricePkr": 775000000.0,
-      "medianPricePerSqft": 87782.58,
-      "medianPricePerMarla": 19751082.25
+      "neighborhood": "D-12",
+      "listingCount": 11,
+      "mappedCount": 11,
+      "medianPricePkr": 150000000.0,
+      "medianPricePerSqft": 50793.65,
+      "medianPricePerMarla": 11428571.43
     },
     {
       "neighborhood": "F-8",
-      "listingCount": 8,
-      "mappedCount": 8,
-      "medianPricePkr": 392500000.0,
-      "medianPricePerSqft": 66655.55,
-      "medianPricePerMarla": 14997500.0
-    },
-    {
-      "neighborhood": "Blue Area",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "medianPricePkr": 96000000.0,
-      "medianPricePerSqft": 60000.0,
-      "medianPricePerMarla": 13500000.0
-    },
-    {
-      "neighborhood": "D-12",
-      "listingCount": 13,
-      "mappedCount": 13,
-      "medianPricePkr": 150000000.0,
-      "medianPricePerSqft": 52777.78,
-      "medianPricePerMarla": 11875000.0
+      "listingCount": 3,
+      "mappedCount": 3,
+      "medianPricePkr": 222500000.0,
+      "medianPricePerSqft": 49568.97,
+      "medianPricePerMarla": 11153017.24
     },
     {
       "neighborhood": "F-10",
-      "listingCount": 7,
-      "mappedCount": 7,
-      "medianPricePkr": 84000000.0,
-      "medianPricePerSqft": 43684.71,
-      "medianPricePerMarla": 9829059.83
+      "listingCount": 8,
+      "mappedCount": 8,
+      "medianPricePkr": 75500000.0,
+      "medianPricePerSqft": 43333.33,
+      "medianPricePerMarla": 9750000.0
     },
     {
       "neighborhood": "I-8",
@@ -97,6 +73,30 @@
       "medianPricePkr": 74500000.0,
       "medianPricePerSqft": 38545.0,
       "medianPricePerMarla": 8672626.93
+    },
+    {
+      "neighborhood": "G-13",
+      "listingCount": 9,
+      "mappedCount": 9,
+      "medianPricePkr": 51500000.0,
+      "medianPricePerSqft": 34444.44,
+      "medianPricePerMarla": 7750000.0
+    },
+    {
+      "neighborhood": "Park View City",
+      "listingCount": 2,
+      "mappedCount": 2,
+      "medianPricePkr": 30300000.0,
+      "medianPricePerSqft": 33445.86,
+      "medianPricePerMarla": 7525319.71
+    },
+    {
+      "neighborhood": "I-11",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "medianPricePkr": 41500000.0,
+      "medianPricePerSqft": 30740.74,
+      "medianPricePerMarla": 6916666.67
     }
   ],
   "seedStats": [
@@ -105,7 +105,7 @@
       "label": "Houses",
       "propertyGroup": "house",
       "pagesScraped": 6,
-      "pageCountDiscovered": 573,
+      "pageCountDiscovered": 561,
       "listingCardsCollected": 150
     },
     {
@@ -113,15 +113,15 @@
       "label": "Flats & Apartments",
       "propertyGroup": "apartment",
       "pagesScraped": 6,
-      "pageCountDiscovered": 161,
-      "listingCardsCollected": 147
+      "pageCountDiscovered": 160,
+      "listingCardsCollected": 148
     },
     {
       "seed": "plots",
       "label": "Residential Plots",
       "propertyGroup": "plot",
       "pagesScraped": 6,
-      "pageCountDiscovered": 948,
+      "pageCountDiscovered": 944,
       "listingCardsCollected": 150
     }
   ]
