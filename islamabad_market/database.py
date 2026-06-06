@@ -87,6 +87,19 @@ def initialize_database(connection: sqlite3.Connection) -> None:
             confidence_median REAL,
             payload_json TEXT NOT NULL
         );
+
+        CREATE TABLE IF NOT EXISTS watched_neighborhoods (
+            neighborhood TEXT PRIMARY KEY,
+            note TEXT,
+            created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+        );
+
+        CREATE TABLE IF NOT EXISTS saved_searches (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            filters_json TEXT NOT NULL,
+            created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+        );
         """
     )
     connection.commit()
@@ -236,6 +249,139 @@ def load_document(database_path: Path, filename: str) -> Any | None:
         connection.close()
 
 
+def list_watched_neighborhoods(database_path: Path) -> list[dict[str, Any]]:
+    connection = connect(database_path)
+    try:
+        initialize_database(connection)
+        rows = connection.execute(
+            """
+            SELECT neighborhood, note, created_at
+            FROM watched_neighborhoods
+            ORDER BY neighborhood COLLATE NOCASE
+            """
+        ).fetchall()
+        return [dict(row) for row in rows]
+    finally:
+        connection.close()
+
+
+def set_watched_neighborhood(database_path: Path, neighborhood: str, note: str | None = None) -> dict[str, Any]:
+    name = neighborhood.strip()
+    if not name:
+        raise ValueError("neighborhood is required")
+
+    connection = connect(database_path)
+    try:
+        initialize_database(connection)
+        connection.execute(
+            """
+            INSERT INTO watched_neighborhoods(neighborhood, note)
+            VALUES (?, ?)
+            ON CONFLICT(neighborhood) DO UPDATE SET
+                note = excluded.note
+            """,
+            (name, note),
+        )
+        connection.commit()
+        row = connection.execute(
+            """
+            SELECT neighborhood, note, created_at
+            FROM watched_neighborhoods
+            WHERE neighborhood = ?
+            """,
+            (name,),
+        ).fetchone()
+        return dict(row)
+    finally:
+        connection.close()
+
+
+def delete_watched_neighborhood(database_path: Path, neighborhood: str) -> bool:
+    name = neighborhood.strip()
+    if not name:
+        return False
+
+    connection = connect(database_path)
+    try:
+        initialize_database(connection)
+        cursor = connection.execute("DELETE FROM watched_neighborhoods WHERE neighborhood = ?", (name,))
+        connection.commit()
+        return cursor.rowcount > 0
+    finally:
+        connection.close()
+
+
+def list_saved_searches(database_path: Path) -> list[dict[str, Any]]:
+    connection = connect(database_path)
+    try:
+        initialize_database(connection)
+        rows = connection.execute(
+            """
+            SELECT id, name, filters_json, created_at
+            FROM saved_searches
+            ORDER BY created_at DESC, id DESC
+            """
+        ).fetchall()
+        return [
+            {
+                "id": row["id"],
+                "name": row["name"],
+                "filters": json.loads(row["filters_json"]),
+                "created_at": row["created_at"],
+            }
+            for row in rows
+        ]
+    finally:
+        connection.close()
+
+
+def create_saved_search(database_path: Path, name: str, filters: dict[str, Any]) -> dict[str, Any]:
+    cleaned_name = name.strip()
+    if not cleaned_name:
+        raise ValueError("name is required")
+    if not isinstance(filters, dict):
+        raise ValueError("filters must be an object")
+
+    connection = connect(database_path)
+    try:
+        initialize_database(connection)
+        cursor = connection.execute(
+            """
+            INSERT INTO saved_searches(name, filters_json)
+            VALUES (?, ?)
+            """,
+            (cleaned_name, json.dumps(filters, ensure_ascii=True, sort_keys=True)),
+        )
+        connection.commit()
+        row = connection.execute(
+            """
+            SELECT id, name, filters_json, created_at
+            FROM saved_searches
+            WHERE id = ?
+            """,
+            (cursor.lastrowid,),
+        ).fetchone()
+        return {
+            "id": row["id"],
+            "name": row["name"],
+            "filters": json.loads(row["filters_json"]),
+            "created_at": row["created_at"],
+        }
+    finally:
+        connection.close()
+
+
+def delete_saved_search(database_path: Path, search_id: int) -> bool:
+    connection = connect(database_path)
+    try:
+        initialize_database(connection)
+        cursor = connection.execute("DELETE FROM saved_searches WHERE id = ?", (search_id,))
+        connection.commit()
+        return cursor.rowcount > 0
+    finally:
+        connection.close()
+
+
 def database_status(database_path: Path) -> dict[str, Any]:
     if not database_path.exists():
         return {"enabled": False, "path": str(database_path), "reason": "database file not found"}
@@ -254,6 +400,8 @@ def database_status(database_path: Path) -> dict[str, Any]:
             "listingCount": connection.execute("SELECT COUNT(*) AS count FROM listings").fetchone()["count"],
             "neighborhoodCount": connection.execute("SELECT COUNT(*) AS count FROM neighborhoods").fetchone()["count"],
             "documentCount": connection.execute("SELECT COUNT(*) AS count FROM dataset_documents").fetchone()["count"],
+            "watchedNeighborhoodCount": connection.execute("SELECT COUNT(*) AS count FROM watched_neighborhoods").fetchone()["count"],
+            "savedSearchCount": connection.execute("SELECT COUNT(*) AS count FROM saved_searches").fetchone()["count"],
         }
     finally:
         connection.close()

@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-06-06T17:17:37+00:00",
-  "listingCount": 241,
-  "geocodingAccuracy": 0.8506,
+  "generatedAt": "2026-06-06T17:49:39+00:00",
+  "listingCount": 383,
+  "geocodingAccuracy": 0.9034,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9751,
-  "duplicateRate": 0.083,
-  "outlierCount": 2,
+  "freshnessWithin30Days": 0.9843,
+  "duplicateRate": 0.0731,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 205,
-    "Medium": 35,
+    "High": 346,
+    "Medium": 36,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 66666.67,
-    "median": 17404.28
+    "max": 111111.11,
+    "median": 16000.0
   },
   "topOutliers": [
+    {
+      "id": "zameen-54290928",
+      "source": "Zameen",
+      "title": "Stunning 1250 Square Feet Residential Plot In Faisal Town Phase 1 Available",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 9126.98,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_1_stunning_1250_square_feet_residential_plot_in_faisal_town_phase_1_available-54290928-16415-2.html"
+    },
     {
       "id": "zameen-54250700",
       "source": "Zameen",

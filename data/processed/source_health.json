@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T17:17:37+00:00",
+  "generatedAt": "2026-06-06T17:49:39+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -82,19 +82,19 @@
       "label": "Zameen",
       "enabled": true,
       "disabledReason": null,
-      "attemptedPages": 18,
-      "fetchedPages": 18,
-      "parsedCards": 449,
-      "exportedListings": 181,
-      "detailSuccess": 179,
-      "cacheHitRate": 1.0,
+      "attemptedPages": 24,
+      "fetchedPages": 24,
+      "parsedCards": 598,
+      "exportedListings": 323,
+      "detailSuccess": 320,
+      "cacheHitRate": 0.75,
       "httpFailures": 0,
-      "duplicateRate": 0.0608,
+      "duplicateRate": 0.0588,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0055,
-        "imageUrl": 0.0221
+        "coordinates": 0.0062,
+        "imageUrl": 0.0464
       },
       "seedStats": [
         {
@@ -103,9 +103,9 @@
           "label": "Houses",
           "propertyGroup": "house",
           "enabled": true,
-          "pagesScraped": 2,
+          "pagesScraped": 4,
           "pageCountDiscovered": 559,
-          "listingCardsCollected": 50,
+          "listingCardsCollected": 100,
           "cacheHits": 2,
           "httpFailures": 0
         },
@@ -151,9 +151,9 @@
           "label": "Flats & Apartments",
           "propertyGroup": "apartment",
           "enabled": true,
-          "pagesScraped": 2,
+          "pagesScraped": 4,
           "pageCountDiscovered": 159,
-          "listingCardsCollected": 49,
+          "listingCardsCollected": 98,
           "cacheHits": 2,
           "httpFailures": 0
         },
@@ -163,9 +163,9 @@
           "label": "Residential Plots",
           "propertyGroup": "plot",
           "enabled": true,
-          "pagesScraped": 2,
+          "pagesScraped": 4,
           "pageCountDiscovered": 947,
-          "listingCardsCollected": 50,
+          "listingCardsCollected": 100,
           "cacheHits": 2,
           "httpFailures": 0
         },

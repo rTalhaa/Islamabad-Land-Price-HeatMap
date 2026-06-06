@@ -144,7 +144,7 @@ button {
 
 .command-bar {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)) auto auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto auto auto;
   gap: 10px;
   align-items: stretch;
 }
@@ -189,6 +189,7 @@ button {
   background: var(--teal-dark);
   color: white;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .button--ghost {
@@ -586,7 +587,7 @@ button {
 
 @media (min-width: 1680px) {
   .command-bar {
-    grid-template-columns: 1.1fr 1.45fr 1.2fr 1.35fr 1.05fr 1fr 1.2fr auto auto;
+    grid-template-columns: 1.1fr 1.45fr 1.2fr 1.35fr 1.05fr 1fr 1.2fr auto auto auto;
   }
 }
 

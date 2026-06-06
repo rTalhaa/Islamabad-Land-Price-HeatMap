@@ -41,6 +41,9 @@ const context = {
   overlay: null,
   mapReady: false,
   showAllNeighborhoods: false,
+  backendSavedStateAvailable: false,
+  watchedNames: new Set(),
+  savedSearches: [],
 };
 
 const $ = (id) => document.getElementById(id);
@@ -55,6 +58,7 @@ const els = {
   confidenceSelect: $("confidenceSelect"),
   resetButton: $("resetButton"),
   applyButton: $("applyButton"),
+  saveSearchButton: $("saveSearchButton"),
   hideOutliersToggle: $("hideOutliersToggle"),
   priceHeatToggle: $("priceHeatToggle"),
   clusterToggle: $("clusterToggle"),
@@ -93,18 +97,160 @@ const els = {
   neighborhoodTable: $("neighborhoodTable"),
   historySparkline: $("historySparkline"),
   qualityList: $("qualityList"),
+  savedState: $("savedState"),
 };
 
-function watchedNeighborhoods() {
+const LOCAL_WATCH_KEY = "atlasWatchedNeighborhoods";
+const LOCAL_SEARCH_KEY = "atlasSavedSearches";
+
+function apiAvailable() {
+  return !STATIC_RUNTIME?.forceStatic;
+}
+
+function readLocalWatchedNeighborhoods() {
   try {
-    return new Set(JSON.parse(localStorage.getItem("atlasWatchedNeighborhoods") || "[]"));
+    return new Set(JSON.parse(localStorage.getItem(LOCAL_WATCH_KEY) || "[]"));
   } catch {
     return new Set();
   }
 }
 
-function saveWatchedNeighborhoods(values) {
-  localStorage.setItem("atlasWatchedNeighborhoods", JSON.stringify([...values].sort()));
+function saveLocalWatchedNeighborhoods(values) {
+  try {
+    localStorage.setItem(LOCAL_WATCH_KEY, JSON.stringify([...values].sort()));
+  } catch {
+    // Browser storage can be unavailable in hardened or embedded contexts.
+  }
+}
+
+function readLocalSavedSearches() {
+  try {
+    return JSON.parse(localStorage.getItem(LOCAL_SEARCH_KEY) || "[]");
+  } catch {
+    return [];
+  }
+}
+
+function saveLocalSavedSearches(values) {
+  try {
+    localStorage.setItem(LOCAL_SEARCH_KEY, JSON.stringify(values));
+  } catch {
+    // Browser storage can be unavailable in hardened or embedded contexts.
+  }
+}
+
+function watchedNeighborhoods() {
+  return new Set(context.watchedNames);
+}
+
+function renderSavedState() {
+  if (!els.savedState) return;
+  const watchedCount = context.watchedNames.size;
+  const searchCount = context.savedSearches.length;
+  const storage = context.backendSavedStateAvailable ? "SQLite" : "local";
+  els.savedState.textContent = `${watchedCount} watched - ${searchCount} searches - ${storage}`;
+}
+
+async function loadSavedState() {
+  if (apiAvailable()) {
+    try {
+      const [watchResponse, searchesResponse] = await Promise.all([
+        fetch("/api/watchlist", { cache: "no-store" }),
+        fetch("/api/saved-searches", { cache: "no-store" }),
+      ]);
+      if (!watchResponse.ok || !searchesResponse.ok) throw new Error("Saved state API unavailable");
+      const watched = await watchResponse.json();
+      const searches = await searchesResponse.json();
+      context.watchedNames = new Set(watched.map((item) => item.neighborhood).filter(Boolean));
+      context.savedSearches = Array.isArray(searches) ? searches : [];
+      context.backendSavedStateAvailable = true;
+      renderSavedState();
+      return;
+    } catch (error) {
+      console.warn("Saved state API unavailable; using local storage.", error);
+    }
+  }
+  context.watchedNames = readLocalWatchedNeighborhoods();
+  context.savedSearches = readLocalSavedSearches();
+  context.backendSavedStateAvailable = false;
+  renderSavedState();
+}
+
+async function persistWatchedNeighborhood(name, shouldWatch) {
+  if (!name) return;
+  const watched = watchedNeighborhoods();
+
+  if (context.backendSavedStateAvailable) {
+    try {
+      const response = await fetch(shouldWatch ? "/api/watchlist" : `/api/watchlist?neighborhood=${encodeURIComponent(name)}`, {
+        method: shouldWatch ? "POST" : "DELETE",
+        headers: shouldWatch ? { "Content-Type": "application/json" } : undefined,
+        body: shouldWatch ? JSON.stringify({ neighborhood: name }) : undefined,
+      });
+      if (!response.ok) throw new Error("Watchlist write failed");
+    } catch (error) {
+      console.warn("Watchlist API write failed; using local storage.", error);
+      context.backendSavedStateAvailable = false;
+    }
+  }
+
+  if (shouldWatch) watched.add(name);
+  else watched.delete(name);
+  context.watchedNames = watched;
+  if (!context.backendSavedStateAvailable) saveLocalWatchedNeighborhoods(watched);
+  renderSavedState();
+}
+
+function selectedOptionText(select) {
+  return select?.selectedOptions?.[0]?.textContent?.trim() || "Any";
+}
+
+function currentSearchSnapshot() {
+  return {
+    propertyGroup: state.propertyGroup,
+    source: state.source,
+    budget: state.budget,
+    sizeBand: state.sizeBand,
+    recency: state.recency,
+    confidence: state.confidence,
+    hideOutliers: state.hideOutliers,
+    generatedAt: context.summary?.generatedAt || null,
+  };
+}
+
+function currentSearchName() {
+  const group = selectedOptionText(els.groupSelect);
+  const source = selectedOptionText(els.sourceSelect);
+  const budget = selectedOptionText(els.budgetSelect);
+  return `${group} - ${source} - ${budget}`;
+}
+
+async function persistSavedSearch() {
+  const payload = { name: currentSearchName(), filters: currentSearchSnapshot() };
+  let saved = null;
+
+  if (context.backendSavedStateAvailable) {
+    try {
+      const response = await fetch("/api/saved-searches", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) throw new Error("Saved search write failed");
+      saved = await response.json();
+    } catch (error) {
+      console.warn("Saved search API write failed; using local storage.", error);
+      context.backendSavedStateAvailable = false;
+    }
+  }
+
+  if (!saved) {
+    saved = { ...payload, id: Date.now(), createdAt: new Date().toISOString() };
+    saveLocalSavedSearches([saved, ...readLocalSavedSearches()]);
+  }
+
+  context.savedSearches = [saved, ...context.savedSearches];
+  renderSavedState();
 }
 
 function scrollToTarget(target) {
@@ -624,13 +770,32 @@ function bindControls() {
   document.querySelectorAll("[data-inspector-tab]").forEach((button) => {
     button.addEventListener("click", () => setInspectorTab(button.dataset.inspectorTab));
   });
-  els.watchButton.addEventListener("click", () => {
+  els.watchButton.addEventListener("click", async () => {
     if (!context.selectedNeighborhood?.name) return;
-    const watched = watchedNeighborhoods();
-    if (watched.has(context.selectedNeighborhood.name)) watched.delete(context.selectedNeighborhood.name);
-    else watched.add(context.selectedNeighborhood.name);
-    saveWatchedNeighborhoods(watched);
+    const isWatched = watchedNeighborhoods().has(context.selectedNeighborhood.name);
+    els.watchButton.disabled = true;
+    try {
+      await persistWatchedNeighborhood(context.selectedNeighborhood.name, !isWatched);
+    } finally {
+      els.watchButton.disabled = false;
+    }
     renderInspector(context.selectedNeighborhood);
+  });
+  els.saveSearchButton?.addEventListener("click", async () => {
+    const originalLabel = els.saveSearchButton.textContent;
+    els.saveSearchButton.disabled = true;
+    try {
+      await persistSavedSearch();
+      els.saveSearchButton.textContent = "Saved";
+      window.setTimeout(() => {
+        els.saveSearchButton.textContent = originalLabel;
+        els.saveSearchButton.disabled = false;
+      }, 900);
+    } catch (error) {
+      console.error(error);
+      els.saveSearchButton.textContent = originalLabel;
+      els.saveSearchButton.disabled = false;
+    }
   });
   els.viewListingsButton.addEventListener("click", () => {
     setInspectorTab("listings");
@@ -703,6 +868,7 @@ async function init() {
     context.neighborhoods = neighborhoods;
     context.sourceHealth = sourceHealth;
     context.qualityReport = qualityReport;
+    await loadSavedState();
     renderSourceOptions();
     bindControls();
     initMap();

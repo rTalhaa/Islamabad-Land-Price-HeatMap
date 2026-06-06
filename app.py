@@ -4,16 +4,37 @@ import json
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query
+from pydantic import BaseModel, Field
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from islamabad_market.config import get_config
-from islamabad_market.database import database_status, load_document, query_listings
+from islamabad_market.database import (
+    create_saved_search,
+    database_status,
+    delete_saved_search,
+    delete_watched_neighborhood,
+    list_saved_searches,
+    list_watched_neighborhoods,
+    load_document,
+    query_listings,
+    set_watched_neighborhood,
+)
 
 
 config = get_config()
 app = FastAPI(title="Islamabad Price Atlas", version="1.0.0")
 app.mount("/static", StaticFiles(directory=config.base_dir / "static"), name="static")
+
+
+class WatchlistRequest(BaseModel):
+    neighborhood: str = Field(min_length=1)
+    note: str | None = None
+
+
+class SavedSearchRequest(BaseModel):
+    name: str = Field(min_length=1)
+    filters: dict[str, Any]
 
 
 def _load_processed_file(filename: str) -> Any:
@@ -66,6 +87,44 @@ def db_listings(
     if not rows and not config.database_path.exists():
         raise HTTPException(status_code=404, detail="SQLite database not found. Run the pipeline first.")
     return rows
+
+
+@app.get("/api/watchlist")
+def watchlist() -> list[dict[str, Any]]:
+    return list_watched_neighborhoods(config.database_path)
+
+
+@app.post("/api/watchlist")
+def add_watchlist_item(payload: WatchlistRequest) -> dict[str, Any]:
+    try:
+        return set_watched_neighborhood(config.database_path, payload.neighborhood, payload.note)
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error)) from error
+
+
+@app.delete("/api/watchlist")
+def remove_watchlist_item(neighborhood: str = Query(min_length=1)) -> dict[str, Any]:
+    deleted = delete_watched_neighborhood(config.database_path, neighborhood)
+    return {"deleted": deleted, "neighborhood": neighborhood}
+
+
+@app.get("/api/saved-searches")
+def saved_searches() -> list[dict[str, Any]]:
+    return list_saved_searches(config.database_path)
+
+
+@app.post("/api/saved-searches")
+def add_saved_search(payload: SavedSearchRequest) -> dict[str, Any]:
+    try:
+        return create_saved_search(config.database_path, payload.name, payload.filters)
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error)) from error
+
+
+@app.delete("/api/saved-searches/{search_id}")
+def remove_saved_search(search_id: int) -> dict[str, Any]:
+    deleted = delete_saved_search(config.database_path, search_id)
+    return {"deleted": deleted, "id": search_id}
 
 
 @app.get("/api/summary")

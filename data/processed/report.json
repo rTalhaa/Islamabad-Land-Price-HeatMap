@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-06T17:17:37+00:00",
-  "searchCardCount": 539,
-  "uniqueListingCount": 241,
-  "exportedListingCount": 241,
+  "generatedAt": "2026-06-06T17:49:39+00:00",
+  "searchCardCount": 688,
+  "uniqueListingCount": 383,
+  "exportedListingCount": 383,
   "seedStats": [
     {
       "source": "zameen",
@@ -10,9 +10,9 @@
       "label": "Houses",
       "propertyGroup": "house",
       "enabled": true,
-      "pagesScraped": 2,
+      "pagesScraped": 4,
       "pageCountDiscovered": 559,
-      "listingCardsCollected": 50,
+      "listingCardsCollected": 100,
       "cacheHits": 2,
       "httpFailures": 0
     },
@@ -58,9 +58,9 @@
       "label": "Flats & Apartments",
       "propertyGroup": "apartment",
       "enabled": true,
-      "pagesScraped": 2,
+      "pagesScraped": 4,
       "pageCountDiscovered": 159,
-      "listingCardsCollected": 49,
+      "listingCardsCollected": 98,
       "cacheHits": 2,
       "httpFailures": 0
     },
@@ -70,9 +70,9 @@
       "label": "Residential Plots",
       "propertyGroup": "plot",
       "enabled": true,
-      "pagesScraped": 2,
+      "pagesScraped": 4,
       "pageCountDiscovered": 947,
-      "listingCardsCollected": 50,
+      "listingCardsCollected": 100,
       "cacheHits": 2,
       "httpFailures": 0
     },
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-06T17:17:37+00:00",
+    "generatedAt": "2026-06-06T17:49:39+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -233,19 +233,19 @@
         "label": "Zameen",
         "enabled": true,
         "disabledReason": null,
-        "attemptedPages": 18,
-        "fetchedPages": 18,
-        "parsedCards": 449,
-        "exportedListings": 181,
-        "detailSuccess": 179,
-        "cacheHitRate": 1.0,
+        "attemptedPages": 24,
+        "fetchedPages": 24,
+        "parsedCards": 598,
+        "exportedListings": 323,
+        "detailSuccess": 320,
+        "cacheHitRate": 0.75,
         "httpFailures": 0,
-        "duplicateRate": 0.0608,
+        "duplicateRate": 0.0588,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0055,
-          "imageUrl": 0.0221
+          "coordinates": 0.0062,
+          "imageUrl": 0.0464
         },
         "seedStats": [
           {
@@ -254,9 +254,9 @@
             "label": "Houses",
             "propertyGroup": "house",
             "enabled": true,
-            "pagesScraped": 2,
+            "pagesScraped": 4,
             "pageCountDiscovered": 559,
-            "listingCardsCollected": 50,
+            "listingCardsCollected": 100,
             "cacheHits": 2,
             "httpFailures": 0
           },
@@ -302,9 +302,9 @@
             "label": "Flats & Apartments",
             "propertyGroup": "apartment",
             "enabled": true,
-            "pagesScraped": 2,
+            "pagesScraped": 4,
             "pageCountDiscovered": 159,
-            "listingCardsCollected": 49,
+            "listingCardsCollected": 98,
             "cacheHits": 2,
             "httpFailures": 0
           },
@@ -314,9 +314,9 @@
             "label": "Residential Plots",
             "propertyGroup": "plot",
             "enabled": true,
-            "pagesScraped": 2,
+            "pagesScraped": 4,
             "pageCountDiscovered": 947,
-            "listingCardsCollected": 50,
+            "listingCardsCollected": 100,
             "cacheHits": 2,
             "httpFailures": 0
           },
@@ -364,27 +364,38 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-06-06T17:17:37+00:00",
-    "listingCount": 241,
-    "geocodingAccuracy": 0.8506,
+    "generatedAt": "2026-06-06T17:49:39+00:00",
+    "listingCount": 383,
+    "geocodingAccuracy": 0.9034,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9751,
-    "duplicateRate": 0.083,
-    "outlierCount": 2,
+    "freshnessWithin30Days": 0.9843,
+    "duplicateRate": 0.0731,
+    "outlierCount": 3,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 205,
-      "Medium": 35,
+      "High": 346,
+      "Medium": 36,
       "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 66666.67,
-      "median": 17404.28
+      "max": 111111.11,
+      "median": 16000.0
     },
     "topOutliers": [
+      {
+        "id": "zameen-54290928",
+        "source": "Zameen",
+        "title": "Stunning 1250 Square Feet Residential Plot In Faisal Town Phase 1 Available",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 9126.98,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_1_stunning_1250_square_feet_residential_plot_in_faisal_town_phase_1_available-54290928-16415-2.html"
+      },
       {
         "id": "zameen-54250700",
         "source": "Zameen",
