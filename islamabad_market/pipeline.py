@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from .config import SearchSeed, get_config
+from .database import write_database_bundle
 from .parsers import (
     clean_text,
     extract_location_name,
@@ -912,6 +913,17 @@ async def run_pipeline(
         write_json(config.processed_dir / "report.json", report)
         write_json(config.processed_dir / "source_health.json", source_health)
         write_json(config.processed_dir / "quality_report.json", quality_report)
+        write_database_bundle(
+            config.database_path,
+            listings=listings,
+            neighborhoods=neighborhoods,
+            summary=summary,
+            history=history,
+            geojson=geojson,
+            report=report,
+            source_health=source_health,
+            quality_report=quality_report,
+        )
         write_snapshot_bundle(config.snapshot_dir, generated_at, listings, neighborhoods, summary, geojson, report, source_health, quality_report)
 
         return {

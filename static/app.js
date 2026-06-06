@@ -19,7 +19,11 @@ const DEFAULT_STATE = {
   recency: "all",
   confidence: 70,
   hideOutliers: true,
+  showPriceHeat: true,
+  showClusters: true,
+  showListingDots: true,
   selectedNeighborhood: null,
+  inspectorTab: "overview",
 };
 
 const state = { ...DEFAULT_STATE };
@@ -36,6 +40,7 @@ const context = {
   map: null,
   overlay: null,
   mapReady: false,
+  showAllNeighborhoods: false,
 };
 
 const $ = (id) => document.getElementById(id);
@@ -51,6 +56,14 @@ const els = {
   resetButton: $("resetButton"),
   applyButton: $("applyButton"),
   hideOutliersToggle: $("hideOutliersToggle"),
+  priceHeatToggle: $("priceHeatToggle"),
+  clusterToggle: $("clusterToggle"),
+  listingDotsToggle: $("listingDotsToggle"),
+  roadsToggle: $("roadsToggle"),
+  amenitiesToggle: $("amenitiesToggle"),
+  watchButton: $("watchButton"),
+  viewListingsButton: $("viewListingsButton"),
+  viewNeighborhoodsButton: $("viewNeighborhoodsButton"),
   dataConfidence: $("dataConfidence"),
   dataConfidenceBar: $("dataConfidenceBar"),
   confidenceCaption: $("confidenceCaption"),
@@ -81,6 +94,48 @@ const els = {
   historySparkline: $("historySparkline"),
   qualityList: $("qualityList"),
 };
+
+function watchedNeighborhoods() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("atlasWatchedNeighborhoods") || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveWatchedNeighborhoods(values) {
+  localStorage.setItem("atlasWatchedNeighborhoods", JSON.stringify([...values].sort()));
+}
+
+function scrollToTarget(target) {
+  const targetMap = {
+    map: "#mapPanel",
+    neighborhoods: "#neighborhoodTable",
+    listings: "#sampleListings",
+    analytics: "#analyticsPanel",
+    "price-index": "#analyticsPanel",
+    quality: "#qualityPanel",
+    sources: "#sources",
+  };
+  const selector = targetMap[target] || "#mapPanel";
+  document.querySelector(selector)?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function setActiveNav(target) {
+  document.querySelectorAll("[data-nav-target]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.navTarget === target);
+  });
+}
+
+function setInspectorTab(tabName) {
+  state.inspectorTab = tabName;
+  document.querySelectorAll("[data-inspector-tab]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.inspectorTab === tabName);
+  });
+  document.querySelectorAll("[data-tab-panel]").forEach((panel) => {
+    panel.classList.toggle("hidden", panel.dataset.tabPanel !== tabName && !(tabName === "overview" && panel.dataset.tabPanel === "stats"));
+  });
+}
 
 function escapeHtml(value = "") {
   return String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
@@ -257,7 +312,7 @@ function renderTopMetrics() {
   const listings = context.filteredListings;
   const confidence = median(listings.map((item) => item.confidenceScore)) ?? context.summary?.medianConfidenceScore ?? 0;
   els.lastRefresh.textContent = context.summary ? formatDate(context.summary.generatedAt) : "Unknown";
-  els.nextRefresh.textContent = context.sourceHealth ? `${formatCompact(context.summary?.trackedListings)} listings · ${Object.keys(context.sourceHealth.sources || {}).length} sources tracked` : "Source health unavailable";
+  els.nextRefresh.textContent = context.sourceHealth ? `${formatCompact(context.summary?.trackedListings)} listings - ${Object.keys(context.sourceHealth.sources || {}).length} sources tracked` : "Source health unavailable";
   els.dataConfidence.textContent = `${Math.round(confidence)}%`;
   els.dataConfidenceBar.style.width = `${Math.max(0, Math.min(100, confidence))}%`;
   els.confidenceCaption.textContent = `${formatCompact(listings.length)} visible listings after filters`;
@@ -288,8 +343,10 @@ function renderInspector(record) {
     els.sampleListings.innerHTML = "";
     return;
   }
+  const watched = watchedNeighborhoods();
+  const isWatched = watched.has(record.name);
   els.spotlightName.textContent = record.name;
-  els.spotlightSubtitle.textContent = `${formatCompact(record.listingCount)} listings · ${formatCompact(record.medianAreaSqft)} sqft median area`;
+  els.spotlightSubtitle.textContent = `${formatCompact(record.listingCount)} listings - ${formatCompact(record.medianAreaSqft)} sqft median area`;
   els.spotlightTicket.textContent = formatPkr(record.medianPricePkr);
   els.spotlightPpsf.textContent = formatPpsf(record.medianPricePerSqft);
   els.spotlightMarla.textContent = formatMarla(record.medianPricePerMarla);
@@ -306,26 +363,30 @@ function renderInspector(record) {
   const fbr = context.summary?.fbrReference || record.benchmark;
   els.fbrLink.href = fbr?.url || "#";
   els.benchmarkCaption.textContent = record.benchmark?.status === "matched" ? `Benchmark delta ${formatSignedPct(record.benchmark.deltaPct)}` : "Official valuation reference linked. Numeric matching appears where an area table is mapped.";
+  els.watchButton.textContent = isWatched ? "Watching" : "Watch";
+  els.watchButton.classList.toggle("is-active", isWatched);
+  els.watchButton.setAttribute("aria-pressed", String(isWatched));
 
   els.sampleListings.innerHTML = (record.sampleListings || [])
     .map((item) => {
       const image = item.imageUrl ? `style="background-image:url('${String(item.imageUrl).replace(/'/g, "%27")}')"` : "";
       return `<a class="sample-card" href="${escapeHtml(item.url || item.detailUrl || "#")}" target="_blank" rel="noreferrer">
         <div class="sample-card__image" ${image}></div>
-        <div><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.source)} · ${formatCompact(item.confidenceScore)}% confidence</span><small>${formatPpsf(item.pricePerSqft)} / sqft · ${formatCompact(item.areaSqft)} sqft</small></div>
+        <div><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.source)} - ${formatCompact(item.confidenceScore)}% confidence</span><small>${formatPpsf(item.pricePerSqft)} / sqft - ${formatCompact(item.areaSqft)} sqft</small></div>
         <div class="sample-card__price">${formatPkr(item.pricePkr)}</div>
       </a>`;
     })
     .join("");
+  setInspectorTab(state.inspectorTab);
 }
 
 function renderNeighborhoodTable(records) {
   els.neighborhoodTable.innerHTML = records
-    .slice(0, 6)
+    .slice(0, context.showAllNeighborhoods ? records.length : 6)
     .map(
       (record, index) => `<div class="rank-row">
         <span>${index + 1}</span>
-        <button type="button" data-neighborhood="${escapeHtml(record.name)}">${escapeHtml(record.name)}<small>${formatCompact(record.listingCount)} listings · ${Math.round(record.confidenceMedian || 0)}% confidence</small></button>
+        <button type="button" data-neighborhood="${escapeHtml(record.name)}">${escapeHtml(record.name)}<small>${formatCompact(record.listingCount)} listings - ${Math.round(record.confidenceMedian || 0)}% confidence</small></button>
         <strong>${formatPpsf(record.medianPricePerSqft)}</strong>
         <span>${formatSignedPct(record.cityMedianPpsfDeltaPct)}</span>
       </div>`,
@@ -364,7 +425,7 @@ function renderQuality() {
     ["Geocoding accuracy", report.geocodingAccuracy],
     ["Price parsing success", report.priceParsingSuccess],
     ["Area parsing success", report.areaParsingSuccess],
-    ["Freshness ≤ 30 days", report.freshnessWithin30Days],
+    ["Freshness <= 30 days", report.freshnessWithin30Days],
     ["Duplicate rate", 1 - (report.duplicateRate || 0)],
   ];
   els.qualityList.innerHTML = rows
@@ -381,7 +442,7 @@ function tooltipFor(info) {
   if (info.object.points) {
     return { html: `<strong>${formatCompact(info.object.points.length)} listings</strong>` };
   }
-  return { html: `<strong>${escapeHtml(info.object.title)}</strong><div>${escapeHtml(info.object.neighborhood)} · ${formatPkr(info.object.pricePkr)}</div><div>${formatPpsf(info.object.pricePerSqft)} / sqft · ${escapeHtml(info.object.source)}</div>` };
+  return { html: `<strong>${escapeHtml(info.object.title)}</strong><div>${escapeHtml(info.object.neighborhood)} - ${formatPkr(info.object.pricePkr)}</div><div>${formatPpsf(info.object.pricePerSqft)} / sqft - ${escapeHtml(info.object.source)}</div>` };
 }
 
 function updateMap(options = {}) {
@@ -389,7 +450,7 @@ function updateMap(options = {}) {
   const data = mappedListings();
   const selectedName = state.selectedNeighborhood;
   const layers = [
-    state.layer === "heatmap"
+    state.layer === "heatmap" && state.showPriceHeat
       ? new deck.HeatmapLayer({
           id: "heatmap",
           data,
@@ -407,7 +468,7 @@ function updateMap(options = {}) {
           ],
         })
       : null,
-    state.layer === "hexagon"
+    state.layer === "hexagon" && state.showClusters
       ? new deck.HexagonLayer({
           id: "hexagon",
           data,
@@ -430,7 +491,8 @@ function updateMap(options = {}) {
           ],
         })
       : null,
-    new deck.ScatterplotLayer({
+    state.showListingDots
+      ? new deck.ScatterplotLayer({
       id: "listings",
       data,
       pickable: true,
@@ -448,7 +510,8 @@ function updateMap(options = {}) {
           renderAll({ flyToSelection: true });
         }
       },
-    }),
+    })
+      : null,
   ].filter(Boolean);
   context.overlay.setProps({ layers, getTooltip: tooltipFor });
   if (!context.mapReady || !data.length) return;
@@ -459,6 +522,24 @@ function updateMap(options = {}) {
     context.hasFit = true;
   } else if (options.flyToSelection && context.selectedNeighborhood?.centroid?.longitude) {
     context.map.easeTo({ center: [context.selectedNeighborhood.centroid.longitude, context.selectedNeighborhood.centroid.latitude], zoom: Math.max(context.map.getZoom(), 11.6), duration: 900 });
+  }
+}
+
+function setBaseMapLayerVisibility(kind, visible) {
+  if (!context.map?.isStyleLoaded?.()) return;
+  const matchers = {
+    roads: ["road", "street", "transport"],
+    amenities: ["poi", "place", "amenity", "label"],
+  }[kind] || [];
+  for (const layer of context.map.getStyle().layers || []) {
+    const id = layer.id.toLowerCase();
+    if (matchers.some((matcher) => id.includes(matcher))) {
+      try {
+        context.map.setLayoutProperty(layer.id, "visibility", visible ? "visible" : "none");
+      } catch {
+        // Some provider layers are not layout-toggleable; skip them.
+      }
+    }
   }
 }
 
@@ -505,12 +586,67 @@ function bindControls() {
     state.hideOutliers = event.target.checked;
     renderAll();
   });
+  els.priceHeatToggle.addEventListener("change", (event) => {
+    state.showPriceHeat = event.target.checked;
+    renderAll();
+  });
+  els.clusterToggle.addEventListener("change", (event) => {
+    state.showClusters = event.target.checked;
+    renderAll();
+  });
+  els.listingDotsToggle.addEventListener("change", (event) => {
+    state.showListingDots = event.target.checked;
+    renderAll();
+  });
+  els.roadsToggle.addEventListener("change", (event) => {
+    setBaseMapLayerVisibility("roads", event.target.checked);
+  });
+  els.amenitiesToggle.addEventListener("change", (event) => {
+    setBaseMapLayerVisibility("amenities", event.target.checked);
+  });
   document.querySelectorAll("[data-layer]").forEach((button) => {
     button.addEventListener("click", () => {
       document.querySelectorAll("[data-layer]").forEach((node) => node.classList.toggle("is-active", node === button));
       state.layer = button.dataset.layer;
       renderAll();
     });
+  });
+  document.querySelectorAll("[data-nav-target]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.navTarget;
+      setActiveNav(target);
+      if (target === "listings") setInspectorTab("listings");
+      if (target === "price-index") setInspectorTab("price-index");
+      if (target === "quality") document.querySelector("#qualityPanel")?.classList.add("is-expanded");
+      scrollToTarget(target);
+    });
+  });
+  document.querySelectorAll("[data-inspector-tab]").forEach((button) => {
+    button.addEventListener("click", () => setInspectorTab(button.dataset.inspectorTab));
+  });
+  els.watchButton.addEventListener("click", () => {
+    if (!context.selectedNeighborhood?.name) return;
+    const watched = watchedNeighborhoods();
+    if (watched.has(context.selectedNeighborhood.name)) watched.delete(context.selectedNeighborhood.name);
+    else watched.add(context.selectedNeighborhood.name);
+    saveWatchedNeighborhoods(watched);
+    renderInspector(context.selectedNeighborhood);
+  });
+  els.viewListingsButton.addEventListener("click", () => {
+    setInspectorTab("listings");
+    scrollToTarget("listings");
+  });
+  els.viewNeighborhoodsButton.addEventListener("click", () => {
+    context.showAllNeighborhoods = !context.showAllNeighborhoods;
+    document.querySelector("#neighborhoodTable")?.closest(".panel")?.classList.toggle("is-expanded");
+    els.viewNeighborhoodsButton.textContent = context.showAllNeighborhoods ? "Show less" : "View all";
+    renderNeighborhoodTable(context.visibleNeighborhoods);
+    scrollToTarget("neighborhoods");
+  });
+  document.querySelector("#qualityLink")?.addEventListener("click", (event) => {
+    event.preventDefault();
+    document.querySelector("#qualityPanel")?.classList.add("is-expanded");
+    scrollToTarget("quality");
   });
   els.resetButton.addEventListener("click", () => {
     Object.assign(state, DEFAULT_STATE);
@@ -521,6 +657,12 @@ function bindControls() {
     els.recencySelect.value = state.recency;
     els.confidenceSelect.value = String(state.confidence);
     els.hideOutliersToggle.checked = state.hideOutliers;
+    els.priceHeatToggle.checked = state.showPriceHeat;
+    els.clusterToggle.checked = state.showClusters;
+    els.listingDotsToggle.checked = state.showListingDots;
+    els.roadsToggle.checked = false;
+    els.amenitiesToggle.checked = false;
+    setInspectorTab("overview");
     renderAll();
   });
   els.applyButton.addEventListener("click", () => renderAll());

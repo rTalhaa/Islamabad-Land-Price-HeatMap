@@ -26,13 +26,13 @@
         </div>
 
         <nav class="nav-list">
-          <button class="nav-item is-active" type="button">Map</button>
-          <button class="nav-item" type="button">Neighborhoods</button>
-          <button class="nav-item" type="button">Listings</button>
-          <button class="nav-item" type="button">Analytics</button>
-          <button class="nav-item" type="button">Price Index</button>
-          <button class="nav-item" type="button">Data Quality</button>
-          <button class="nav-item" type="button">Sources</button>
+          <button class="nav-item is-active" data-nav-target="map" type="button">Map</button>
+          <button class="nav-item" data-nav-target="neighborhoods" type="button">Neighborhoods</button>
+          <button class="nav-item" data-nav-target="listings" type="button">Listings</button>
+          <button class="nav-item" data-nav-target="analytics" type="button">Analytics</button>
+          <button class="nav-item" data-nav-target="price-index" type="button">Price Index</button>
+          <button class="nav-item" data-nav-target="quality" type="button">Data Quality</button>
+          <button class="nav-item" data-nav-target="sources" type="button">Sources</button>
         </nav>
 
         <section class="rail-status">
@@ -105,7 +105,7 @@
           <button id="applyButton" class="button" type="button">Apply</button>
         </header>
 
-        <section class="metric-strip" aria-label="Market overview">
+        <section id="sources" class="metric-strip" aria-label="Market overview">
           <article class="metric-card">
             <span>Data confidence</span>
             <strong id="dataConfidence">--</strong>
@@ -139,7 +139,7 @@
         </section>
 
         <section class="main-grid">
-          <section class="map-card" aria-label="Market map">
+          <section id="mapPanel" class="map-card" aria-label="Market map">
             <div class="map-tools">
               <div class="segmented" role="group" aria-label="Map layer">
                 <button class="is-active" data-layer="heatmap" type="button">Heatmap</button>
@@ -151,11 +151,11 @@
 
             <div class="layer-panel">
               <strong>Layers</strong>
-              <label><input type="checkbox" checked /> Price heat</label>
-              <label><input type="checkbox" checked /> Cluster bubbles</label>
-              <label><input type="checkbox" checked /> Listings</label>
-              <label><input type="checkbox" /> Roads</label>
-              <label><input type="checkbox" /> Amenities</label>
+              <label><input id="priceHeatToggle" type="checkbox" checked /> Price heat</label>
+              <label><input id="clusterToggle" type="checkbox" checked /> Cluster bubbles</label>
+              <label><input id="listingDotsToggle" type="checkbox" checked /> Listings</label>
+              <label><input id="roadsToggle" type="checkbox" /> Roads</label>
+              <label><input id="amenitiesToggle" type="checkbox" /> Amenities</label>
             </div>
 
             <div id="map"></div>
@@ -175,40 +175,40 @@
             </div>
 
             <nav class="tabs" aria-label="Inspector tabs">
-              <button class="is-active" type="button">Overview</button>
-              <button type="button">Stats</button>
-              <button type="button">Price Index</button>
-              <button type="button">Listings</button>
+              <button class="is-active" data-inspector-tab="overview" type="button">Overview</button>
+              <button data-inspector-tab="stats" type="button">Stats</button>
+              <button data-inspector-tab="price-index" type="button">Price Index</button>
+              <button data-inspector-tab="listings" type="button">Listings</button>
             </nav>
 
-            <div class="inspector-metrics">
+            <div class="inspector-metrics" data-tab-panel="overview">
               <article><span>Asking-price median</span><strong id="spotlightTicket">--</strong></article>
               <article><span>PKR / sqft</span><strong id="spotlightPpsf">--</strong></article>
               <article><span>PKR / marla</span><strong id="spotlightMarla">--</strong></article>
             </div>
 
-            <div class="delta-row">
+            <div class="delta-row" data-tab-panel="stats">
               <article><span>vs 30d ago</span><strong id="spotlightPpsfDelta">--</strong></article>
               <article><span>vs city</span><strong id="spotlightTicketDelta">--</strong></article>
               <article><span>Confidence</span><strong id="spotlightConfidence">--</strong></article>
             </div>
 
-            <section class="inspector-section">
+            <section class="inspector-section" data-tab-panel="stats">
               <div class="section-title"><strong>Outliers</strong><span id="spotlightOutliers">--</span></div>
               <div class="outlier-bar"><i id="outlierBar"></i></div>
             </section>
 
-            <section class="inspector-section">
+            <section class="inspector-section" data-tab-panel="overview">
               <div class="section-title"><strong>Source mix</strong><span id="sourceMixCaption">--</span></div>
               <div id="spotlightSourceMix" class="stacked-bar"></div>
             </section>
 
-            <section class="inspector-section">
+            <section class="inspector-section" data-tab-panel="price-index">
               <div class="section-title"><strong>FBR benchmark</strong><a id="fbrLink" href="#" target="_blank" rel="noreferrer">Open reference</a></div>
               <p id="benchmarkCaption" class="muted">Official valuation reference linked. Numeric matching appears where an area table is mapped.</p>
             </section>
 
-            <section class="inspector-section">
+            <section class="inspector-section" data-tab-panel="listings">
               <div class="section-title"><strong>Sample listings</strong><button id="viewListingsButton" type="button">View all</button></div>
               <div id="sampleListings" class="sample-list"></div>
             </section>
@@ -217,15 +217,15 @@
 
         <section class="bottom-grid">
           <article class="panel">
-            <div class="section-title"><strong>Neighborhoods</strong><button type="button">View all</button></div>
+            <div class="section-title"><strong>Neighborhoods</strong><button id="viewNeighborhoodsButton" type="button">View all</button></div>
             <div id="neighborhoodTable" class="rank-table"></div>
           </article>
-          <article class="panel">
+          <article id="analyticsPanel" class="panel">
             <div class="section-title"><strong>Price drift</strong><span>PKR / sqft</span></div>
             <svg id="historySparkline" viewBox="0 0 520 190" preserveAspectRatio="none"></svg>
           </article>
-          <article class="panel">
-            <div class="section-title"><strong>Data quality</strong><a id="qualityLink" href="#quality">View details</a></div>
+          <article id="qualityPanel" class="panel">
+            <div class="section-title"><strong>Data quality</strong><a id="qualityLink" href="#qualityPanel">View details</a></div>
             <div id="qualityList" class="quality-list"></div>
           </article>
         </section>

@@ -25,6 +25,7 @@ class AppConfig:
     processed_dir: Path
     snapshot_dir: Path
     cache_dir: Path
+    database_path: Path
     seeds: tuple[SearchSeed, ...] = field(default_factory=tuple)
     enabled_sources: tuple[str, ...] = ("zameen", "graana")
     disabled_sources: dict[str, str] = field(default_factory=dict)
@@ -49,6 +50,7 @@ def get_config() -> AppConfig:
     processed_dir = BASE_DIR / "data" / "processed"
     snapshot_dir = BASE_DIR / "data" / "snapshots"
     cache_dir = BASE_DIR / "cache"
+    database_path = BASE_DIR / "data" / "atlas.db"
 
     marla_5 = "104.51592"
     marla_10 = "209.03184"
@@ -165,6 +167,7 @@ def get_config() -> AppConfig:
         processed_dir=processed_dir,
         snapshot_dir=snapshot_dir,
         cache_dir=cache_dir,
+        database_path=database_path,
         seeds=seeds,
         disabled_sources={
             "olx": "Experimental source disabled by default until selector health and usage posture are reviewed.",

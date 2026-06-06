@@ -106,6 +106,13 @@ button {
   color: var(--teal-dark);
 }
 
+.button.is-active,
+.button[aria-pressed="true"] {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+  color: var(--teal-dark);
+}
+
 .rail-status {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -479,6 +486,19 @@ button {
   font-weight: 800;
   text-decoration: none;
   padding: 0;
+}
+
+.panel.is-expanded {
+  grid-column: 1 / -1;
+}
+
+.panel.is-expanded .rank-table {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+}
+
+[data-tab-panel].hidden {
+  display: none !important;
 }
 
 .muted {
