@@ -13,7 +13,9 @@ Thumbs.db
 
 # Generated data
 data/raw/search_pages/*.html
+data/raw/search_pages/**/*.html
 data/raw/detail_pages/*.html
+data/raw/detail_pages/**/*.html
 data/snapshots/*
 !data/snapshots/.gitkeep
 cache/*.json

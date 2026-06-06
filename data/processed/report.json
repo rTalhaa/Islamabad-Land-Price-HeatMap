@@ -1,32 +1,419 @@
 {
-  "generatedAt": "2026-06-06T13:48:42+00:00",
-  "searchCardCount": 441,
-  "uniqueListingCount": 417,
-  "exportedListingCount": 417,
+  "generatedAt": "2026-06-05T19:05:15+00:00",
+  "searchCardCount": 539,
+  "uniqueListingCount": 241,
+  "exportedListingCount": 241,
   "seedStats": [
     {
+      "source": "zameen",
       "seed": "houses",
       "label": "Houses",
       "propertyGroup": "house",
-      "pagesScraped": 6,
-      "pageCountDiscovered": 563,
-      "listingCardsCollected": 150
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 559,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
     },
     {
+      "source": "zameen",
+      "seed": "houses-5-marla",
+      "label": "Houses | 5 Marla",
+      "propertyGroup": "house",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 63,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "zameen",
+      "seed": "houses-10-marla",
+      "label": "Houses | 10 Marla",
+      "propertyGroup": "house",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 63,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "zameen",
+      "seed": "houses-1-kanal",
+      "label": "Houses | 1 Kanal",
+      "propertyGroup": "house",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 63,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "zameen",
       "seed": "apartments",
       "label": "Flats & Apartments",
       "propertyGroup": "apartment",
-      "pagesScraped": 6,
+      "enabled": true,
+      "pagesScraped": 2,
       "pageCountDiscovered": 159,
-      "listingCardsCollected": 141
+      "listingCardsCollected": 49,
+      "cacheHits": 2,
+      "httpFailures": 0
     },
     {
+      "source": "zameen",
       "seed": "plots",
       "label": "Residential Plots",
       "propertyGroup": "plot",
-      "pagesScraped": 6,
-      "pageCountDiscovered": 941,
-      "listingCardsCollected": 150
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 947,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "zameen",
+      "seed": "plots-5-marla",
+      "label": "Residential Plots | 5 Marla",
+      "propertyGroup": "plot",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 947,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "zameen",
+      "seed": "plots-10-marla",
+      "label": "Residential Plots | 10 Marla",
+      "propertyGroup": "plot",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 947,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "zameen",
+      "seed": "plots-1-kanal",
+      "label": "Residential Plots | 1 Kanal",
+      "propertyGroup": "plot",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 947,
+      "listingCardsCollected": 50,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "graana",
+      "seed": "graana-houses",
+      "label": "Graana Houses",
+      "propertyGroup": "house",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 2,
+      "listingCardsCollected": 30,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "graana",
+      "seed": "graana-apartments",
+      "label": "Graana Flats & Apartments",
+      "propertyGroup": "apartment",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 2,
+      "listingCardsCollected": 30,
+      "cacheHits": 2,
+      "httpFailures": 0
+    },
+    {
+      "source": "graana",
+      "seed": "graana-plots",
+      "label": "Graana Residential Plots",
+      "propertyGroup": "plot",
+      "enabled": true,
+      "pagesScraped": 2,
+      "pageCountDiscovered": 2,
+      "listingCardsCollected": 30,
+      "cacheHits": 2,
+      "httpFailures": 0
     }
-  ]
+  ],
+  "sourceHealth": {
+    "generatedAt": "2026-06-05T19:05:15+00:00",
+    "sources": {
+      "graana": {
+        "label": "Graana",
+        "enabled": true,
+        "disabledReason": null,
+        "attemptedPages": 6,
+        "fetchedPages": 6,
+        "parsedCards": 90,
+        "exportedListings": 60,
+        "detailSuccess": 0,
+        "cacheHitRate": 1.0,
+        "httpFailures": 0,
+        "duplicateRate": 0.15,
+        "missingFieldRates": {
+          "pricePkr": 0.0,
+          "areaSqft": 0.0,
+          "coordinates": 0.5833,
+          "imageUrl": 0.0
+        },
+        "seedStats": [
+          {
+            "source": "graana",
+            "seed": "graana-houses",
+            "label": "Graana Houses",
+            "propertyGroup": "house",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 2,
+            "listingCardsCollected": 30,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "graana",
+            "seed": "graana-apartments",
+            "label": "Graana Flats & Apartments",
+            "propertyGroup": "apartment",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 2,
+            "listingCardsCollected": 30,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "graana",
+            "seed": "graana-plots",
+            "label": "Graana Residential Plots",
+            "propertyGroup": "plot",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 2,
+            "listingCardsCollected": 30,
+            "cacheHits": 2,
+            "httpFailures": 0
+          }
+        ]
+      },
+      "olx": {
+        "label": "OLX",
+        "enabled": false,
+        "disabledReason": "Experimental source disabled by default until selector health and usage posture are reviewed.",
+        "attemptedPages": 0,
+        "fetchedPages": 0,
+        "parsedCards": 0,
+        "exportedListings": 0,
+        "detailSuccess": 0,
+        "cacheHitRate": 0.0,
+        "httpFailures": 0,
+        "duplicateRate": 0.0,
+        "missingFieldRates": {
+          "pricePkr": 0.0,
+          "areaSqft": 0.0,
+          "coordinates": 0.0,
+          "imageUrl": 0.0
+        },
+        "seedStats": []
+      },
+      "zameen": {
+        "label": "Zameen",
+        "enabled": true,
+        "disabledReason": null,
+        "attemptedPages": 18,
+        "fetchedPages": 18,
+        "parsedCards": 449,
+        "exportedListings": 181,
+        "detailSuccess": 179,
+        "cacheHitRate": 1.0,
+        "httpFailures": 0,
+        "duplicateRate": 0.0608,
+        "missingFieldRates": {
+          "pricePkr": 0.0,
+          "areaSqft": 0.0,
+          "coordinates": 0.0055,
+          "imageUrl": 0.0221
+        },
+        "seedStats": [
+          {
+            "source": "zameen",
+            "seed": "houses",
+            "label": "Houses",
+            "propertyGroup": "house",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 559,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "houses-5-marla",
+            "label": "Houses | 5 Marla",
+            "propertyGroup": "house",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 63,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "houses-10-marla",
+            "label": "Houses | 10 Marla",
+            "propertyGroup": "house",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 63,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "houses-1-kanal",
+            "label": "Houses | 1 Kanal",
+            "propertyGroup": "house",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 63,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "apartments",
+            "label": "Flats & Apartments",
+            "propertyGroup": "apartment",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 159,
+            "listingCardsCollected": 49,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "plots",
+            "label": "Residential Plots",
+            "propertyGroup": "plot",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 947,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "plots-5-marla",
+            "label": "Residential Plots | 5 Marla",
+            "propertyGroup": "plot",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 947,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "plots-10-marla",
+            "label": "Residential Plots | 10 Marla",
+            "propertyGroup": "plot",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 947,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          },
+          {
+            "source": "zameen",
+            "seed": "plots-1-kanal",
+            "label": "Residential Plots | 1 Kanal",
+            "propertyGroup": "plot",
+            "enabled": true,
+            "pagesScraped": 2,
+            "pageCountDiscovered": 947,
+            "listingCardsCollected": 50,
+            "cacheHits": 2,
+            "httpFailures": 0
+          }
+        ]
+      }
+    },
+    "disabledSources": {
+      "olx": "Experimental source disabled by default until selector health and usage posture are reviewed."
+    }
+  },
+  "quality": {
+    "generatedAt": "2026-06-05T19:05:15+00:00",
+    "listingCount": 241,
+    "geocodingAccuracy": 0.8506,
+    "priceParsingSuccess": 1.0,
+    "areaParsingSuccess": 1.0,
+    "freshnessWithin30Days": 0.9793,
+    "duplicateRate": 0.083,
+    "outlierCount": 2,
+    "suspiciousPpsfCount": 1,
+    "confidenceMedian": 100.0,
+    "confidenceBands": {
+      "High": 205,
+      "Medium": 35,
+      "Low": 1
+    },
+    "ppsfRange": {
+      "min": 69.57,
+      "max": 66666.67,
+      "median": 17404.28
+    },
+    "topOutliers": [
+      {
+        "id": "zameen-54250700",
+        "source": "Zameen",
+        "title": "(Especial Eid Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1111.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_eid_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54250700-20514-2.html"
+      },
+      {
+        "id": "graana-1538756",
+        "source": "Graana",
+        "title": "1150 Ft\u00b2 Flat for Sale",
+        "neighborhood": "Bahria Enclave",
+        "pricePerSqft": 69.57,
+        "reasons": [
+          "outside plausible ppsf range",
+          "far below comparable median"
+        ],
+        "url": "https://www.graana.com/property/1538756"
+      }
+    ],
+    "fbrReference": {
+      "label": "FBR Islamabad immovable property valuation",
+      "url": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "note": "Official valuation reference. Numeric matching is shown only when an area table is mapped."
+    }
+  }
 }

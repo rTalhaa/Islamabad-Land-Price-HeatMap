@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-06-05T19:05:15+00:00",
+  "sources": {
+    "graana": {
+      "label": "Graana",
+      "enabled": true,
+      "disabledReason": null,
+      "attemptedPages": 6,
+      "fetchedPages": 6,
+      "parsedCards": 90,
+      "exportedListings": 60,
+      "detailSuccess": 0,
+      "cacheHitRate": 1.0,
+      "httpFailures": 0,
+      "duplicateRate": 0.15,
+      "missingFieldRates": {
+        "pricePkr": 0.0,
+        "areaSqft": 0.0,
+        "coordinates": 0.5833,
+        "imageUrl": 0.0
+      },
+      "seedStats": [
+        {
+          "source": "graana",
+          "seed": "graana-houses",
+          "label": "Graana Houses",
+          "propertyGroup": "house",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 2,
+          "listingCardsCollected": 30,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "graana",
+          "seed": "graana-apartments",
+          "label": "Graana Flats & Apartments",
+          "propertyGroup": "apartment",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 2,
+          "listingCardsCollected": 30,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "graana",
+          "seed": "graana-plots",
+          "label": "Graana Residential Plots",
+          "propertyGroup": "plot",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 2,
+          "listingCardsCollected": 30,
+          "cacheHits": 2,
+          "httpFailures": 0
+        }
+      ]
+    },
+    "olx": {
+      "label": "OLX",
+      "enabled": false,
+      "disabledReason": "Experimental source disabled by default until selector health and usage posture are reviewed.",
+      "attemptedPages": 0,
+      "fetchedPages": 0,
+      "parsedCards": 0,
+      "exportedListings": 0,
+      "detailSuccess": 0,
+      "cacheHitRate": 0.0,
+      "httpFailures": 0,
+      "duplicateRate": 0.0,
+      "missingFieldRates": {
+        "pricePkr": 0.0,
+        "areaSqft": 0.0,
+        "coordinates": 0.0,
+        "imageUrl": 0.0
+      },
+      "seedStats": []
+    },
+    "zameen": {
+      "label": "Zameen",
+      "enabled": true,
+      "disabledReason": null,
+      "attemptedPages": 18,
+      "fetchedPages": 18,
+      "parsedCards": 449,
+      "exportedListings": 181,
+      "detailSuccess": 179,
+      "cacheHitRate": 1.0,
+      "httpFailures": 0,
+      "duplicateRate": 0.0608,
+      "missingFieldRates": {
+        "pricePkr": 0.0,
+        "areaSqft": 0.0,
+        "coordinates": 0.0055,
+        "imageUrl": 0.0221
+      },
+      "seedStats": [
+        {
+          "source": "zameen",
+          "seed": "houses",
+          "label": "Houses",
+          "propertyGroup": "house",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 559,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "houses-5-marla",
+          "label": "Houses | 5 Marla",
+          "propertyGroup": "house",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 63,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "houses-10-marla",
+          "label": "Houses | 10 Marla",
+          "propertyGroup": "house",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 63,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "houses-1-kanal",
+          "label": "Houses | 1 Kanal",
+          "propertyGroup": "house",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 63,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "apartments",
+          "label": "Flats & Apartments",
+          "propertyGroup": "apartment",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 159,
+          "listingCardsCollected": 49,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "plots",
+          "label": "Residential Plots",
+          "propertyGroup": "plot",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 947,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "plots-5-marla",
+          "label": "Residential Plots | 5 Marla",
+          "propertyGroup": "plot",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 947,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "plots-10-marla",
+          "label": "Residential Plots | 10 Marla",
+          "propertyGroup": "plot",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 947,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        },
+        {
+          "source": "zameen",
+          "seed": "plots-1-kanal",
+          "label": "Residential Plots | 1 Kanal",
+          "propertyGroup": "plot",
+          "enabled": true,
+          "pagesScraped": 2,
+          "pageCountDiscovered": 947,
+          "listingCardsCollected": 50,
+          "cacheHits": 2,
+          "httpFailures": 0
+        }
+      ]
+    }
+  },
+  "disabledSources": {
+    "olx": "Experimental source disabled by default until selector health and usage posture are reviewed."
+  }
+}

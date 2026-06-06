@@ -6,277 +6,229 @@
     <title>Islamabad Price Atlas</title>
     <meta
       name="description"
-      content="A premium Islamabad property intelligence map with neighborhood spotlight insights."
+      content="Islamabad asking-price intelligence with source coverage, confidence scoring, and neighborhood analytics."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link href="https://unpkg.com/maplibre-gl@^5.12.0/dist/maplibre-gl.css" rel="stylesheet" />
     <link rel="stylesheet" href="/static/styles.css" />
   </head>
   <body>
-    <div class="aurora aurora-a"></div>
-    <div class="aurora aurora-b"></div>
-    <div class="grain"></div>
-
-    <main class="shell">
-      <section class="hero card">
-        <div class="hero__copy">
-          <p class="eyebrow">Islamabad only | Automated market pipeline</p>
-          <h1>Islamabad Price Atlas</h1>
-          <p class="hero__lede">
-            A buyer-focused market map that turns live listing activity into neighborhood-level
-            pricing intelligence. Explore where value clusters, where premium zones are hardening,
-            and which pockets are moving faster than the city baseline.
-          </p>
-          <div class="hero__meta">
-            <span id="lastRunPill" class="pill">Waiting for dataset</span>
-            <span id="dataStatusPill" class="pill pill--muted">Snapshot health loading...</span>
-            <span id="coveragePill" class="pill pill--muted">Coverage loading...</span>
-            <span id="deliveryPill" class="pill pill--muted">Delivery mode loading...</span>
-          </div>
+    <main class="app-shell">
+      <aside class="rail" aria-label="Primary navigation">
+        <div class="brand">
+          <div class="brand__mark" aria-hidden="true">IA</div>
+          <strong>Islamabad<br />Price Atlas</strong>
         </div>
 
-        <div class="hero__stats">
-          <article class="metric-card">
-            <span class="metric-card__label">Visible listings</span>
-            <strong id="trackedListings">--</strong>
-            <span class="metric-card__sub">Current inventory after filters</span>
-          </article>
-          <article class="metric-card">
-            <span class="metric-card__label">Median ticket</span>
-            <strong id="medianPrice">--</strong>
-            <span class="metric-card__sub">Typical asking price in view</span>
-          </article>
-          <article class="metric-card">
-            <span class="metric-card__label">Median PKR / sqft</span>
-            <strong id="medianPpsf">--</strong>
-            <span class="metric-card__sub">Core market intensity signal</span>
-          </article>
-        </div>
-      </section>
+        <nav class="nav-list">
+          <button class="nav-item is-active" type="button">Map</button>
+          <button class="nav-item" type="button">Neighborhoods</button>
+          <button class="nav-item" type="button">Listings</button>
+          <button class="nav-item" type="button">Analytics</button>
+          <button class="nav-item" type="button">Price Index</button>
+          <button class="nav-item" type="button">Data Quality</button>
+          <button class="nav-item" type="button">Sources</button>
+        </nav>
+
+        <section class="rail-status">
+          <span>Last refresh</span>
+          <strong id="lastRefresh">Loading...</strong>
+          <small id="nextRefresh">Source health pending</small>
+        </section>
+      </aside>
 
       <section class="workspace">
-        <section class="map-panel card">
-          <div class="panel-header">
-            <div>
-              <p class="eyebrow">Spatial intelligence</p>
-              <h2>Premium pricing, density, and demand on one map</h2>
-            </div>
-            <div class="status-cluster">
-              <span id="activeMetricBadge" class="pill pill--accent">Metric: Price / sqft</span>
-              <span id="activeLayerBadge" class="pill">Layer: Heatmap</span>
-            </div>
-          </div>
+        <header class="command-bar">
+          <label class="field">
+            <span>Area</span>
+            <select id="areaSelect">
+              <option value="Islamabad">Islamabad</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Property type</span>
+            <select id="groupSelect">
+              <option value="all">All types</option>
+              <option value="house">Houses</option>
+              <option value="apartment">Flats & Apartments</option>
+              <option value="plot">Residential Plots</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Source</span>
+            <select id="sourceSelect">
+              <option value="all">All sources</option>
+            </select>
+          </label>
+          <label class="field field--range">
+            <span>Budget (PKR)</span>
+            <select id="budgetSelect">
+              <option value="all">Any budget</option>
+              <option value="under2cr">Under 2 Cr</option>
+              <option value="2to8cr">2 to 8 Cr</option>
+              <option value="8crplus">8 Cr+</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Area size</span>
+            <select id="sizeSelect">
+              <option value="all">All sizes</option>
+              <option value="Compact">Compact</option>
+              <option value="Mid-size">Mid-size</option>
+              <option value="Large">Large</option>
+              <option value="Estate">Estate</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Recency</span>
+            <select id="recencySelect">
+              <option value="all">Any recency</option>
+              <option value="Fresh">Fresh</option>
+              <option value="Recent">Recent</option>
+              <option value="Stale">Stale</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Confidence</span>
+            <select id="confidenceSelect">
+              <option value="70">Medium+ (70%+)</option>
+              <option value="85">High (85%+)</option>
+              <option value="0">All confidence</option>
+            </select>
+          </label>
+          <button id="resetButton" class="button button--ghost" type="button">Reset</button>
+          <button id="applyButton" class="button" type="button">Apply</button>
+        </header>
 
-          <div class="toolbar">
-            <label class="toolbar-field">
-              <span>Layer</span>
-              <select id="layerSelect">
-                <option value="heatmap">Heatmap</option>
-                <option value="hexagon">Hex bins</option>
-                <option value="scatter">Listing dots</option>
-              </select>
-            </label>
-
-            <label class="toolbar-field">
-              <span>Metric</span>
-              <select id="metricSelect">
-                <option value="pricePerSqft">Price / sqft</option>
-                <option value="pricePkr">Listing price</option>
-                <option value="density">Density</option>
-              </select>
-            </label>
-
-            <label class="toolbar-field">
-              <span>Type</span>
-              <select id="groupSelect">
-                <option value="all">All inventory</option>
-                <option value="house">Houses</option>
-                <option value="apartment">Flats and apartments</option>
-                <option value="plot">Residential plots</option>
-              </select>
-            </label>
-
-            <label class="toolbar-field">
-              <span>Budget</span>
-              <select id="priceBandSelect">
-                <option value="all">All price bands</option>
-                <option value="under2cr">Under 2 Crore</option>
-                <option value="2to8cr">2 to 8 Crore</option>
-                <option value="8crplus">8+ Crore</option>
-              </select>
-            </label>
-
-            <label class="toolbar-field">
-              <span>Beds</span>
-              <select id="bedroomsSelect">
-                <option value="all">Any</option>
-                <option value="3plus">3+</option>
-                <option value="5plus">5+</option>
-              </select>
-            </label>
-
-            <label class="toolbar-field toolbar-field--search">
-              <span>Search area</span>
-              <input id="searchInput" type="search" placeholder="Try F-10, DHA, B-17..." />
-            </label>
-
-            <label class="toolbar-toggle">
-              <input id="freshToggle" type="checkbox" />
-              <span>Fresh only</span>
-            </label>
-
-            <button id="resetButton" class="ghost-button" type="button">Reset</button>
-          </div>
-
-          <div class="map-stage">
-            <div id="map"></div>
-            <div class="map-stage__veil"></div>
-
-            <div class="map-overlay">
-              <div class="overlay-card">
-                <span class="overlay-card__label">Visible listings</span>
-                <strong id="visibleCount">--</strong>
-              </div>
-              <div class="overlay-card">
-                <span class="overlay-card__label">Visible neighborhoods</span>
-                <strong id="visibleNeighborhoods">--</strong>
-              </div>
-              <div class="overlay-card overlay-card--selection">
-                <span class="overlay-card__label">Selected area</span>
-                <strong id="selectionPill">Auto</strong>
-              </div>
-            </div>
-
-            <div id="emptyState" class="empty-state hidden">
-              <strong>No listings match the active filter set.</strong>
-              <span>Relax a filter to restore the map and spotlight.</span>
-            </div>
-          </div>
-
-          <div class="legend">
-            <div>
-              <span class="legend__title">Atlas note</span>
-              <p id="legendText">
-                Heatmap weights each point by PKR per square foot so clusters glow according to
-                pricing intensity rather than simple volume.
-              </p>
-            </div>
-            <div class="legend__scale">
-              <span>Lower</span>
-              <div class="gradient-bar"></div>
-              <span>Higher</span>
-            </div>
-          </div>
+        <section class="metric-strip" aria-label="Market overview">
+          <article class="metric-card">
+            <span>Data confidence</span>
+            <strong id="dataConfidence">--</strong>
+            <div class="meter"><i id="dataConfidenceBar"></i></div>
+            <small id="confidenceCaption">Model quality score</small>
+          </article>
+          <article class="metric-card metric-card--wide">
+            <span>Source coverage</span>
+            <div id="sourceCoverage" class="source-coverage"></div>
+          </article>
+          <article class="metric-card">
+            <span>Asking-price median</span>
+            <strong id="medianPrice">--</strong>
+            <small id="medianCaption">All Islamabad</small>
+          </article>
+          <article class="metric-card">
+            <span>PKR / sqft</span>
+            <strong id="medianPpsf">--</strong>
+            <small id="ppsfCaption">Outliers excluded</small>
+          </article>
+          <article class="metric-card">
+            <span>PKR / marla</span>
+            <strong id="medianMarla">--</strong>
+            <small id="marlaCaption">Outliers excluded</small>
+          </article>
+          <article class="metric-card metric-card--alert">
+            <span>Outliers</span>
+            <strong id="outlierCount">--</strong>
+            <small id="outlierCaption">Flagged listings</small>
+          </article>
         </section>
 
-        <aside class="side-panel">
-          <section class="card side-card spotlight-card">
-            <div class="panel-header panel-header--tight">
-              <div>
-                <p class="eyebrow">Neighborhood spotlight</p>
-                <h2 id="spotlightName">Waiting for selection</h2>
+        <section class="main-grid">
+          <section class="map-card" aria-label="Market map">
+            <div class="map-tools">
+              <div class="segmented" role="group" aria-label="Map layer">
+                <button class="is-active" data-layer="heatmap" type="button">Heatmap</button>
+                <button data-layer="scatter" type="button">Listings</button>
+                <button data-layer="hexagon" type="button">Clusters</button>
               </div>
-              <div class="spotlight-badges">
-                <span id="spotlightTier" class="pill pill--accent">Tier</span>
-                <span id="spotlightDominant" class="pill pill--muted">Dominant mix</span>
-              </div>
+              <label class="layer-toggle"><input id="hideOutliersToggle" type="checkbox" checked /> Hide outliers</label>
             </div>
 
-            <div id="spotlightEmpty" class="spotlight-empty">
-              Click a hotspot row, scatter point, or hex bin to lock a neighborhood and inspect its
-              pricing profile.
+            <div class="layer-panel">
+              <strong>Layers</strong>
+              <label><input type="checkbox" checked /> Price heat</label>
+              <label><input type="checkbox" checked /> Cluster bubbles</label>
+              <label><input type="checkbox" checked /> Listings</label>
+              <label><input type="checkbox" /> Roads</label>
+              <label><input type="checkbox" /> Amenities</label>
             </div>
 
-            <div id="spotlightContent" class="spotlight-content hidden">
-              <p id="spotlightSummary" class="muted-copy"></p>
-
-              <div class="spotlight-metrics">
-                <article class="mini-metric">
-                  <span>Median PKR / sqft</span>
-                  <strong id="spotlightPpsf">--</strong>
-                </article>
-                <article class="mini-metric">
-                  <span>Median ticket</span>
-                  <strong id="spotlightTicket">--</strong>
-                </article>
-                <article class="mini-metric">
-                  <span>Visible listings</span>
-                  <strong id="spotlightListings">--</strong>
-                </article>
-                <article class="mini-metric">
-                  <span>Median freshness</span>
-                  <strong id="spotlightFreshness">--</strong>
-                </article>
-              </div>
-
-              <div class="delta-grid">
-                <article class="delta-card">
-                  <span>vs city PKR / sqft</span>
-                  <strong id="spotlightPpsfDelta">--</strong>
-                </article>
-                <article class="delta-card">
-                  <span>vs city ticket</span>
-                  <strong id="spotlightTicketDelta">--</strong>
-                </article>
-              </div>
-
-              <div class="section-block">
-                <div class="section-block__head">
-                  <h3>Property mix</h3>
-                </div>
-                <div id="spotlightMix" class="mix-chips"></div>
-              </div>
-
-              <div class="section-block">
-                <div class="section-block__head">
-                  <h3>High-signal listings</h3>
-                </div>
-                <div id="sampleListings" class="sample-listings"></div>
-              </div>
+            <div id="map"></div>
+            <div id="emptyState" class="empty-state hidden">
+              <strong>No listings match this view.</strong>
+              <span>Relax confidence, source, recency, or budget filters.</span>
             </div>
           </section>
 
-          <section class="card side-card pulse-card">
-            <div class="panel-header panel-header--tight">
+          <aside class="inspector" aria-label="Neighborhood inspector">
+            <div class="inspector__head">
               <div>
-                <p class="eyebrow">City pulse</p>
-                <h2>Visible market balance</h2>
+                <h1 id="spotlightName">Loading...</h1>
+                <p id="spotlightSubtitle">Residential community</p>
               </div>
+              <button id="watchButton" class="button button--ghost" type="button">Watch</button>
             </div>
 
-            <div class="pulse-section">
-              <h3>Inventory mix</h3>
-              <div id="mixList" class="mix-list"></div>
+            <nav class="tabs" aria-label="Inspector tabs">
+              <button class="is-active" type="button">Overview</button>
+              <button type="button">Stats</button>
+              <button type="button">Price Index</button>
+              <button type="button">Listings</button>
+            </nav>
+
+            <div class="inspector-metrics">
+              <article><span>Asking-price median</span><strong id="spotlightTicket">--</strong></article>
+              <article><span>PKR / sqft</span><strong id="spotlightPpsf">--</strong></article>
+              <article><span>PKR / marla</span><strong id="spotlightMarla">--</strong></article>
             </div>
 
-            <div class="pulse-section">
-              <h3>Neighborhood leaders</h3>
-              <div id="hotspotList" class="hotspot-list"></div>
-            </div>
-          </section>
-
-          <section class="card side-card">
-            <div class="panel-header panel-header--tight">
-              <div>
-                <p class="eyebrow">Historical drift</p>
-                <h2>Run-to-run movement</h2>
-              </div>
+            <div class="delta-row">
+              <article><span>vs 30d ago</span><strong id="spotlightPpsfDelta">--</strong></article>
+              <article><span>vs city</span><strong id="spotlightTicketDelta">--</strong></article>
+              <article><span>Confidence</span><strong id="spotlightConfidence">--</strong></article>
             </div>
 
-            <div class="history-block">
-              <svg id="historySparkline" viewBox="0 0 320 110" preserveAspectRatio="none"></svg>
-              <div class="history-meta">
-                <strong id="historyCaption">Need more runs for a stronger market pulse.</strong>
-                <span id="historySubcaption">Each scheduled refresh appends a new snapshot.</span>
-              </div>
-            </div>
-          </section>
-        </aside>
+            <section class="inspector-section">
+              <div class="section-title"><strong>Outliers</strong><span id="spotlightOutliers">--</span></div>
+              <div class="outlier-bar"><i id="outlierBar"></i></div>
+            </section>
+
+            <section class="inspector-section">
+              <div class="section-title"><strong>Source mix</strong><span id="sourceMixCaption">--</span></div>
+              <div id="spotlightSourceMix" class="stacked-bar"></div>
+            </section>
+
+            <section class="inspector-section">
+              <div class="section-title"><strong>FBR benchmark</strong><a id="fbrLink" href="#" target="_blank" rel="noreferrer">Open reference</a></div>
+              <p id="benchmarkCaption" class="muted">Official valuation reference linked. Numeric matching appears where an area table is mapped.</p>
+            </section>
+
+            <section class="inspector-section">
+              <div class="section-title"><strong>Sample listings</strong><button id="viewListingsButton" type="button">View all</button></div>
+              <div id="sampleListings" class="sample-list"></div>
+            </section>
+          </aside>
+        </section>
+
+        <section class="bottom-grid">
+          <article class="panel">
+            <div class="section-title"><strong>Neighborhoods</strong><button type="button">View all</button></div>
+            <div id="neighborhoodTable" class="rank-table"></div>
+          </article>
+          <article class="panel">
+            <div class="section-title"><strong>Price drift</strong><span>PKR / sqft</span></div>
+            <svg id="historySparkline" viewBox="0 0 520 190" preserveAspectRatio="none"></svg>
+          </article>
+          <article class="panel">
+            <div class="section-title"><strong>Data quality</strong><a id="qualityLink" href="#quality">View details</a></div>
+            <div id="qualityList" class="quality-list"></div>
+          </article>
+        </section>
       </section>
     </main>
 

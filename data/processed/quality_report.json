@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-06-05T19:05:15+00:00",
+  "listingCount": 241,
+  "geocodingAccuracy": 0.8506,
+  "priceParsingSuccess": 1.0,
+  "areaParsingSuccess": 1.0,
+  "freshnessWithin30Days": 0.9793,
+  "duplicateRate": 0.083,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 1,
+  "confidenceMedian": 100.0,
+  "confidenceBands": {
+    "High": 205,
+    "Medium": 35,
+    "Low": 1
+  },
+  "ppsfRange": {
+    "min": 69.57,
+    "max": 66666.67,
+    "median": 17404.28
+  },
+  "topOutliers": [
+    {
+      "id": "zameen-54250700",
+      "source": "Zameen",
+      "title": "(Especial Eid Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1111.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_eid_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54250700-20514-2.html"
+    },
+    {
+      "id": "graana-1538756",
+      "source": "Graana",
+      "title": "1150 Ft\u00b2 Flat for Sale",
+      "neighborhood": "Bahria Enclave",
+      "pricePerSqft": 69.57,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.graana.com/property/1538756"
+    }
+  ],
+  "fbrReference": {
+    "label": "FBR Islamabad immovable property valuation",
+    "url": "https://www.fbr.gov.pk/propertyValuation/17653",
+    "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+    "note": "Official valuation reference. Numeric matching is shown only when an area table is mapped."
+  }
+}

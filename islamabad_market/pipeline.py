@@ -22,6 +22,21 @@ PROPERTY_GROUP_LABELS = {
     "house": "Houses",
     "apartment": "Flats & Apartments",
     "plot": "Residential Plots",
+    "mixed": "Mixed Property",
+}
+
+FBR_REFERENCE = {
+    "label": "FBR Islamabad immovable property valuation",
+    "url": "https://www.fbr.gov.pk/propertyValuation/17653",
+    "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+    "note": "Official valuation reference. Numeric matching is shown only when an area table is mapped.",
+}
+
+ISLAMABAD_BOUNDS = {
+    "min_latitude": 33.35,
+    "max_latitude": 33.95,
+    "min_longitude": 72.75,
+    "max_longitude": 73.35,
 }
 
 
@@ -31,6 +46,108 @@ def merge_summary(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[st
         if merged.get(key) in (None, "", []) and value not in (None, "", []):
             merged[key] = value
     return merged
+
+
+def canonical_text(value: Any) -> str:
+    return clean_text(str(value or "")).lower().replace(" ", "-")
+
+
+def build_canonical_key(record: dict[str, Any]) -> str:
+    price_bucket = round((record.get("pricePkr") or 0) / 100_000) if record.get("pricePkr") else 0
+    area_bucket = round((record.get("areaSqft") or 0) / 25) if record.get("areaSqft") else 0
+    return "|".join(
+        [
+            canonical_text(record.get("propertyGroup")),
+            canonical_text(record.get("neighborhood")),
+            str(price_bucket),
+            str(area_bucket),
+            canonical_text(record.get("beds")),
+        ]
+    )
+
+
+def confidence_band(score: float | int | None) -> str:
+    value = float(score or 0)
+    if value >= 85:
+        return "High"
+    if value >= 70:
+        return "Medium"
+    return "Low"
+
+
+def size_band(area_sqft: float | None) -> str:
+    if area_sqft is None:
+        return "Unknown"
+    if area_sqft <= 1125:
+        return "Compact"
+    if area_sqft <= 2250:
+        return "Mid-size"
+    if area_sqft <= 4500:
+        return "Large"
+    return "Estate"
+
+
+def recency_bucket(freshness_hours: float | None) -> str:
+    if freshness_hours is None:
+        return "Unknown"
+    if freshness_hours <= 72:
+        return "Fresh"
+    if freshness_hours <= 24 * 30:
+        return "Recent"
+    return "Stale"
+
+
+def compute_parse_warnings(record: dict[str, Any]) -> list[str]:
+    warnings = []
+    for key in ("pricePkr", "areaSqft", "pricePerSqft", "neighborhood"):
+        if record.get(key) in (None, ""):
+            warnings.append(f"missing:{key}")
+    if record.get("latitude") is None or record.get("longitude") is None:
+        warnings.append("missing:coordinates")
+    ppsf = record.get("pricePerSqft")
+    if ppsf is not None and (ppsf < 500 or ppsf > 150_000):
+        warnings.append("suspicious:pricePerSqft")
+    if not record.get("imageUrl"):
+        warnings.append("missing:image")
+    return warnings
+
+
+def compute_confidence_score(record: dict[str, Any]) -> int:
+    score = 100
+    penalties = {
+        "missing:pricePkr": 24,
+        "missing:areaSqft": 22,
+        "missing:pricePerSqft": 26,
+        "missing:neighborhood": 18,
+        "missing:coordinates": 16,
+        "missing:image": 4,
+        "suspicious:pricePerSqft": 20,
+    }
+    for warning in record.get("parseWarnings", []):
+        score -= penalties.get(warning, 8)
+    if record.get("coordinateSource") == "neighborhood-centroid":
+        score -= 8
+    if record.get("source") == "Graana":
+        # Graana search pages do not expose coordinates, so centroid mapping is less precise.
+        score -= 4
+    return max(0, min(100, score))
+
+
+def within_islamabad_bounds(latitude: float | None, longitude: float | None) -> bool:
+    if latitude is None or longitude is None:
+        return False
+    return (
+        ISLAMABAD_BOUNDS["min_latitude"] <= latitude <= ISLAMABAD_BOUNDS["max_latitude"]
+        and ISLAMABAD_BOUNDS["min_longitude"] <= longitude <= ISLAMABAD_BOUNDS["max_longitude"]
+    )
+
+
+def normalize_coordinates(latitude: float | None, longitude: float | None) -> tuple[float | None, float | None, str]:
+    if within_islamabad_bounds(latitude, longitude):
+        return latitude, longitude, "listing-detail"
+    if within_islamabad_bounds(longitude, latitude):
+        return longitude, latitude, "listing-detail-swapped"
+    return None, None, "invalid-or-missing"
 
 
 def seed_lookup() -> dict[str, SearchSeed]:
@@ -72,7 +189,8 @@ async def collect_seed_pages(
     full_scan: bool,
     refresh_cache: bool,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    first_cache = scraper.config.search_cache_dir / f"{seed.key}-page-0001.html"
+    first_cache = scraper.config.search_cache_dir / seed.source / f"{seed.key}-page-0001.html"
+    first_cached = first_cache.exists() and not refresh_cache
     first_html = await scraper.fetch_html(seed.url_template.format(page=1), first_cache, refresh=refresh_cache)
     first_page_listings, page_count = parse_search_page(first_html, seed, page_number=1)
 
@@ -80,24 +198,35 @@ async def collect_seed_pages(
     target_pages = max(1, target_pages)
 
     results = list(first_page_listings)
+    cache_hits = 1 if first_cached else 0
+    http_failures = 0
     if target_pages > 1:
         tasks = []
         for page_number in range(2, target_pages + 1):
-            page_cache = scraper.config.search_cache_dir / f"{seed.key}-page-{page_number:04d}.html"
+            page_cache = scraper.config.search_cache_dir / seed.source / f"{seed.key}-page-{page_number:04d}.html"
+            if page_cache.exists() and not refresh_cache:
+                cache_hits += 1
             tasks.append(scraper.fetch_html(seed.url_template.format(page=page_number), page_cache, refresh=refresh_cache))
 
-        pages = await asyncio.gather(*tasks)
+        pages = await asyncio.gather(*tasks, return_exceptions=True)
         for offset, html in enumerate(pages, start=2):
+            if isinstance(html, Exception):
+                http_failures += 1
+                continue
             listings, _ = parse_search_page(html, seed, page_number=offset)
             results.extend(listings)
 
     stats = {
+        "source": seed.source,
         "seed": seed.key,
         "label": seed.label,
         "propertyGroup": seed.property_group,
+        "enabled": seed.enabled,
         "pagesScraped": target_pages,
         "pageCountDiscovered": page_count,
         "listingCardsCollected": len(results),
+        "cacheHits": cache_hits,
+        "httpFailures": http_failures,
     }
     return results, stats
 
@@ -120,13 +249,37 @@ def build_listing_record(summary: dict[str, Any], detail: dict[str, Any]) -> dic
     neighborhood = extract_location_name(payload, fallback=location)
     area_text = summary.get("areaText") or ""
     area_sqft = parse_area_to_sqft(area_text)
-    price_pkr = detail.get("pricePkr") or parse_price_to_pkr(summary.get("priceText"))
+    price_pkr = detail.get("pricePkr") or summary.get("pricePkr") or parse_price_to_pkr(summary.get("priceText"))
     price_per_sqft = round(price_pkr / area_sqft, 2) if price_pkr and area_sqft else None
     price_per_marla = round(price_pkr / (area_sqft / 225.0), 2) if price_pkr and area_sqft else None
+    source = summary.get("source") or "Zameen"
+    source_id = str(summary.get("sourceListingId") or summary.get("id"))
+    latitude, longitude, coordinate_source = normalize_coordinates(detail.get("latitude"), detail.get("longitude"))
+    record = {
+        "id": f"{canonical_text(source)}-{source_id}",
+        "source": source,
+        "sourceKey": summary.get("sourceKey") or canonical_text(source),
+        "sourceListingId": source_id,
+        "canonicalKey": "",
+        "detailUrl": summary.get("detailUrl") or summary.get("url"),
+        "benchmark": {
+            "label": "FBR benchmark",
+            "status": "unmatched",
+            "referenceUrl": FBR_REFERENCE["url"],
+            "documentUrl": FBR_REFERENCE["documentUrl"],
+            "deltaPct": None,
+        },
+        "isOutlier": False,
+        "outlierReasons": [],
+        "confidenceBand": "Low",
+        "sizeBand": size_band(area_sqft),
+        "recencyBucket": recency_bucket(summary.get("freshnessHours") or parse_relative_age_hours(summary.get("updatedText") or summary.get("addedText"))),
+        "sourceFetchedAt": None,
+        "parseWarnings": [],
+    }
 
-    return {
-        "id": summary["id"],
-        "source": "Zameen.com",
+    record.update(
+        {
         "url": summary.get("url"),
         "title": clean_text(summary.get("title")),
         "priceText": clean_text(summary.get("priceText")),
@@ -142,18 +295,25 @@ def build_listing_record(summary: dict[str, Any], detail: dict[str, Any]) -> dic
         "seed": summary.get("seed"),
         "location": location,
         "neighborhood": neighborhood,
-        "city": detail.get("city") or "Islamabad",
-        "latitude": detail.get("latitude"),
-        "longitude": detail.get("longitude"),
-        "coordinateSource": "listing-detail" if detail.get("latitude") and detail.get("longitude") else "unknown",
+        "city": detail.get("city") or summary.get("city") or "Islamabad",
+        "latitude": latitude,
+        "longitude": longitude,
+        "coordinateSource": coordinate_source,
         "listingState": detail.get("listingState") or "active",
         "referenceId": detail.get("referenceId"),
-        "agency": detail.get("agency"),
-        "imageUrl": detail.get("imageUrl"),
+        "agency": detail.get("agency") or summary.get("agency"),
+        "imageUrl": detail.get("imageUrl") or summary.get("imageUrl"),
         "addedText": clean_text(summary.get("addedText")),
         "updatedText": clean_text(summary.get("updatedText")),
-        "freshnessHours": parse_relative_age_hours(summary.get("updatedText") or summary.get("addedText")),
-    }
+        "freshnessHours": summary.get("freshnessHours") or parse_relative_age_hours(summary.get("updatedText") or summary.get("addedText")),
+        }
+    )
+    record["canonicalKey"] = build_canonical_key(record)
+    record["parseWarnings"] = compute_parse_warnings(record)
+    record["confidenceScore"] = compute_confidence_score(record)
+    record["confidenceBand"] = confidence_band(record["confidenceScore"])
+    record["recencyBucket"] = recency_bucket(record.get("freshnessHours"))
+    return record
 
 
 def impute_missing_coordinates(listings: list[dict[str, Any]]) -> None:
@@ -179,6 +339,46 @@ def impute_missing_coordinates(listings: list[dict[str, Any]]) -> None:
         listing["coordinateSource"] = "neighborhood-centroid"
 
 
+def refresh_record_quality(listings: list[dict[str, Any]]) -> None:
+    for listing in listings:
+        listing["parseWarnings"] = compute_parse_warnings(listing)
+        listing["confidenceScore"] = compute_confidence_score(listing)
+        listing["confidenceBand"] = confidence_band(listing["confidenceScore"])
+        listing["sizeBand"] = size_band(listing.get("areaSqft"))
+        listing["recencyBucket"] = recency_bucket(listing.get("freshnessHours"))
+
+
+def mark_outliers(listings: list[dict[str, Any]]) -> None:
+    grouped: dict[tuple[str, str], list[float]] = defaultdict(list)
+    for listing in listings:
+        ppsf = listing.get("pricePerSqft")
+        if ppsf is None:
+            continue
+        grouped[(listing.get("propertyGroup") or "", listing.get("neighborhood") or "")].append(float(ppsf))
+
+    medians = {key: median_or_none(values) for key, values in grouped.items()}
+    city_median = median_or_none(item.get("pricePerSqft") for item in listings)
+
+    for listing in listings:
+        ppsf = listing.get("pricePerSqft")
+        reasons: list[str] = []
+        if ppsf is None:
+            reasons.append("missing ppsf")
+        elif ppsf < 500 or ppsf > 150_000:
+            reasons.append("outside plausible ppsf range")
+
+        local_median = medians.get((listing.get("propertyGroup") or "", listing.get("neighborhood") or "")) or city_median
+        if ppsf is not None and local_median:
+            ratio = ppsf / local_median
+            if ratio >= 4.5:
+                reasons.append("far above comparable median")
+            elif ratio <= 0.22:
+                reasons.append("far below comparable median")
+
+        listing["isOutlier"] = bool(reasons)
+        listing["outlierReasons"] = reasons
+
+
 def build_geojson(listings: list[dict[str, Any]]) -> dict[str, Any]:
     features = []
     for listing in listings:
@@ -192,6 +392,10 @@ def build_geojson(listings: list[dict[str, Any]]) -> dict[str, Any]:
                 "geometry": {"type": "Point", "coordinates": [lon, lat]},
                 "properties": {
                     "id": listing["id"],
+                    "source": listing["source"],
+                    "confidenceScore": listing["confidenceScore"],
+                    "confidenceBand": listing["confidenceBand"],
+                    "isOutlier": listing["isOutlier"],
                     "title": listing["title"],
                     "propertyGroup": listing["propertyGroup"],
                     "location": listing["location"],
@@ -216,14 +420,16 @@ def build_property_group_summary(listings: list[dict[str, Any]]) -> list[dict[st
 
     rows = []
     for group, items in grouped.items():
+        median_items = [item for item in items if not item.get("isOutlier")]
         rows.append(
             {
                 "propertyGroup": group,
                 "label": items[0].get("propertyGroupLabel", group.title()),
                 "listingCount": len(items),
                 "mappedCount": sum(1 for item in items if item.get("latitude") is not None and item.get("longitude") is not None),
-                "medianPricePkr": round_or_none(median_or_none(item.get("pricePkr") for item in items), 0),
-                "medianPricePerSqft": round_or_none(median_or_none(item.get("pricePerSqft") for item in items), 2),
+                "outlierCount": sum(1 for item in items if item.get("isOutlier")),
+                "medianPricePkr": round_or_none(median_or_none(item.get("pricePkr") for item in median_items), 0),
+                "medianPricePerSqft": round_or_none(median_or_none(item.get("pricePerSqft") for item in median_items), 2),
             }
         )
     rows.sort(key=lambda item: item["listingCount"], reverse=True)
@@ -239,14 +445,16 @@ def build_neighborhood_summary(listings: list[dict[str, Any]]) -> list[dict[str,
 
     rows = []
     for neighborhood, items in grouped.items():
+        median_items = [item for item in items if not item.get("isOutlier")]
         rows.append(
             {
                 "neighborhood": neighborhood,
                 "listingCount": len(items),
                 "mappedCount": sum(1 for item in items if item.get("latitude") is not None and item.get("longitude") is not None),
-                "medianPricePkr": round_or_none(median_or_none(item.get("pricePkr") for item in items), 0),
-                "medianPricePerSqft": round_or_none(median_or_none(item.get("pricePerSqft") for item in items), 2),
-                "medianPricePerMarla": round_or_none(median_or_none(item.get("pricePerMarla") for item in items), 2),
+                "outlierCount": sum(1 for item in items if item.get("isOutlier")),
+                "medianPricePkr": round_or_none(median_or_none(item.get("pricePkr") for item in median_items), 0),
+                "medianPricePerSqft": round_or_none(median_or_none(item.get("pricePerSqft") for item in median_items), 2),
+                "medianPricePerMarla": round_or_none(median_or_none(item.get("pricePerMarla") for item in median_items), 2),
             }
         )
 
@@ -288,6 +496,19 @@ def build_property_mix(items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]
     return mix
 
 
+def build_source_mix(items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    total = len(items) or 1
+    sources = sorted({item.get("source") or "Unknown" for item in items})
+    return {
+        source: {
+            "label": source,
+            "count": sum(1 for item in items if (item.get("source") or "Unknown") == source),
+            "share": round(sum(1 for item in items if (item.get("source") or "Unknown") == source) / total, 4),
+        }
+        for source in sources
+    }
+
+
 def build_neighborhood_intelligence(listings: list[dict[str, Any]]) -> list[dict[str, Any]]:
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for listing in listings:
@@ -295,17 +516,20 @@ def build_neighborhood_intelligence(listings: list[dict[str, Any]]) -> list[dict
         if neighborhood:
             grouped[neighborhood].append(listing)
 
-    city_median_ppsf = median_or_none(item.get("pricePerSqft") for item in listings)
-    city_median_ticket = median_or_none(item.get("pricePkr") for item in listings)
+    baseline_listings = [item for item in listings if not item.get("isOutlier")]
+    city_median_ppsf = median_or_none(item.get("pricePerSqft") for item in baseline_listings)
+    city_median_ticket = median_or_none(item.get("pricePkr") for item in baseline_listings)
     rows = []
 
     for neighborhood, items in grouped.items():
         mapped_items = [item for item in items if item.get("latitude") is not None and item.get("longitude") is not None]
         latitudes = [item["latitude"] for item in mapped_items]
         longitudes = [item["longitude"] for item in mapped_items]
-        median_price_per_sqft = median_or_none(item.get("pricePerSqft") for item in items)
-        median_price_pkr = median_or_none(item.get("pricePkr") for item in items)
+        median_items = [item for item in items if not item.get("isOutlier")]
+        median_price_per_sqft = median_or_none(item.get("pricePerSqft") for item in median_items)
+        median_price_pkr = median_or_none(item.get("pricePkr") for item in median_items)
         property_mix = build_property_mix(items)
+        source_mix = build_source_mix(items)
         dominant_property_group = max(
             property_mix,
             key=lambda group: (property_mix[group]["count"], property_mix[group]["share"], PROPERTY_GROUP_LABELS[group]),
@@ -330,14 +554,25 @@ def build_neighborhood_intelligence(listings: list[dict[str, Any]]) -> list[dict
                 },
                 "listingCount": len(items),
                 "mappedCount": len(mapped_items),
+                "outlierCount": sum(1 for item in items if item.get("isOutlier")),
+                "confidenceMedian": round_or_none(median_or_none(item.get("confidenceScore") for item in items), 0),
                 "medianPricePkr": round_or_none(median_price_pkr, 0),
                 "medianPricePerSqft": round_or_none(median_price_per_sqft, 2),
-                "medianAreaSqft": round_or_none(median_or_none(item.get("areaSqft") for item in items), 2),
+                "medianPricePerMarla": round_or_none(median_or_none(item.get("pricePerMarla") for item in median_items), 2),
+                "medianAreaSqft": round_or_none(median_or_none(item.get("areaSqft") for item in median_items), 2),
                 "medianFreshnessHours": round_or_none(median_or_none(item.get("freshnessHours") for item in items), 2),
                 "minPricePkr": round_or_none(min((item.get("pricePkr") for item in items if item.get("pricePkr") is not None), default=None), 0),
                 "maxPricePkr": round_or_none(max((item.get("pricePkr") for item in items if item.get("pricePkr") is not None), default=None), 0),
                 "dominantPropertyGroup": dominant_property_group,
                 "propertyMix": property_mix,
+                "sourceMix": source_mix,
+                "benchmark": {
+                    "label": "FBR benchmark",
+                    "status": "unmatched",
+                    "referenceUrl": FBR_REFERENCE["url"],
+                    "documentUrl": FBR_REFERENCE["documentUrl"],
+                    "deltaPct": None,
+                },
                 "cityMedianPpsfDeltaPct": round_or_none(
                     (((median_price_per_sqft or 0) - city_median_ppsf) / city_median_ppsf) * 100 if city_median_ppsf and median_price_per_sqft else None,
                     2,
@@ -350,9 +585,13 @@ def build_neighborhood_intelligence(listings: list[dict[str, Any]]) -> list[dict
                 "sampleListings": [
                     {
                         "id": listing["id"],
+                        "source": listing["source"],
+                        "confidenceScore": listing["confidenceScore"],
+                        "isOutlier": listing["isOutlier"],
                         "title": listing["title"],
                         "pricePkr": listing["pricePkr"],
                         "pricePerSqft": listing["pricePerSqft"],
+                        "pricePerMarla": listing["pricePerMarla"],
                         "beds": listing["beds"],
                         "areaSqft": listing["areaSqft"],
                         "imageUrl": listing["imageUrl"],
@@ -385,22 +624,33 @@ def build_summary(
     generated_at: str,
 ) -> dict[str, Any]:
     mapped = [item for item in listings if item.get("latitude") is not None and item.get("longitude") is not None]
+    baseline_listings = [item for item in listings if not item.get("isOutlier")]
     neighborhood_summary = build_neighborhood_summary(listings)
     property_group_summary = build_property_group_summary(listings)
 
     freshness_values = [item.get("freshnessHours") for item in listings if item.get("freshnessHours") is not None]
+    confidence_values = [item.get("confidenceScore") for item in listings if item.get("confidenceScore") is not None]
     return {
         "generatedAt": generated_at,
         "city": "Islamabad",
         "trackedListings": len(listings),
         "mappedListings": len(mapped),
+        "outlierCount": sum(1 for item in listings if item.get("isOutlier")),
         "neighborhoodCount": len({clean_text(item.get("neighborhood")) for item in listings if clean_text(item.get("neighborhood"))}),
-        "medianPricePkr": round_or_none(median_or_none(item.get("pricePkr") for item in listings), 0),
-        "medianPricePerSqft": round_or_none(median_or_none(item.get("pricePerSqft") for item in listings), 2),
+        "medianPricePkr": round_or_none(median_or_none(item.get("pricePkr") for item in baseline_listings), 0),
+        "medianPricePerSqft": round_or_none(median_or_none(item.get("pricePerSqft") for item in baseline_listings), 2),
+        "medianPricePerMarla": round_or_none(median_or_none(item.get("pricePerMarla") for item in baseline_listings), 2),
         "medianFreshnessHours": round_or_none(median_or_none(freshness_values), 1),
+        "medianConfidenceScore": round_or_none(median_or_none(confidence_values), 0),
+        "confidenceBands": {
+            band: sum(1 for item in listings if item.get("confidenceBand") == band)
+            for band in ("High", "Medium", "Low")
+        },
+        "sourceMix": build_source_mix(listings),
         "propertyGroups": property_group_summary,
         "topNeighborhoods": neighborhood_summary[:8],
         "seedStats": seed_stats,
+        "fbrReference": FBR_REFERENCE,
     }
 
 
@@ -409,8 +659,118 @@ def build_history_entry(summary: dict[str, Any]) -> dict[str, Any]:
         "timestamp": summary["generatedAt"],
         "trackedListings": summary["trackedListings"],
         "mappedListings": summary["mappedListings"],
+        "outlierCount": summary.get("outlierCount"),
+        "medianConfidenceScore": summary.get("medianConfidenceScore"),
         "medianPricePkr": summary["medianPricePkr"],
         "medianPricePerSqft": summary["medianPricePerSqft"],
+    }
+
+
+def missing_rate(items: list[dict[str, Any]], key: str) -> float:
+    if not items:
+        return 0.0
+    return round(sum(1 for item in items if item.get(key) in (None, "")) / len(items), 4)
+
+
+def build_source_health_report(
+    listings: list[dict[str, Any]],
+    seed_stats: list[dict[str, Any]],
+    disabled_sources: dict[str, str],
+    generated_at: str,
+) -> dict[str, Any]:
+    by_source: dict[str, dict[str, Any]] = {}
+    all_sources = sorted({stat["source"] for stat in seed_stats} | set(disabled_sources))
+    duplicate_keys = defaultdict(int)
+    for listing in listings:
+        duplicate_keys[listing.get("canonicalKey")] += 1
+
+    for source in all_sources:
+        source_listings = [item for item in listings if item.get("sourceKey") == source]
+        stats = [item for item in seed_stats if item.get("source") == source]
+        by_source[source] = {
+            "label": {"zameen": "Zameen", "graana": "Graana", "olx": "OLX"}.get(source, source.title()),
+            "enabled": source not in disabled_sources,
+            "disabledReason": disabled_sources.get(source),
+            "attemptedPages": sum(item.get("pagesScraped", 0) for item in stats),
+            "fetchedPages": sum(max(0, item.get("pagesScraped", 0) - item.get("httpFailures", 0)) for item in stats),
+            "parsedCards": sum(item.get("listingCardsCollected", 0) for item in stats),
+            "exportedListings": len(source_listings),
+            "detailSuccess": sum(1 for item in source_listings if item.get("coordinateSource") == "listing-detail"),
+            "cacheHitRate": round(
+                sum(item.get("cacheHits", 0) for item in stats) / max(1, sum(item.get("pagesScraped", 0) for item in stats)),
+                4,
+            ),
+            "httpFailures": sum(item.get("httpFailures", 0) for item in stats),
+            "duplicateRate": round(
+                sum(1 for item in source_listings if duplicate_keys.get(item.get("canonicalKey"), 0) > 1) / max(1, len(source_listings)),
+                4,
+            ),
+            "missingFieldRates": {
+                "pricePkr": missing_rate(source_listings, "pricePkr"),
+                "areaSqft": missing_rate(source_listings, "areaSqft"),
+                "coordinates": round(
+                    sum(1 for item in source_listings if item.get("latitude") is None or item.get("longitude") is None) / max(1, len(source_listings)),
+                    4,
+                ),
+                "imageUrl": missing_rate(source_listings, "imageUrl"),
+            },
+            "seedStats": stats,
+        }
+
+    return {
+        "generatedAt": generated_at,
+        "sources": by_source,
+        "disabledSources": disabled_sources,
+    }
+
+
+def build_quality_report(listings: list[dict[str, Any]], generated_at: str) -> dict[str, Any]:
+    mapped = [item for item in listings if item.get("latitude") is not None and item.get("longitude") is not None]
+    ppsf_values = [item.get("pricePerSqft") for item in listings if item.get("pricePerSqft") is not None]
+    confidence_values = [item.get("confidenceScore") for item in listings if item.get("confidenceScore") is not None]
+    duplicate_keys = defaultdict(int)
+    for listing in listings:
+        duplicate_keys[listing.get("canonicalKey")] += 1
+
+    return {
+        "generatedAt": generated_at,
+        "listingCount": len(listings),
+        "geocodingAccuracy": round(len(mapped) / max(1, len(listings)), 4),
+        "priceParsingSuccess": round(1 - missing_rate(listings, "pricePkr"), 4),
+        "areaParsingSuccess": round(1 - missing_rate(listings, "areaSqft"), 4),
+        "freshnessWithin30Days": round(
+            sum(1 for item in listings if item.get("freshnessHours") is not None and item["freshnessHours"] <= 24 * 30) / max(1, len(listings)),
+            4,
+        ),
+        "duplicateRate": round(sum(1 for item in listings if duplicate_keys.get(item.get("canonicalKey"), 0) > 1) / max(1, len(listings)), 4),
+        "outlierCount": sum(1 for item in listings if item.get("isOutlier")),
+        "suspiciousPpsfCount": sum(1 for item in listings if "suspicious:pricePerSqft" in item.get("parseWarnings", [])),
+        "confidenceMedian": round_or_none(median_or_none(confidence_values), 0),
+        "confidenceBands": {
+            band: sum(1 for item in listings if item.get("confidenceBand") == band)
+            for band in ("High", "Medium", "Low")
+        },
+        "ppsfRange": {
+            "min": round_or_none(min(ppsf_values, default=None), 2),
+            "max": round_or_none(max(ppsf_values, default=None), 2),
+            "median": round_or_none(median_or_none(ppsf_values), 2),
+        },
+        "topOutliers": [
+            {
+                "id": item["id"],
+                "source": item["source"],
+                "title": item["title"],
+                "neighborhood": item["neighborhood"],
+                "pricePerSqft": item["pricePerSqft"],
+                "reasons": item["outlierReasons"],
+                "url": item["url"],
+            }
+            for item in sorted(
+                [item for item in listings if item.get("isOutlier")],
+                key=lambda item: (-(item.get("pricePerSqft") or 0), item["id"]),
+            )[:20]
+        ],
+        "fbrReference": FBR_REFERENCE,
     }
 
 
@@ -434,6 +794,8 @@ def write_snapshot_bundle(
     summary: dict[str, Any],
     geojson: dict[str, Any],
     report: dict[str, Any],
+    source_health: dict[str, Any],
+    quality_report: dict[str, Any],
 ) -> None:
     slug = timestamp.replace(":", "-")
     bundle_dir = snapshot_root / slug
@@ -443,6 +805,8 @@ def write_snapshot_bundle(
     write_json(bundle_dir / "summary.json", summary)
     write_json(bundle_dir / "map_points.geojson", geojson)
     write_json(bundle_dir / "report.json", report)
+    write_json(bundle_dir / "source_health.json", source_health)
+    write_json(bundle_dir / "quality_report.json", quality_report)
 
 
 async def run_pipeline(
@@ -463,7 +827,14 @@ async def run_pipeline(
         ]
     )
 
-    active_seeds = [seed for seed in config.seeds if not selected_seeds or seed.key in selected_seeds]
+    active_seeds = [
+        seed
+        for seed in config.seeds
+        if seed.enabled
+        and seed.source in config.enabled_sources
+        and (not selected_seeds or seed.key in selected_seeds)
+    ]
+    active_seed_by_key = {seed.key: seed for seed in active_seeds}
     scraper = ZameenScraper(config)
     try:
         all_summaries: list[dict[str, Any]] = []
@@ -479,7 +850,7 @@ async def run_pipeline(
             all_summaries.extend(listings)
             seed_stats.append(stats)
 
-        deduped: dict[int, dict[str, Any]] = {}
+        deduped: dict[Any, dict[str, Any]] = {}
         for summary in all_summaries:
             listing_id = summary["id"]
             if listing_id in deduped:
@@ -490,23 +861,43 @@ async def run_pipeline(
         summary_list = list(deduped.values())
         summary_list = limit_summaries_balanced(summary_list, listing_limit)
 
-        details = await asyncio.gather(
-            *(enrich_listing(scraper, summary, refresh_cache=refresh_cache) for summary in summary_list)
-        )
+        detail_tasks = []
+        for summary in summary_list:
+            seed = active_seed_by_key.get(summary.get("seed"))
+            if seed and seed.requires_detail:
+                detail_tasks.append(enrich_listing(scraper, summary, refresh_cache=refresh_cache))
+            else:
+                detail_tasks.append(asyncio.sleep(0, result={}))
 
-        listings = [build_listing_record(summary, detail) for summary, detail in zip(summary_list, details, strict=True)]
+        details = await asyncio.gather(*detail_tasks, return_exceptions=True)
+        normalized_details = [detail if isinstance(detail, dict) else {} for detail in details]
+
+        listings = [build_listing_record(summary, detail) for summary, detail in zip(summary_list, normalized_details, strict=True)]
         impute_missing_coordinates(listings)
-        listings.sort(key=lambda item: ((item.get("pricePerSqft") is None), -(item.get("pricePerSqft") or 0), item["id"]))
-
         generated_at = utc_now_iso()
+        for listing in listings:
+            listing["sourceFetchedAt"] = generated_at
+        refresh_record_quality(listings)
+        mark_outliers(listings)
+        listings.sort(key=lambda item: ((item.get("pricePerSqft") is None), item.get("isOutlier", False), -(item.get("pricePerSqft") or 0), str(item["id"])))
+
         geojson = build_geojson(listings)
         neighborhoods = build_neighborhood_intelligence(listings)
+        source_health = build_source_health_report(
+            listings,
+            seed_stats=seed_stats,
+            disabled_sources=config.disabled_sources,
+            generated_at=generated_at,
+        )
+        quality_report = build_quality_report(listings, generated_at=generated_at)
         report = {
             "generatedAt": generated_at,
             "searchCardCount": len(all_summaries),
             "uniqueListingCount": len(deduped),
             "exportedListingCount": len(listings),
             "seedStats": seed_stats,
+            "sourceHealth": source_health,
+            "quality": quality_report,
         }
         summary = build_summary(listings, seed_stats=seed_stats, generated_at=generated_at)
 
@@ -519,13 +910,17 @@ async def run_pipeline(
         write_json(config.processed_dir / "summary.json", summary)
         write_json(history_path, history)
         write_json(config.processed_dir / "report.json", report)
-        write_snapshot_bundle(config.snapshot_dir, generated_at, listings, neighborhoods, summary, geojson, report)
+        write_json(config.processed_dir / "source_health.json", source_health)
+        write_json(config.processed_dir / "quality_report.json", quality_report)
+        write_snapshot_bundle(config.snapshot_dir, generated_at, listings, neighborhoods, summary, geojson, report, source_health, quality_report)
 
         return {
             "neighborhoods": neighborhoods,
             "summary": summary,
             "history": history,
             "report": report,
+            "sourceHealth": source_health,
+            "qualityReport": quality_report,
         }
     finally:
         await scraper.aclose()

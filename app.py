@@ -60,6 +60,16 @@ def report() -> Any:
     return _load_processed_file("report.json")
 
 
+@app.get("/api/source-health")
+def source_health() -> Any:
+    return _load_processed_file("source_health.json")
+
+
+@app.get("/api/quality-report")
+def quality_report() -> Any:
+    return _load_processed_file("quality_report.json")
+
+
 @app.get("/")
 def index() -> FileResponse:
     return FileResponse(config.base_dir / "static" / "index.html")

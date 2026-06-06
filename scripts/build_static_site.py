@@ -51,7 +51,9 @@ def build_site() -> None:
         "map_points.geojson",
         "neighborhoods.json",
         "report.json",
+        "source_health.json",
         "summary.json",
+        "quality_report.json",
     ):
         shutil.copy2(PROCESSED_DIR / data_name, OUTPUT_DIR / "data" / "processed" / data_name)
 
