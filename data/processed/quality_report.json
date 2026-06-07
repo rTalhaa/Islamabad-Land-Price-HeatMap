@@ -1,47 +1,25 @@
 {
-  "generatedAt": "2026-06-06T17:49:39+00:00",
-  "listingCount": 383,
-  "geocodingAccuracy": 0.9034,
+  "generatedAt": "2026-06-07T04:09:11+00:00",
+  "listingCount": 489,
+  "geocodingAccuracy": 0.9182,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9843,
-  "duplicateRate": 0.0731,
-  "outlierCount": 3,
+  "freshnessWithin30Days": 0.9877,
+  "duplicateRate": 0.1022,
+  "outlierCount": 1,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 346,
-    "Medium": 36,
+    "High": 449,
+    "Medium": 39,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 111111.11,
-    "median": 16000.0
+    "max": 102880.66,
+    "median": 13777.78
   },
   "topOutliers": [
-    {
-      "id": "zameen-54290928",
-      "source": "Zameen",
-      "title": "Stunning 1250 Square Feet Residential Plot In Faisal Town Phase 1 Available",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 9126.98,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_1_stunning_1250_square_feet_residential_plot_in_faisal_town_phase_1_available-54290928-16415-2.html"
-    },
-    {
-      "id": "zameen-54250700",
-      "source": "Zameen",
-      "title": "(Especial Eid Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1111.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_eid_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54250700-20514-2.html"
-    },
     {
       "id": "graana-1538756",
       "source": "Graana",

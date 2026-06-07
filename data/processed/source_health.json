@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T17:49:39+00:00",
+  "generatedAt": "2026-06-07T04:09:11+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -10,7 +10,7 @@
       "parsedCards": 90,
       "exportedListings": 60,
       "detailSuccess": 0,
-      "cacheHitRate": 1.0,
+      "cacheHitRate": 0.0,
       "httpFailures": 0,
       "duplicateRate": 0.15,
       "missingFieldRates": {
@@ -29,7 +29,7 @@
           "pagesScraped": 2,
           "pageCountDiscovered": 2,
           "listingCardsCollected": 30,
-          "cacheHits": 2,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -41,7 +41,7 @@
           "pagesScraped": 2,
           "pageCountDiscovered": 2,
           "listingCardsCollected": 30,
-          "cacheHits": 2,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -53,7 +53,7 @@
           "pagesScraped": 2,
           "pageCountDiscovered": 2,
           "listingCardsCollected": 30,
-          "cacheHits": 2,
+          "cacheHits": 0,
           "httpFailures": 0
         }
       ]
@@ -82,19 +82,19 @@
       "label": "Zameen",
       "enabled": true,
       "disabledReason": null,
-      "attemptedPages": 24,
-      "fetchedPages": 24,
-      "parsedCards": 598,
-      "exportedListings": 323,
-      "detailSuccess": 320,
-      "cacheHitRate": 0.75,
+      "attemptedPages": 54,
+      "fetchedPages": 54,
+      "parsedCards": 1342,
+      "exportedListings": 429,
+      "detailSuccess": 423,
+      "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.0588,
+      "duplicateRate": 0.0956,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0062,
-        "imageUrl": 0.0464
+        "coordinates": 0.0117,
+        "imageUrl": 0.0396
       },
       "seedStats": [
         {
@@ -103,10 +103,10 @@
           "label": "Houses",
           "propertyGroup": "house",
           "enabled": true,
-          "pagesScraped": 4,
-          "pageCountDiscovered": 559,
-          "listingCardsCollected": 100,
-          "cacheHits": 2,
+          "pagesScraped": 6,
+          "pageCountDiscovered": 562,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -115,10 +115,10 @@
           "label": "Houses | 5 Marla",
           "propertyGroup": "house",
           "enabled": true,
-          "pagesScraped": 2,
+          "pagesScraped": 6,
           "pageCountDiscovered": 63,
-          "listingCardsCollected": 50,
-          "cacheHits": 2,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -127,10 +127,10 @@
           "label": "Houses | 10 Marla",
           "propertyGroup": "house",
           "enabled": true,
-          "pagesScraped": 2,
+          "pagesScraped": 6,
           "pageCountDiscovered": 63,
-          "listingCardsCollected": 50,
-          "cacheHits": 2,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -139,10 +139,10 @@
           "label": "Houses | 1 Kanal",
           "propertyGroup": "house",
           "enabled": true,
-          "pagesScraped": 2,
+          "pagesScraped": 6,
           "pageCountDiscovered": 63,
-          "listingCardsCollected": 50,
-          "cacheHits": 2,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -151,10 +151,10 @@
           "label": "Flats & Apartments",
           "propertyGroup": "apartment",
           "enabled": true,
-          "pagesScraped": 4,
+          "pagesScraped": 6,
           "pageCountDiscovered": 159,
-          "listingCardsCollected": 98,
-          "cacheHits": 2,
+          "listingCardsCollected": 142,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -163,10 +163,10 @@
           "label": "Residential Plots",
           "propertyGroup": "plot",
           "enabled": true,
-          "pagesScraped": 4,
-          "pageCountDiscovered": 947,
-          "listingCardsCollected": 100,
-          "cacheHits": 2,
+          "pagesScraped": 6,
+          "pageCountDiscovered": 1090,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -175,10 +175,10 @@
           "label": "Residential Plots | 5 Marla",
           "propertyGroup": "plot",
           "enabled": true,
-          "pagesScraped": 2,
-          "pageCountDiscovered": 947,
-          "listingCardsCollected": 50,
-          "cacheHits": 2,
+          "pagesScraped": 6,
+          "pageCountDiscovered": 1090,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -187,10 +187,10 @@
           "label": "Residential Plots | 10 Marla",
           "propertyGroup": "plot",
           "enabled": true,
-          "pagesScraped": 2,
-          "pageCountDiscovered": 947,
-          "listingCardsCollected": 50,
-          "cacheHits": 2,
+          "pagesScraped": 6,
+          "pageCountDiscovered": 1090,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         },
         {
@@ -199,10 +199,10 @@
           "label": "Residential Plots | 1 Kanal",
           "propertyGroup": "plot",
           "enabled": true,
-          "pagesScraped": 2,
-          "pageCountDiscovered": 947,
-          "listingCardsCollected": 50,
-          "cacheHits": 2,
+          "pagesScraped": 6,
+          "pageCountDiscovered": 1090,
+          "listingCardsCollected": 150,
+          "cacheHits": 0,
           "httpFailures": 0
         }
       ]
