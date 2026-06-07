@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-06-07T04:09:11+00:00",
-  "listingCount": 489,
-  "geocodingAccuracy": 0.9182,
+  "generatedAt": "2026-06-07T13:58:28+00:00",
+  "listingCount": 487,
+  "geocodingAccuracy": 0.924,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 0.9877,
-  "duplicateRate": 0.1022,
-  "outlierCount": 1,
+  "duplicateRate": 0.1335,
+  "outlierCount": 2,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 449,
-    "Medium": 39,
+    "High": 450,
+    "Medium": 36,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 102880.66,
-    "median": 13777.78
+    "max": 110726.64,
+    "median": 14814.81
   },
   "topOutliers": [
+    {
+      "id": "zameen-54235317",
+      "source": "Zameen",
+      "title": "DHA Home Size 5 Marla For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 5777.78,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_oleander_sector_oleander_sector_-_dha_homes_dha_home_size_5_marla_for_sale-54235317-16825-1.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
