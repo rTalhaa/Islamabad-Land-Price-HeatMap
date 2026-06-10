@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-06-09T14:56:55+00:00",
-  "listingCount": 478,
-  "geocodingAccuracy": 0.8975,
+  "generatedAt": "2026-06-10T03:57:02+00:00",
+  "listingCount": 497,
+  "geocodingAccuracy": 0.8954,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9895,
-  "duplicateRate": 0.0962,
-  "outlierCount": 1,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9899,
+  "duplicateRate": 0.1167,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 429,
-    "Medium": 48,
-    "Low": 1
+    "High": 445,
+    "Medium": 50,
+    "Low": 2
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 96129.84,
-    "median": 15555.56
+    "max": 100000.0,
+    "median": 16666.67
   },
   "topOutliers": [
+    {
+      "id": "zameen-52247698",
+      "source": "Zameen",
+      "title": "Farm House Near DHA On M-2 Motorway Islamabad",
+      "neighborhood": "Lahore - Islamabad Motorway",
+      "pricePerSqft": 166.67,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
