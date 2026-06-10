@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-10T03:57:02+00:00",
-  "searchCardCount": 1440,
-  "uniqueListingCount": 497,
-  "exportedListingCount": 497,
+  "generatedAt": "2026-06-10T15:39:46+00:00",
+  "searchCardCount": 1438,
+  "uniqueListingCount": 470,
+  "exportedListingCount": 470,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 558,
+      "pageCountDiscovered": 556,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 159,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 161,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 940,
+      "pageCountDiscovered": 943,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 940,
+      "pageCountDiscovered": 943,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 940,
+      "pageCountDiscovered": 943,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 940,
+      "pageCountDiscovered": 943,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-10T03:57:02+00:00",
+    "generatedAt": "2026-06-10T15:39:46+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.7833,
+          "coordinates": 0.6333,
           "imageUrl": 0.0
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1350,
-        "exportedListings": 437,
-        "detailSuccess": 430,
+        "parsedCards": 1348,
+        "exportedListings": 410,
+        "detailSuccess": 407,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1167,
+        "duplicateRate": 0.0878,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0114,
-          "imageUrl": 0.0343
+          "coordinates": 0.0024,
+          "imageUrl": 0.0927
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 558,
+            "pageCountDiscovered": 556,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 159,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 161,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 940,
+            "pageCountDiscovered": 943,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 940,
+            "pageCountDiscovered": 943,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 940,
+            "pageCountDiscovered": 943,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 940,
+            "pageCountDiscovered": 943,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,38 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-06-10T03:57:02+00:00",
-    "listingCount": 497,
-    "geocodingAccuracy": 0.8954,
+    "generatedAt": "2026-06-10T15:39:46+00:00",
+    "listingCount": 470,
+    "geocodingAccuracy": 0.917,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9899,
-    "duplicateRate": 0.1167,
-    "outlierCount": 2,
-    "suspiciousPpsfCount": 2,
+    "freshnessWithin30Days": 0.9872,
+    "duplicateRate": 0.0915,
+    "outlierCount": 1,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 445,
-      "Medium": 50,
-      "Low": 2
+      "High": 431,
+      "Medium": 38,
+      "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 100000.0,
-      "median": 16666.67
+      "max": 96129.84,
+      "median": 13381.6
     },
     "topOutliers": [
-      {
-        "id": "zameen-52247698",
-        "source": "Zameen",
-        "title": "Farm House Near DHA On M-2 Motorway Islamabad",
-        "neighborhood": "Lahore - Islamabad Motorway",
-        "pricePerSqft": 166.67,
-        "reasons": [
-          "outside plausible ppsf range"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
-      },
       {
         "id": "graana-1538756",
         "source": "Graana",
