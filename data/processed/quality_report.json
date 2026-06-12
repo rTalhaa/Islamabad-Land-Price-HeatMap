@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-06-11T16:07:03+00:00",
-  "listingCount": 486,
-  "geocodingAccuracy": 0.8807,
+  "generatedAt": "2026-06-12T04:12:12+00:00",
+  "listingCount": 476,
+  "geocodingAccuracy": 0.9076,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9877,
-  "duplicateRate": 0.1173,
-  "outlierCount": 1,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9874,
+  "duplicateRate": 0.1071,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 428,
-    "Medium": 57,
+    "High": 431,
+    "Medium": 44,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 88888.89,
-    "median": 15610.68
+    "max": 102880.66,
+    "median": 15555.56
   },
   "topOutliers": [
+    {
+      "id": "zameen-54324027",
+      "source": "Zameen",
+      "title": "Apartment For Rent In Kara Koram Enclave F-11 Islamabad",
+      "neighborhood": "Karakoram Enclave 1",
+      "pricePerSqft": 71.43,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_karakoram_enclave_1_apartment_for_rent_in_kara_koram_enclave_f-11_islamabad-54324027-10898-1.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
