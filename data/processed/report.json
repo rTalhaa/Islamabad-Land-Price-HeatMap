@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-12T04:12:12+00:00",
-  "searchCardCount": 1438,
-  "uniqueListingCount": 476,
-  "exportedListingCount": 476,
+  "generatedAt": "2026-06-12T15:20:39+00:00",
+  "searchCardCount": 1431,
+  "uniqueListingCount": 485,
+  "exportedListingCount": 485,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 563,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 566,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -24,7 +24,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 62,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -36,7 +36,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 62,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -48,7 +48,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 62,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 161,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 145,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 949,
+      "pageCountDiscovered": 954,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 949,
+      "pageCountDiscovered": 954,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 949,
+      "pageCountDiscovered": 954,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 949,
+      "pageCountDiscovered": 954,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-12T04:12:12+00:00",
+    "generatedAt": "2026-06-12T15:20:39+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.15,
+        "duplicateRate": 0.1833,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.7333,
+          "coordinates": 0.6833,
           "imageUrl": 0.0
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1348,
-        "exportedListings": 416,
-        "detailSuccess": 404,
+        "parsedCards": 1341,
+        "exportedListings": 425,
+        "detailSuccess": 419,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.101,
+        "duplicateRate": 0.0965,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0385
+          "imageUrl": 0.0447
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 563,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 566,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -268,7 +268,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 62,
-            "listingCardsCollected": 150,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -280,7 +280,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 62,
-            "listingCardsCollected": 150,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -292,7 +292,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 62,
-            "listingCardsCollected": 150,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 161,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 145,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 949,
+            "pageCountDiscovered": 954,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 949,
+            "pageCountDiscovered": 954,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 949,
+            "pageCountDiscovered": 954,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 949,
+            "pageCountDiscovered": 954,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,38 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-06-12T04:12:12+00:00",
-    "listingCount": 476,
-    "geocodingAccuracy": 0.9076,
+    "generatedAt": "2026-06-12T15:20:39+00:00",
+    "listingCount": 485,
+    "geocodingAccuracy": 0.9155,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9874,
-    "duplicateRate": 0.1071,
-    "outlierCount": 2,
-    "suspiciousPpsfCount": 2,
+    "freshnessWithin30Days": 0.9856,
+    "duplicateRate": 0.1072,
+    "outlierCount": 1,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 431,
-      "Medium": 44,
+      "High": 444,
+      "Medium": 40,
       "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
       "max": 102880.66,
-      "median": 15555.56
+      "median": 14347.83
     },
     "topOutliers": [
-      {
-        "id": "zameen-54324027",
-        "source": "Zameen",
-        "title": "Apartment For Rent In Kara Koram Enclave F-11 Islamabad",
-        "neighborhood": "Karakoram Enclave 1",
-        "pricePerSqft": 71.43,
-        "reasons": [
-          "outside plausible ppsf range"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_karakoram_enclave_1_apartment_for_rent_in_kara_koram_enclave_f-11_islamabad-54324027-10898-1.html"
-      },
       {
         "id": "graana-1538756",
         "source": "Graana",
