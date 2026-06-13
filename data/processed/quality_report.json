@@ -1,25 +1,47 @@
 {
-  "generatedAt": "2026-06-12T15:20:39+00:00",
-  "listingCount": 485,
-  "geocodingAccuracy": 0.9155,
+  "generatedAt": "2026-06-13T03:59:35+00:00",
+  "listingCount": 489,
+  "geocodingAccuracy": 0.91,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9856,
-  "duplicateRate": 0.1072,
-  "outlierCount": 1,
+  "freshnessWithin30Days": 0.9857,
+  "duplicateRate": 0.0941,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 444,
-    "Medium": 40,
+    "High": 445,
+    "Medium": 43,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
     "max": 102880.66,
-    "median": 14347.83
+    "median": 13333.33
   },
   "topOutliers": [
+    {
+      "id": "zameen-54177720",
+      "source": "Zameen",
+      "title": "Avail Yourself A Great 1 Kanal Residential Plot In DHA Defence Phase 9",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1222.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_avail_yourself_a_great_1_kanal_residential_plot_in_dha_defence_phase_9-54177720-20514-2.html"
+    },
+    {
+      "id": "zameen-54234941",
+      "source": "Zameen",
+      "title": "01 Kanal Plot For Sale G-15/1",
+      "neighborhood": "G-15",
+      "pricePerSqft": 851.85,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_g-15_01_kanal_plot_for_sale_g-15_1-54234941-764-2.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
