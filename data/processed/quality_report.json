@@ -1,46 +1,35 @@
 {
-  "generatedAt": "2026-06-13T14:04:27+00:00",
-  "listingCount": 492,
-  "geocodingAccuracy": 0.9167,
+  "generatedAt": "2026-06-14T04:17:57+00:00",
+  "listingCount": 493,
+  "geocodingAccuracy": 0.9128,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9614,
-  "duplicateRate": 0.1199,
-  "outlierCount": 3,
+  "freshnessWithin30Days": 0.9615,
+  "duplicateRate": 0.1014,
+  "outlierCount": 2,
   "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
     "High": 450,
     "Medium": 41,
-    "Low": 1
+    "Low": 2
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 102880.66,
-    "median": 14037.03
+    "max": 100000.0,
+    "median": 15873.02
   },
   "topOutliers": [
     {
-      "id": "zameen-54220434",
+      "id": "zameen-52247698",
       "source": "Zameen",
-      "title": "Unoccupied Residential Plot Of 20 Marla Is Available For sale In DHA Defence",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1733.33,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_g_unoccupied_residential_plot_of_20_marla_is_available_for_sale_in_dha_defence-54220434-13962-2.html"
-    },
-    {
-      "id": "zameen-52502398",
-      "source": "Zameen",
-      "title": "Residential Plot Available For Sale In Pir Sohawa Islamabad",
-      "neighborhood": "Pir Sohawa",
-      "pricePerSqft": 238.1,
+      "title": "Farm House Near DHA On M-2 Motorway Islamabad",
+      "neighborhood": "Lahore - Islamabad Motorway",
+      "pricePerSqft": 166.67,
       "reasons": [
         "outside plausible ppsf range"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_pir_sohawa_residential_plot_available_for_sale_in_pir_sohawa_islamabad-52502398-8530-2.html"
+      "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
     },
     {
       "id": "graana-1538756",

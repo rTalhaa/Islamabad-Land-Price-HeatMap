@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T14:04:27+00:00",
+  "generatedAt": "2026-06-14T04:17:57+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -12,7 +12,7 @@
       "detailSuccess": 0,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.1833,
+      "duplicateRate": 0.2,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
@@ -85,16 +85,16 @@
       "attemptedPages": 54,
       "fetchedPages": 54,
       "parsedCards": 1345,
-      "exportedListings": 432,
-      "detailSuccess": 428,
+      "exportedListings": 433,
+      "detailSuccess": 419,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.1111,
+      "duplicateRate": 0.0878,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0,
-        "imageUrl": 0.0741
+        "coordinates": 0.0046,
+        "imageUrl": 0.1132
       },
       "seedStats": [
         {
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 962,
+          "pageCountDiscovered": 1109,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -176,7 +176,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 962,
+          "pageCountDiscovered": 1109,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -188,7 +188,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 962,
+          "pageCountDiscovered": 1109,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -200,7 +200,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 962,
+          "pageCountDiscovered": 1109,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
