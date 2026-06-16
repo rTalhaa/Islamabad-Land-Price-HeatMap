@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-06-16T04:24:53+00:00",
-  "listingCount": 498,
-  "geocodingAccuracy": 0.9257,
+  "generatedAt": "2026-06-16T16:58:08+00:00",
+  "listingCount": 490,
+  "geocodingAccuracy": 0.9265,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9558,
-  "duplicateRate": 0.1225,
-  "outlierCount": 1,
+  "freshnessWithin30Days": 0.9612,
+  "duplicateRate": 0.0816,
+  "outlierCount": 2,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 461,
-    "Medium": 36,
+    "High": 454,
+    "Medium": 35,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 111111.11,
-    "median": 14494.94
+    "max": 96296.3,
+    "median": 14444.44
   },
   "topOutliers": [
+    {
+      "id": "zameen-54345991",
+      "source": "Zameen",
+      "title": "1 Kanal Balloted (Transferable) Plot For Sale On Investor Rate in DHA 9 (Gandhara) Islamabad",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1100.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_balloted_transferable_plot_for_sale_on_investor_rate_in_dha_9_gandhara_islamabad-54345991-20514-2.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
