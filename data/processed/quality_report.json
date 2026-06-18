@@ -1,35 +1,46 @@
 {
-  "generatedAt": "2026-06-18T04:12:01+00:00",
-  "listingCount": 487,
-  "geocodingAccuracy": 0.9055,
+  "generatedAt": "2026-06-18T15:30:23+00:00",
+  "listingCount": 500,
+  "geocodingAccuracy": 0.91,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9651,
-  "duplicateRate": 0.1191,
-  "outlierCount": 2,
+  "freshnessWithin30Days": 0.966,
+  "duplicateRate": 0.12,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 441,
-    "Medium": 45,
+    "High": 455,
+    "Medium": 44,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 71794.87,
-    "median": 13089.01
+    "max": 84444.44,
+    "median": 15000.0
   },
   "topOutliers": [
     {
-      "id": "zameen-54186807",
+      "id": "zameen-53793084",
       "source": "Zameen",
-      "title": "8 Marla plot for sale",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 8500.0,
+      "title": "8 Marla Residential Plot For Sale Airport Green Gardens Islamabad",
+      "neighborhood": "Kashmir Highway",
+      "pricePerSqft": 2611.11,
       "reasons": [
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_8_marla_plot_for_sale-54186807-8260-2.html"
+      "url": "https://www.zameen.com/Property/kashmir_highway_airport_green_garden_8_marla_residential_plot_for_sale_airport_green_gardens_islamabad-53793084-15085-2.html"
+    },
+    {
+      "id": "zameen-54177720",
+      "source": "Zameen",
+      "title": "Avail Yourself A Great 1 Kanal Residential Plot In DHA Defence Phase 9",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1222.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_avail_yourself_a_great_1_kanal_residential_plot_in_dha_defence_phase_9-54177720-20514-2.html"
     },
     {
       "id": "graana-1538756",
