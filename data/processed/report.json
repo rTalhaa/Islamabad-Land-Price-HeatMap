@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T15:24:58+00:00",
+  "generatedAt": "2026-06-20T03:54:33+00:00",
   "searchCardCount": 1436,
   "uniqueListingCount": 477,
   "exportedListingCount": 477,
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-19T15:24:58+00:00",
+    "generatedAt": "2026-06-20T03:54:33+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -237,15 +237,15 @@
         "fetchedPages": 54,
         "parsedCards": 1346,
         "exportedListings": 417,
-        "detailSuccess": 411,
+        "detailSuccess": 409,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
         "duplicateRate": 0.1127,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0024,
-          "imageUrl": 0.0815
+          "coordinates": 0.0072,
+          "imageUrl": 0.0863
         },
         "seedStats": [
           {
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 951,
+            "pageCountDiscovered": 962,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 951,
+            "pageCountDiscovered": 962,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 951,
+            "pageCountDiscovered": 962,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 951,
+            "pageCountDiscovered": 962,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,19 +364,19 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-06-19T15:24:58+00:00",
+    "generatedAt": "2026-06-20T03:54:33+00:00",
     "listingCount": 477,
-    "geocodingAccuracy": 0.9266,
+    "geocodingAccuracy": 0.9224,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9665,
+    "freshnessWithin30Days": 0.9644,
     "duplicateRate": 0.1195,
     "outlierCount": 3,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 442,
-      "Medium": 34,
+      "High": 440,
+      "Medium": 36,
       "Low": 1
     },
     "ppsfRange": {

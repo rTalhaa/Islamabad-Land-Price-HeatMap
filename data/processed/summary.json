@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-19T15:24:58+00:00",
+  "generatedAt": "2026-06-20T03:54:33+00:00",
   "city": "Islamabad",
   "trackedListings": 477,
-  "mappedListings": 442,
+  "mappedListings": 440,
   "outlierCount": 3,
-  "neighborhoodCount": 67,
+  "neighborhoodCount": 68,
   "medianPricePkr": 26000000.0,
   "medianPricePerSqft": 12666.67,
   "medianPricePerMarla": 2850000.0,
-  "medianFreshnessHours": 10.0,
+  "medianFreshnessHours": 22.0,
   "medianConfidenceScore": 100.0,
   "confidenceBands": {
-    "High": 442,
-    "Medium": 34,
+    "High": 440,
+    "Medium": 36,
     "Low": 1
   },
   "sourceMix": {
@@ -32,7 +32,7 @@
       "propertyGroup": "house",
       "label": "Houses",
       "listingCount": 188,
-      "mappedCount": 161,
+      "mappedCount": 160,
       "outlierCount": 0,
       "medianPricePkr": 47650000.0,
       "medianPricePerSqft": 23111.11
@@ -50,7 +50,7 @@
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
       "listingCount": 139,
-      "mappedCount": 131,
+      "mappedCount": 130,
       "outlierCount": 1,
       "medianPricePkr": 13000000.0,
       "medianPricePerSqft": 12163.74
@@ -198,7 +198,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -210,7 +210,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -222,7 +222,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -234,7 +234,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 951,
+      "pageCountDiscovered": 962,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
