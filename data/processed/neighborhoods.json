@@ -2,16 +2,16 @@
   {
     "name": "DHA Defence",
     "centroid": {
-      "latitude": 33.527253,
-      "longitude": 73.192954
+      "latitude": 33.527366,
+      "longitude": 73.192602
     },
-    "listingCount": 103,
-    "mappedCount": 103,
+    "listingCount": 104,
+    "mappedCount": 104,
     "outlierCount": 0,
     "confidenceMedian": 100.0,
-    "medianPricePkr": 27800000.0,
-    "medianPricePerSqft": 10277.78,
-    "medianPricePerMarla": 2312500.0,
+    "medianPricePkr": 27900000.0,
+    "medianPricePerSqft": 10287.04,
+    "medianPricePerMarla": 2314583.33,
     "medianAreaSqft": 2700.0,
     "medianFreshnessHours": 48.0,
     "minPricePkr": 4800000,
@@ -21,23 +21,23 @@
       "house": {
         "label": "Houses",
         "count": 35,
-        "share": 0.3398
+        "share": 0.3365
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 17,
-        "share": 0.165
+        "count": 18,
+        "share": 0.1731
       },
       "plot": {
         "label": "Residential Plots",
         "count": 51,
-        "share": 0.4951
+        "share": 0.4904
       }
     },
     "sourceMix": {
       "Zameen": {
         "label": "Zameen",
-        "count": 103,
+        "count": 104,
         "share": 1.0
       }
     },
@@ -48,8 +48,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -18.86,
-    "cityMedianTicketDeltaPct": 6.92,
+    "cityMedianPpsfDeltaPct": -18.79,
+    "cityMedianTicketDeltaPct": 7.31,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
@@ -207,7 +207,7 @@
     "medianPricePerSqft": 12789.11,
     "medianPricePerMarla": 2877550.87,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 4200000,
     "maxPricePkr": 105000000,
     "dominantPropertyGroup": "apartment",
@@ -304,7 +304,7 @@
     "medianPricePerSqft": 18222.22,
     "medianPricePerMarla": 4100000.0,
     "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 5900000,
     "maxPricePkr": 149900000,
     "dominantPropertyGroup": "house",
@@ -401,7 +401,7 @@
     "medianPricePerSqft": 7188.44,
     "medianPricePerMarla": 1617399.62,
     "medianAreaSqft": 925.0,
-    "medianFreshnessHours": 223.63,
+    "medianFreshnessHours": 233.5,
     "minPricePkr": 2800000,
     "maxPricePkr": 17000000,
     "dominantPropertyGroup": "apartment",
@@ -503,7 +503,7 @@
     "medianPricePerSqft": 25666.67,
     "medianPricePerMarla": 5775000.0,
     "medianAreaSqft": 2025.0,
-    "medianFreshnessHours": 115.91,
+    "medianFreshnessHours": 125.77,
     "minPricePkr": 80000,
     "maxPricePkr": 60000000,
     "dominantPropertyGroup": "house",
@@ -600,7 +600,7 @@
     "medianPricePerSqft": 16386.72,
     "medianPricePerMarla": 3687012.99,
     "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 10000000,
     "maxPricePkr": 190000000,
     "dominantPropertyGroup": "plot",
@@ -982,8 +982,8 @@
   {
     "name": "G-15",
     "centroid": {
-      "latitude": 33.632984,
-      "longitude": 72.92587
+      "latitude": 33.632749,
+      "longitude": 72.925171
     },
     "listingCount": 13,
     "mappedCount": 13,
@@ -1289,7 +1289,7 @@
     "medianPricePerSqft": 20213.67,
     "medianPricePerMarla": 4548076.92,
     "medianAreaSqft": 2125.0,
-    "medianFreshnessHours": 119.48,
+    "medianFreshnessHours": 124.41,
     "minPricePkr": 12000000,
     "maxPricePkr": 119500000,
     "dominantPropertyGroup": "apartment",
@@ -1881,7 +1881,7 @@
     "medianPricePerSqft": 24814.81,
     "medianPricePerMarla": 5583333.33,
     "medianAreaSqft": 2700.0,
-    "medianFreshnessHours": 67.27,
+    "medianFreshnessHours": 77.12,
     "minPricePkr": 60000000,
     "maxPricePkr": 105000000,
     "dominantPropertyGroup": "house",
@@ -1918,7 +1918,7 @@
     },
     "cityMedianPpsfDeltaPct": 95.91,
     "cityMedianTicketDeltaPct": 178.85,
-    "priceTier": "Ultra Prime",
+    "priceTier": "Premium",
     "sampleListings": [
       {
         "id": "graana-1541583",
@@ -2172,7 +2172,7 @@
     "medianPricePerSqft": 33939.39,
     "medianPricePerMarla": 7636363.63,
     "medianAreaSqft": 3300.0,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 60.0,
     "minPricePkr": 32500000,
     "maxPricePkr": 160000000,
     "dominantPropertyGroup": "house",
@@ -2269,7 +2269,7 @@
     "medianPricePerSqft": 11416.67,
     "medianPricePerMarla": 2568750.0,
     "medianAreaSqft": 1200.0,
-    "medianFreshnessHours": 911.44,
+    "medianFreshnessHours": 921.31,
     "minPricePkr": 6500000,
     "maxPricePkr": 19000000,
     "dominantPropertyGroup": "apartment",
@@ -3050,7 +3050,7 @@
     "medianPricePerSqft": 7431.69,
     "medianPricePerMarla": 1672131.15,
     "medianAreaSqft": 915.0,
-    "medianFreshnessHours": 72.0,
+    "medianFreshnessHours": 96.0,
     "minPricePkr": 6700000,
     "maxPricePkr": 11800000,
     "dominantPropertyGroup": "apartment",
@@ -3507,7 +3507,7 @@
     "medianPricePerSqft": 50222.22,
     "medianPricePerMarla": 11300000.0,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 83.64,
+    "medianFreshnessHours": 88.57,
     "minPricePkr": 53000000,
     "maxPricePkr": 60000000,
     "dominantPropertyGroup": "house",
@@ -3761,7 +3761,7 @@
     "medianPricePerSqft": 40218.18,
     "medianPricePerMarla": 9049088.87,
     "medianAreaSqft": 2251.5,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 85000000,
     "maxPricePkr": 95000000,
     "dominantPropertyGroup": "apartment",
@@ -3844,7 +3844,7 @@
     "medianPricePerSqft": 39667.01,
     "medianPricePerMarla": 8925078.29,
     "medianAreaSqft": 1826.5,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 65000000,
     "maxPricePkr": 80000000,
     "dominantPropertyGroup": "apartment",
@@ -3927,7 +3927,7 @@
     "medianPricePerSqft": 20808.89,
     "medianPricePerMarla": 4682000.0,
     "medianAreaSqft": 1654.5,
-    "medianFreshnessHours": 60.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 32202060,
     "maxPricePkr": 36500000,
     "dominantPropertyGroup": "house",
@@ -4010,7 +4010,7 @@
     "medianPricePerSqft": 20317.46,
     "medianPricePerMarla": 4571428.58,
     "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 81.39,
+    "medianFreshnessHours": 91.24,
     "minPricePkr": 30000000,
     "maxPricePkr": 34000000,
     "dominantPropertyGroup": "house",
@@ -4093,7 +4093,7 @@
     "medianPricePerSqft": 17083.33,
     "medianPricePerMarla": 3843750.0,
     "medianAreaSqft": 975.0,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 60.0,
     "minPricePkr": 10500000,
     "maxPricePkr": 22500000,
     "dominantPropertyGroup": "house",
@@ -4508,7 +4508,7 @@
     "medianPricePerSqft": 52888.89,
     "medianPricePerMarla": 11900000.0,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 112.78,
+    "medianFreshnessHours": 122.64,
     "minPricePkr": 59500000,
     "maxPricePkr": 59500000,
     "dominantPropertyGroup": "house",
@@ -4577,7 +4577,7 @@
     "medianPricePerSqft": 47619.05,
     "medianPricePerMarla": 10714285.71,
     "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 117.98,
+    "medianFreshnessHours": 127.83,
     "minPricePkr": 75000000,
     "maxPricePkr": 75000000,
     "dominantPropertyGroup": "house",
@@ -4646,7 +4646,7 @@
     "medianPricePerSqft": 46349.21,
     "medianPricePerMarla": 10428571.43,
     "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 118.02,
+    "medianFreshnessHours": 127.88,
     "minPricePkr": 73000000,
     "maxPricePkr": 73000000,
     "dominantPropertyGroup": "house",
@@ -4853,7 +4853,7 @@
     "medianPricePerSqft": 21777.78,
     "medianPricePerMarla": 4900000.0,
     "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 184.51,
+    "medianFreshnessHours": 194.37,
     "minPricePkr": 49000000,
     "maxPricePkr": 49000000,
     "dominantPropertyGroup": "house",
@@ -5047,75 +5047,6 @@
     ]
   },
   {
-    "name": "Askari Tower 1",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 1,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 44000000.0,
-    "medianPricePerSqft": 14915.25,
-    "medianPricePerMarla": 3355932.2,
-    "medianAreaSqft": 2950.0,
-    "medianFreshnessHours": 72.0,
-    "minPricePkr": 44000000,
-    "maxPricePkr": 44000000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 1.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Zameen": {
-        "label": "Zameen",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": 17.75,
-    "cityMedianTicketDeltaPct": 69.23,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": "zameen-53785248",
-        "source": "Zameen",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "Beautiful Renovated Apartment",
-        "pricePkr": 44000000,
-        "pricePerSqft": 14915.25,
-        "pricePerMarla": 3355932.2,
-        "beds": 4,
-        "areaSqft": 2950.0,
-        "imageUrl": null,
-        "url": "https://www.zameen.com/Property/dha_defence_phase_2_askari_tower_1_beautiful_renovated_apartment-53785248-10663-1.html"
-      }
-    ]
-  },
-  {
     "name": "Humak",
     "centroid": {
       "latitude": null,
@@ -5129,7 +5060,7 @@
     "medianPricePerSqft": 14844.44,
     "medianPricePerMarla": 3340000.0,
     "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 70.97,
+    "medianFreshnessHours": 80.83,
     "minPricePkr": 16700000,
     "maxPricePkr": 16700000,
     "dominantPropertyGroup": "house",
@@ -5405,7 +5336,7 @@
     "medianPricePerSqft": 10176.39,
     "medianPricePerMarla": 2289687.92,
     "medianAreaSqft": 737.0,
-    "medianFreshnessHours": 41.31,
+    "medianFreshnessHours": 51.18,
     "minPricePkr": 7500000,
     "maxPricePkr": 7500000,
     "dominantPropertyGroup": "apartment",
@@ -5819,7 +5750,7 @@
     "medianPricePerSqft": 2055.56,
     "medianPricePerMarla": 462500.0,
     "medianAreaSqft": 5400.0,
-    "medianFreshnessHours": 48.0,
+    "medianFreshnessHours": 72.0,
     "minPricePkr": 11100000,
     "maxPricePkr": 11100000,
     "dominantPropertyGroup": "plot",
