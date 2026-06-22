@@ -1,47 +1,25 @@
 {
-  "generatedAt": "2026-06-21T14:17:23+00:00",
-  "listingCount": 477,
-  "geocodingAccuracy": 0.9245,
+  "generatedAt": "2026-06-22T17:01:26+00:00",
+  "listingCount": 488,
+  "geocodingAccuracy": 0.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9623,
-  "duplicateRate": 0.1258,
-  "outlierCount": 3,
+  "freshnessWithin30Days": 0.9672,
+  "duplicateRate": 0.0656,
+  "outlierCount": 1,
   "suspiciousPpsfCount": 1,
-  "confidenceMedian": 100.0,
+  "confidenceMedian": 80.0,
   "confidenceBands": {
-    "High": 441,
-    "Medium": 35,
+    "High": 0,
+    "Medium": 487,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 88888.89,
-    "median": 12666.67
+    "max": 68235.29,
+    "median": 14487.17
   },
   "topOutliers": [
-    {
-      "id": "zameen-54340264",
-      "source": "Zameen",
-      "title": "D markaz 50x50 plot for sale",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 28028.03,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_d_markaz_d_markaz_50x50_plot_for_sale-54340264-14966-2.html"
-    },
-    {
-      "id": "zameen-54290835",
-      "source": "Zameen",
-      "title": "Get A 2450 Square Feet Residential Plot For Sale In Faisal Town Phase 2",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1467.89,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_get_a_2450_square_feet_residential_plot_for_sale_in_faisal_town_phase_2-54290835-20466-2.html"
-    },
     {
       "id": "graana-1538756",
       "source": "Graana",
