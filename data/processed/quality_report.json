@@ -1,57 +1,35 @@
 {
-  "generatedAt": "2026-06-23T03:46:44+00:00",
-  "listingCount": 496,
-  "geocodingAccuracy": 0.9335,
+  "generatedAt": "2026-06-23T14:54:00+00:00",
+  "listingCount": 485,
+  "geocodingAccuracy": 0.9299,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9677,
-  "duplicateRate": 0.1371,
-  "outlierCount": 4,
+  "freshnessWithin30Days": 0.9649,
+  "duplicateRate": 0.1505,
+  "outlierCount": 2,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 463,
-    "Medium": 32,
+    "High": 451,
+    "Medium": 33,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 111111.11,
-    "median": 14277.77
+    "max": 66666.67,
+    "median": 13600.0
   },
   "topOutliers": [
     {
-      "id": "zameen-54376913",
+      "id": "zameen-54338578",
       "source": "Zameen",
-      "title": "CORNER PLOT FOR SALE",
-      "neighborhood": "Top City 1",
-      "pricePerSqft": 65435.9,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_kanwar_moiz_block_corner_plot_for_sale-54376913-22390-2.html"
-    },
-    {
-      "id": "zameen-54377960",
-      "source": "Zameen",
-      "title": "Sector A 10 Marla Upper Portion For Rent",
-      "neighborhood": "Bahria Town",
-      "pricePerSqft": 3333.33,
+      "title": "12 Marla Non-Developed Plot For Sale Block P, Gulberg Residencia Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1333.33,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_a_sector_a_10_marla_upper_portion_for_rent-54377960-11970-1.html"
-    },
-    {
-      "id": "zameen-54373936",
-      "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1177.78,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54373936-20514-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p3_12_marla_non-developed_plot_for_sale_block_p_gulberg_residencia_islamabad-54338578-13697-2.html"
     },
     {
       "id": "graana-1538756",
