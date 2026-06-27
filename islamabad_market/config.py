@@ -38,6 +38,11 @@ class AppConfig:
     request_timeout_seconds: float = 30.0
     detail_concurrency: int = 8
     delay_between_requests_seconds: float = 0.35
+    max_retries: int = 3
+    retry_backoff_seconds: float = 1.5
+    retryable_statuses: tuple[int, ...] = (429, 500, 502, 503, 504)
+    # Fail-loud guard: a run exporting fewer than this many listings is treated as degraded.
+    min_expected_listings: int = 25
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent

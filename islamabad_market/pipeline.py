@@ -15,8 +15,15 @@ from .parsers import (
     parse_price_to_pkr,
     parse_relative_age_hours,
 )
-from .scraper import ZameenScraper, parse_detail_page, parse_search_page
-from .utils import compact_json, ensure_directories, median_or_none, round_or_none, utc_now_iso, write_json
+from .scraper import ScrapeError, ZameenScraper, parse_detail_page, parse_search_page
+from .utils import compact_json, ensure_directories, get_logger, median_or_none, round_or_none, utc_now_iso, write_json
+
+
+logger = get_logger("islamabad_market.pipeline")
+
+
+class DegradedRunError(RuntimeError):
+    """Raised when a pipeline run produces too little data to be trustworthy."""
 
 
 PROPERTY_GROUP_LABELS = {
@@ -192,7 +199,24 @@ async def collect_seed_pages(
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     first_cache = scraper.config.search_cache_dir / seed.source / f"{seed.key}-page-0001.html"
     first_cached = first_cache.exists() and not refresh_cache
-    first_html = await scraper.fetch_html(seed.url_template.format(page=1), first_cache, refresh=refresh_cache)
+    try:
+        first_html = await scraper.fetch_html(seed.url_template.format(page=1), first_cache, refresh=refresh_cache)
+    except ScrapeError as error:
+        logger.error("seed %s: first page fetch failed, skipping seed: %s", seed.key, error)
+        stats = {
+            "source": seed.source,
+            "seed": seed.key,
+            "label": seed.label,
+            "propertyGroup": seed.property_group,
+            "enabled": seed.enabled,
+            "pagesScraped": 0,
+            "pageCountDiscovered": 0,
+            "listingCardsCollected": 0,
+            "cacheHits": 0,
+            "httpFailures": 1,
+        }
+        return [], stats
+
     first_page_listings, page_count = parse_search_page(first_html, seed, page_number=1)
 
     target_pages = page_count if full_scan else min(page_count, pages_per_seed or seed.default_pages)
@@ -229,6 +253,10 @@ async def collect_seed_pages(
         "cacheHits": cache_hits,
         "httpFailures": http_failures,
     }
+    logger.info(
+        "seed %s: %d cards from %d/%d pages (cacheHits=%d, httpFailures=%d)",
+        seed.key, len(results), target_pages, page_count, cache_hits, http_failures,
+    )
     return results, stats
 
 
@@ -255,7 +283,9 @@ def build_listing_record(summary: dict[str, Any], detail: dict[str, Any]) -> dic
     price_per_marla = round(price_pkr / (area_sqft / 225.0), 2) if price_pkr and area_sqft else None
     source = summary.get("source") or "Zameen"
     source_id = str(summary.get("sourceListingId") or summary.get("id"))
-    latitude, longitude, coordinate_source = normalize_coordinates(detail.get("latitude"), detail.get("longitude"))
+    raw_latitude = detail.get("latitude") if detail.get("latitude") is not None else summary.get("latitude")
+    raw_longitude = detail.get("longitude") if detail.get("longitude") is not None else summary.get("longitude")
+    latitude, longitude, coordinate_source = normalize_coordinates(raw_latitude, raw_longitude)
     record = {
         "id": f"{canonical_text(source)}-{source_id}",
         "source": source,
@@ -816,6 +846,7 @@ async def run_pipeline(
     refresh_cache: bool,
     selected_seeds: list[str] | None,
     listing_limit: int | None,
+    min_listings: int | None = None,
 ) -> dict[str, Any]:
     config = get_config()
     ensure_directories(
@@ -871,6 +902,9 @@ async def run_pipeline(
                 detail_tasks.append(asyncio.sleep(0, result={}))
 
         details = await asyncio.gather(*detail_tasks, return_exceptions=True)
+        detail_failures = sum(1 for detail in details if not isinstance(detail, dict))
+        if detail_failures:
+            logger.warning("detail enrichment failed for %d/%d listings", detail_failures, len(details))
         normalized_details = [detail if isinstance(detail, dict) else {} for detail in details]
 
         listings = [build_listing_record(summary, detail) for summary, detail in zip(summary_list, normalized_details, strict=True)]
@@ -901,6 +935,20 @@ async def run_pipeline(
             "quality": quality_report,
         }
         summary = build_summary(listings, seed_stats=seed_stats, generated_at=generated_at)
+
+        # Fail-loud guard: refuse to overwrite good data with a degraded scrape
+        # (e.g. site layout change or a wide block produced almost no listings).
+        threshold = config.min_expected_listings if min_listings is None else min_listings
+        total_failures = sum(stat.get("httpFailures", 0) for stat in seed_stats)
+        logger.info(
+            "pipeline built %d listings across %d neighborhoods (cards=%d, httpFailures=%d)",
+            len(listings), summary["neighborhoodCount"], len(all_summaries), total_failures,
+        )
+        if threshold and len(listings) < threshold:
+            raise DegradedRunError(
+                f"exported {len(listings)} listings, below minimum of {threshold}; "
+                "refusing to overwrite existing dataset (use --min-listings 0 to override)."
+            )
 
         history_path = config.processed_dir / "history.json"
         history = update_history(history_path, build_history_entry(summary))
@@ -945,21 +993,33 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--refresh-cache", action="store_true", help="Re-fetch search and detail pages even if cached HTML exists.")
     parser.add_argument("--seed", action="append", dest="selected_seeds", choices=sorted(seed_lookup()), help="Limit the run to one or more specific seeds.")
     parser.add_argument("--listing-limit", type=int, default=None, help="Trim the enriched listing count for quick local verification runs.")
+    parser.add_argument(
+        "--min-listings",
+        type=int,
+        default=None,
+        help="Fail the run (non-zero exit, no data overwrite) if fewer listings are exported. "
+        "Defaults to the configured guard; pass 0 to disable.",
+    )
     return parser
 
 
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
-    result = asyncio.run(
-        run_pipeline(
-            pages_per_seed=args.pages_per_seed,
-            full_scan=args.full_scan,
-            refresh_cache=args.refresh_cache,
-            selected_seeds=args.selected_seeds,
-            listing_limit=args.listing_limit,
+    try:
+        result = asyncio.run(
+            run_pipeline(
+                pages_per_seed=args.pages_per_seed,
+                full_scan=args.full_scan,
+                refresh_cache=args.refresh_cache,
+                selected_seeds=args.selected_seeds,
+                listing_limit=args.listing_limit,
+                min_listings=args.min_listings,
+            )
         )
-    )
+    except DegradedRunError as error:
+        logger.error("degraded run aborted: %s", error)
+        raise SystemExit(2) from error
     summary = result["summary"]
     print(
         f"Built Islamabad dataset at {summary['generatedAt']} with "

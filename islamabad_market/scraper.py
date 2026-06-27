@@ -17,7 +17,25 @@ from .parsers import (
     extract_data_layer_payload,
     parse_listing_id,
 )
-from .utils import ensure_directory, safe_float, safe_int
+from .utils import ensure_directory, get_logger, safe_float, safe_int
+
+
+logger = get_logger("islamabad_market.scraper")
+
+
+class ScrapeError(RuntimeError):
+    """Raised when a URL cannot be fetched after exhausting all retries."""
+
+
+def _retry_after_seconds(response: httpx.Response, fallback: float) -> float:
+    """Honor a server-provided Retry-After header (seconds form) when present."""
+    raw = response.headers.get("Retry-After")
+    if not raw:
+        return fallback
+    try:
+        return max(fallback, float(raw))
+    except (TypeError, ValueError):
+        return fallback
 
 
 class ZameenScraper:
@@ -39,12 +57,50 @@ class ZameenScraper:
             return cache_path.read_text(encoding="utf-8")
 
         async with self._semaphore:
-            response = await self._client.get(url)
-            response.raise_for_status()
-            html = response.text
+            html = await self._fetch_with_retries(url)
             cache_path.write_text(html, encoding="utf-8")
             await asyncio.sleep(self.config.delay_between_requests_seconds)
             return html
+
+    async def _fetch_with_retries(self, url: str) -> str:
+        """Fetch a URL with exponential backoff over transient failures.
+
+        Retries network errors and the configured retryable HTTP statuses (e.g.
+        429/5xx). Non-retryable status errors (e.g. 403/404) fail fast. Raises
+        ScrapeError once retries are exhausted so callers can count the failure.
+        """
+        attempts = self.config.max_retries + 1
+        last_error: Exception | None = None
+        for attempt in range(1, attempts + 1):
+            try:
+                response = await self._client.get(url)
+            except httpx.RequestError as error:
+                last_error = error
+                if attempt == attempts:
+                    break
+                delay = self.config.retry_backoff_seconds * (2 ** (attempt - 1))
+                logger.warning("request error for %s (attempt %d/%d): %s; retrying in %.1fs", url, attempt, attempts, error, delay)
+                await asyncio.sleep(delay)
+                continue
+
+            status = response.status_code
+            if status < 400:
+                return response.text
+
+            if status in self.config.retryable_statuses and attempt < attempts:
+                base_delay = self.config.retry_backoff_seconds * (2 ** (attempt - 1))
+                delay = _retry_after_seconds(response, base_delay)
+                logger.warning("HTTP %d for %s (attempt %d/%d); retrying in %.1fs", status, url, attempt, attempts, delay)
+                await asyncio.sleep(delay)
+                last_error = httpx.HTTPStatusError(f"HTTP {status}", request=response.request, response=response)
+                continue
+
+            # Non-retryable status (e.g. 403 block, 404 gone) — fail fast.
+            logger.error("HTTP %d for %s; not retrying", status, url)
+            raise ScrapeError(f"HTTP {status} for {url}")
+
+        logger.error("exhausted %d attempts for %s: %s", attempts, url, last_error)
+        raise ScrapeError(f"failed to fetch {url} after {attempts} attempts: {last_error}")
 
 
 NEXT_DATA_PATTERN = re.compile(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
@@ -85,7 +141,7 @@ def parse_search_page(html: str, seed: SearchSeed, page_number: int) -> tuple[li
     if seed.source == "graana":
         return parse_graana_search_page(html, seed, page_number)
     if seed.source == "olx":
-        return [], page_number
+        return parse_olx_search_page(html, seed, page_number)
     return parse_zameen_search_page(html, seed, page_number)
 
 
@@ -210,6 +266,136 @@ def parse_graana_search_page(html: str, seed: SearchSeed, page_number: int) -> t
 
     # Graana currently returns 30 records per page on these public listing routes.
     page_count = max(page_number, page_number + 1 if len(listings) >= 30 else page_number)
+    return listings, page_count
+
+
+def normalize_olx_group(category: str | None, title: str, fallback: str) -> str:
+    text = clean_text(f"{category or ''} {title}").lower()
+    if "plot" in text or "land" in text:
+        return "plot"
+    if any(token in text for token in ("flat", "apartment", "penthouse", "portion")):
+        return "apartment"
+    if "house" in text or "home" in text:
+        return "house"
+    return fallback if fallback != "mixed" else "house"
+
+
+def _find_olx_ads(node: Any, found: list[dict[str, Any]]) -> None:
+    """Recursively collect OLX ad dicts from the embedded __NEXT_DATA__ tree.
+
+    OLX nests its result list under varying keys across page versions, so rather
+    than hard-coding a path we walk the tree and keep dicts that look like ads
+    (an id plus a title and a price block).
+    """
+    if isinstance(node, dict):
+        has_price = "price" in node or "price_value" in node
+        if node.get("id") is not None and node.get("title") and has_price:
+            found.append(node)
+            return
+        for value in node.values():
+            _find_olx_ads(value, found)
+    elif isinstance(node, list):
+        for value in node:
+            _find_olx_ads(value, found)
+
+
+def _olx_price_pkr(ad: dict[str, Any]) -> int | None:
+    price = ad.get("price")
+    if isinstance(price, dict):
+        value = price.get("value")
+        if isinstance(value, dict):
+            return safe_int(value.get("raw"))
+        return safe_int(value)
+    return safe_int(ad.get("price_value") or price)
+
+
+def _olx_param(ad: dict[str, Any], key: str) -> Any:
+    """Read a value from OLX's parameters array (area, bedrooms, etc.)."""
+    for param in ad.get("parameters") or []:
+        if isinstance(param, dict) and param.get("key") == key:
+            return param.get("value") or param.get("value_name")
+    return None
+
+
+def parse_olx_search_page(html: str, seed: SearchSeed, page_number: int) -> tuple[list[dict[str, Any]], int]:
+    match = NEXT_DATA_PATTERN.search(html)
+    if not match:
+        return [], page_number
+
+    try:
+        payload = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        return [], page_number
+
+    ads: list[dict[str, Any]] = []
+    _find_olx_ads(payload.get("props", payload), ads)
+
+    listings: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for ad in ads:
+        source_id = str(ad.get("id") or "")
+        if not source_id or source_id in seen:
+            continue
+
+        resolved = ad.get("locations_resolved") or {}
+        city_name = clean_text(str(resolved.get("ADMIN_LEVEL_3_name") or resolved.get("CITY_name") or "Islamabad"))
+        if "islamabad" not in city_name.lower():
+            continue
+        seen.add(source_id)
+
+        area_name = clean_text(
+            str(resolved.get("SUBLOCALITY_LEVEL_1_name") or resolved.get("SUBLOCALITY_LEVEL_2_name") or "")
+        )
+        title = clean_text(str(ad.get("title") or ""))
+        url = clean_text(str(ad.get("url") or "")) or f"https://www.olx.com.pk/item/{source_id}"
+        if url.startswith("/"):
+            url = urljoin("https://www.olx.com.pk", url)
+
+        images = ad.get("images") or []
+        image_url = ""
+        if images and isinstance(images[0], dict):
+            image_url = clean_text(str(images[0].get("url") or ""))
+
+        area_value = _olx_param(ad, "area")
+        unit = clean_text(str(_olx_param(ad, "area_unit") or "")) or "sqft"
+        area_text = f"{area_value} {unit}".strip() if area_value else ""
+
+        listings.append(
+            {
+                "id": f"olx-{source_id}",
+                "source": "OLX",
+                "sourceKey": seed.source,
+                "sourceListingId": source_id,
+                "seed": seed.key,
+                "seedLabel": seed.label,
+                "propertyGroup": normalize_olx_group(_olx_param(ad, "type"), title, seed.property_group),
+                "page": page_number,
+                "url": url,
+                "detailUrl": url,
+                "title": title,
+                "location": ", ".join(part for part in [area_name, city_name] if part),
+                "priceText": clean_text(str((ad.get("price") or {}).get("value", {}).get("display", "")))
+                if isinstance(ad.get("price"), dict)
+                else "",
+                "pricePkr": _olx_price_pkr(ad),
+                "beds": safe_int(_olx_param(ad, "bedrooms")),
+                "baths": safe_int(_olx_param(ad, "bathrooms")),
+                "areaText": area_text,
+                "addedText": clean_text(str(ad.get("created_at_first") or ad.get("created_at") or "")),
+                "updatedText": clean_text(str(ad.get("created_at") or "")),
+                "freshnessHours": parse_iso_age_hours(ad.get("created_at")),
+                "city": city_name,
+                "locName": area_name,
+                "locationPath": ", ".join(part for part in [area_name, city_name] if part),
+                "latitude": safe_float(ad.get("map_lat")),
+                "longitude": safe_float(ad.get("map_lon")),
+                "imageUrl": image_url,
+                "agency": "",
+            }
+        )
+
+    # OLX paginates at 40 ads per page on these listing routes.
+    page_count = page_number + 1 if len(listings) >= 40 else page_number
     return listings, page_count
 
 

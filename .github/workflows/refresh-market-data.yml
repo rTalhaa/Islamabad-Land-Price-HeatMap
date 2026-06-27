@@ -27,8 +27,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Refresh processed market data
+        env:
+          ATLAS_LOG_LEVEL: INFO
         run: |
-          python -m islamabad_market.pipeline --pages-per-seed 6
+          python -m islamabad_market.pipeline --pages-per-seed 6 --min-listings 25
 
       - name: Commit refreshed dataset
         run: |

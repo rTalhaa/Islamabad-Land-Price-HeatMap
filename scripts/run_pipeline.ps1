@@ -2,7 +2,8 @@ param(
   [int]$PagesPerSeed = 3,
   [switch]$FullScan,
   [switch]$RefreshCache,
-  [int]$ListingLimit = 0
+  [int]$ListingLimit = 0,
+  [int]$MinListings = -1
 )
 
 $ErrorActionPreference = "Stop"
@@ -19,6 +20,10 @@ if ($RefreshCache) {
 
 if ($ListingLimit -gt 0) {
   $argsList += @("--listing-limit", "$ListingLimit")
+}
+
+if ($MinListings -ge 0) {
+  $argsList += @("--min-listings", "$MinListings")
 }
 
 .\.venv\Scripts\python @argsList
