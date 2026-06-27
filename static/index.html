@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link href="https://unpkg.com/maplibre-gl@^5.12.0/dist/maplibre-gl.css" rel="stylesheet" />
@@ -161,6 +161,17 @@
             </div>
 
             <div id="map"></div>
+            <div class="plate-frame" aria-hidden="true">
+              <span class="plate-corner plate-corner--tl"></span>
+              <span class="plate-corner plate-corner--tr"></span>
+              <span class="plate-corner plate-corner--bl"></span>
+              <span class="plate-corner plate-corner--br"></span>
+            </div>
+            <div class="plate-readout" aria-hidden="true">
+              <span class="plate-readout__tag">ISB · SURVEY PLATE</span>
+              <span id="mapCoords" class="plate-readout__coords">33.6844 N · 73.0479 E</span>
+            </div>
+            <div id="mapLegend" class="map-legend" aria-label="Map legend"></div>
             <div id="emptyState" class="empty-state hidden">
               <strong>No listings match this view.</strong>
               <span>Relax confidence, source, recency, or budget filters.</span>
@@ -218,16 +229,49 @@
         </section>
 
         <section class="bottom-grid">
-          <article class="panel">
-            <div class="section-title"><strong>Neighborhoods</strong><button id="viewNeighborhoodsButton" type="button">View all</button></div>
+          <article class="panel panel--wide">
+            <div class="section-title">
+              <strong>Neighborhood price ladder</strong>
+              <span class="eyebrow">PKR / sqft · ranked</span>
+            </div>
             <div id="neighborhoodTable" class="rank-table"></div>
+            <div class="panel-foot"><button id="viewNeighborhoodsButton" type="button">View all neighborhoods</button></div>
           </article>
+
           <article id="analyticsPanel" class="panel">
-            <div class="section-title"><strong>Price drift</strong><span>PKR / sqft</span></div>
-            <svg id="historySparkline" viewBox="0 0 520 190" preserveAspectRatio="none"></svg>
+            <div class="section-title">
+              <strong>Price drift</strong>
+              <span class="eyebrow">median PKR / sqft</span>
+            </div>
+            <div class="chart-readout">
+              <span><em id="driftLatest">--</em>latest</span>
+              <span><em id="driftChange">--</em>vs first snapshot</span>
+            </div>
+            <svg id="historySparkline" class="chart-svg" viewBox="0 0 520 200" preserveAspectRatio="none" role="img" aria-label="Median price per square foot over time"></svg>
           </article>
+
+          <article class="panel">
+            <div class="section-title">
+              <strong>Price by type</strong>
+              <span class="eyebrow">PKR / sqft</span>
+            </div>
+            <div id="priceLadder" class="bar-chart"></div>
+          </article>
+
+          <article class="panel">
+            <div class="section-title">
+              <strong>PPSF distribution</strong>
+              <span class="eyebrow">visible listings</span>
+            </div>
+            <svg id="ppsfHistogram" class="chart-svg" viewBox="0 0 520 200" preserveAspectRatio="none" role="img" aria-label="Distribution of price per square foot"></svg>
+            <div id="histAxis" class="hist-axis"></div>
+          </article>
+
           <article id="qualityPanel" class="panel">
-            <div class="section-title"><strong>Data quality</strong><a id="qualityLink" href="#qualityPanel">View details</a></div>
+            <div class="section-title">
+              <strong>Data quality</strong>
+              <a id="qualityLink" href="#qualityPanel">Details</a>
+            </div>
             <div id="qualityList" class="quality-list"></div>
           </article>
         </section>
