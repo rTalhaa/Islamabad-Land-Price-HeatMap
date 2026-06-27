@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-06-26T03:55:36+00:00",
-  "listingCount": 480,
-  "geocodingAccuracy": 0.9333,
+  "generatedAt": "2026-06-27T13:47:38+00:00",
+  "listingCount": 496,
+  "geocodingAccuracy": 0.8972,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9646,
-  "duplicateRate": 0.15,
+  "freshnessWithin30Days": 0.9657,
+  "duplicateRate": 0.1129,
   "outlierCount": 2,
-  "suspiciousPpsfCount": 1,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 448,
-    "Medium": 31,
+    "High": 444,
+    "Medium": 51,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 97777.78,
-    "median": 14193.03
+    "max": 84444.44,
+    "median": 14920.08
   },
   "topOutliers": [
     {
-      "id": "zameen-54208326",
+      "id": "zameen-54365085",
       "source": "Zameen",
-      "title": "3.5 Kanal Gray Structure House For Sale",
-      "neighborhood": "Bahria Town",
-      "pricePerSqft": 902.43,
+      "title": "40 Marlah Residential plot for sale in Islamabad pir sohawa",
+      "neighborhood": "Pir Sohawa",
+      "pricePerSqft": 266.67,
       "reasons": [
-        "far below comparable median"
+        "outside plausible ppsf range"
       ],
-      "url": "https://www.zameen.com/Property/bahria_town_bahria_enclave_3_5_kanal_gray_structure_house_for_sale-54208326-1705-1.html"
+      "url": "https://www.zameen.com/Property/islamabad_pir_sohawa_40_marlah_residential_plot_for_sale_in_islamabad_pir_sohawa-54365085-8530-2.html"
     },
     {
       "id": "graana-1538756",
