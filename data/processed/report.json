@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-27T13:47:38+00:00",
+  "generatedAt": "2026-06-28T04:02:13+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 496,
-  "exportedListingCount": 496,
+  "uniqueListingCount": 494,
+  "exportedListingCount": 494,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 569,
+      "pageCountDiscovered": 566,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 166,
+      "pageCountDiscovered": 165,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1120,
+      "pageCountDiscovered": 1117,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1120,
+      "pageCountDiscovered": 1117,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1120,
+      "pageCountDiscovered": 1117,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1120,
+      "pageCountDiscovered": 1117,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T13:47:38+00:00",
+    "generatedAt": "2026-06-28T04:02:13+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1475,
+        "duplicateRate": 0.1639,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.8361,
+          "coordinates": 0.5246,
           "imageUrl": 0.0
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 435,
-        "detailSuccess": 428,
+        "exportedListings": 433,
+        "detailSuccess": 416,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.108,
+        "duplicateRate": 0.0808,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0,
-          "imageUrl": 0.0184
+          "coordinates": 0.0185,
+          "imageUrl": 0.0508
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 569,
+            "pageCountDiscovered": 566,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 166,
+            "pageCountDiscovered": 165,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1120,
+            "pageCountDiscovered": 1117,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1120,
+            "pageCountDiscovered": 1117,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1120,
+            "pageCountDiscovered": 1117,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1120,
+            "pageCountDiscovered": 1117,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,38 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-06-27T13:47:38+00:00",
-    "listingCount": 496,
-    "geocodingAccuracy": 0.8972,
+    "generatedAt": "2026-06-28T04:02:13+00:00",
+    "listingCount": 494,
+    "geocodingAccuracy": 0.919,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9657,
-    "duplicateRate": 0.1129,
-    "outlierCount": 2,
-    "suspiciousPpsfCount": 2,
+    "freshnessWithin30Days": 0.9656,
+    "duplicateRate": 0.0911,
+    "outlierCount": 1,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 444,
-      "Medium": 51,
+      "High": 454,
+      "Medium": 39,
       "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 84444.44,
-      "median": 14920.08
+      "max": 111111.11,
+      "median": 13333.33
     },
     "topOutliers": [
-      {
-        "id": "zameen-54365085",
-        "source": "Zameen",
-        "title": "40 Marlah Residential plot for sale in Islamabad pir sohawa",
-        "neighborhood": "Pir Sohawa",
-        "pricePerSqft": 266.67,
-        "reasons": [
-          "outside plausible ppsf range"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_pir_sohawa_40_marlah_residential_plot_for_sale_in_islamabad_pir_sohawa-54365085-8530-2.html"
-      },
       {
         "id": "graana-1538756",
         "source": "Graana",
