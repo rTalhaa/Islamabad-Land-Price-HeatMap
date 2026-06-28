@@ -1,25 +1,47 @@
 {
-  "generatedAt": "2026-06-28T04:02:13+00:00",
-  "listingCount": 494,
-  "geocodingAccuracy": 0.919,
+  "generatedAt": "2026-06-28T13:51:17+00:00",
+  "listingCount": 488,
+  "geocodingAccuracy": 0.9201,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9656,
-  "duplicateRate": 0.0911,
-  "outlierCount": 1,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9652,
+  "duplicateRate": 0.0881,
+  "outlierCount": 3,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 454,
-    "Medium": 39,
-    "Low": 1
+    "High": 449,
+    "Medium": 37,
+    "Low": 2
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 111111.11,
-    "median": 13333.33
+    "max": 128205.13,
+    "median": 14311.11
   },
   "topOutliers": [
+    {
+      "id": "zameen-54017638",
+      "source": "Zameen",
+      "title": "5 Marla ( 25*50 N Block C In St# 2 ) Prime Location In Faisal Town F-18 Islamabad.",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12444.44,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_25_50_n_block_c_in_st_2_prime_location_in_faisal_town_f-18_islamabad-54017638-16418-2.html"
+    },
+    {
+      "id": "zameen-52247698",
+      "source": "Zameen",
+      "title": "Farm House Near DHA On M-2 Motorway Islamabad",
+      "neighborhood": "Lahore - Islamabad Motorway",
+      "pricePerSqft": 166.67,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
