@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-28T13:51:17+00:00",
+  "generatedAt": "2026-06-29T04:08:29+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 488,
-  "exportedListingCount": 488,
+  "uniqueListingCount": 479,
+  "exportedListingCount": 479,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 568,
+      "pageCountDiscovered": 564,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 165,
+      "pageCountDiscovered": 164,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1126,
+      "pageCountDiscovered": 1112,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1126,
+      "pageCountDiscovered": 1112,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1126,
+      "pageCountDiscovered": 1112,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1126,
+      "pageCountDiscovered": 1112,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-28T13:51:17+00:00",
+    "generatedAt": "2026-06-29T04:08:29+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 427,
-        "detailSuccess": 417,
+        "exportedListings": 418,
+        "detailSuccess": 409,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0749,
+        "duplicateRate": 0.0885,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0164,
-          "imageUrl": 0.0492
+          "coordinates": 0.0144,
+          "imageUrl": 0.1077
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 568,
+            "pageCountDiscovered": 564,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 165,
+            "pageCountDiscovered": 164,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1126,
+            "pageCountDiscovered": 1112,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1126,
+            "pageCountDiscovered": 1112,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1126,
+            "pageCountDiscovered": 1112,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1126,
+            "pageCountDiscovered": 1112,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,27 +364,38 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-06-28T13:51:17+00:00",
-    "listingCount": 488,
-    "geocodingAccuracy": 0.9201,
+    "generatedAt": "2026-06-29T04:08:29+00:00",
+    "listingCount": 479,
+    "geocodingAccuracy": 0.9207,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9652,
-    "duplicateRate": 0.0881,
+    "freshnessWithin30Days": 0.9645,
+    "duplicateRate": 0.1002,
     "outlierCount": 3,
-    "suspiciousPpsfCount": 2,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 449,
+      "High": 441,
       "Medium": 37,
-      "Low": 2
+      "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 128205.13,
-      "median": 14311.11
+      "max": 80246.91,
+      "median": 14383.84
     },
     "topOutliers": [
+      {
+        "id": "zameen-54340264",
+        "source": "Zameen",
+        "title": "D Markaz 50x50 Plot For Sale",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 28028.03,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_d_markaz_d_markaz_50x50_plot_for_sale-54340264-14966-2.html"
+      },
       {
         "id": "zameen-54017638",
         "source": "Zameen",
@@ -395,17 +406,6 @@
           "far above comparable median"
         ],
         "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_25_50_n_block_c_in_st_2_prime_location_in_faisal_town_f-18_islamabad-54017638-16418-2.html"
-      },
-      {
-        "id": "zameen-52247698",
-        "source": "Zameen",
-        "title": "Farm House Near DHA On M-2 Motorway Islamabad",
-        "neighborhood": "Lahore - Islamabad Motorway",
-        "pricePerSqft": 166.67,
-        "reasons": [
-          "outside plausible ppsf range"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
       },
       {
         "id": "graana-1538756",
