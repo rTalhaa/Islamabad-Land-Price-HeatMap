@@ -1,46 +1,58 @@
 {
-  "generatedAt": "2026-06-30T03:52:13+00:00",
-  "listingCount": 487,
-  "geocodingAccuracy": 0.8932,
+  "generatedAt": "2026-06-30T14:24:47+00:00",
+  "listingCount": 486,
+  "geocodingAccuracy": 0.9218,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9671,
-  "duplicateRate": 0.0945,
-  "outlierCount": 3,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9733,
+  "duplicateRate": 0.0947,
+  "outlierCount": 5,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 435,
-    "Medium": 51,
+    "High": 446,
+    "Medium": 39,
     "Low": 1
   },
   "ppsfRange": {
-    "min": 69.57,
-    "max": 109401.71,
-    "median": 14222.22
+    "min": 0.04,
+    "max": 400000.0,
+    "median": 14627.45
   },
   "topOutliers": [
     {
-      "id": "zameen-54356707",
+      "id": "zameen-54404057",
       "source": "Zameen",
-      "title": "8.96 Marla Commercial Plot On DHA Expressway Zone C1/C4 in DHA Phase 5 Islamabad",
+      "title": "1 Kanal Pair Plot on Investor Rate Available For Sale In St 31, Sector C, DHA Phase 05,",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 64197.53,
+      "pricePerSqft": 400000.0,
       "reasons": [
+        "outside plausible ppsf range",
         "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_5_expressway_commercial_8_96_marla_commercial_plot_on_dha_expressway_zone_c1_c4_in_dha_phase_5_islamabad-54356707-13293-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_5_dha_phase_5_-_sector_c_1_kanal_pair_plot_on_investor_rate_available_for_sale_in_st_31_sector_c_dha_phase_05-54404057-8402-2.html"
     },
     {
-      "id": "zameen-52543374",
+      "id": "zameen-54402910",
       "source": "Zameen",
-      "title": "30*60 Beautiful Plot For Sale In G16/1",
-      "neighborhood": "G-16",
-      "pricePerSqft": 694.44,
+      "title": "Flat is available for sale",
+      "neighborhood": "D-12",
+      "pricePerSqft": 12293.14,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/g_16_g-16_1_30_60_beautiful_plot_for_sale_in_g16_1-52543374-14949-2.html"
+      "url": "https://www.zameen.com/Property/d_12_d-12_markaz_flat_is_available_for_sale-54402910-3158-1.html"
+    },
+    {
+      "id": "zameen-53184631",
+      "source": "Zameen",
+      "title": "Plot For Sale In DHA Ghandhara Islamabad 1 Kanal",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1555.56,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_plot_for_sale_in_dha_ghandhara_islamabad_1_kanal-53184631-20514-2.html"
     },
     {
       "id": "graana-1538756",
@@ -53,6 +65,18 @@
         "far below comparable median"
       ],
       "url": "https://www.graana.com/property/1538756"
+    },
+    {
+      "id": "zameen-54405002",
+      "source": "Zameen",
+      "title": "5 Marla Corner Plot With Extra Land Available For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 0.04,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_lilly_sector_lilly_sector_-_block_c_5_marla_corner_plot_with_extra_land_available_for_sale-54405002-16473-2.html"
     }
   ],
   "fbrReference": {
