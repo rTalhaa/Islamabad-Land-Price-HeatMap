@@ -1,37 +1,25 @@
 {
-  "generatedAt": "2026-06-30T14:24:47+00:00",
-  "listingCount": 486,
-  "geocodingAccuracy": 0.9218,
+  "generatedAt": "2026-07-01T04:05:56+00:00",
+  "listingCount": 495,
+  "geocodingAccuracy": 0.9273,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9733,
-  "duplicateRate": 0.0947,
-  "outlierCount": 5,
-  "suspiciousPpsfCount": 3,
+  "freshnessWithin30Days": 0.9737,
+  "duplicateRate": 0.1394,
+  "outlierCount": 3,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 446,
-    "Medium": 39,
+    "High": 459,
+    "Medium": 35,
     "Low": 1
   },
   "ppsfRange": {
-    "min": 0.04,
-    "max": 400000.0,
+    "min": 69.57,
+    "max": 82222.22,
     "median": 14627.45
   },
   "topOutliers": [
-    {
-      "id": "zameen-54404057",
-      "source": "Zameen",
-      "title": "1 Kanal Pair Plot on Investor Rate Available For Sale In St 31, Sector C, DHA Phase 05,",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 400000.0,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_5_dha_phase_5_-_sector_c_1_kanal_pair_plot_on_investor_rate_available_for_sale_in_st_31_sector_c_dha_phase_05-54404057-8402-2.html"
-    },
     {
       "id": "zameen-54402910",
       "source": "Zameen",
@@ -44,15 +32,15 @@
       "url": "https://www.zameen.com/Property/d_12_d-12_markaz_flat_is_available_for_sale-54402910-3158-1.html"
     },
     {
-      "id": "zameen-53184631",
+      "id": "zameen-54220440",
       "source": "Zameen",
-      "title": "Plot For Sale In DHA Ghandhara Islamabad 1 Kanal",
+      "title": "Best For Safe And Secure Investment Plot For Sale",
       "neighborhood": "DHA Defence",
       "pricePerSqft": 1555.56,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_plot_for_sale_in_dha_ghandhara_islamabad_1_kanal-53184631-20514-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_m_best_for_safe_and_secure_investment_plot_for_sale-54220440-13969-2.html"
     },
     {
       "id": "graana-1538756",
@@ -65,18 +53,6 @@
         "far below comparable median"
       ],
       "url": "https://www.graana.com/property/1538756"
-    },
-    {
-      "id": "zameen-54405002",
-      "source": "Zameen",
-      "title": "5 Marla Corner Plot With Extra Land Available For Sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 0.04,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_lilly_sector_lilly_sector_-_block_c_5_marla_corner_plot_with_extra_land_available_for_sale-54405002-16473-2.html"
     }
   ],
   "fbrReference": {
