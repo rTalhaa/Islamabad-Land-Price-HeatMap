@@ -1,35 +1,46 @@
 {
-  "generatedAt": "2026-07-01T14:41:21+00:00",
-  "listingCount": 477,
-  "geocodingAccuracy": 0.9266,
+  "generatedAt": "2026-07-02T03:46:39+00:00",
+  "listingCount": 483,
+  "geocodingAccuracy": 0.9296,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9727,
-  "duplicateRate": 0.1405,
-  "outlierCount": 2,
+  "freshnessWithin30Days": 0.9731,
+  "duplicateRate": 0.1325,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 442,
-    "Medium": 34,
+    "High": 449,
+    "Medium": 33,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 90766.82,
-    "median": 14508.93
+    "max": 105820.11,
+    "median": 15000.0
   },
   "topOutliers": [
     {
-      "id": "zameen-54320350",
+      "id": "zameen-54411300",
       "source": "Zameen",
-      "title": "P3 1 Kanal Cutting N LOP Clear Plot Available For Sale",
+      "title": "Gulberg Greens main road 4 kanal commercial plot",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1400.0,
+      "pricePerSqft": 41666.67,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_apex_business_avenue_gulberg_greens_main_road_4_kanal_commercial_plot-54411300-11713-2.html"
+    },
+    {
+      "id": "zameen-54411391",
+      "source": "Zameen",
+      "title": "All Dues Clear Overseas sector (non Ballot)",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 888.89,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_p3_1_kanal_cutting_n_lop_clear_plot_available_for_sale-54320350-9126-2.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_bogenvelia_sector_all_dues_clear_overseas_sector_non_ballot-54411391-3209-2.html"
     },
     {
       "id": "graana-1538756",
