@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-02T03:46:39+00:00",
-  "searchCardCount": 1429,
-  "uniqueListingCount": 483,
-  "exportedListingCount": 483,
+  "generatedAt": "2026-07-02T14:10:37+00:00",
+  "searchCardCount": 1438,
+  "uniqueListingCount": 486,
+  "exportedListingCount": 486,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 560,
-      "listingCardsCollected": 148,
+      "pageCountDiscovered": 564,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -24,7 +24,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 64,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -36,7 +36,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 64,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -48,7 +48,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 64,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 162,
-      "listingCardsCollected": 147,
+      "pageCountDiscovered": 164,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1105,
+      "pageCountDiscovered": 1110,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1105,
+      "pageCountDiscovered": 1110,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1105,
+      "pageCountDiscovered": 1110,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1105,
+      "pageCountDiscovered": 1110,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-02T03:46:39+00:00",
+    "generatedAt": "2026-07-02T14:10:37+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1639,
+        "duplicateRate": 0.2295,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.5574,
+          "coordinates": 0.5738,
           "imageUrl": 0.0
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1339,
-        "exportedListings": 422,
-        "detailSuccess": 413,
+        "parsedCards": 1348,
+        "exportedListings": 425,
+        "detailSuccess": 417,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.128,
+        "duplicateRate": 0.1129,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.064
+          "imageUrl": 0.0541
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 560,
-            "listingCardsCollected": 148,
+            "pageCountDiscovered": 564,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -268,7 +268,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 64,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -280,7 +280,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 64,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -292,7 +292,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 64,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 162,
-            "listingCardsCollected": 147,
+            "pageCountDiscovered": 164,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1105,
+            "pageCountDiscovered": 1110,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1105,
+            "pageCountDiscovered": 1110,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1105,
+            "pageCountDiscovered": 1110,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1105,
+            "pageCountDiscovered": 1110,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,49 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-02T03:46:39+00:00",
-    "listingCount": 483,
-    "geocodingAccuracy": 0.9296,
+    "generatedAt": "2026-07-02T14:10:37+00:00",
+    "listingCount": 486,
+    "geocodingAccuracy": 0.928,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9731,
-    "duplicateRate": 0.1325,
-    "outlierCount": 3,
+    "freshnessWithin30Days": 0.9774,
+    "duplicateRate": 0.1276,
+    "outlierCount": 1,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 449,
-      "Medium": 33,
+      "High": 451,
+      "Medium": 34,
       "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 105820.11,
-      "median": 15000.0
+      "max": 110726.64,
+      "median": 13405.8
     },
     "topOutliers": [
-      {
-        "id": "zameen-54411300",
-        "source": "Zameen",
-        "title": "Gulberg Greens main road 4 kanal commercial plot",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 41666.67,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_gulberg_apex_business_avenue_gulberg_greens_main_road_4_kanal_commercial_plot-54411300-11713-2.html"
-      },
-      {
-        "id": "zameen-54411391",
-        "source": "Zameen",
-        "title": "All Dues Clear Overseas sector (non Ballot)",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 888.89,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_bogenvelia_sector_all_dues_clear_overseas_sector_non_ballot-54411391-3209-2.html"
-      },
       {
         "id": "graana-1538756",
         "source": "Graana",
