@@ -1,68 +1,35 @@
 {
-  "generatedAt": "2026-07-03T03:27:58+00:00",
-  "listingCount": 485,
-  "geocodingAccuracy": 0.9258,
+  "generatedAt": "2026-07-03T14:10:58+00:00",
+  "listingCount": 481,
+  "geocodingAccuracy": 0.9272,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9773,
-  "duplicateRate": 0.0887,
-  "outlierCount": 5,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9771,
+  "duplicateRate": 0.0956,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 449,
+    "High": 445,
     "Medium": 35,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 104166.67,
-    "median": 13333.33
+    "max": 82222.22,
+    "median": 13711.58
   },
   "topOutliers": [
     {
-      "id": "zameen-54356707",
+      "id": "zameen-53971337",
       "source": "Zameen",
-      "title": "8.96 Marla Commercial Plot On DHA Expressway Zone C1/C4 in DHA Phase 5 Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 64197.53,
+      "title": "Land For Sale In Pir Sohawa Islamabad Road",
+      "neighborhood": "Pir Sohawa",
+      "pricePerSqft": 111.11,
       "reasons": [
-        "far above comparable median"
+        "outside plausible ppsf range"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_5_expressway_commercial_8_96_marla_commercial_plot_on_dha_expressway_zone_c1_c4_in_dha_phase_5_islamabad-54356707-13293-2.html"
-    },
-    {
-      "id": "zameen-54403696",
-      "source": "Zameen",
-      "title": "MPCHS - Block D Residential Plot Sized 2400 Square Feet For sale",
-      "neighborhood": "B-17",
-      "pricePerSqft": 23883.7,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_d_mpchs_-_block_d_residential_plot_sized_2400_square_feet_for_sale-54403696-3119-2.html"
-    },
-    {
-      "id": "zameen-54415528",
-      "source": "Zameen",
-      "title": "I'm selling 5 Marla file AA block",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1555.56,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_i_m_selling_5_marla_file_aa_block-54415528-13693-2.html"
-    },
-    {
-      "id": "zameen-54363940",
-      "source": "Zameen",
-      "title": "1 Kanal Balloted Plot For Sale On Investor Rate in DHA 9 (Gandhara) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_balloted_plot_for_sale_on_investor_rate_in_dha_9_gandhara_islamabad-54363940-20514-2.html"
+      "url": "https://www.zameen.com/Property/islamabad_pir_sohawa_land_for_sale_in_pir_sohawa_islamabad_road-53971337-8530-2.html"
     },
     {
       "id": "graana-1538756",
