@@ -1,36 +1,25 @@
 {
-  "generatedAt": "2026-07-04T03:21:08+00:00",
-  "listingCount": 495,
-  "geocodingAccuracy": 0.9273,
+  "generatedAt": "2026-07-04T13:38:20+00:00",
+  "listingCount": 480,
+  "geocodingAccuracy": 0.8917,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9778,
-  "duplicateRate": 0.1051,
-  "outlierCount": 3,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9771,
+  "duplicateRate": 0.1146,
+  "outlierCount": 1,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 458,
-    "Medium": 36,
+    "High": 428,
+    "Medium": 51,
     "Low": 1
   },
   "ppsfRange": {
-    "min": 61.11,
-    "max": 109862.67,
-    "median": 13922.73
+    "min": 69.57,
+    "max": 128104.58,
+    "median": 14702.38
   },
   "topOutliers": [
-    {
-      "id": "zameen-54389718",
-      "source": "Zameen",
-      "title": "8 Marla (30x60) residential plot File available for sale in the Ministry of Interior Employees Co-operative Housing Society (MIECHS) G-16/1, Islamabad",
-      "neighborhood": "G-16",
-      "pricePerSqft": 833.33,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/g_16_g-16_1_8_marla_30x60_residential_plot_file_available_for_sale_in_the_ministry_of_interior_employees_co-operative_housing_society_miechs_g-16_1_islamabad-54389718-14949-2.html"
-    },
     {
       "id": "graana-1538756",
       "source": "Graana",
@@ -42,18 +31,6 @@
         "far below comparable median"
       ],
       "url": "https://www.graana.com/property/1538756"
-    },
-    {
-      "id": "zameen-54419514",
-      "source": "Zameen",
-      "title": "Prime Location 1 Kanal Ground portion + Basement Available For rent",
-      "neighborhood": "G-11",
-      "pricePerSqft": 61.11,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/g_11_g-11_4_prime_location_1_kanal_ground_portion_basement_available_for_rent-54419514-3333-1.html"
     }
   ],
   "fbrReference": {
