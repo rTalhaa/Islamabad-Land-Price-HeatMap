@@ -1,25 +1,47 @@
 {
-  "generatedAt": "2026-07-04T13:38:20+00:00",
-  "listingCount": 480,
-  "geocodingAccuracy": 0.8917,
+  "generatedAt": "2026-07-05T03:37:30+00:00",
+  "listingCount": 501,
+  "geocodingAccuracy": 0.9281,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9771,
-  "duplicateRate": 0.1146,
-  "outlierCount": 1,
+  "freshnessWithin30Days": 0.978,
+  "duplicateRate": 0.1218,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 428,
-    "Medium": 51,
+    "High": 465,
+    "Medium": 35,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
     "max": 128104.58,
-    "median": 14702.38
+    "median": 14814.81
   },
   "topOutliers": [
+    {
+      "id": "zameen-54411300",
+      "source": "Zameen",
+      "title": "Gulberg Greens main road 4 kanal commercial plot",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 41666.67,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_apex_business_avenue_gulberg_greens_main_road_4_kanal_commercial_plot-54411300-11713-2.html"
+    },
+    {
+      "id": "zameen-54423932",
+      "source": "Zameen",
+      "title": "50x50 Commercial Plot for Sale in D Markaz, Gulberg Single & Pair Available",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 28028.03,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_d_markaz_50x50_commercial_plot_for_sale_in_d_markaz_gulberg_single_pair_available-54423932-14966-2.html"
+    },
     {
       "id": "graana-1538756",
       "source": "Graana",
