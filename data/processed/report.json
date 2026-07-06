@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-05T13:44:39+00:00",
-  "searchCardCount": 1437,
-  "uniqueListingCount": 492,
-  "exportedListingCount": 492,
+  "generatedAt": "2026-07-06T03:44:02+00:00",
+  "searchCardCount": 1440,
+  "uniqueListingCount": 482,
+  "exportedListingCount": 482,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 563,
+      "pageCountDiscovered": 561,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 160,
-      "listingCardsCollected": 147,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1122,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1122,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1122,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1122,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-05T13:44:39+00:00",
+    "generatedAt": "2026-07-06T03:44:02+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1347,
-        "exportedListings": 431,
-        "detailSuccess": 424,
+        "parsedCards": 1350,
+        "exportedListings": 421,
+        "detailSuccess": 412,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.116,
+        "duplicateRate": 0.1235,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0162,
-          "imageUrl": 0.0557
+          "coordinates": 0.0,
+          "imageUrl": 0.0523
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 563,
+            "pageCountDiscovered": 561,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 160,
-            "listingCardsCollected": 147,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1122,
+            "pageCountDiscovered": 1115,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1122,
+            "pageCountDiscovered": 1115,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1122,
+            "pageCountDiscovered": 1115,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1122,
+            "pageCountDiscovered": 1115,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-05T13:44:39+00:00",
-    "listingCount": 492,
-    "geocodingAccuracy": 0.9126,
+    "generatedAt": "2026-07-06T03:44:02+00:00",
+    "listingCount": 482,
+    "geocodingAccuracy": 0.9253,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9776,
-    "duplicateRate": 0.124,
-    "outlierCount": 7,
+    "freshnessWithin30Days": 0.9772,
+    "duplicateRate": 0.1307,
+    "outlierCount": 2,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 449,
-      "Medium": 42,
+      "High": 446,
+      "Medium": 35,
       "Low": 1
     },
     "ppsfRange": {
       "min": 69.57,
       "max": 110726.64,
-      "median": 15283.33
+      "median": 15045.45
     },
     "topOutliers": [
       {
@@ -395,61 +395,6 @@
           "far above comparable median"
         ],
         "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_d_markaz_d_markaz_50x50_plot_for_sale-54340264-14966-2.html"
-      },
-      {
-        "id": "zameen-45717928",
-        "source": "Zameen",
-        "title": "8 Marla Sector O Plot For Sale",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 2055.56,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_8_marla_sector_o_plot_for_sale-45717928-20466-2.html"
-      },
-      {
-        "id": "zameen-53570495",
-        "source": "Zameen",
-        "title": "10 Marla Corner Plot For Sale",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 2044.44,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_10_marla_corner_plot_for_sale-53570495-20466-2.html"
-      },
-      {
-        "id": "zameen-51839917",
-        "source": "Zameen",
-        "title": "08 Marla Faisal Town Plot For Sale",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 2000.0,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_08_marla_faisal_town_plot_for_sale-51839917-20466-2.html"
-      },
-      {
-        "id": "zameen-51698584",
-        "source": "Zameen",
-        "title": "1 Kanal Plot For Sale",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 1422.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_1_kanal_plot_for_sale-51698584-20466-2.html"
-      },
-      {
-        "id": "zameen-50895213",
-        "source": "Zameen",
-        "title": "5 Marla Overseas Plot FT2",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 1217.78,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_5_marla_overseas_plot_ft2-50895213-20466-2.html"
       },
       {
         "id": "graana-1538756",
