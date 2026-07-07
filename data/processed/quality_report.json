@@ -1,35 +1,46 @@
 {
-  "generatedAt": "2026-07-06T15:38:18+00:00",
-  "listingCount": 492,
-  "geocodingAccuracy": 0.9187,
+  "generatedAt": "2026-07-07T03:35:51+00:00",
+  "listingCount": 482,
+  "geocodingAccuracy": 0.9191,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9776,
-  "duplicateRate": 0.124,
-  "outlierCount": 2,
+  "freshnessWithin30Days": 0.9772,
+  "duplicateRate": 0.0975,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 452,
-    "Medium": 39,
+    "High": 443,
+    "Medium": 38,
     "Low": 1
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 71794.87,
-    "median": 14775.41
+    "max": 116402.12,
+    "median": 13333.33
   },
   "topOutliers": [
     {
-      "id": "zameen-54418729",
+      "id": "zameen-54356707",
       "source": "Zameen",
-      "title": "One Kanal open Cartefcat for sale in DHA Phase 6",
+      "title": "8.96 Marla Commercial Plot On DHA Expressway Zone C1/C4 in DHA Phase 5 Islamabad",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 777.78,
+      "pricePerSqft": 64197.53,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_phase_5_expressway_commercial_8_96_marla_commercial_plot_on_dha_expressway_zone_c1_c4_in_dha_phase_5_islamabad-54356707-13293-2.html"
+    },
+    {
+      "id": "zameen-48081458",
+      "source": "Zameen",
+      "title": "Type-A 3 Bed 2050 Square Feet Margalla Face Flat For Sale Lifestyle Residency G-13",
+      "neighborhood": "G-13",
+      "pricePerSqft": 7081.81,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_k_one_kanal_open_cartefcat_for_sale_in_dha_phase_6-54418729-14633-2.html"
+      "url": "https://www.zameen.com/Property/g_13_1_lifestyle_residency_type-a_3_bed_2050_square_feet_margalla_face_flat_for_sale_lifestyle_residency_g-13-48081458-10664-1.html"
     },
     {
       "id": "graana-1538756",
