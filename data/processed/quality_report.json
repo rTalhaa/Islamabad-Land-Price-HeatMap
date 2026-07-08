@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-07-08T02:51:26+00:00",
-  "listingCount": 485,
-  "geocodingAccuracy": 0.9196,
+  "generatedAt": "2026-07-08T14:14:39+00:00",
+  "listingCount": 488,
+  "geocodingAccuracy": 0.916,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9732,
-  "duplicateRate": 0.1237,
-  "outlierCount": 2,
+  "areaParsingSuccess": 0.998,
+  "freshnessWithin30Days": 0.9775,
+  "duplicateRate": 0.1148,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 446,
-    "Medium": 38,
-    "Low": 1
+    "High": 447,
+    "Medium": 39,
+    "Low": 2
   },
   "ppsfRange": {
     "min": 69.57,
-    "max": 83333.33,
-    "median": 14193.03
+    "max": 97777.78,
+    "median": 13904.98
   },
   "topOutliers": [
     {
-      "id": "zameen-54356707",
+      "id": "zameen-54440666",
       "source": "Zameen",
-      "title": "8.96 Marla Commercial Plot On DHA Expressway Zone C1/C4 in DHA Phase 5 Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 64197.53,
+      "title": "C Type 7th Floor Life Style Residency Apartment For Sale G-13/1",
+      "neighborhood": "G-13",
+      "pricePerSqft": 4814.81,
       "reasons": [
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_5_expressway_commercial_8_96_marla_commercial_plot_on_dha_expressway_zone_c1_c4_in_dha_phase_5_islamabad-54356707-13293-2.html"
+      "url": "https://www.zameen.com/Property/g_13_1_lifestyle_residency_c_type_7th_floor_life_style_residency_apartment_for_sale_g-13_1-54440666-10664-1.html"
     },
     {
       "id": "graana-1538756",
@@ -42,6 +42,17 @@
         "far below comparable median"
       ],
       "url": "https://www.graana.com/property/1538756"
+    },
+    {
+      "id": "graana-1544816",
+      "source": "Graana",
+      "title": "Sector A Cube Studio Appartment for sale",
+      "neighborhood": "Bahria Enclave",
+      "pricePerSqft": null,
+      "reasons": [
+        "missing ppsf"
+      ],
+      "url": "https://www.graana.com/property/1544816"
     }
   ],
   "fbrReference": {
