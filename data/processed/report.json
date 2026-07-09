@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-09T03:44:19+00:00",
+  "generatedAt": "2026-07-09T15:24:33+00:00",
   "searchCardCount": 1439,
-  "uniqueListingCount": 479,
-  "exportedListingCount": 479,
+  "uniqueListingCount": 536,
+  "exportedListingCount": 536,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 559,
+      "pageCountDiscovered": 562,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1123,
+      "pageCountDiscovered": 1131,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1123,
+      "pageCountDiscovered": 1131,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1123,
+      "pageCountDiscovered": 1131,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1123,
+      "pageCountDiscovered": 1131,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-09T03:44:19+00:00",
+    "generatedAt": "2026-07-09T15:24:33+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -159,16 +159,16 @@
         "attemptedPages": 6,
         "fetchedPages": 6,
         "parsedCards": 90,
-        "exportedListings": 61,
+        "exportedListings": 60,
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2623,
+        "duplicateRate": 0.1333,
         "missingFieldRates": {
           "pricePkr": 0.0,
-          "areaSqft": 0.0164,
-          "coordinates": 0.7213,
-          "imageUrl": 0.0164
+          "areaSqft": 0.0167,
+          "coordinates": 0.6833,
+          "imageUrl": 0.0167
         },
         "seedStats": [
           {
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1349,
-        "exportedListings": 418,
-        "detailSuccess": 409,
+        "exportedListings": 476,
+        "detailSuccess": 473,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1292,
+        "duplicateRate": 0.1618,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0383
+          "imageUrl": 0.0777
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 559,
+            "pageCountDiscovered": 562,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1123,
+            "pageCountDiscovered": 1131,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1123,
+            "pageCountDiscovered": 1131,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1123,
+            "pageCountDiscovered": 1131,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1123,
+            "pageCountDiscovered": 1131,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,37 +364,48 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-09T03:44:19+00:00",
-    "listingCount": 479,
-    "geocodingAccuracy": 0.9081,
+    "generatedAt": "2026-07-09T15:24:33+00:00",
+    "listingCount": 536,
+    "geocodingAccuracy": 0.9235,
     "priceParsingSuccess": 1.0,
-    "areaParsingSuccess": 0.9979,
-    "freshnessWithin30Days": 0.977,
-    "duplicateRate": 0.1461,
-    "outlierCount": 3,
+    "areaParsingSuccess": 0.9981,
+    "freshnessWithin30Days": 0.9795,
+    "duplicateRate": 0.1586,
+    "outlierCount": 4,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 435,
-      "Medium": 42,
+      "High": 495,
+      "Medium": 39,
       "Low": 2
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 97777.78,
-      "median": 13655.78
+      "max": 110726.64,
+      "median": 13333.33
     },
     "topOutliers": [
       {
-        "id": "zameen-54378069",
+        "id": "zameen-54117557",
         "source": "Zameen",
-        "title": "3 Kanal Plot No. . . . . . . Lane 1 C/ Central Boulevard. Sector H. DHA 2. Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 18518.52,
+        "title": "33 Marla Corner Plot In G16/2 Sector Islamabad",
+        "neighborhood": "G-16",
+        "pricePerSqft": 1202.61,
         "reasons": [
-          "far above comparable median"
+          "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_2_3_kanal_plot_no_lane_1_c_central_boulevard_sector_h_dha_2_islamabad-54378069-339-2.html"
+        "url": "https://www.zameen.com/Property/g_16_g-16_2_33_marla_corner_plot_in_g16_2_sector_islamabad-54117557-14948-2.html"
+      },
+      {
+        "id": "zameen-52543374",
+        "source": "Zameen",
+        "title": "30*60 Beautiful Plot For Sale In G16/1",
+        "neighborhood": "G-16",
+        "pricePerSqft": 694.44,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/g_16_g-16_1_30_60_beautiful_plot_for_sale_in_g16_1-52543374-14949-2.html"
       },
       {
         "id": "graana-1538756",
