@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-10T14:41:19+00:00",
-  "searchCardCount": 1439,
-  "uniqueListingCount": 492,
-  "exportedListingCount": 492,
+  "generatedAt": "2026-07-11T02:58:02+00:00",
+  "searchCardCount": 1438,
+  "uniqueListingCount": 494,
+  "exportedListingCount": 494,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 566,
+      "pageCountDiscovered": 558,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 63,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 63,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 63,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 161,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 158,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-10T14:41:19+00:00",
+    "generatedAt": "2026-07-11T02:58:02+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1333,
+        "duplicateRate": 0.1167,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.7167,
+          "coordinates": 0.8833,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1349,
-        "exportedListings": 432,
-        "detailSuccess": 427,
+        "parsedCards": 1348,
+        "exportedListings": 434,
+        "detailSuccess": 428,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0718,
+        "duplicateRate": 0.1083,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0046,
-          "imageUrl": 0.0579
+          "coordinates": 0.0,
+          "imageUrl": 0.023
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 566,
+            "pageCountDiscovered": 558,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 64,
+            "pageCountDiscovered": 63,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 64,
+            "pageCountDiscovered": 63,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 64,
+            "pageCountDiscovered": 63,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 161,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 158,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1134,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1134,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1134,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1134,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,60 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-10T14:41:19+00:00",
-    "listingCount": 492,
-    "geocodingAccuracy": 0.9085,
+    "generatedAt": "2026-07-11T02:58:02+00:00",
+    "listingCount": 494,
+    "geocodingAccuracy": 0.8927,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.998,
-    "freshnessWithin30Days": 0.9817,
-    "duplicateRate": 0.0793,
-    "outlierCount": 5,
+    "freshnessWithin30Days": 0.9818,
+    "duplicateRate": 0.1093,
+    "outlierCount": 2,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 447,
-      "Medium": 43,
+      "High": 441,
+      "Medium": 51,
       "Low": 2
     },
     "ppsfRange": {
       "min": 69.57,
-      "max": 102880.66,
-      "median": 16666.67
+      "max": 111111.11,
+      "median": 15637.86
     },
     "topOutliers": [
-      {
-        "id": "zameen-54451405",
-        "source": "Zameen",
-        "title": "Sector E Plot For Sale",
-        "neighborhood": "Naval Farms Housing Scheme",
-        "pricePerSqft": 13013.01,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_naval_farms_housing_scheme_sector_e_plot_for_sale-54451405-1724-2.html"
-      },
-      {
-        "id": "zameen-54273888",
-        "source": "Zameen",
-        "title": "Furnished 4-Bed Luxury Apartment for Sale Fortune Residency, E-11/4, Islamabad",
-        "neighborhood": "E-11",
-        "pricePerSqft": 5668.93,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_e-11_furnished_4-bed_luxury_apartment_for_sale_fortune_residency_e-11_4_islamabad-54273888-329-1.html"
-      },
-      {
-        "id": "zameen-54450726",
-        "source": "Zameen",
-        "title": "DHA PHASE 9 GANDHARA",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1333.33,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9_gandhara-54450726-20514-2.html"
-      },
       {
         "id": "graana-1538756",
         "source": "Graana",
