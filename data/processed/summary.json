@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-07-14T13:58:57+00:00",
+  "generatedAt": "2026-07-15T02:47:09+00:00",
   "city": "Islamabad",
-  "trackedListings": 491,
-  "mappedListings": 490,
+  "trackedListings": 431,
+  "mappedListings": 429,
   "outlierCount": 0,
-  "neighborhoodCount": 70,
-  "medianPricePkr": 27000000.0,
-  "medianPricePerSqft": 15714.29,
-  "medianPricePerMarla": 3535714.29,
-  "medianFreshnessHours": 4.0,
+  "neighborhoodCount": 57,
+  "medianPricePkr": 26000000.0,
+  "medianPricePerSqft": 14888.89,
+  "medianPricePerMarla": 3350000.0,
+  "medianFreshnessHours": 9.0,
   "medianConfidenceScore": 100.0,
   "confidenceBands": {
-    "High": 490,
-    "Medium": 1,
+    "High": 429,
+    "Medium": 2,
     "Low": 0
   },
   "sourceMix": {
     "Zameen": {
       "label": "Zameen",
-      "count": 491,
+      "count": 431,
       "share": 1.0
     }
   },
@@ -26,103 +26,103 @@
     {
       "propertyGroup": "house",
       "label": "Houses",
-      "listingCount": 211,
-      "mappedCount": 211,
+      "listingCount": 161,
+      "mappedCount": 161,
       "outlierCount": 0,
-      "medianPricePkr": 50000000.0,
-      "medianPricePerSqft": 24444.44
+      "medianPricePkr": 65000000.0,
+      "medianPricePerSqft": 28888.89
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
       "listingCount": 150,
-      "mappedCount": 150,
+      "mappedCount": 149,
       "outlierCount": 0,
-      "medianPricePkr": 20500000.0,
-      "medianPricePerSqft": 6666.67
+      "medianPricePkr": 21000000.0,
+      "medianPricePerSqft": 7111.11
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 130,
-      "mappedCount": 129,
+      "listingCount": 120,
+      "mappedCount": 119,
       "outlierCount": 0,
-      "medianPricePkr": 17500000.0,
-      "medianPricePerSqft": 15452.98
+      "medianPricePkr": 15900000.0,
+      "medianPricePerSqft": 13869.33
     }
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "Blue Area",
+      "neighborhood": "F-6",
       "listingCount": 2,
       "mappedCount": 2,
       "outlierCount": 0,
-      "medianPricePkr": 85000000.0,
-      "medianPricePerSqft": 109456.89,
-      "medianPricePerMarla": 24627800.04
+      "medianPricePkr": 950000000.0,
+      "medianPricePerSqft": 60555.56,
+      "medianPricePerMarla": 13625000.0
     },
     {
-      "neighborhood": "New Blue Area",
-      "listingCount": 2,
-      "mappedCount": 2,
+      "neighborhood": "F-7",
+      "listingCount": 6,
+      "mappedCount": 6,
       "outlierCount": 0,
-      "medianPricePkr": 68657500.0,
-      "medianPricePerSqft": 104343.57,
-      "medianPricePerMarla": 23477302.63
+      "medianPricePkr": 440000000.0,
+      "medianPricePerSqft": 58383.83,
+      "medianPricePerMarla": 13136363.63
     },
     {
       "neighborhood": "D-12",
-      "listingCount": 10,
-      "mappedCount": 10,
+      "listingCount": 6,
+      "mappedCount": 6,
       "outlierCount": 0,
       "medianPricePkr": 64500000.0,
       "medianPricePerSqft": 57333.33,
       "medianPricePerMarla": 12900000.0
     },
     {
-      "neighborhood": "Constitution Avenue",
-      "listingCount": 3,
-      "mappedCount": 3,
-      "outlierCount": 0,
-      "medianPricePkr": 230000000.0,
-      "medianPricePerSqft": 52873.56,
-      "medianPricePerMarla": 11896551.72
-    },
-    {
-      "neighborhood": "F-7",
-      "listingCount": 11,
-      "mappedCount": 11,
-      "outlierCount": 0,
-      "medianPricePkr": 450000000.0,
-      "medianPricePerSqft": 51851.85,
-      "medianPricePerMarla": 11666666.67
-    },
-    {
-      "neighborhood": "F-10",
-      "listingCount": 16,
-      "mappedCount": 16,
-      "outlierCount": 0,
-      "medianPricePkr": 177500000.0,
-      "medianPricePerSqft": 48477.93,
-      "medianPricePerMarla": 10907534.25
-    },
-    {
-      "neighborhood": "I-10",
+      "neighborhood": "Blue Area",
       "listingCount": 1,
       "mappedCount": 1,
       "outlierCount": 0,
-      "medianPricePkr": 61000000.0,
-      "medianPricePerSqft": 45185.19,
-      "medianPricePerMarla": 10166666.67
+      "medianPricePkr": 130000000.0,
+      "medianPricePerSqft": 55026.46,
+      "medianPricePerMarla": 12380952.38
     },
     {
       "neighborhood": "F-8",
-      "listingCount": 8,
-      "mappedCount": 8,
+      "listingCount": 10,
+      "mappedCount": 10,
       "outlierCount": 0,
-      "medianPricePkr": 280000000.0,
-      "medianPricePerSqft": 44510.48,
-      "medianPricePerMarla": 10014858.84
+      "medianPricePkr": 187500000.0,
+      "medianPricePerSqft": 52015.25,
+      "medianPricePerMarla": 11703431.38
+    },
+    {
+      "neighborhood": "Diplomatic Enclave",
+      "listingCount": 3,
+      "mappedCount": 3,
+      "outlierCount": 0,
+      "medianPricePkr": 60000000.0,
+      "medianPricePerSqft": 44444.44,
+      "medianPricePerMarla": 10000000.0
+    },
+    {
+      "neighborhood": "G-8",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "outlierCount": 0,
+      "medianPricePkr": 110000000.0,
+      "medianPricePerSqft": 39426.52,
+      "medianPricePerMarla": 8870967.74
+    },
+    {
+      "neighborhood": "F-10",
+      "listingCount": 10,
+      "mappedCount": 10,
+      "outlierCount": 0,
+      "medianPricePkr": 132500000.0,
+      "medianPricePerSqft": 36467.24,
+      "medianPricePerMarla": 8205128.21
     }
   ],
   "seedStats": [
@@ -133,7 +133,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 564,
+      "pageCountDiscovered": 557,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -145,7 +145,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 63,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -157,7 +157,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 63,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -169,7 +169,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 63,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -181,7 +181,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 160,
+      "pageCountDiscovered": 157,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -193,7 +193,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -205,7 +205,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -217,7 +217,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -229,7 +229,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1134,
+      "pageCountDiscovered": 1115,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
