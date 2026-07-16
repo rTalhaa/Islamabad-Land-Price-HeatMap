@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-15T13:47:51+00:00",
+  "generatedAt": "2026-07-16T02:55:12+00:00",
   "searchCardCount": 1350,
-  "uniqueListingCount": 420,
-  "exportedListingCount": 420,
+  "uniqueListingCount": 426,
+  "exportedListingCount": 426,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 562,
+      "pageCountDiscovered": 557,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 160,
+      "pageCountDiscovered": 158,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1127,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1127,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1127,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1127,
+      "pageCountDiscovered": 1125,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-15T13:47:51+00:00",
+    "generatedAt": "2026-07-16T02:55:12+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 420,
-        "detailSuccess": 419,
+        "exportedListings": 426,
+        "detailSuccess": 413,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0976,
+        "duplicateRate": 0.1268,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0,
-          "imageUrl": 0.0619
+          "coordinates": 0.0023,
+          "imageUrl": 0.0423
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 562,
+            "pageCountDiscovered": 557,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 160,
+            "pageCountDiscovered": 158,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1127,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1127,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1127,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1127,
+            "pageCountDiscovered": 1125,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,27 +364,39 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-15T13:47:51+00:00",
-    "listingCount": 420,
-    "geocodingAccuracy": 1.0,
+    "generatedAt": "2026-07-16T02:55:12+00:00",
+    "listingCount": 426,
+    "geocodingAccuracy": 0.9977,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
     "freshnessWithin30Days": 1.0,
-    "duplicateRate": 0.0976,
-    "outlierCount": 0,
+    "duplicateRate": 0.1268,
+    "outlierCount": 1,
     "suspiciousPpsfCount": 0,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 420,
-      "Medium": 0,
+      "High": 425,
+      "Medium": 1,
       "Low": 0
     },
     "ppsfRange": {
-      "min": 1511.11,
-      "max": 88888.89,
-      "median": 14107.74
+      "min": 1288.89,
+      "max": 127350.43,
+      "median": 14307.24
     },
-    "topOutliers": [],
+    "topOutliers": [
+      {
+        "id": "zameen-53747862",
+        "source": "Zameen",
+        "title": "50x70 Plot ll Top Heighted ll Best Investment Opportunity ll Gulberg Islamabad ll CDA Approved Layout",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 32222.22,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_greens_block_c_it_hub_50x70_plot_ll_top_heighted_ll_best_investment_opportunity_ll_gulberg_islamabad_ll_cda_approved_layout-53747862-22481-2.html"
+      }
+    ],
     "fbrReference": {
       "label": "FBR Islamabad immovable property valuation",
       "url": "https://www.fbr.gov.pk/propertyValuation/17653",
