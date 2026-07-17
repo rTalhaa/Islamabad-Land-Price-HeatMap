@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-07-16T14:06:40+00:00",
-  "listingCount": 427,
-  "geocodingAccuracy": 0.9977,
+  "generatedAt": "2026-07-17T02:57:47+00:00",
+  "listingCount": 430,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.0656,
-  "outlierCount": 1,
+  "duplicateRate": 0.1186,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 426,
-    "Medium": 1,
+    "High": 430,
+    "Medium": 0,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 2000.0,
-    "max": 71794.87,
-    "median": 14400.0
+    "min": 669.19,
+    "max": 68750.0,
+    "median": 15082.44
   },
   "topOutliers": [
+    {
+      "id": "zameen-54008940",
+      "source": "Zameen",
+      "title": "Ideal Residential Plot Is Available For Sale In Islamabad",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 10222.22,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_ideal_residential_plot_is_available_for_sale_in_islamabad-54008940-16418-2.html"
+    },
     {
       "id": "zameen-54478685",
       "source": "Zameen",
@@ -30,6 +41,17 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_4_bedrooms_2_swimming_pools_indoor_outdoor_spacious_lawn_scenic_location_opposite_bahria_enclave-54478685-11977-1.html"
+    },
+    {
+      "id": "zameen-54478669",
+      "source": "Zameen",
+      "title": "8 Marla Semi Develop Plot For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 2333.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_rose_sector_8_marla_semi_develop_plot_for_sale-54478669-3210-2.html"
     }
   ],
   "fbrReference": {
