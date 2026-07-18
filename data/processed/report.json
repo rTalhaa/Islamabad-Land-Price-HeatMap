@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T02:48:34+00:00",
-  "searchCardCount": 1439,
-  "uniqueListingCount": 479,
-  "exportedListingCount": 479,
+  "generatedAt": "2026-07-18T13:33:49+00:00",
+  "searchCardCount": 1440,
+  "uniqueListingCount": 491,
+  "exportedListingCount": 491,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 559,
+      "pageCountDiscovered": 562,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 63,
+      "pageCountDiscovered": 64,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 63,
+      "pageCountDiscovered": 64,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 63,
+      "pageCountDiscovered": 64,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 159,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 160,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1125,
+      "pageCountDiscovered": 1134,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1125,
+      "pageCountDiscovered": 1134,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1125,
+      "pageCountDiscovered": 1134,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1125,
+      "pageCountDiscovered": 1134,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-18T02:48:34+00:00",
+    "generatedAt": "2026-07-18T13:33:49+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,7 +163,7 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1167,
+        "duplicateRate": 0.1333,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1349,
-        "exportedListings": 419,
-        "detailSuccess": 413,
+        "parsedCards": 1350,
+        "exportedListings": 431,
+        "detailSuccess": 426,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1169,
+        "duplicateRate": 0.0928,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0,
-          "imageUrl": 0.0597
+          "coordinates": 0.0046,
+          "imageUrl": 0.0093
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 559,
+            "pageCountDiscovered": 562,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 63,
+            "pageCountDiscovered": 64,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 63,
+            "pageCountDiscovered": 64,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 63,
+            "pageCountDiscovered": 64,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 159,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 160,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1125,
+            "pageCountDiscovered": 1134,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1125,
+            "pageCountDiscovered": 1134,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1125,
+            "pageCountDiscovered": 1134,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1125,
+            "pageCountDiscovered": 1134,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-18T02:48:34+00:00",
-    "listingCount": 479,
-    "geocodingAccuracy": 0.9207,
+    "generatedAt": "2026-07-18T13:33:49+00:00",
+    "listingCount": 491,
+    "geocodingAccuracy": 0.9185,
     "priceParsingSuccess": 1.0,
-    "areaParsingSuccess": 0.9979,
-    "freshnessWithin30Days": 0.9708,
-    "duplicateRate": 0.1169,
-    "outlierCount": 4,
+    "areaParsingSuccess": 0.998,
+    "freshnessWithin30Days": 0.9715,
+    "duplicateRate": 0.0978,
+    "outlierCount": 3,
     "suspiciousPpsfCount": 2,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 440,
-      "Medium": 36,
+      "High": 450,
+      "Medium": 38,
       "Low": 3
     },
     "ppsfRange": {
       "min": 69.57,
       "max": 866666.67,
-      "median": 14666.67
+      "median": 16000.0
     },
     "topOutliers": [
       {
@@ -396,17 +396,6 @@
           "far above comparable median"
         ],
         "url": "https://www.graana.com/property/1545978"
-      },
-      {
-        "id": "zameen-54340264",
-        "source": "Zameen",
-        "title": "D Markaz 50x50 Plot For Sale",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 28028.03,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_d_markaz_d_markaz_50x50_plot_for_sale-54340264-14966-2.html"
       },
       {
         "id": "graana-1538756",
