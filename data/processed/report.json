@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T03:03:06+00:00",
+  "generatedAt": "2026-07-19T13:31:30+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 492,
-  "exportedListingCount": 492,
+  "uniqueListingCount": 488,
+  "exportedListingCount": 488,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 561,
+      "pageCountDiscovered": 563,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1133,
+      "pageCountDiscovered": 1142,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1133,
+      "pageCountDiscovered": 1142,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1133,
+      "pageCountDiscovered": 1142,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1133,
+      "pageCountDiscovered": 1142,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-19T03:03:06+00:00",
+    "generatedAt": "2026-07-19T13:31:30+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 432,
-        "detailSuccess": 429,
+        "exportedListings": 428,
+        "detailSuccess": 427,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1644,
+        "duplicateRate": 0.1098,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0046,
-          "imageUrl": 0.0671
+          "coordinates": 0.0023,
+          "imageUrl": 0.0794
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 561,
+            "pageCountDiscovered": 563,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1133,
+            "pageCountDiscovered": 1142,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1133,
+            "pageCountDiscovered": 1142,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1133,
+            "pageCountDiscovered": 1142,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1133,
+            "pageCountDiscovered": 1142,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-19T03:03:06+00:00",
-    "listingCount": 492,
-    "geocodingAccuracy": 0.9187,
+    "generatedAt": "2026-07-19T13:31:30+00:00",
+    "listingCount": 488,
+    "geocodingAccuracy": 0.9201,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.998,
-    "freshnessWithin30Days": 0.9715,
-    "duplicateRate": 0.1585,
-    "outlierCount": 5,
+    "freshnessWithin30Days": 0.9693,
+    "duplicateRate": 0.1107,
+    "outlierCount": 4,
     "suspiciousPpsfCount": 2,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 451,
-      "Medium": 38,
+      "High": 448,
+      "Medium": 37,
       "Low": 3
     },
     "ppsfRange": {
       "min": 69.57,
       "max": 866666.67,
-      "median": 14615.38
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -398,26 +398,15 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54224594",
+        "id": "zameen-53663941",
         "source": "Zameen",
-        "title": "Best For Investment Plot For Sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1511.11,
+        "title": "Khudadad Heights 3 Bedroom Apartment For Sale (Block 2)",
+        "neighborhood": "E-11",
+        "pricePerSqft": 5446.62,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_m_best_for_investment_plot_for_sale-54224594-13969-2.html"
-      },
-      {
-        "id": "zameen-54116504",
-        "source": "Zameen",
-        "title": "1 Kanal Balloted (Transferable) Plot For Sale On Investor Rate in DHA 9 (Gandhara) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1173.33,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_balloted_transferable_plot_for_sale_on_investor_rate_in_dha_9_gandhara_islamabad-54116504-20514-2.html"
+        "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_khudadad_heights_3_bedroom_apartment_for_sale_block_2-53663941-11524-1.html"
       },
       {
         "id": "graana-1538756",
