@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-22T02:47:41+00:00",
-  "listingCount": 526,
-  "geocodingAccuracy": 0.9297,
+  "generatedAt": "2026-07-22T14:10:07+00:00",
+  "listingCount": 487,
+  "geocodingAccuracy": 0.9179,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9981,
-  "freshnessWithin30Days": 0.9696,
-  "duplicateRate": 0.1274,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 2,
+  "areaParsingSuccess": 0.9979,
+  "freshnessWithin30Days": 0.9671,
+  "duplicateRate": 0.1335,
+  "outlierCount": 4,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 488,
-    "Medium": 35,
+    "High": 445,
+    "Medium": 39,
     "Low": 3
   },
   "ppsfRange": {
     "min": 69.57,
     "max": 866666.67,
-    "median": 15000.0
+    "median": 15555.56
   },
   "topOutliers": [
     {
@@ -33,48 +33,15 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-53780935",
+      "id": "zameen-54494520",
       "source": "Zameen",
-      "title": "Prime Location A Block 8 Marla Plot",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 11666.67,
+      "title": "F-7/3 Main Margalla House For Sale",
+      "neighborhood": "F-7",
+      "pricePerSqft": 194444.44,
       "reasons": [
-        "far above comparable median"
+        "outside plausible ppsf range"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_prime_location_a_block_8_marla_plot-53780935-8260-2.html"
-    },
-    {
-      "id": "zameen-54260659",
-      "source": "Zameen",
-      "title": "Faisal Town Phase 1 Block A Prime location and Solid Land Plot.",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 10277.78,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_faisal_town_phase_1_block_a_prime_location_and_solid_land_plot-54260659-16416-2.html"
-    },
-    {
-      "id": "zameen-51250906",
-      "source": "Zameen",
-      "title": "5 Marla Possession Able Plot For Sale FTC",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 10222.22,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_1_5_marla_possession_able_plot_for_sale_ftc-51250906-16415-2.html"
-    },
-    {
-      "id": "zameen-54278234",
-      "source": "Zameen",
-      "title": "1 Kanal Residential Plot For sale In DHA Defence",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_residential_plot_for_sale_in_dha_defence-54278234-20514-2.html"
+      "url": "https://www.zameen.com/Property/f_7_f-7_3_f-7_3_main_margalla_house_for_sale-54494520-3309-1.html"
     },
     {
       "id": "graana-1538756",
