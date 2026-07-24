@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T02:58:32+00:00",
+  "generatedAt": "2026-07-24T13:59:00+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -12,11 +12,11 @@
       "detailSuccess": 0,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.0667,
+      "duplicateRate": 0.1,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0167,
-        "coordinates": 0.7167,
+        "coordinates": 0.75,
         "imageUrl": 0.0167
       },
       "seedStats": [
@@ -84,17 +84,17 @@
       "disabledReason": null,
       "attemptedPages": 54,
       "fetchedPages": 54,
-      "parsedCards": 1350,
-      "exportedListings": 417,
-      "detailSuccess": 412,
+      "parsedCards": 1331,
+      "exportedListings": 457,
+      "detailSuccess": 456,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.0839,
+      "duplicateRate": 0.081,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0048,
-        "imageUrl": 0.048
+        "coordinates": 0.0022,
+        "imageUrl": 0.0569
       },
       "seedStats": [
         {
@@ -104,8 +104,8 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 570,
-          "listingCardsCollected": 150,
+          "pageCountDiscovered": 574,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -117,7 +117,7 @@
           "enabled": true,
           "pagesScraped": 6,
           "pageCountDiscovered": 64,
-          "listingCardsCollected": 150,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -129,7 +129,7 @@
           "enabled": true,
           "pagesScraped": 6,
           "pageCountDiscovered": 64,
-          "listingCardsCollected": 150,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -141,7 +141,7 @@
           "enabled": true,
           "pagesScraped": 6,
           "pageCountDiscovered": 64,
-          "listingCardsCollected": 150,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -153,7 +153,7 @@
           "enabled": true,
           "pagesScraped": 6,
           "pageCountDiscovered": 164,
-          "listingCardsCollected": 150,
+          "listingCardsCollected": 147,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -164,8 +164,8 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1136,
-          "listingCardsCollected": 150,
+          "pageCountDiscovered": 1133,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -176,8 +176,8 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1136,
-          "listingCardsCollected": 150,
+          "pageCountDiscovered": 1133,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -188,8 +188,8 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1136,
-          "listingCardsCollected": 150,
+          "pageCountDiscovered": 1133,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -200,8 +200,8 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1136,
-          "listingCardsCollected": 150,
+          "pageCountDiscovered": 1133,
+          "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
         }

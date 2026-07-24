@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-24T02:58:32+00:00",
-  "listingCount": 477,
-  "geocodingAccuracy": 0.9057,
+  "generatedAt": "2026-07-24T13:59:00+00:00",
+  "listingCount": 517,
+  "geocodingAccuracy": 0.911,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9979,
-  "freshnessWithin30Days": 0.9706,
-  "duplicateRate": 0.0818,
+  "areaParsingSuccess": 0.9981,
+  "freshnessWithin30Days": 0.9768,
+  "duplicateRate": 0.0832,
   "outlierCount": 3,
-  "suspiciousPpsfCount": 2,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 431,
-    "Medium": 43,
-    "Low": 3
+    "High": 470,
+    "Medium": 45,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 69.57,
+    "min": 1568.63,
     "max": 866666.67,
-    "median": 13888.89
+    "median": 14915.71
   },
   "topOutliers": [
     {
@@ -33,16 +33,15 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "graana-1538756",
-      "source": "Graana",
-      "title": "1150 Ft\u00b2 Flat for Sale",
-      "neighborhood": "Bahria Enclave",
-      "pricePerSqft": 69.57,
+      "id": "zameen-54424446",
+      "source": "Zameen",
+      "title": "750 Sq. Yards Corner Commercial Plot For Sale in Downtown Front & Back Open",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 38518.52,
       "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.graana.com/property/1538756"
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_750_sq_yards_corner_commercial_plot_for_sale_in_downtown_front_back_open-54424446-8312-2.html"
     },
     {
       "id": "graana-1544816",
