@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-25T02:58:04+00:00",
+  "generatedAt": "2026-07-25T13:48:13+00:00",
   "city": "Islamabad",
-  "trackedListings": 488,
-  "mappedListings": 444,
+  "trackedListings": 489,
+  "mappedListings": 445,
   "outlierCount": 3,
-  "neighborhoodCount": 85,
-  "medianPricePkr": 25500000.0,
-  "medianPricePerSqft": 13541.67,
-  "medianPricePerMarla": 3046875.0,
-  "medianFreshnessHours": 8.0,
+  "neighborhoodCount": 69,
+  "medianPricePkr": 27500000.0,
+  "medianPricePerSqft": 15000.0,
+  "medianPricePerMarla": 3375000.0,
+  "medianFreshnessHours": 4.0,
   "medianConfidenceScore": 100.0,
   "confidenceBands": {
-    "High": 443,
+    "High": 444,
     "Medium": 43,
     "Low": 2
   },
@@ -19,79 +19,61 @@
     "Graana": {
       "label": "Graana",
       "count": 60,
-      "share": 0.123
+      "share": 0.1227
     },
     "Zameen": {
       "label": "Zameen",
-      "count": 428,
-      "share": 0.877
+      "count": 429,
+      "share": 0.8773
     }
   },
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses",
-      "listingCount": 195,
-      "mappedCount": 169,
-      "outlierCount": 0,
-      "medianPricePkr": 41000000.0,
-      "medianPricePerSqft": 22666.67
+      "listingCount": 193,
+      "mappedCount": 167,
+      "outlierCount": 1,
+      "medianPricePkr": 49000000.0,
+      "medianPricePerSqft": 23555.56
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
-      "listingCount": 150,
-      "mappedCount": 150,
-      "outlierCount": 1,
-      "medianPricePkr": 22000000.0,
-      "medianPricePerSqft": 6777.78
+      "listingCount": 149,
+      "mappedCount": 149,
+      "outlierCount": 0,
+      "medianPricePkr": 16000000.0,
+      "medianPricePerSqft": 7222.22
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 143,
-      "mappedCount": 125,
+      "listingCount": 147,
+      "mappedCount": 129,
       "outlierCount": 2,
-      "medianPricePkr": 13200000.0,
-      "medianPricePerSqft": 12292.36
+      "medianPricePkr": 16615500.0,
+      "medianPricePerSqft": 14435.22
     }
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "F-7",
-      "listingCount": 2,
-      "mappedCount": 2,
-      "outlierCount": 0,
-      "medianPricePkr": 400000000.0,
-      "medianPricePerSqft": 68376.07,
-      "medianPricePerMarla": 15384615.39
-    },
-    {
-      "neighborhood": "E-7",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 600000000.0,
-      "medianPricePerSqft": 66666.67,
-      "medianPricePerMarla": 15000000.0
-    },
-    {
       "neighborhood": "F-6",
-      "listingCount": 1,
-      "mappedCount": 1,
+      "listingCount": 6,
+      "mappedCount": 6,
       "outlierCount": 0,
-      "medianPricePkr": 310000000.0,
-      "medianPricePerSqft": 62626.26,
-      "medianPricePerMarla": 14090909.09
+      "medianPricePkr": 680000000.0,
+      "medianPricePerSqft": 59444.44,
+      "medianPricePerMarla": 13375000.0
     },
     {
-      "neighborhood": "D-12",
-      "listingCount": 7,
-      "mappedCount": 7,
+      "neighborhood": "F-7",
+      "listingCount": 6,
+      "mappedCount": 6,
       "outlierCount": 0,
-      "medianPricePkr": 48000000.0,
-      "medianPricePerSqft": 53333.33,
-      "medianPricePerMarla": 12000000.0
+      "medianPricePkr": 470000000.0,
+      "medianPricePerSqft": 56666.67,
+      "medianPricePerMarla": 12750000.0
     },
     {
       "neighborhood": "I-8",
@@ -121,13 +103,31 @@
       "medianPricePerMarla": 11250000.0
     },
     {
-      "neighborhood": "F-8",
-      "listingCount": 7,
-      "mappedCount": 7,
+      "neighborhood": "Blue Area",
+      "listingCount": 1,
+      "mappedCount": 1,
       "outlierCount": 0,
-      "medianPricePkr": 400000000.0,
-      "medianPricePerSqft": 49382.72,
-      "medianPricePerMarla": 11111111.11
+      "medianPricePkr": 57000000.0,
+      "medianPricePerSqft": 49673.2,
+      "medianPricePerMarla": 11176470.59
+    },
+    {
+      "neighborhood": "Karakoram Diplomatic Enclave",
+      "listingCount": 2,
+      "mappedCount": 2,
+      "outlierCount": 0,
+      "medianPricePkr": 82500000.0,
+      "medianPricePerSqft": 48692.82,
+      "medianPricePerMarla": 10955886.19
+    },
+    {
+      "neighborhood": "F-8",
+      "listingCount": 8,
+      "mappedCount": 8,
+      "outlierCount": 0,
+      "medianPricePkr": 242500000.0,
+      "medianPricePerSqft": 48060.79,
+      "medianPricePerMarla": 10813679.25
     }
   ],
   "seedStats": [
@@ -138,7 +138,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 570,
+      "pageCountDiscovered": 574,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -186,7 +186,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 163,
+      "pageCountDiscovered": 165,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -198,7 +198,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1124,
+      "pageCountDiscovered": 1138,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -210,7 +210,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1124,
+      "pageCountDiscovered": 1138,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -222,7 +222,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1124,
+      "pageCountDiscovered": 1138,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -234,7 +234,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1124,
+      "pageCountDiscovered": 1138,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
