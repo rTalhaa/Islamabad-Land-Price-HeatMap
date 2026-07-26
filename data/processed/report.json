@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T13:48:13+00:00",
+  "generatedAt": "2026-07-26T03:06:28+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 489,
-  "exportedListingCount": 489,
+  "uniqueListingCount": 492,
+  "exportedListingCount": 492,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 574,
+      "pageCountDiscovered": 575,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 65,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 65,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 64,
+      "pageCountDiscovered": 65,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 165,
+      "pageCountDiscovered": 166,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-25T13:48:13+00:00",
+    "generatedAt": "2026-07-26T03:06:28+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.7333,
+          "coordinates": 0.7667,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 429,
-        "detailSuccess": 427,
+        "exportedListings": 432,
+        "detailSuccess": 426,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0769,
+        "duplicateRate": 0.0764,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0,
-          "imageUrl": 0.0466
+          "coordinates": 0.0069,
+          "imageUrl": 0.044
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 574,
+            "pageCountDiscovered": 575,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 64,
+            "pageCountDiscovered": 65,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 64,
+            "pageCountDiscovered": 65,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 64,
+            "pageCountDiscovered": 65,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 165,
+            "pageCountDiscovered": 166,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-07-25T13:48:13+00:00",
-    "listingCount": 489,
-    "geocodingAccuracy": 0.91,
+    "generatedAt": "2026-07-26T03:06:28+00:00",
+    "listingCount": 492,
+    "geocodingAccuracy": 0.9004,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.998,
-    "freshnessWithin30Days": 0.9755,
-    "duplicateRate": 0.0798,
+    "freshnessWithin30Days": 0.9756,
+    "duplicateRate": 0.0793,
     "outlierCount": 3,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 444,
-      "Medium": 43,
+      "High": 442,
+      "Medium": 48,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 1000.0,
+      "min": 888.89,
       "max": 866666.67,
-      "median": 15000.0
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -398,15 +398,15 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54478685",
+        "id": "zameen-52704822",
         "source": "Zameen",
-        "title": "10 Kanal Luxury Farmhouse | 4 Bedrooms | 2 Swimming Pools (Indoor & Outdoor) | Spacious Lawn | Scenic Location | Opposite Bahria Enclave",
-        "neighborhood": "Bahria Town",
-        "pricePerSqft": 4000.0,
+        "title": "Islamabad Most Affordable Luxury Plot DHA Gandhara Phase 9 Where Nature Meets Modern Living",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1222.22,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_4_bedrooms_2_swimming_pools_indoor_outdoor_spacious_lawn_scenic_location_opposite_bahria_enclave-54478685-11977-1.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_islamabad_most_affordable_luxury_plot_dha_gandhara_phase_9_where_nature_meets_modern_living-52704822-20514-2.html"
       },
       {
         "id": "graana-1544816",
