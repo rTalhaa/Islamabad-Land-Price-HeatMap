@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-05-27T04:01:48+00:00",
-    "trackedListings": 421,
-    "mappedListings": 421,
-    "medianPricePkr": 29500000.0,
-    "medianPricePerSqft": 13155.56
-  },
-  {
     "timestamp": "2026-05-27T15:50:50+00:00",
     "trackedListings": 425,
     "mappedListings": 425,
@@ -1038,5 +1031,14 @@
     "medianConfidenceScore": 100.0,
     "medianPricePkr": 27250000.0,
     "medianPricePerSqft": 14500.0
+  },
+  {
+    "timestamp": "2026-07-27T03:32:05+00:00",
+    "trackedListings": 497,
+    "mappedListings": 453,
+    "outlierCount": 4,
+    "medianConfidenceScore": 100.0,
+    "medianPricePkr": 30000000.0,
+    "medianPricePerSqft": 15333.33
   }
 ]
