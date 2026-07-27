@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-27T03:32:05+00:00",
-  "listingCount": 497,
-  "geocodingAccuracy": 0.9115,
+  "generatedAt": "2026-07-27T14:49:19+00:00",
+  "listingCount": 486,
+  "geocodingAccuracy": 0.8909,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.998,
-  "freshnessWithin30Days": 0.9738,
-  "duplicateRate": 0.1167,
-  "outlierCount": 4,
-  "suspiciousPpsfCount": 1,
+  "areaParsingSuccess": 0.9979,
+  "freshnessWithin30Days": 0.9733,
+  "duplicateRate": 0.0844,
+  "outlierCount": 3,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 452,
-    "Medium": 43,
+    "High": 431,
+    "Medium": 53,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 888.89,
+    "min": 125.75,
     "max": 866666.67,
-    "median": 15333.33
+    "median": 13856.21
   },
   "topOutliers": [
     {
@@ -33,26 +33,16 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54478685",
+      "id": "zameen-54527719",
       "source": "Zameen",
-      "title": "10 Kanal Luxury Farmhouse | 4 Bedrooms | 2 Swimming Pools (Indoor & Outdoor) | Spacious Lawn | Scenic Location | Opposite Bahria Enclave",
-      "neighborhood": "Bahria Town",
-      "pricePerSqft": 4000.0,
+      "title": "Brand New Ground Floor 4 Bed Luxury Apartment | Askari Heights 5 | Only PKR 3.65 Crore",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 125.75,
       "reasons": [
+        "outside plausible ppsf range",
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_4_bedrooms_2_swimming_pools_indoor_outdoor_spacious_lawn_scenic_location_opposite_bahria_enclave-54478685-11977-1.html"
-    },
-    {
-      "id": "zameen-54185721",
-      "source": "Zameen",
-      "title": "Book Your 20 Marla Plot",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1755.56,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_book_your_20_marla_plot-54185721-20466-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_5_askari_heights_5_brand_new_ground_floor_4_bed_luxury_apartment_askari_heights_5_only_pkr_3_65_crore-54527719-22450-1.html"
     },
     {
       "id": "graana-1544816",
