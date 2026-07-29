@@ -1,124 +1,106 @@
 {
-  "generatedAt": "2026-07-28T14:21:18+00:00",
+  "generatedAt": "2026-07-29T02:46:49+00:00",
   "city": "Islamabad",
-  "trackedListings": 497,
-  "mappedListings": 453,
-  "outlierCount": 3,
-  "neighborhoodCount": 73,
-  "medianPricePkr": 25000000.0,
-  "medianPricePerSqft": 13841.68,
-  "medianPricePerMarla": 3114379.08,
-  "medianFreshnessHours": 3.0,
+  "trackedListings": 536,
+  "mappedListings": 491,
+  "outlierCount": 7,
+  "neighborhoodCount": 75,
+  "medianPricePkr": 28000000.0,
+  "medianPricePerSqft": 15000.0,
+  "medianPricePerMarla": 3375000.0,
+  "medianFreshnessHours": 12.0,
   "medianConfidenceScore": 100.0,
   "confidenceBands": {
-    "High": 451,
-    "Medium": 44,
+    "High": 489,
+    "Medium": 45,
     "Low": 2
   },
   "sourceMix": {
     "Graana": {
       "label": "Graana",
       "count": 60,
-      "share": 0.1207
+      "share": 0.1119
     },
     "Zameen": {
       "label": "Zameen",
-      "count": 437,
-      "share": 0.8793
+      "count": 476,
+      "share": 0.8881
     }
   },
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses",
-      "listingCount": 194,
-      "mappedCount": 168,
+      "listingCount": 214,
+      "mappedCount": 187,
       "outlierCount": 0,
-      "medianPricePkr": 45000000.0,
-      "medianPricePerSqft": 24444.44
-    },
-    {
-      "propertyGroup": "apartment",
-      "label": "Flats & Apartments",
-      "listingCount": 153,
-      "mappedCount": 135,
-      "outlierCount": 3,
-      "medianPricePkr": 15105280.0,
-      "medianPricePerSqft": 13180.89
+      "medianPricePkr": 55000000.0,
+      "medianPricePerSqft": 25777.78
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots",
-      "listingCount": 150,
-      "mappedCount": 150,
-      "outlierCount": 0,
-      "medianPricePkr": 19750000.0,
-      "medianPricePerSqft": 5555.56
+      "listingCount": 175,
+      "mappedCount": 175,
+      "outlierCount": 4,
+      "medianPricePkr": 25000000.0,
+      "medianPricePerSqft": 7333.33
+    },
+    {
+      "propertyGroup": "apartment",
+      "label": "Flats & Apartments",
+      "listingCount": 147,
+      "mappedCount": 129,
+      "outlierCount": 3,
+      "medianPricePkr": 13635000.0,
+      "medianPricePerSqft": 13200.98
     }
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "G-6",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 1500000000.0,
-      "medianPricePerSqft": 128205.13,
-      "medianPricePerMarla": 28846153.85
-    },
-    {
       "neighborhood": "F-6",
-      "listingCount": 5,
-      "mappedCount": 5,
+      "listingCount": 3,
+      "mappedCount": 3,
       "outlierCount": 0,
-      "medianPricePkr": 530000000.0,
-      "medianPricePerSqft": 74074.07,
-      "medianPricePerMarla": 16666666.67
-    },
-    {
-      "neighborhood": "F-8",
-      "listingCount": 4,
-      "mappedCount": 4,
-      "outlierCount": 0,
-      "medianPricePkr": 405000000.0,
-      "medianPricePerSqft": 61865.08,
-      "medianPricePerMarla": 13919642.86
-    },
-    {
-      "neighborhood": "E-7",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 649000000.0,
-      "medianPricePerSqft": 57688.89,
-      "medianPricePerMarla": 12980000.0
+      "medianPricePkr": 390000000.0,
+      "medianPricePerSqft": 97378.28,
+      "medianPricePerMarla": 21910112.36
     },
     {
       "neighborhood": "F-7",
-      "listingCount": 5,
-      "mappedCount": 5,
+      "listingCount": 4,
+      "mappedCount": 4,
       "outlierCount": 0,
-      "medianPricePkr": 550000000.0,
-      "medianPricePerSqft": 57142.86,
-      "medianPricePerMarla": 12857142.86
-    },
-    {
-      "neighborhood": "Diplomatic Enclave",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 71000000.0,
-      "medianPricePerSqft": 55512.12,
-      "medianPricePerMarla": 12490226.74
+      "medianPricePkr": 545000000.0,
+      "medianPricePerSqft": 56349.21,
+      "medianPricePerMarla": 12678571.43
     },
     {
       "neighborhood": "D-12",
-      "listingCount": 11,
-      "mappedCount": 11,
+      "listingCount": 9,
+      "mappedCount": 9,
       "outlierCount": 0,
-      "medianPricePkr": 61500000.0,
-      "medianPricePerSqft": 53333.33,
-      "medianPricePerMarla": 12000000.0
+      "medianPricePkr": 56000000.0,
+      "medianPricePerSqft": 55555.56,
+      "medianPricePerMarla": 12500000.0
+    },
+    {
+      "neighborhood": "Constitution Avenue",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "outlierCount": 0,
+      "medianPricePkr": 90000000.0,
+      "medianPricePerSqft": 54794.52,
+      "medianPricePerMarla": 12328767.12
+    },
+    {
+      "neighborhood": "G-9",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "outlierCount": 0,
+      "medianPricePkr": 170000000.0,
+      "medianPricePerSqft": 53968.25,
+      "medianPricePerMarla": 12142857.14
     },
     {
       "neighborhood": "F-10/3",
@@ -128,6 +110,24 @@
       "medianPricePkr": 40000000.0,
       "medianPricePerSqft": 50793.65,
       "medianPricePerMarla": 11428571.43
+    },
+    {
+      "neighborhood": "Centaurus",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 150000000.0,
+      "medianPricePerSqft": 50000.0,
+      "medianPricePerMarla": 11250000.0
+    },
+    {
+      "neighborhood": "F-8",
+      "listingCount": 6,
+      "mappedCount": 6,
+      "outlierCount": 0,
+      "medianPricePkr": 162500000.0,
+      "medianPricePerSqft": 49819.2,
+      "medianPricePerMarla": 11209320.28
     }
   ],
   "seedStats": [
@@ -138,7 +138,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 580,
+      "pageCountDiscovered": 579,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
