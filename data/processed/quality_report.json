@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-30T02:42:00+00:00",
-  "listingCount": 486,
-  "geocodingAccuracy": 0.9053,
+  "generatedAt": "2026-07-30T14:16:45+00:00",
+  "listingCount": 495,
+  "geocodingAccuracy": 0.9111,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9979,
-  "freshnessWithin30Days": 0.9733,
-  "duplicateRate": 0.0617,
+  "areaParsingSuccess": 0.998,
+  "freshnessWithin30Days": 0.9697,
+  "duplicateRate": 0.0889,
   "outlierCount": 4,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 439,
-    "Medium": 45,
+    "High": 450,
+    "Medium": 43,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 777.78,
+    "min": 669.19,
     "max": 866666.67,
-    "median": 13856.21
+    "median": 13872.55
   },
   "topOutliers": [
     {
@@ -27,32 +27,31 @@
       "neighborhood": "E-11",
       "pricePerSqft": 866666.67,
       "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
+        "outside plausible ppsf range"
       ],
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54117557",
+      "id": "zameen-54527169",
       "source": "Zameen",
-      "title": "33 Marla Corner Plot In G16/2 Sector Islamabad",
-      "neighborhood": "G-16",
-      "pricePerSqft": 1202.61,
+      "title": "Corner Plot for Sale in DHA Phase 2, Sector E | Prime Location | Excellent Investment Opportunity",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 114444.44,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/g_16_g-16_2_33_marla_corner_plot_in_g16_2_sector_islamabad-54117557-14948-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_-_sector_e_corner_plot_for_sale_in_dha_phase_2_sector_e_prime_location_excellent_investment_opportunity-54527169-3200-2.html"
     },
     {
-      "id": "zameen-53365031",
-      "source": "Zameen",
-      "title": "34 Marla Plot In G-16/2 Sector Islamabad",
-      "neighborhood": "G-16",
-      "pricePerSqft": 1111.11,
+      "id": "graana-1545849",
+      "source": "Graana",
+      "title": "1500 Ft\u00b2 Flat for Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 9333.33,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/g_16_g-16_2_34_marla_plot_in_g-16_2_sector_islamabad-53365031-14948-2.html"
+      "url": "https://www.graana.com/property/1545849"
     },
     {
       "id": "graana-1544816",
