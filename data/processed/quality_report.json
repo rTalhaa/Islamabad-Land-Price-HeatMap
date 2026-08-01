@@ -1,25 +1,36 @@
 {
-  "generatedAt": "2026-07-31T14:42:46+00:00",
-  "listingCount": 1213,
-  "geocodingAccuracy": 0.9637,
+  "generatedAt": "2026-08-01T03:27:27+00:00",
+  "listingCount": 1204,
+  "geocodingAccuracy": 0.9626,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9868,
-  "duplicateRate": 0.258,
-  "outlierCount": 3,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9867,
+  "duplicateRate": 0.2616,
+  "outlierCount": 7,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1167,
-    "Medium": 44,
+    "High": 1156,
+    "Medium": 46,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 62.6,
-    "max": 866666.67,
-    "median": 16055.56
+    "min": 0.05,
+    "max": 2312500.0,
+    "median": 15409.57
   },
   "topOutliers": [
+    {
+      "id": "zameen-54548808",
+      "source": "Zameen",
+      "title": "luxury flats brand new up for sale",
+      "neighborhood": "Naval Anchorage",
+      "pricePerSqft": 2312500.0,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_naval_anchorage_luxury_flats_brand_new_up_for_sale-54548808-375-1.html"
+    },
     {
       "id": "graana-1545978",
       "source": "Graana",
@@ -33,15 +44,49 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54548115",
+      "id": "zameen-54521809",
       "source": "Zameen",
-      "title": "14 Marla Portion For Rent Corner House | Spacious | Well-Ventilated",
-      "neighborhood": "G-9",
-      "pricePerSqft": 62.6,
+      "title": "MARGALLA ORCHARD 5 KANAL HIGH RISE COMMERCIAL ON MAIN PARK ROAD OPPOSITE COMSATS UNIVERSITY AVAILABLE FOR SALE",
+      "neighborhood": "Margalla Orchard",
+      "pricePerSqft": 66666.67,
       "reasons": [
-        "outside plausible ppsf range"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/g_9_g-9_1_14_marla_portion_for_rent_corner_house_spacious_well-ventilated-54548115-3384-1.html"
+      "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_margalla_orchard_5_kanal_high_rise_commercial_on_main_park_road_opposite_comsats_university_available_for_sale-54521809-21948-2.html"
+    },
+    {
+      "id": "zameen-54548838",
+      "source": "Zameen",
+      "title": "beautiful studio apartment",
+      "neighborhood": "Naval Anchorage",
+      "pricePerSqft": 25000.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_naval_anchorage_beautiful_studio_apartment-54548838-375-1.html"
+    },
+    {
+      "id": "zameen-54389718",
+      "source": "Zameen",
+      "title": "8 Marla (30x60) residential plot File available for sale in the Ministry of Interior Employees Co-operative Housing Society (MIECHS) G-16/1, Islamabad",
+      "neighborhood": "G-16",
+      "pricePerSqft": 833.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/g_16_g-16_1_8_marla_30x60_residential_plot_file_available_for_sale_in_the_ministry_of_interior_employees_co-operative_housing_society_miechs_g-16_1_islamabad-54389718-14949-2.html"
+    },
+    {
+      "id": "zameen-54549445",
+      "source": "Zameen",
+      "title": "10 Marla Plot For Sale in F-14/1 Near masjid And Main Road",
+      "neighborhood": "F-14",
+      "pricePerSqft": 0.05,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/f_14_f-14_1_10_marla_plot_for_sale_in_f-14_1_near_masjid_and_main_road-54549445-22625-2.html"
     },
     {
       "id": "graana-1544816",
