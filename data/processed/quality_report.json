@@ -1,36 +1,25 @@
 {
-  "generatedAt": "2026-08-01T03:27:27+00:00",
-  "listingCount": 1204,
-  "geocodingAccuracy": 0.9626,
+  "generatedAt": "2026-08-01T13:56:17+00:00",
+  "listingCount": 1218,
+  "geocodingAccuracy": 0.9631,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9867,
-  "duplicateRate": 0.2616,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 3,
+  "freshnessWithin30Days": 0.986,
+  "duplicateRate": 0.2939,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1156,
-    "Medium": 46,
+    "High": 1171,
+    "Medium": 45,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 0.05,
-    "max": 2312500.0,
-    "median": 15409.57
+    "min": 96.62,
+    "max": 866666.67,
+    "median": 15393.26
   },
   "topOutliers": [
-    {
-      "id": "zameen-54548808",
-      "source": "Zameen",
-      "title": "luxury flats brand new up for sale",
-      "neighborhood": "Naval Anchorage",
-      "pricePerSqft": 2312500.0,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_naval_anchorage_luxury_flats_brand_new_up_for_sale-54548808-375-1.html"
-    },
     {
       "id": "graana-1545978",
       "source": "Graana",
@@ -44,49 +33,49 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54521809",
+      "id": "zameen-52659295",
       "source": "Zameen",
-      "title": "MARGALLA ORCHARD 5 KANAL HIGH RISE COMMERCIAL ON MAIN PARK ROAD OPPOSITE COMSATS UNIVERSITY AVAILABLE FOR SALE",
-      "neighborhood": "Margalla Orchard",
-      "pricePerSqft": 66666.67,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_margalla_orchard_margalla_orchard_5_kanal_high_rise_commercial_on_main_park_road_opposite_comsats_university_available_for_sale-54521809-21948-2.html"
-    },
-    {
-      "id": "zameen-54548838",
-      "source": "Zameen",
-      "title": "beautiful studio apartment",
-      "neighborhood": "Naval Anchorage",
-      "pricePerSqft": 25000.0,
+      "title": "Gulberg Greens Islamabad Gulberg Residencia Block P1 2 Kanal Plot",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1444.44,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_naval_anchorage_beautiful_studio_apartment-54548838-375-1.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_gulberg_greens_islamabad_gulberg_residencia_block_p1_2_kanal_plot-52659295-9126-2.html"
     },
     {
-      "id": "zameen-54389718",
+      "id": "zameen-54551463",
       "source": "Zameen",
-      "title": "8 Marla (30x60) residential plot File available for sale in the Ministry of Interior Employees Co-operative Housing Society (MIECHS) G-16/1, Islamabad",
-      "neighborhood": "G-16",
-      "pricePerSqft": 833.33,
+      "title": "DHA Gandhara Phase 9 1 Kanal LP Quota File Available for Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1288.89,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/g_16_g-16_1_8_marla_30x60_residential_plot_file_available_for_sale_in_the_ministry_of_interior_employees_co-operative_housing_society_miechs_g-16_1_islamabad-54389718-14949-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_phase_9_1_kanal_lp_quota_file_available_for_sale-54551463-20514-2.html"
     },
     {
-      "id": "zameen-54549445",
+      "id": "zameen-54483590",
       "source": "Zameen",
-      "title": "10 Marla Plot For Sale in F-14/1 Near masjid And Main Road",
-      "neighborhood": "F-14",
-      "pricePerSqft": 0.05,
+      "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1200.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54483590-9126-2.html"
+    },
+    {
+      "id": "zameen-54551630",
+      "source": "Zameen",
+      "title": "2 Bed Furnished Cube Appartment For Rent",
+      "neighborhood": "Bahria Town",
+      "pricePerSqft": 96.62,
       "reasons": [
         "outside plausible ppsf range",
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/f_14_f-14_1_10_marla_plot_for_sale_in_f-14_1_near_masjid_and_main_road-54549445-22625-2.html"
+      "url": "https://www.zameen.com/Property/bahria_enclave_cube_apartments_2_bed_furnished_cube_appartment_for_rent-54551630-21520-1.html"
     },
     {
       "id": "graana-1544816",
