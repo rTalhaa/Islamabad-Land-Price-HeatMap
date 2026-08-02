@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:26:52+00:00",
+  "generatedAt": "2026-08-02T13:56:16+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -84,17 +84,17 @@
       "disabledReason": null,
       "attemptedPages": 54,
       "fetchedPages": 54,
-      "parsedCards": 1344,
-      "exportedListings": 1183,
-      "detailSuccess": 1173,
+      "parsedCards": 1345,
+      "exportedListings": 1146,
+      "detailSuccess": 1130,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.2933,
+      "duplicateRate": 0.274,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0025,
-        "imageUrl": 0.0659
+        "coordinates": 0.0009,
+        "imageUrl": 0.0497
       },
       "seedStats": [
         {
@@ -104,7 +104,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 577,
+          "pageCountDiscovered": 581,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -140,7 +140,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 72,
+          "pageCountDiscovered": 73,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -152,8 +152,8 @@
           "propertyGroup": "apartment",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 168,
-          "listingCardsCollected": 149,
+          "pageCountDiscovered": 169,
+          "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1165,
+          "pageCountDiscovered": 1168,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0

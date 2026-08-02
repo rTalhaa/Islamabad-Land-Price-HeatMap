@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-02T03:26:52+00:00",
-  "searchCardCount": 1434,
-  "uniqueListingCount": 1243,
-  "exportedListingCount": 1243,
+  "generatedAt": "2026-08-02T13:56:16+00:00",
+  "searchCardCount": 1435,
+  "uniqueListingCount": 1206,
+  "exportedListingCount": 1206,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 577,
+      "pageCountDiscovered": 581,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 72,
+      "pageCountDiscovered": 73,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 168,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 169,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1165,
+      "pageCountDiscovered": 1168,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-02T03:26:52+00:00",
+    "generatedAt": "2026-08-02T13:56:16+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1344,
-        "exportedListings": 1183,
-        "detailSuccess": 1173,
+        "parsedCards": 1345,
+        "exportedListings": 1146,
+        "detailSuccess": 1130,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2933,
+        "duplicateRate": 0.274,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0025,
-          "imageUrl": 0.0659
+          "coordinates": 0.0009,
+          "imageUrl": 0.0497
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 577,
+            "pageCountDiscovered": 581,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 72,
+            "pageCountDiscovered": 73,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 168,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 169,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1165,
+            "pageCountDiscovered": 1168,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,23 +364,23 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-02T03:26:52+00:00",
-    "listingCount": 1243,
-    "geocodingAccuracy": 0.9622,
+    "generatedAt": "2026-08-02T13:56:16+00:00",
+    "listingCount": 1206,
+    "geocodingAccuracy": 0.9627,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9863,
-    "duplicateRate": 0.2824,
+    "freshnessWithin30Days": 0.9851,
+    "duplicateRate": 0.2637,
     "outlierCount": 5,
-    "suspiciousPpsfCount": 1,
+    "suspiciousPpsfCount": 2,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1195,
-      "Medium": 46,
+      "High": 1159,
+      "Medium": 45,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 1288.89,
+      "min": 96.62,
       "max": 866666.67,
       "median": 15555.56
     },
@@ -398,26 +398,15 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54424446",
+        "id": "zameen-54531036",
         "source": "Zameen",
-        "title": "750 Sq. Yards Corner Commercial Plot For Sale in Downtown Front & Back Open",
+        "title": "5 Marla Plot Available For Sale Block AA1 In Gulberg Residencia Islamabad",
         "neighborhood": "Gulberg",
-        "pricePerSqft": 38518.52,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_750_sq_yards_corner_commercial_plot_for_sale_in_downtown_front_back_open-54424446-8312-2.html"
-      },
-      {
-        "id": "zameen-54224594",
-        "source": "Zameen",
-        "title": "Best For Investment Plot For Sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1511.11,
+        "pricePerSqft": 1600.0,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_m_best_for_investment_plot_for_sale-54224594-13969-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_available_for_sale_block_aa1_in_gulberg_residencia_islamabad-54531036-13693-2.html"
       },
       {
         "id": "zameen-54551463",
@@ -429,6 +418,18 @@
           "far below comparable median"
         ],
         "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_phase_9_1_kanal_lp_quota_file_available_for_sale-54551463-20514-2.html"
+      },
+      {
+        "id": "zameen-54551630",
+        "source": "Zameen",
+        "title": "2 Bed Furnished Cube Appartment For Rent",
+        "neighborhood": "Bahria Town",
+        "pricePerSqft": 96.62,
+        "reasons": [
+          "outside plausible ppsf range",
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/bahria_enclave_cube_apartments_2_bed_furnished_cube_appartment_for_rent-54551630-21520-1.html"
       },
       {
         "id": "graana-1544816",
