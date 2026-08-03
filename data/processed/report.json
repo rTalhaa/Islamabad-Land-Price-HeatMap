@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-03T03:28:03+00:00",
-  "searchCardCount": 1435,
-  "uniqueListingCount": 1196,
-  "exportedListingCount": 1196,
+  "generatedAt": "2026-08-03T15:13:52+00:00",
+  "searchCardCount": 1436,
+  "uniqueListingCount": 1198,
+  "exportedListingCount": 1198,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 579,
+      "pageCountDiscovered": 582,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 168,
+      "pageCountDiscovered": 169,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1162,
+      "pageCountDiscovered": 1164,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -84,7 +84,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 164,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 369,
+      "pageCountDiscovered": 368,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-03T03:28:03+00:00",
+    "generatedAt": "2026-08-03T15:13:52+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0833,
+        "duplicateRate": 0.0333,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.7333,
+          "coordinates": 0.7667,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1345,
-        "exportedListings": 1136,
-        "detailSuccess": 1127,
+        "parsedCards": 1346,
+        "exportedListings": 1138,
+        "detailSuccess": 1126,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3037,
+        "duplicateRate": 0.2663,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0018,
-          "imageUrl": 0.0915
+          "coordinates": 0.0,
+          "imageUrl": 0.0729
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 579,
+            "pageCountDiscovered": 582,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 168,
+            "pageCountDiscovered": 169,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1162,
+            "pageCountDiscovered": 1164,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -328,7 +328,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 164,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 369,
+            "pageCountDiscovered": 368,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-03T03:28:03+00:00",
-    "listingCount": 1196,
-    "geocodingAccuracy": 0.9615,
+    "generatedAt": "2026-08-03T15:13:52+00:00",
+    "listingCount": 1198,
+    "geocodingAccuracy": 0.9616,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9849,
-    "duplicateRate": 0.2926,
-    "outlierCount": 3,
+    "freshnessWithin30Days": 0.9875,
+    "duplicateRate": 0.2546,
+    "outlierCount": 4,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1149,
+      "High": 1151,
       "Medium": 45,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 888.89,
+      "min": 1333.33,
       "max": 866666.67,
-      "median": 15555.56
+      "median": 15222.22
     },
     "topOutliers": [
       {
@@ -398,15 +398,26 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54551463",
+        "id": "zameen-54478685",
         "source": "Zameen",
-        "title": "DHA Gandhara Phase 9 1 Kanal LP Quota File Available for Sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1288.89,
+        "title": "10 Kanal Luxury Farmhouse | 4 Bedrooms | 2 Swimming Pools (Indoor & Outdoor) | Spacious Lawn | Scenic Location | Opposite Bahria Enclave",
+        "neighborhood": "Bahria Town",
+        "pricePerSqft": 4000.0,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_phase_9_1_kanal_lp_quota_file_available_for_sale-54551463-20514-2.html"
+        "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_4_bedrooms_2_swimming_pools_indoor_outdoor_spacious_lawn_scenic_location_opposite_bahria_enclave-54478685-11977-1.html"
+      },
+      {
+        "id": "zameen-54544846",
+        "source": "Zameen",
+        "title": "5 Marla Good Location Plot For Sale In Block-AA",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1466.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
       },
       {
         "id": "graana-1544816",
