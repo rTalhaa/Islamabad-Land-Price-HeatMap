@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T13:56:16+00:00",
+  "generatedAt": "2026-08-03T03:28:03+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -12,7 +12,7 @@
       "detailSuccess": 0,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.0667,
+      "duplicateRate": 0.0833,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0167,
@@ -85,16 +85,16 @@
       "attemptedPages": 54,
       "fetchedPages": 54,
       "parsedCards": 1345,
-      "exportedListings": 1146,
-      "detailSuccess": 1130,
+      "exportedListings": 1136,
+      "detailSuccess": 1127,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.274,
+      "duplicateRate": 0.3037,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0009,
-        "imageUrl": 0.0497
+        "coordinates": 0.0018,
+        "imageUrl": 0.0915
       },
       "seedStats": [
         {
@@ -104,7 +104,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 581,
+          "pageCountDiscovered": 579,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -152,7 +152,7 @@
           "propertyGroup": "apartment",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 169,
+          "pageCountDiscovered": 168,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1168,
+          "pageCountDiscovered": 1162,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -200,7 +200,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 372,
+          "pageCountDiscovered": 369,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0

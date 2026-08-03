@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-08-02T13:56:16+00:00",
-  "listingCount": 1206,
-  "geocodingAccuracy": 0.9627,
+  "generatedAt": "2026-08-03T03:28:03+00:00",
+  "listingCount": 1196,
+  "geocodingAccuracy": 0.9615,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9851,
-  "duplicateRate": 0.2637,
-  "outlierCount": 5,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9849,
+  "duplicateRate": 0.2926,
+  "outlierCount": 3,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1159,
+    "High": 1149,
     "Medium": 45,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 96.62,
+    "min": 888.89,
     "max": 866666.67,
     "median": 15555.56
   },
@@ -33,17 +33,6 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54531036",
-      "source": "Zameen",
-      "title": "5 Marla Plot Available For Sale Block AA1 In Gulberg Residencia Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1600.0,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_available_for_sale_block_aa1_in_gulberg_residencia_islamabad-54531036-13693-2.html"
-    },
-    {
       "id": "zameen-54551463",
       "source": "Zameen",
       "title": "DHA Gandhara Phase 9 1 Kanal LP Quota File Available for Sale",
@@ -53,18 +42,6 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_phase_9_1_kanal_lp_quota_file_available_for_sale-54551463-20514-2.html"
-    },
-    {
-      "id": "zameen-54551630",
-      "source": "Zameen",
-      "title": "2 Bed Furnished Cube Appartment For Rent",
-      "neighborhood": "Bahria Town",
-      "pricePerSqft": 96.62,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/bahria_enclave_cube_apartments_2_bed_furnished_cube_appartment_for_rent-54551630-21520-1.html"
     },
     {
       "id": "graana-1544816",
