@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-03T15:13:52+00:00",
-  "listingCount": 1198,
+  "generatedAt": "2026-08-04T03:12:32+00:00",
+  "listingCount": 1197,
   "geocodingAccuracy": 0.9616,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
   "freshnessWithin30Days": 0.9875,
-  "duplicateRate": 0.2546,
-  "outlierCount": 4,
+  "duplicateRate": 0.2448,
+  "outlierCount": 5,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1151,
+    "High": 1150,
     "Medium": 45,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1333.33,
+    "min": 592.59,
     "max": 866666.67,
-    "median": 15222.22
+    "median": 15454.78
   },
   "topOutliers": [
     {
@@ -44,15 +44,26 @@
       "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_4_bedrooms_2_swimming_pools_indoor_outdoor_spacious_lawn_scenic_location_opposite_bahria_enclave-54478685-11977-1.html"
     },
     {
-      "id": "zameen-54544846",
+      "id": "zameen-49459099",
       "source": "Zameen",
-      "title": "5 Marla Good Location Plot For Sale In Block-AA",
+      "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1466.67,
+      "pricePerSqft": 1417.78,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-49459099-13693-2.html"
+    },
+    {
+      "id": "zameen-54450726",
+      "source": "Zameen",
+      "title": "DHA PHASE 9 GANDHARA PLOT FOR SALE",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1111.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9_gandhara_plot_for_sale-54450726-20514-2.html"
     },
     {
       "id": "graana-1544816",
