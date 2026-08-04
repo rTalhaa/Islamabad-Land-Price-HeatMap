@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-04T03:12:32+00:00",
-  "listingCount": 1197,
-  "geocodingAccuracy": 0.9616,
+  "generatedAt": "2026-08-04T14:49:50+00:00",
+  "listingCount": 1237,
+  "geocodingAccuracy": 0.9628,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9875,
-  "duplicateRate": 0.2448,
-  "outlierCount": 5,
+  "freshnessWithin30Days": 0.9879,
+  "duplicateRate": 0.253,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1150,
+    "High": 1190,
     "Medium": 45,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 592.59,
+    "min": 1177.78,
     "max": 866666.67,
-    "median": 15454.78
+    "median": 15000.0
   },
   "topOutliers": [
     {
@@ -33,37 +33,15 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54478685",
+      "id": "zameen-54378909",
       "source": "Zameen",
-      "title": "10 Kanal Luxury Farmhouse | 4 Bedrooms | 2 Swimming Pools (Indoor & Outdoor) | Spacious Lawn | Scenic Location | Opposite Bahria Enclave",
-      "neighborhood": "Bahria Town",
-      "pricePerSqft": 4000.0,
+      "title": "CORNER PLOT FOR SALE",
+      "neighborhood": "Top City 1",
+      "pricePerSqft": 65435.9,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_4_bedrooms_2_swimming_pools_indoor_outdoor_spacious_lawn_scenic_location_opposite_bahria_enclave-54478685-11977-1.html"
-    },
-    {
-      "id": "zameen-49459099",
-      "source": "Zameen",
-      "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1417.78,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-49459099-13693-2.html"
-    },
-    {
-      "id": "zameen-54450726",
-      "source": "Zameen",
-      "title": "DHA PHASE 9 GANDHARA PLOT FOR SALE",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1111.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9_gandhara_plot_for_sale-54450726-20514-2.html"
+      "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_kanwar_moiz_block_corner_plot_for_sale-54378909-22390-2.html"
     },
     {
       "id": "graana-1544816",
