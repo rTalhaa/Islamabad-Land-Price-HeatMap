@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-06T14:45:03+00:00",
-  "searchCardCount": 1438,
-  "uniqueListingCount": 1204,
-  "exportedListingCount": 1204,
+  "generatedAt": "2026-08-07T03:16:16+00:00",
+  "searchCardCount": 1440,
+  "uniqueListingCount": 1219,
+  "exportedListingCount": 1219,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 584,
+      "pageCountDiscovered": 582,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -24,7 +24,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 65,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 66,
+      "pageCountDiscovered": 65,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 72,
+      "pageCountDiscovered": 73,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 168,
+      "pageCountDiscovered": 167,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1168,
+      "pageCountDiscovered": 1167,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-06T14:45:03+00:00",
+    "generatedAt": "2026-08-07T03:16:16+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.75,
+          "coordinates": 0.7667,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1348,
-        "exportedListings": 1144,
-        "detailSuccess": 1133,
+        "parsedCards": 1350,
+        "exportedListings": 1159,
+        "detailSuccess": 1143,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2439,
+        "duplicateRate": 0.283,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0035,
-          "imageUrl": 0.0647
+          "coordinates": 0.0009,
+          "imageUrl": 0.0777
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 584,
+            "pageCountDiscovered": 582,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -268,7 +268,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 65,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 66,
+            "pageCountDiscovered": 65,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 72,
+            "pageCountDiscovered": 73,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 168,
+            "pageCountDiscovered": 167,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1168,
+            "pageCountDiscovered": 1167,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-06T14:45:03+00:00",
-    "listingCount": 1204,
-    "geocodingAccuracy": 0.9593,
+    "generatedAt": "2026-08-07T03:16:16+00:00",
+    "listingCount": 1219,
+    "geocodingAccuracy": 0.9614,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9867,
-    "duplicateRate": 0.2334,
-    "outlierCount": 3,
+    "freshnessWithin30Days": 0.9869,
+    "duplicateRate": 0.2707,
+    "outlierCount": 5,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1154,
-      "Medium": 48,
+      "High": 1171,
+      "Medium": 46,
       "Low": 2
     },
     "ppsfRange": {
       "min": 555.56,
       "max": 866666.67,
-      "median": 15333.33
+      "median": 14444.44
     },
     "topOutliers": [
       {
@@ -396,6 +396,28 @@
           "far above comparable median"
         ],
         "url": "https://www.graana.com/property/1545978"
+      },
+      {
+        "id": "zameen-54570704",
+        "source": "Zameen",
+        "title": "non ballot corner plot for sale in dha valley Islamabad open file",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1133.33,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+      },
+      {
+        "id": "zameen-54418729",
+        "source": "Zameen",
+        "title": "One Kanal Open Cartefcat For Sale In DHA Phase 6",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 777.78,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_k_one_kanal_open_cartefcat_for_sale_in_dha_phase_6-54418729-14633-2.html"
       },
       {
         "id": "zameen-49324832",
