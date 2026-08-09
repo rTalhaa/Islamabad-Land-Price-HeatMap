@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09T02:22:06+00:00",
+  "generatedAt": "2026-08-09T13:25:05+00:00",
   "searchCardCount": 1434,
-  "uniqueListingCount": 1210,
-  "exportedListingCount": 1210,
+  "uniqueListingCount": 1207,
+  "exportedListingCount": 1207,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 586,
+      "pageCountDiscovered": 588,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 167,
+      "pageCountDiscovered": 168,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1167,
+      "pageCountDiscovered": 1172,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 164,
+      "pageCountDiscovered": 165,
       "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 184,
+      "pageCountDiscovered": 185,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 370,
+      "pageCountDiscovered": 372,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-09T02:22:06+00:00",
+    "generatedAt": "2026-08-09T13:25:05+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0333,
+        "duplicateRate": 0.05,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.7667,
+          "coordinates": 0.75,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1344,
-        "exportedListings": 1150,
-        "detailSuccess": 1139,
+        "exportedListings": 1147,
+        "detailSuccess": 1133,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3009,
+        "duplicateRate": 0.2772,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0052,
-          "imageUrl": 0.0896
+          "coordinates": 0.0,
+          "imageUrl": 0.0645
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 586,
+            "pageCountDiscovered": 588,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 167,
+            "pageCountDiscovered": 168,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1167,
+            "pageCountDiscovered": 1172,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 164,
+            "pageCountDiscovered": 165,
             "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 184,
+            "pageCountDiscovered": 185,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 370,
+            "pageCountDiscovered": 372,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-09T02:22:06+00:00",
-    "listingCount": 1210,
-    "geocodingAccuracy": 0.957,
+    "generatedAt": "2026-08-09T13:25:05+00:00",
+    "listingCount": 1207,
+    "geocodingAccuracy": 0.9627,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.986,
-    "duplicateRate": 0.2876,
-    "outlierCount": 5,
+    "freshnessWithin30Days": 0.9843,
+    "duplicateRate": 0.2659,
+    "outlierCount": 2,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1157,
-      "Medium": 51,
+      "High": 1161,
+      "Medium": 44,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 805.56,
+      "min": 1000.0,
       "max": 866666.67,
-      "median": 14111.11
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -396,39 +396,6 @@
           "far above comparable median"
         ],
         "url": "https://www.graana.com/property/1545978"
-      },
-      {
-        "id": "zameen-54544846",
-        "source": "Zameen",
-        "title": "5 Marla Good Location Plot For Sale In Block-AA",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 1466.67,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
-      },
-      {
-        "id": "zameen-54570704",
-        "source": "Zameen",
-        "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1133.33,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
-      },
-      {
-        "id": "zameen-54581090",
-        "source": "Zameen",
-        "title": "marigold 8 Marla plot for sale in dha valley Islamabad transferable",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 805.56,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_marigold_sector_marigold_8_marla_plot_for_sale_in_dha_valley_islamabad_transferable-54581090-3221-2.html"
       },
       {
         "id": "graana-1544816",
