@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T02:26:52+00:00",
-  "searchCardCount": 1435,
-  "uniqueListingCount": 1225,
-  "exportedListingCount": 1225,
+  "generatedAt": "2026-08-10T13:43:24+00:00",
+  "searchCardCount": 1436,
+  "uniqueListingCount": 1216,
+  "exportedListingCount": 1216,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 587,
+      "pageCountDiscovered": 590,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 65,
+      "pageCountDiscovered": 66,
       "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 73,
+      "pageCountDiscovered": 74,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1171,
+      "pageCountDiscovered": 1176,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,8 +95,8 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 184,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 185,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 371,
+      "pageCountDiscovered": 373,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-10T02:26:52+00:00",
+    "generatedAt": "2026-08-10T13:43:24+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0333,
+        "duplicateRate": 0.0167,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.75,
+          "coordinates": 0.7333,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1345,
-        "exportedListings": 1165,
-        "detailSuccess": 1145,
+        "parsedCards": 1346,
+        "exportedListings": 1156,
+        "detailSuccess": 1134,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3004,
+        "duplicateRate": 0.2751,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0017,
-          "imageUrl": 0.0627
+          "coordinates": 0.0009,
+          "imageUrl": 0.0683
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 587,
+            "pageCountDiscovered": 590,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 65,
+            "pageCountDiscovered": 66,
             "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 73,
+            "pageCountDiscovered": 74,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1171,
+            "pageCountDiscovered": 1176,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,8 +339,8 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 184,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 185,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 371,
+            "pageCountDiscovered": 373,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-10T02:26:52+00:00",
-    "listingCount": 1225,
-    "geocodingAccuracy": 0.9616,
+    "generatedAt": "2026-08-10T13:43:24+00:00",
+    "listingCount": 1216,
+    "geocodingAccuracy": 0.963,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9845,
-    "duplicateRate": 0.2873,
-    "outlierCount": 4,
+    "freshnessWithin30Days": 0.9844,
+    "duplicateRate": 0.2623,
+    "outlierCount": 5,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1177,
-      "Medium": 46,
+      "High": 1170,
+      "Medium": 44,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 1155.56,
+      "min": 1022.22,
       "max": 866666.67,
-      "median": 15358.98
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -398,26 +398,37 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54222298",
+        "id": "zameen-54424446",
         "source": "Zameen",
-        "title": "GULBERG RESIDENCIA BLOCK P3 1KANAL PLOT FOR SALE.",
+        "title": "750 Sq. Yards Corner Commercial Plot For Sale in Downtown Front & Back Open",
         "neighborhood": "Gulberg",
-        "pricePerSqft": 1222.22,
+        "pricePerSqft": 38518.52,
         "reasons": [
-          "far below comparable median"
+          "far above comparable median"
         ],
-        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p3_gulberg_residencia_block_p3_1kanal_plot_for_sale-54222298-13697-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_750_sq_yards_corner_commercial_plot_for_sale_in_downtown_front_back_open-54424446-8312-2.html"
       },
       {
-        "id": "zameen-54498701",
+        "id": "zameen-52201158",
         "source": "Zameen",
-        "title": "DHA Gandhara (Phase 9) Islamabad 1 Kanal LP Quota File Available For Sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1155.56,
+        "title": "5 Marla Prime Location (Corner + Park face) Plot For Sale In Gulber Residencia AA Block",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1511.11,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_phase_9_islamabad_1_kanal_lp_quota_file_available_for_sale-54498701-20514-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_prime_location_corner_park_face_plot_for_sale_in_gulber_residencia_aa_block-52201158-13693-2.html"
+      },
+      {
+        "id": "zameen-54582920",
+        "source": "Zameen",
+        "title": "DHA PHASE 9",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1066.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9-54582920-20514-2.html"
       },
       {
         "id": "graana-1544816",
