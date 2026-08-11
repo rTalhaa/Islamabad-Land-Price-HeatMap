@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-11T02:23:03+00:00",
-  "listingCount": 1211,
-  "geocodingAccuracy": 0.9637,
+  "generatedAt": "2026-08-11T13:40:22+00:00",
+  "listingCount": 1204,
+  "geocodingAccuracy": 0.9601,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9843,
-  "duplicateRate": 0.2626,
-  "outlierCount": 2,
+  "freshnessWithin30Days": 0.9842,
+  "duplicateRate": 0.2184,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1166,
-    "Medium": 43,
+    "High": 1155,
+    "Medium": 47,
     "Low": 2
   },
   "ppsfRange": {
     "min": 1022.22,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 15111.11
   },
   "topOutliers": [
     {
@@ -31,6 +31,17 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54372455",
+      "source": "Zameen",
+      "title": "M All Dues Clear Plot Available For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1444.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_m_m_all_dues_clear_plot_available_for_sale-54372455-13969-2.html"
     },
     {
       "id": "graana-1544816",
