@@ -1,35 +1,57 @@
 {
-  "generatedAt": "2026-08-12T13:44:46+00:00",
-  "listingCount": 1156,
-  "geocodingAccuracy": 0.9991,
+  "generatedAt": "2026-08-13T02:38:18+00:00",
+  "listingCount": 1163,
+  "geocodingAccuracy": 0.9983,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.2803,
-  "outlierCount": 1,
+  "duplicateRate": 0.2451,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1155,
-    "Medium": 1,
+    "High": 1161,
+    "Medium": 2,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 669.19,
-    "max": 110726.64,
-    "median": 15111.11
+    "min": 888.89,
+    "max": 88888.89,
+    "median": 14545.45
   },
   "topOutliers": [
     {
-      "id": "zameen-54252346",
+      "id": "zameen-53789780",
       "source": "Zameen",
-      "title": "10 Marla Plot | Only 15% Down Payment | 3 Year Easy Plan | Eighteen Islamabad",
-      "neighborhood": "Kashmir Highway",
-      "pricePerSqft": 15555.56,
+      "title": "DHA VALLEY",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1388.89,
       "reasons": [
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_10_marla_plot_only_15_down_payment_3_year_easy_plan_eighteen_islamabad-54252346-12602-2.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_bogenvelia_sector_dha_valley-53789780-3209-2.html"
+    },
+    {
+      "id": "zameen-54591388",
+      "source": "Zameen",
+      "title": "Best And Most Secure Investment Of DHA",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1200.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_best_and_most_secure_investment_of_dha-54591388-20514-2.html"
+    },
+    {
+      "id": "zameen-54604033",
+      "source": "Zameen",
+      "title": "Dha valley",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1066.67,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_sunflower_sector_dha_valley-54604033-3206-2.html"
     }
   ],
   "fbrReference": {
