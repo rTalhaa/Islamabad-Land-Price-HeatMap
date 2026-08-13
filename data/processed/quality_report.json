@@ -1,57 +1,115 @@
 {
-  "generatedAt": "2026-08-13T02:38:18+00:00",
-  "listingCount": 1163,
-  "geocodingAccuracy": 0.9983,
+  "generatedAt": "2026-08-13T13:46:21+00:00",
+  "listingCount": 1201,
+  "geocodingAccuracy": 0.9634,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.2451,
-  "outlierCount": 3,
-  "suspiciousPpsfCount": 0,
+  "areaParsingSuccess": 0.9992,
+  "freshnessWithin30Days": 0.9842,
+  "duplicateRate": 0.2431,
+  "outlierCount": 8,
+  "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1161,
-    "Medium": 2,
-    "Low": 0
+    "High": 1153,
+    "Medium": 46,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 888.89,
-    "max": 88888.89,
-    "median": 14545.45
+    "min": 36.67,
+    "max": 866666.67,
+    "median": 15555.56
   },
   "topOutliers": [
     {
-      "id": "zameen-53789780",
-      "source": "Zameen",
-      "title": "DHA VALLEY",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1388.89,
+      "id": "graana-1545978",
+      "source": "Graana",
+      "title": "7.50 Ft\u00b2 Flat for Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 866666.67,
       "reasons": [
-        "far below comparable median"
+        "outside plausible ppsf range",
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_bogenvelia_sector_dha_valley-53789780-3209-2.html"
+      "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54591388",
+      "id": "zameen-54607445",
       "source": "Zameen",
-      "title": "Best And Most Secure Investment Of DHA",
+      "title": "DHA-4 river view south 5 Marla plots zone one",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 1200.0,
+      "pricePerSqft": 577777.78,
       "reasons": [
-        "far below comparable median"
+        "outside plausible ppsf range",
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_best_and_most_secure_investment_of_dha-54591388-20514-2.html"
+      "url": "https://www.zameen.com/Property/river_view_south_river_view_south_-_zone_1_dha-4_river_view_south_5_marla_plots_zone_one-54607445-21913-2.html"
     },
     {
-      "id": "zameen-54604033",
+      "id": "zameen-54378906",
       "source": "Zameen",
-      "title": "Dha valley",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1066.67,
+      "title": "CORNER PLOT FOR SALE",
+      "neighborhood": "Top City 1",
+      "pricePerSqft": 65435.9,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_kanwar_moiz_block_corner_plot_for_sale-54378906-22390-2.html"
+    },
+    {
+      "id": "zameen-54378911",
+      "source": "Zameen",
+      "title": "CORNER PLOT FOR SALE",
+      "neighborhood": "Top City 1",
+      "pricePerSqft": 65435.9,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_kanwar_moiz_block_corner_plot_for_sale-54378911-22390-2.html"
+    },
+    {
+      "id": "zameen-54544846",
+      "source": "Zameen",
+      "title": "5 Marla Good Location Plot For Sale In Block-AA",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1466.67,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_sunflower_sector_dha_valley-54604033-3206-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
+    },
+    {
+      "id": "zameen-50784452",
+      "source": "Zameen",
+      "title": "Jammu And Kashmir Housing Society Plots Requird",
+      "neighborhood": "J and K Zone 5",
+      "pricePerSqft": 311.11,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jammu_and_kashmir_housing_society_plots_requird-50784452-425-2.html"
+    },
+    {
+      "id": "zameen-54605346",
+      "source": "Zameen",
+      "title": "upper portion 3bed D-d tvl 4bath kitchen + sarvent 2car parking available in ideal location",
+      "neighborhood": "G-10",
+      "pricePerSqft": 36.67,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/g_10_g-10_2_upper_portion_3bed_d-d_tvl_4bath_kitchen_sarvent_2car_parking_available_in_ideal_location-54605346-3325-1.html"
+    },
+    {
+      "id": "graana-1544816",
+      "source": "Graana",
+      "title": "Sector A Cube Studio Appartment for sale",
+      "neighborhood": "Bahria Enclave",
+      "pricePerSqft": null,
+      "reasons": [
+        "missing ppsf"
+      ],
+      "url": "https://www.graana.com/property/1544816"
     }
   ],
   "fbrReference": {
