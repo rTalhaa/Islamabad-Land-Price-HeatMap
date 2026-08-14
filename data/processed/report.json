@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T02:35:40+00:00",
+  "generatedAt": "2026-08-14T13:40:54+00:00",
   "searchCardCount": 1439,
-  "uniqueListingCount": 1229,
-  "exportedListingCount": 1229,
+  "uniqueListingCount": 1213,
+  "exportedListingCount": 1213,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 587,
+      "pageCountDiscovered": 590,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 166,
+      "pageCountDiscovered": 167,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 160,
+      "pageCountDiscovered": 161,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 186,
+      "pageCountDiscovered": 187,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 370,
+      "pageCountDiscovered": 369,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-14T02:35:40+00:00",
+    "generatedAt": "2026-08-14T13:40:54+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.7333,
+          "coordinates": 0.75,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1349,
-        "exportedListings": 1169,
-        "detailSuccess": 1158,
+        "exportedListings": 1153,
+        "detailSuccess": 1142,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2429,
+        "duplicateRate": 0.2767,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0915
+          "imageUrl": 0.0729
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 587,
+            "pageCountDiscovered": 590,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 166,
+            "pageCountDiscovered": 167,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 160,
+            "pageCountDiscovered": 161,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 186,
+            "pageCountDiscovered": 187,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 370,
+            "pageCountDiscovered": 369,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-14T02:35:40+00:00",
-    "listingCount": 1229,
-    "geocodingAccuracy": 0.9642,
+    "generatedAt": "2026-08-14T13:40:54+00:00",
+    "listingCount": 1213,
+    "geocodingAccuracy": 0.9629,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9845,
-    "duplicateRate": 0.2327,
-    "outlierCount": 11,
-    "suspiciousPpsfCount": 2,
+    "freshnessWithin30Days": 0.9835,
+    "duplicateRate": 0.2646,
+    "outlierCount": 4,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1183,
+      "High": 1167,
       "Medium": 44,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 36.67,
+      "min": 634.92,
       "max": 866666.67,
-      "median": 14222.22
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -398,28 +398,6 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54561312",
-        "source": "Zameen",
-        "title": "Commercial Plot Available For Sale | Civic Center 4040 Gulberg Greens Islamabad",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 88888.89,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_gulberg_civic_center_commercial_plot_available_for_sale_civic_center_4040_gulberg_greens_islamabad-54561312-11712-2.html"
-      },
-      {
-        "id": "zameen-54423937",
-        "source": "Zameen",
-        "title": "Exclusive 1.3 Kanal Commercial Corner Plot For Sale Downtown Gulberg Greens",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 42735.04,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_exclusive_1_3_kanal_commercial_corner_plot_for_sale_downtown_gulberg_greens-54423937-8312-2.html"
-      },
-      {
         "id": "zameen-54424446",
         "source": "Zameen",
         "title": "750 Sq. Yards Corner Commercial Plot For Sale in Downtown Front & Back Open",
@@ -431,71 +409,15 @@
         "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_750_sq_yards_corner_commercial_plot_for_sale_in_downtown_front_back_open-54424446-8312-2.html"
       },
       {
-        "id": "zameen-54608464",
+        "id": "zameen-54222298",
         "source": "Zameen",
-        "title": "Most Affordable Plot For Sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 32888.89,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_-_sector_h_most_affordable_plot_for_sale-54608464-3203-2.html"
-      },
-      {
-        "id": "zameen-49459099",
-        "source": "Zameen",
-        "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
+        "title": "GULBERG RESIDENCIA BLOCK P3 1KANAL PLOT FOR SALE.",
         "neighborhood": "Gulberg",
-        "pricePerSqft": 1466.67,
+        "pricePerSqft": 1222.22,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-49459099-13693-2.html"
-      },
-      {
-        "id": "zameen-54570704",
-        "source": "Zameen",
-        "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1133.33,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
-      },
-      {
-        "id": "zameen-54389718",
-        "source": "Zameen",
-        "title": "8 Marla (30x60) residential plot File available for sale in the Ministry of Interior Employees Co-operative Housing Society (MIECHS) G-16/1, Islamabad",
-        "neighborhood": "G-16",
-        "pricePerSqft": 833.33,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/g_16_g-16_1_8_marla_30x60_residential_plot_file_available_for_sale_in_the_ministry_of_interior_employees_co-operative_housing_society_miechs_g-16_1_islamabad-54389718-14949-2.html"
-      },
-      {
-        "id": "zameen-54581090",
-        "source": "Zameen",
-        "title": "Marigold 8 Marla Plot For Sale In Dha Valley Islamabad Transferable",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 805.56,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_marigold_sector_marigold_8_marla_plot_for_sale_in_dha_valley_islamabad_transferable-54581090-3221-2.html"
-      },
-      {
-        "id": "zameen-54605346",
-        "source": "Zameen",
-        "title": "upper portion 3bed D-d tvl 4bath kitchen + sarvent 2car parking available in ideal location",
-        "neighborhood": "G-10",
-        "pricePerSqft": 36.67,
-        "reasons": [
-          "outside plausible ppsf range",
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/g_10_g-10_2_upper_portion_3bed_d-d_tvl_4bath_kitchen_sarvent_2car_parking_available_in_ideal_location-54605346-3325-1.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p3_gulberg_residencia_block_p3_1kanal_plot_for_sale-54222298-13697-2.html"
       },
       {
         "id": "graana-1544816",
