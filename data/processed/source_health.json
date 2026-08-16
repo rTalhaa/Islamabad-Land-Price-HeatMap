@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T01:55:20+00:00",
+  "generatedAt": "2026-08-16T13:12:59+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -12,7 +12,7 @@
       "detailSuccess": 0,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.05,
+      "duplicateRate": 0.0333,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0167,
@@ -85,16 +85,16 @@
       "attemptedPages": 54,
       "fetchedPages": 54,
       "parsedCards": 1350,
-      "exportedListings": 1151,
-      "detailSuccess": 1143,
+      "exportedListings": 1174,
+      "detailSuccess": 1165,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.285,
+      "duplicateRate": 0.2802,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
         "coordinates": 0.0,
-        "imageUrl": 0.1043
+        "imageUrl": 0.0647
       },
       "seedStats": [
         {
@@ -104,7 +104,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 586,
+          "pageCountDiscovered": 588,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1157,
+          "pageCountDiscovered": 1163,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -176,7 +176,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 159,
+          "pageCountDiscovered": 160,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -200,7 +200,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 364,
+          "pageCountDiscovered": 367,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T01:55:20+00:00",
+  "generatedAt": "2026-08-16T13:12:59+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 1211,
-  "exportedListingCount": 1211,
+  "uniqueListingCount": 1234,
+  "exportedListingCount": 1234,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 586,
+      "pageCountDiscovered": 588,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1157,
+      "pageCountDiscovered": 1163,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 159,
+      "pageCountDiscovered": 160,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 364,
+      "pageCountDiscovered": 367,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-16T01:55:20+00:00",
+    "generatedAt": "2026-08-16T13:12:59+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,7 +163,7 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.05,
+        "duplicateRate": 0.0333,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 1151,
-        "detailSuccess": 1143,
+        "exportedListings": 1174,
+        "detailSuccess": 1165,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.285,
+        "duplicateRate": 0.2802,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.1043
+          "imageUrl": 0.0647
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 586,
+            "pageCountDiscovered": 588,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1157,
+            "pageCountDiscovered": 1163,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 159,
+            "pageCountDiscovered": 160,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 364,
+            "pageCountDiscovered": 367,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-16T01:55:20+00:00",
-    "listingCount": 1211,
-    "geocodingAccuracy": 0.9637,
+    "generatedAt": "2026-08-16T13:12:59+00:00",
+    "listingCount": 1234,
+    "geocodingAccuracy": 0.9643,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9835,
-    "duplicateRate": 0.2733,
-    "outlierCount": 4,
+    "freshnessWithin30Days": 0.9822,
+    "duplicateRate": 0.2682,
+    "outlierCount": 7,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1166,
+      "High": 1189,
       "Medium": 43,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 1377.78,
+      "min": 1444.44,
       "max": 866666.67,
-      "median": 15817.9
+      "median": 16296.3
     },
     "topOutliers": [
       {
@@ -398,6 +398,39 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
+        "id": "zameen-54400402",
+        "source": "Zameen",
+        "title": "Half Kanal Balloted Plot | Ready For Possession | Park Facing | EIGHTEEN Islamabad",
+        "neighborhood": "Kashmir Highway",
+        "pricePerSqft": 25088.89,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_half_kanal_balloted_plot_ready_for_possession_park_facing_eighteen_islamabad-54400402-12602-2.html"
+      },
+      {
+        "id": "zameen-54434055",
+        "source": "Zameen",
+        "title": "10 MARLA EXCLUSIVE GOLF COURSE VIEW PLOT AT EIGHTEEN",
+        "neighborhood": "Kashmir Highway",
+        "pricePerSqft": 22222.22,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_10_marla_exclusive_golf_course_view_plot_at_eighteen-54434055-12602-2.html"
+      },
+      {
+        "id": "zameen-54434253",
+        "source": "Zameen",
+        "title": "Premium Luxury 10 Marla Plot For Sale In Eighteen",
+        "neighborhood": "Kashmir Highway",
+        "pricePerSqft": 21822.22,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_premium_luxury_10_marla_plot_for_sale_in_eighteen-54434253-12602-2.html"
+      },
+      {
         "id": "zameen-54276370",
         "source": "Zameen",
         "title": "CORNER CATEGORY 5 Marla Residential Plot Available In Gulberg Residencia - Block AA1, Islamabad",
@@ -409,15 +442,15 @@
         "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_corner_category_5_marla_residential_plot_available_in_gulberg_residencia_-_block_aa1_islamabad-54276370-13693-2.html"
       },
       {
-        "id": "zameen-54611612",
+        "id": "zameen-54616555",
         "source": "Zameen",
-        "title": "1 Kanal Verified Transferable Plot File in DHA Gandhara (Phase 9) Islamabad.",
+        "title": "1 Kanal Plot for Sale in DHA Gandhara Best Investment Opportunity",
         "neighborhood": "DHA Defence",
-        "pricePerSqft": 1377.78,
+        "pricePerSqft": 1444.44,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_verified_transferable_plot_file_in_dha_gandhara_phase_9_islamabad-54611612-20514-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_plot_for_sale_in_dha_gandhara_best_investment_opportunity-54616555-20514-2.html"
       },
       {
         "id": "graana-1544816",
