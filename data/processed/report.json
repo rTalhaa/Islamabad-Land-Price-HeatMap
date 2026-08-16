@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T13:11:39+00:00",
+  "generatedAt": "2026-08-16T01:55:20+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 1236,
-  "exportedListingCount": 1236,
+  "uniqueListingCount": 1211,
+  "exportedListingCount": 1211,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 587,
+      "pageCountDiscovered": 586,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 165,
+      "pageCountDiscovered": 164,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1160,
+      "pageCountDiscovered": 1157,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 367,
+      "pageCountDiscovered": 364,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-15T13:11:39+00:00",
+    "generatedAt": "2026-08-16T01:55:20+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.75,
+          "coordinates": 0.7333,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 1176,
-        "detailSuccess": 1164,
+        "exportedListings": 1151,
+        "detailSuccess": 1143,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2611,
+        "duplicateRate": 0.285,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0536
+          "imageUrl": 0.1043
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 587,
+            "pageCountDiscovered": 586,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 165,
+            "pageCountDiscovered": 164,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1160,
+            "pageCountDiscovered": 1157,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 367,
+            "pageCountDiscovered": 364,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-15T13:11:39+00:00",
-    "listingCount": 1236,
-    "geocodingAccuracy": 0.9636,
+    "generatedAt": "2026-08-16T01:55:20+00:00",
+    "listingCount": 1211,
+    "geocodingAccuracy": 0.9637,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9838,
-    "duplicateRate": 0.2508,
+    "freshnessWithin30Days": 0.9835,
+    "duplicateRate": 0.2733,
     "outlierCount": 4,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1190,
-      "Medium": 44,
+      "High": 1166,
+      "Medium": 43,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 1066.67,
+      "min": 1377.78,
       "max": 866666.67,
-      "median": 15555.56
+      "median": 15817.9
     },
     "topOutliers": [
       {
