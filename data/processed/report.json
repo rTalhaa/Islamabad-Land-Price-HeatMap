@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T01:52:11+00:00",
+  "generatedAt": "2026-08-17T13:18:17+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 1221,
-  "exportedListingCount": 1221,
+  "uniqueListingCount": 1230,
+  "exportedListingCount": 1230,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 585,
+      "pageCountDiscovered": 588,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 163,
+      "pageCountDiscovered": 164,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 186,
+      "pageCountDiscovered": 184,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 367,
+      "pageCountDiscovered": 365,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-17T01:52:11+00:00",
+    "generatedAt": "2026-08-17T13:18:17+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.7333,
+          "coordinates": 0.7167,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 1161,
-        "detailSuccess": 1153,
+        "exportedListings": 1170,
+        "detailSuccess": 1157,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2894,
+        "duplicateRate": 0.2812,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0672
+          "imageUrl": 0.0761
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 585,
+            "pageCountDiscovered": 588,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 163,
+            "pageCountDiscovered": 164,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 186,
+            "pageCountDiscovered": 184,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 367,
+            "pageCountDiscovered": 365,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-17T01:52:11+00:00",
-    "listingCount": 1221,
-    "geocodingAccuracy": 0.964,
+    "generatedAt": "2026-08-17T13:18:17+00:00",
+    "listingCount": 1230,
+    "geocodingAccuracy": 0.965,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.982,
-    "duplicateRate": 0.2776,
-    "outlierCount": 4,
+    "freshnessWithin30Days": 0.9813,
+    "duplicateRate": 0.2699,
+    "outlierCount": 5,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1176,
-      "Medium": 43,
+      "High": 1186,
+      "Medium": 42,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 777.78,
+      "min": 669.19,
       "max": 866666.67,
-      "median": 16043.48
+      "median": 16000.0
     },
     "topOutliers": [
       {
@@ -398,26 +398,37 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-53789780",
+        "id": "zameen-54524276",
         "source": "Zameen",
-        "title": "DHA VALLEY",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1388.89,
+        "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1311.11,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_bogenvelia_sector_dha_valley-53789780-3209-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54524276-9126-2.html"
       },
       {
-        "id": "zameen-53789762",
+        "id": "zameen-54622109",
         "source": "Zameen",
-        "title": "5 Marla Residential Plot In DHA Valley - Daisy Sector, Islamabad Is Available As Of Now",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1200.0,
+        "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1311.11,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_daisy_sector_5_marla_residential_plot_in_dha_valley_-_daisy_sector_islamabad_is_available_as_of_now-53789762-3217-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622109-9126-2.html"
+      },
+      {
+        "id": "zameen-54622123",
+        "source": "Zameen",
+        "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1222.22,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622123-9126-2.html"
       },
       {
         "id": "graana-1544816",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T01:52:11+00:00",
+  "generatedAt": "2026-08-17T13:18:17+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -16,7 +16,7 @@
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0167,
-        "coordinates": 0.7333,
+        "coordinates": 0.7167,
         "imageUrl": 0.0333
       },
       "seedStats": [
@@ -85,16 +85,16 @@
       "attemptedPages": 54,
       "fetchedPages": 54,
       "parsedCards": 1350,
-      "exportedListings": 1161,
-      "detailSuccess": 1153,
+      "exportedListings": 1170,
+      "detailSuccess": 1157,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.2894,
+      "duplicateRate": 0.2812,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
         "coordinates": 0.0,
-        "imageUrl": 0.0672
+        "imageUrl": 0.0761
       },
       "seedStats": [
         {
@@ -104,7 +104,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 585,
+          "pageCountDiscovered": 588,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -152,7 +152,7 @@
           "propertyGroup": "apartment",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 163,
+          "pageCountDiscovered": 164,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -188,7 +188,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 186,
+          "pageCountDiscovered": 184,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -200,7 +200,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 367,
+          "pageCountDiscovered": 365,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
