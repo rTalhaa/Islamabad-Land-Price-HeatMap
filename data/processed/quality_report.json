@@ -1,102 +1,35 @@
 {
-  "generatedAt": "2026-08-21T01:54:19+00:00",
-  "listingCount": 1229,
-  "geocodingAccuracy": 0.9634,
+  "generatedAt": "2026-08-21T13:28:37+00:00",
+  "listingCount": 1162,
+  "geocodingAccuracy": 0.9974,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9813,
-  "duplicateRate": 0.2848,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 1,
+  "areaParsingSuccess": 1.0,
+  "freshnessWithin30Days": 1.0,
+  "duplicateRate": 0.29,
+  "outlierCount": 1,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1183,
-    "Medium": 44,
-    "Low": 2
+    "High": 1159,
+    "Medium": 3,
+    "Low": 0
   },
   "ppsfRange": {
-    "min": 772.22,
-    "max": 866666.67,
-    "median": 14472.22
+    "min": 669.19,
+    "max": 133333.33,
+    "median": 15555.56
   },
   "topOutliers": [
     {
-      "id": "graana-1545978",
-      "source": "Graana",
-      "title": "7.50 Ft\u00b2 Flat for Sale",
-      "neighborhood": "E-11",
-      "pricePerSqft": 866666.67,
+      "id": "zameen-54602069",
+      "source": "Zameen",
+      "title": "PRIME LOCATION PLOT FOR SALE A-BLOCK",
+      "neighborhood": "Faisal Hills",
+      "pricePerSqft": 133333.33,
       "reasons": [
-        "outside plausible ppsf range",
         "far above comparable median"
       ],
-      "url": "https://www.graana.com/property/1545978"
-    },
-    {
-      "id": "zameen-54631539",
-      "source": "Zameen",
-      "title": "A 5 Marla Residential Plot In Islamabad Is On The Market For sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1066.67,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_zinia_sector_a_5_marla_residential_plot_in_islamabad_is_on_the_market_for_sale-54631539-3219-2.html"
-    },
-    {
-      "id": "zameen-54639804",
-      "source": "Zameen",
-      "title": "5 Marla open file for sale in DHA valley",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1022.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_valley_5_marla_open_file_for_sale_in_dha_valley-54639804-1333-2.html"
-    },
-    {
-      "id": "zameen-54631536",
-      "source": "Zameen",
-      "title": "Ideal Residential Plot Is Available For sale In Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 805.56,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_daffodils_sector_ideal_residential_plot_is_available_for_sale_in_islamabad-54631536-3212-2.html"
-    },
-    {
-      "id": "zameen-54631537",
-      "source": "Zameen",
-      "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 794.44,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
-    },
-    {
-      "id": "zameen-54631538",
-      "source": "Zameen",
-      "title": "8 Marla Residential Plot For sale In Beautiful DHA Valley - Lotus Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 772.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lotus_sector_8_marla_residential_plot_for_sale_in_beautiful_dha_valley_-_lotus_sector-54631538-3224-2.html"
-    },
-    {
-      "id": "graana-1544816",
-      "source": "Graana",
-      "title": "Sector A Cube Studio Appartment for sale",
-      "neighborhood": "Bahria Enclave",
-      "pricePerSqft": null,
-      "reasons": [
-        "missing ppsf"
-      ],
-      "url": "https://www.graana.com/property/1544816"
+      "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_a_prime_location_plot_for_sale_a-block-54602069-12655-2.html"
     }
   ],
   "fbrReference": {

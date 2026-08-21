@@ -1,133 +1,128 @@
 {
-  "generatedAt": "2026-08-21T01:54:19+00:00",
+  "generatedAt": "2026-08-21T13:28:37+00:00",
   "city": "Islamabad",
-  "trackedListings": 1229,
-  "mappedListings": 1184,
-  "outlierCount": 7,
-  "neighborhoodCount": 103,
+  "trackedListings": 1162,
+  "mappedListings": 1159,
+  "outlierCount": 1,
+  "neighborhoodCount": 79,
   "medianPricePkr": 28000000.0,
-  "medianPricePerSqft": 14500.0,
-  "medianPricePerMarla": 3262500.0,
-  "medianFreshnessHours": 11.0,
+  "medianPricePerSqft": 15555.56,
+  "medianPricePerMarla": 3500000.0,
+  "medianFreshnessHours": 3.0,
   "medianConfidenceScore": 100.0,
   "confidenceBands": {
-    "High": 1183,
-    "Medium": 44,
-    "Low": 2
+    "High": 1159,
+    "Medium": 3,
+    "Low": 0
   },
   "sourceMix": {
-    "Graana": {
-      "label": "Graana",
-      "count": 60,
-      "share": 0.0488
-    },
     "Zameen": {
       "label": "Zameen",
-      "count": 1169,
-      "share": 0.9512
+      "count": 1162,
+      "share": 1.0
     }
   },
   "propertyGroups": [
     {
       "propertyGroup": "house",
-      "label": "Houses | 10 Marla",
-      "listingCount": 553,
-      "mappedCount": 531,
+      "label": "Houses",
+      "listingCount": 530,
+      "mappedCount": 530,
       "outlierCount": 0,
-      "medianPricePkr": 54500000.0,
-      "medianPricePerSqft": 24444.44
+      "medianPricePkr": 53000000.0,
+      "medianPricePerSqft": 24000.0
     },
     {
       "propertyGroup": "plot",
-      "label": "Residential Plots",
-      "listingCount": 526,
-      "mappedCount": 525,
-      "outlierCount": 5,
-      "medianPricePkr": 18500000.0,
-      "medianPricePerSqft": 7222.22
+      "label": "Residential Plots | 5 Marla",
+      "listingCount": 514,
+      "mappedCount": 511,
+      "outlierCount": 1,
+      "medianPricePkr": 16500000.0,
+      "medianPricePerSqft": 7111.11
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 150,
-      "mappedCount": 128,
-      "outlierCount": 2,
-      "medianPricePkr": 12000000.0,
-      "medianPricePerSqft": 13333.33
+      "listingCount": 118,
+      "mappedCount": 118,
+      "outlierCount": 0,
+      "medianPricePkr": 20000000.0,
+      "medianPricePerSqft": 16000.0
     }
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "F-6",
-      "listingCount": 2,
-      "mappedCount": 2,
+      "neighborhood": "New Blue Area",
+      "listingCount": 1,
+      "mappedCount": 1,
       "outlierCount": 0,
-      "medianPricePkr": 254000000.0,
-      "medianPricePerSqft": 112888.89,
-      "medianPricePerMarla": 25400000.0
+      "medianPricePkr": 87500000.0,
+      "medianPricePerSqft": 100922.72,
+      "medianPricePerMarla": 22707612.46
     },
     {
       "neighborhood": "F-7",
-      "listingCount": 2,
-      "mappedCount": 2,
+      "listingCount": 4,
+      "mappedCount": 4,
       "outlierCount": 0,
-      "medianPricePkr": 355000000.0,
-      "medianPricePerSqft": 78888.89,
-      "medianPricePerMarla": 17750000.0
-    },
-    {
-      "neighborhood": "Blue Area",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 89000000.0,
-      "medianPricePerSqft": 65925.93,
-      "medianPricePerMarla": 14833333.33
-    },
-    {
-      "neighborhood": "G-8",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 150000000.0,
-      "medianPricePerSqft": 60606.06,
-      "medianPricePerMarla": 13636363.64
-    },
-    {
-      "neighborhood": "G-6",
-      "listingCount": 1,
-      "mappedCount": 1,
-      "outlierCount": 0,
-      "medianPricePkr": 135000000.0,
-      "medianPricePerSqft": 60000.0,
-      "medianPricePerMarla": 13500000.0
+      "medianPricePkr": 320000000.0,
+      "medianPricePerSqft": 71111.11,
+      "medianPricePerMarla": 16000000.0
     },
     {
       "neighborhood": "F-8",
-      "listingCount": 10,
-      "mappedCount": 10,
+      "listingCount": 9,
+      "mappedCount": 9,
       "outlierCount": 0,
-      "medianPricePkr": 257500000.0,
-      "medianPricePerSqft": 57222.22,
-      "medianPricePerMarla": 12875000.0
+      "medianPricePkr": 88000000.0,
+      "medianPricePerSqft": 61797.75,
+      "medianPricePerMarla": 13904494.38
     },
     {
-      "neighborhood": "G-9/4",
+      "neighborhood": "F-6",
       "listingCount": 1,
-      "mappedCount": 0,
+      "mappedCount": 1,
       "outlierCount": 0,
-      "medianPricePkr": 72500000.0,
-      "medianPricePerSqft": 53703.7,
-      "medianPricePerMarla": 12083333.33
+      "medianPricePkr": 250000000.0,
+      "medianPricePerSqft": 55555.56,
+      "medianPricePerMarla": 12500000.0
     },
     {
       "neighborhood": "D-12",
-      "listingCount": 32,
-      "mappedCount": 32,
+      "listingCount": 25,
+      "mappedCount": 25,
       "outlierCount": 0,
-      "medianPricePkr": 117500000.0,
-      "medianPricePerSqft": 53333.33,
-      "medianPricePerMarla": 12000000.0
+      "medianPricePkr": 120000000.0,
+      "medianPricePerSqft": 51111.11,
+      "medianPricePerMarla": 11500000.0
+    },
+    {
+      "neighborhood": "I-8",
+      "listingCount": 7,
+      "mappedCount": 7,
+      "outlierCount": 0,
+      "medianPricePkr": 160000000.0,
+      "medianPricePerSqft": 50000.0,
+      "medianPricePerMarla": 11250000.0
+    },
+    {
+      "neighborhood": "Blue Area",
+      "listingCount": 2,
+      "mappedCount": 2,
+      "outlierCount": 0,
+      "medianPricePkr": 53500000.0,
+      "medianPricePerSqft": 49782.61,
+      "medianPricePerMarla": 11201086.96
+    },
+    {
+      "neighborhood": "I-10",
+      "listingCount": 1,
+      "mappedCount": 1,
+      "outlierCount": 0,
+      "medianPricePkr": 59900000.0,
+      "medianPricePerSqft": 44370.37,
+      "medianPricePerMarla": 9983333.33
     }
   ],
   "seedStats": [
@@ -138,8 +133,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 585,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 586,
+      "listingCardsCollected": 147,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -151,7 +146,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 65,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -162,7 +157,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 67,
+      "pageCountDiscovered": 68,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -187,7 +182,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 167,
-      "listingCardsCollected": 149,
+      "listingCardsCollected": 146,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -198,8 +193,8 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1144,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 1149,
+      "listingCardsCollected": 147,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -211,7 +206,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 157,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -223,7 +218,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 180,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -234,8 +229,8 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 359,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 362,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -245,11 +240,11 @@
       "label": "Graana Houses",
       "propertyGroup": "house",
       "enabled": true,
-      "pagesScraped": 2,
-      "pageCountDiscovered": 2,
-      "listingCardsCollected": 30,
+      "pagesScraped": 0,
+      "pageCountDiscovered": 0,
+      "listingCardsCollected": 0,
       "cacheHits": 0,
-      "httpFailures": 0
+      "httpFailures": 1
     },
     {
       "source": "graana",
@@ -257,11 +252,11 @@
       "label": "Graana Flats & Apartments",
       "propertyGroup": "apartment",
       "enabled": true,
-      "pagesScraped": 2,
-      "pageCountDiscovered": 2,
-      "listingCardsCollected": 30,
+      "pagesScraped": 0,
+      "pageCountDiscovered": 0,
+      "listingCardsCollected": 0,
       "cacheHits": 0,
-      "httpFailures": 0
+      "httpFailures": 1
     },
     {
       "source": "graana",
@@ -269,11 +264,11 @@
       "label": "Graana Residential Plots",
       "propertyGroup": "plot",
       "enabled": true,
-      "pagesScraped": 2,
-      "pageCountDiscovered": 2,
-      "listingCardsCollected": 30,
+      "pagesScraped": 0,
+      "pageCountDiscovered": 0,
+      "listingCardsCollected": 0,
       "cacheHits": 0,
-      "httpFailures": 0
+      "httpFailures": 1
     }
   ],
   "fbrReference": {
