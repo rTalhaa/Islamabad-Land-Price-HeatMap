@@ -1,48 +1,25 @@
 {
-  "generatedAt": "2026-08-22T01:49:56+00:00",
-  "listingCount": 1184,
+  "generatedAt": "2026-08-22T13:13:15+00:00",
+  "listingCount": 1180,
   "geocodingAccuracy": 0.9992,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3184,
-  "outlierCount": 2,
+  "duplicateRate": 0.2907,
+  "outlierCount": 0,
   "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1183,
+    "High": 1179,
     "Medium": 1,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 745.56,
-    "max": 114942.53,
+    "min": 1444.44,
+    "max": 102880.66,
     "median": 15015.03
   },
-  "topOutliers": [
-    {
-      "id": "zameen-54613589",
-      "source": "Zameen",
-      "title": "5 Kanal Fully Furnished Farmhouse For Sale In Gulberg Greens Block A Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 2500.0,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_a_5_kanal_fully_furnished_farmhouse_for_sale_in_gulberg_greens_block_a_islamabad-54613589-9112-1.html"
-    },
-    {
-      "id": "zameen-53872089",
-      "source": "Zameen",
-      "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 745.56,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
-    }
-  ],
+  "topOutliers": [],
   "fbrReference": {
     "label": "FBR Islamabad immovable property valuation",
     "url": "https://www.fbr.gov.pk/propertyValuation/17653",
