@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T01:57:07+00:00",
+  "generatedAt": "2026-08-23T13:14:02+00:00",
   "searchCardCount": 1344,
-  "uniqueListingCount": 1179,
-  "exportedListingCount": 1179,
+  "uniqueListingCount": 1145,
+  "exportedListingCount": 1145,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 583,
+      "pageCountDiscovered": 586,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 165,
+      "pageCountDiscovered": 166,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1149,
+      "pageCountDiscovered": 1156,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 157,
+      "pageCountDiscovered": 158,
       "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 179,
+      "pageCountDiscovered": 180,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 363,
+      "pageCountDiscovered": 366,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-23T01:57:07+00:00",
+    "generatedAt": "2026-08-23T13:14:02+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1344,
-        "exportedListings": 1179,
-        "detailSuccess": 1169,
+        "exportedListings": 1145,
+        "detailSuccess": 1138,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2782,
+        "duplicateRate": 0.3153,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0008,
-          "imageUrl": 0.1001
+          "coordinates": 0.0,
+          "imageUrl": 0.0498
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 583,
+            "pageCountDiscovered": 586,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 165,
+            "pageCountDiscovered": 166,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1149,
+            "pageCountDiscovered": 1156,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 157,
+            "pageCountDiscovered": 158,
             "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 179,
+            "pageCountDiscovered": 180,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 363,
+            "pageCountDiscovered": 366,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,59 +364,49 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-23T01:57:07+00:00",
-    "listingCount": 1179,
-    "geocodingAccuracy": 0.9992,
+    "generatedAt": "2026-08-23T13:14:02+00:00",
+    "listingCount": 1145,
+    "geocodingAccuracy": 1.0,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
     "freshnessWithin30Days": 1.0,
-    "duplicateRate": 0.2782,
-    "outlierCount": 3,
-    "suspiciousPpsfCount": 0,
+    "duplicateRate": 0.3153,
+    "outlierCount": 2,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1178,
+      "High": 1144,
       "Medium": 1,
       "Low": 0
     },
     "ppsfRange": {
-      "min": 1444.44,
-      "max": 105555.56,
-      "median": 16000.0
+      "min": 40.0,
+      "max": 119047.62,
+      "median": 16444.44
     },
     "topOutliers": [
       {
-        "id": "zameen-54648764",
+        "id": "zameen-54652095",
         "source": "Zameen",
-        "title": "2 Bed Apartment Fully Furnished Fully Renovated",
-        "neighborhood": "E-11",
-        "pricePerSqft": 6481.48,
+        "title": "Avail Yourself A Great 1 Kanal Residential Plot In DHA Defence Phase 9",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1333.33,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_2_bed_apartment_fully_furnished_fully_renovated-54648764-11524-1.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_avail_yourself_a_great_1_kanal_residential_plot_in_dha_defence_phase_9-54652095-20514-2.html"
       },
       {
-        "id": "zameen-54650153",
+        "id": "zameen-54651200",
         "source": "Zameen",
-        "title": "m all dues clear file available for sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1511.11,
+        "title": "10 marla ground portion for rent in Banigala",
+        "neighborhood": "Bani Gala",
+        "pricePerSqft": 40.0,
         "reasons": [
+          "outside plausible ppsf range",
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_m_m_all_dues_clear_file_available_for_sale-54650153-13969-2.html"
-      },
-      {
-        "id": "zameen-54650158",
-        "source": "Zameen",
-        "title": "j block file available for sale",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1444.44,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_j_j_block_file_available_for_sale-54650158-13964-2.html"
+        "url": "https://www.zameen.com/Property/islamabad_bani_gala_10_marla_ground_portion_for_rent_in_banigala-54651200-340-1.html"
       }
     ],
     "fbrReference": {
