@@ -1,80 +1,58 @@
 {
-  "generatedAt": "2026-08-24T01:54:24+00:00",
-  "listingCount": 1144,
-  "geocodingAccuracy": 1.0,
+  "generatedAt": "2026-08-24T13:24:32+00:00",
+  "listingCount": 1192,
+  "geocodingAccuracy": 0.9681,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3086,
-  "outlierCount": 5,
+  "areaParsingSuccess": 0.9992,
+  "freshnessWithin30Days": 0.9782,
+  "duplicateRate": 0.2836,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1143,
-    "Medium": 1,
-    "Low": 0
+    "High": 1153,
+    "Medium": 37,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 40.0,
-    "max": 105555.56,
-    "median": 15555.56
+    "min": 1066.67,
+    "max": 866666.67,
+    "median": 16000.0
   },
   "topOutliers": [
     {
-      "id": "zameen-54570704",
-      "source": "Zameen",
-      "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1133.33,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
-    },
-    {
-      "id": "zameen-51765364",
-      "source": "Zameen",
-      "title": "Gulberg Greens Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1066.67,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p4_gulberg_greens_islamabad-51765364-13698-2.html"
-    },
-    {
-      "id": "zameen-54631537",
-      "source": "Zameen",
-      "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 794.44,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
-    },
-    {
-      "id": "zameen-54631538",
-      "source": "Zameen",
-      "title": "8 Marla Residential Plot For sale In Beautiful DHA Valley - Lotus Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 772.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lotus_sector_8_marla_residential_plot_for_sale_in_beautiful_dha_valley_-_lotus_sector-54631538-3224-2.html"
-    },
-    {
-      "id": "zameen-54651200",
-      "source": "Zameen",
-      "title": "10 marla ground portion for rent in Banigala",
-      "neighborhood": "Bani Gala",
-      "pricePerSqft": 40.0,
+      "id": "graana-1545978",
+      "source": "Graana",
+      "title": "7.50 Ft\u00b2 Flat for Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 866666.67,
       "reasons": [
         "outside plausible ppsf range",
+        "far above comparable median"
+      ],
+      "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54193225",
+      "source": "Zameen",
+      "title": "LAVENDER 5 MARLA PLOT 11 PAID OPEN VERY REASONABLE PRICE",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1155.56,
+      "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_bani_gala_10_marla_ground_portion_for_rent_in_banigala-54651200-340-1.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lavander_sector_lavender_5_marla_plot_11_paid_open_very_reasonable_price-54193225-3225-2.html"
+    },
+    {
+      "id": "graana-1544816",
+      "source": "Graana",
+      "title": "Sector A Cube Studio Appartment for sale",
+      "neighborhood": "Bahria Enclave",
+      "pricePerSqft": null,
+      "reasons": [
+        "missing ppsf"
+      ],
+      "url": "https://www.graana.com/property/1544816"
     }
   ],
   "fbrReference": {
