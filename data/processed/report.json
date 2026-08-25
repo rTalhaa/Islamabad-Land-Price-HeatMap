@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-24T13:24:32+00:00",
+  "generatedAt": "2026-08-25T01:51:37+00:00",
   "searchCardCount": 1438,
-  "uniqueListingCount": 1192,
-  "exportedListingCount": 1192,
+  "uniqueListingCount": 1206,
+  "exportedListingCount": 1206,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 589,
+      "pageCountDiscovered": 586,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 66,
+      "pageCountDiscovered": 65,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1164,
+      "pageCountDiscovered": 1156,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 159,
+      "pageCountDiscovered": 157,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 181,
+      "pageCountDiscovered": 180,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 369,
+      "pageCountDiscovered": 367,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-24T13:24:32+00:00",
+    "generatedAt": "2026-08-25T01:51:37+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1348,
-        "exportedListings": 1132,
-        "detailSuccess": 1122,
+        "exportedListings": 1146,
+        "detailSuccess": 1135,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2933,
+        "duplicateRate": 0.3124,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0009,
-          "imageUrl": 0.0574
+          "coordinates": 0.0017,
+          "imageUrl": 0.0829
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 589,
+            "pageCountDiscovered": 586,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 66,
+            "pageCountDiscovered": 65,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1164,
+            "pageCountDiscovered": 1156,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 159,
+            "pageCountDiscovered": 157,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 181,
+            "pageCountDiscovered": 180,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 369,
+            "pageCountDiscovered": 367,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-24T13:24:32+00:00",
-    "listingCount": 1192,
-    "geocodingAccuracy": 0.9681,
+    "generatedAt": "2026-08-25T01:51:37+00:00",
+    "listingCount": 1206,
+    "geocodingAccuracy": 0.9677,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9782,
-    "duplicateRate": 0.2836,
-    "outlierCount": 3,
+    "freshnessWithin30Days": 0.9784,
+    "duplicateRate": 0.3018,
+    "outlierCount": 4,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1153,
-      "Medium": 37,
+      "High": 1166,
+      "Medium": 38,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 1066.67,
+      "min": 711.11,
       "max": 866666.67,
-      "median": 16000.0
+      "median": 14444.44
     },
     "topOutliers": [
       {
@@ -407,6 +407,17 @@
           "far below comparable median"
         ],
         "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lavander_sector_lavender_5_marla_plot_11_paid_open_very_reasonable_price-54193225-3225-2.html"
+      },
+      {
+        "id": "zameen-54581090",
+        "source": "Zameen",
+        "title": "Marigold 8 Marla Plot For Sale In Dha Valley Islamabad Transferable",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 805.56,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_marigold_sector_marigold_8_marla_plot_for_sale_in_dha_valley_islamabad_transferable-54581090-3221-2.html"
       },
       {
         "id": "graana-1544816",
