@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:22:04+00:00",
+  "generatedAt": "2026-08-26T01:54:36+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -16,7 +16,7 @@
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0167,
-        "coordinates": 0.6333,
+        "coordinates": 0.6167,
         "imageUrl": 0.0333
       },
       "seedStats": [
@@ -85,16 +85,16 @@
       "attemptedPages": 54,
       "fetchedPages": 54,
       "parsedCards": 1349,
-      "exportedListings": 1139,
-      "detailSuccess": 1130,
+      "exportedListings": 1158,
+      "detailSuccess": 1143,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.3248,
+      "duplicateRate": 0.3066,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0018,
-        "imageUrl": 0.0755
+        "coordinates": 0.0017,
+        "imageUrl": 0.0846
       },
       "seedStats": [
         {
@@ -104,7 +104,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 588,
+          "pageCountDiscovered": 585,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -152,7 +152,7 @@
           "propertyGroup": "apartment",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 166,
+          "pageCountDiscovered": 165,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1160,
+          "pageCountDiscovered": 1159,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -200,7 +200,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 370,
+          "pageCountDiscovered": 369,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
