@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-27T08:39:23+00:00",
-  "listingCount": 1195,
-  "geocodingAccuracy": 0.9682,
+  "generatedAt": "2026-08-27T22:27:40+00:00",
+  "listingCount": 1217,
+  "geocodingAccuracy": 0.9688,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9791,
-  "duplicateRate": 0.2803,
-  "outlierCount": 4,
+  "freshnessWithin30Days": 0.9795,
+  "duplicateRate": 0.2777,
+  "outlierCount": 5,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1156,
+    "High": 1178,
     "Medium": 37,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 833.33,
+    "min": 669.19,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 15203.7
   },
   "topOutliers": [
     {
@@ -33,15 +33,26 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54432512",
+      "id": "zameen-54222298",
       "source": "Zameen",
-      "title": "5 Marla Residential Plot For Sale In Beautiful Gulberg Residencia - Block AA1",
+      "title": "GULBERG RESIDENCIA BLOCK P3 1KANAL PLOT FOR SALE.",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1600.0,
+      "pricePerSqft": 1222.22,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_residential_plot_for_sale_in_beautiful_gulberg_residencia_-_block_aa1-54432512-13693-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p3_gulberg_residencia_block_p3_1kanal_plot_for_sale-54222298-13697-2.html"
+    },
+    {
+      "id": "zameen-54670003",
+      "source": "Zameen",
+      "title": "DHA Gandhara Phase 9 Islamabad 1 Kanal Plot for Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1222.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_phase_9_islamabad_1_kanal_plot_for_sale-54670003-20514-2.html"
     },
     {
       "id": "zameen-54234941",
