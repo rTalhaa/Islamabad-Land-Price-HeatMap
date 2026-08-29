@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-28T22:20:01+00:00",
+  "generatedAt": "2026-08-29T06:38:20+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 1204,
-  "exportedListingCount": 1204,
+  "uniqueListingCount": 1222,
+  "exportedListingCount": 1222,
   "seedStats": [
     {
       "source": "zameen",
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1161,
+      "pageCountDiscovered": 1162,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 373,
+      "pageCountDiscovered": 374,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-28T22:20:01+00:00",
+    "generatedAt": "2026-08-29T06:38:20+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0667,
+        "duplicateRate": 0.1,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.6167,
+          "coordinates": 0.6,
           "imageUrl": 0.0333
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 1144,
-        "detailSuccess": 1136,
+        "exportedListings": 1162,
+        "detailSuccess": 1151,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2832,
+        "duplicateRate": 0.2978,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0009,
-          "imageUrl": 0.0699
+          "coordinates": 0.0017,
+          "imageUrl": 0.0921
         },
         "seedStats": [
           {
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1161,
+            "pageCountDiscovered": 1162,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 373,
+            "pageCountDiscovered": 374,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-28T22:20:01+00:00",
-    "listingCount": 1204,
-    "geocodingAccuracy": 0.9684,
+    "generatedAt": "2026-08-29T06:38:20+00:00",
+    "listingCount": 1222,
+    "geocodingAccuracy": 0.9689,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9776,
-    "duplicateRate": 0.2724,
-    "outlierCount": 2,
+    "freshnessWithin30Days": 0.9779,
+    "duplicateRate": 0.2881,
+    "outlierCount": 3,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1165,
+      "High": 1183,
       "Medium": 37,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 888.89,
+      "min": 1111.11,
       "max": 866666.67,
-      "median": 15200.0
+      "median": 15151.52
     },
     "topOutliers": [
       {
@@ -396,6 +396,17 @@
           "far above comparable median"
         ],
         "url": "https://www.graana.com/property/1545978"
+      },
+      {
+        "id": "zameen-54570704",
+        "source": "Zameen",
+        "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1133.33,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
       },
       {
         "id": "graana-1544816",
