@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-29T06:38:20+00:00",
-  "listingCount": 1222,
-  "geocodingAccuracy": 0.9689,
+  "generatedAt": "2026-08-29T16:53:57+00:00",
+  "listingCount": 1235,
+  "geocodingAccuracy": 0.9692,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9779,
-  "duplicateRate": 0.2881,
-  "outlierCount": 3,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9781,
+  "duplicateRate": 0.2842,
+  "outlierCount": 5,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1183,
-    "Medium": 37,
+    "High": 1195,
+    "Medium": 38,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1111.11,
+    "min": 50.79,
     "max": 866666.67,
-    "median": 15151.52
+    "median": 15945.18
   },
   "topOutliers": [
     {
@@ -33,15 +33,37 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54570704",
+      "id": "zameen-54676311",
       "source": "Zameen",
-      "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1133.33,
+      "title": "8 Marla Commercial - D Comm, on Prime Location in Down Town, Park View City",
+      "neighborhood": "Park View City",
+      "pricePerSqft": 69444.44,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/park_view_city_park_view_city_-_downtown_block_8_marla_commercial_-_d_comm_on_prime_location_in_down_town_park_view_city-54676311-20871-2.html"
+    },
+    {
+      "id": "zameen-54622104",
+      "source": "Zameen",
+      "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1444.44,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622104-9126-2.html"
+    },
+    {
+      "id": "zameen-54678055",
+      "source": "Zameen",
+      "title": "Upper Portion For Rent In I-8",
+      "neighborhood": "I-8",
+      "pricePerSqft": 50.79,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_i-8_upper_portion_for_rent_in_i-8-54678055-174-1.html"
     },
     {
       "id": "graana-1544816",
