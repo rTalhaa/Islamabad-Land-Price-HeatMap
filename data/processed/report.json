@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T04:45:30+00:00",
+  "generatedAt": "2026-08-30T16:47:14+00:00",
   "searchCardCount": 1440,
-  "uniqueListingCount": 1231,
-  "exportedListingCount": 1231,
+  "uniqueListingCount": 1199,
+  "exportedListingCount": 1199,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 577,
+      "pageCountDiscovered": 582,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 66,
+      "pageCountDiscovered": 68,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 72,
+      "pageCountDiscovered": 73,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1161,
+      "pageCountDiscovered": 1167,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 160,
+      "pageCountDiscovered": 162,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 373,
+      "pageCountDiscovered": 375,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-08-30T04:45:30+00:00",
+    "generatedAt": "2026-08-30T16:47:14+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,7 +163,7 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0667,
+        "duplicateRate": 0.0833,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1350,
-        "exportedListings": 1171,
-        "detailSuccess": 1160,
+        "exportedListings": 1139,
+        "detailSuccess": 1131,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3074,
+        "duplicateRate": 0.3319,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0009,
-          "imageUrl": 0.0828
+          "imageUrl": 0.0676
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 577,
+            "pageCountDiscovered": 582,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 66,
+            "pageCountDiscovered": 68,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 72,
+            "pageCountDiscovered": 73,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1161,
+            "pageCountDiscovered": 1167,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 160,
+            "pageCountDiscovered": 162,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 373,
+            "pageCountDiscovered": 375,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-08-30T04:45:30+00:00",
-    "listingCount": 1231,
-    "geocodingAccuracy": 0.9683,
+    "generatedAt": "2026-08-30T16:47:14+00:00",
+    "listingCount": 1199,
+    "geocodingAccuracy": 0.9675,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9773,
-    "duplicateRate": 0.2957,
+    "freshnessWithin30Days": 0.9733,
+    "duplicateRate": 0.3194,
     "outlierCount": 7,
-    "suspiciousPpsfCount": 2,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1190,
-      "Medium": 39,
+      "High": 1159,
+      "Medium": 38,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 300.0,
+      "min": 1235.56,
       "max": 866666.67,
-      "median": 16071.26
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -398,59 +398,59 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54158264",
+        "id": "zameen-54587583",
         "source": "Zameen",
-        "title": "DHA Gandhara, Officially Known As DHA Islamabad-Rawalpindi Phase 9, Is One Of The Most Significant Upcoming Residential And Commercial Projects In The Region.",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1433.33,
+        "title": "5 Marla Plot For Sale",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 10666.67,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_plot_for_sale-54587583-8260-2.html"
+      },
+      {
+        "id": "zameen-54606776",
+        "source": "Zameen",
+        "title": "5Marla Good Location For Sale In Block-AA",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1555.56,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_officially_known_as_dha_islamabad-rawalpindi_phase_9_is_one_of_the_most_significant_upcoming_residential_and_commercial_projects_in_the_region-54158264-20514-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5marla_good_location_for_sale_in_block-aa-54606776-13693-2.html"
       },
       {
-        "id": "zameen-53789762",
+        "id": "zameen-54606784",
         "source": "Zameen",
-        "title": "5 Marla Residential Plot In DHA Valley - Daisy Sector, Islamabad Is Available As Of Now",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1200.0,
+        "title": "5Marla Good Location For Sale In Block-AA",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1511.11,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_daisy_sector_5_marla_residential_plot_in_dha_valley_-_daisy_sector_islamabad_is_available_as_of_now-53789762-3217-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa2_5marla_good_location_for_sale_in_block-aa-54606784-17123-2.html"
       },
       {
-        "id": "zameen-54570704",
+        "id": "zameen-54544846",
         "source": "Zameen",
-        "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1133.33,
+        "title": "5 Marla Good Location Plot For Sale In Block-AA",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1466.67,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
       },
       {
-        "id": "zameen-54631537",
+        "id": "zameen-54659979",
         "source": "Zameen",
-        "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
+        "title": "1 Kanal Prime Residential Plot | DHA Gandhara Phase 9",
         "neighborhood": "DHA Defence",
-        "pricePerSqft": 794.44,
+        "pricePerSqft": 1333.33,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
-      },
-      {
-        "id": "zameen-54679757",
-        "source": "Zameen",
-        "title": "2Kanal Corner+Main Boulevard Plot Available For Sale B Block Opf Valley Islamabad",
-        "neighborhood": "OPF Valley",
-        "pricePerSqft": 300.0,
-        "reasons": [
-          "outside plausible ppsf range"
-        ],
-        "url": "https://www.zameen.com/Property/opf_valley_opf_valley_-_block_b_2kanal_corner_main_boulevard_plot_available_for_sale_b_block_opf_valley_islamabad-54679757-16432-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_prime_residential_plot_dha_gandhara_phase_9-54659979-20514-2.html"
       },
       {
         "id": "graana-1544816",
