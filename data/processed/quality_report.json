@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-30T16:47:14+00:00",
-  "listingCount": 1199,
-  "geocodingAccuracy": 0.9675,
+  "generatedAt": "2026-08-31T04:51:14+00:00",
+  "listingCount": 1201,
+  "geocodingAccuracy": 0.9684,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9733,
-  "duplicateRate": 0.3194,
+  "freshnessWithin30Days": 0.9725,
+  "duplicateRate": 0.2856,
   "outlierCount": 7,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1159,
-    "Medium": 38,
+    "High": 1162,
+    "Medium": 37,
     "Low": 2
   },
   "ppsfRange": {
     "min": 1235.56,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 15111.11
   },
   "topOutliers": [
     {
@@ -33,15 +33,26 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54587583",
+      "id": "zameen-54641262",
       "source": "Zameen",
-      "title": "5 Marla Plot For Sale",
+      "title": "Faisal Town Phase-2 Block K. 4 Plot Size 25x50 Plot Is Available For Sale",
       "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 10666.67,
+      "pricePerSqft": 2044.44,
       "reasons": [
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_plot_for_sale-54587583-8260-2.html"
+      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_faisal_town_phase-2_block_k_4_plot_size_25x50_plot_is_available_for_sale-54641262-20466-2.html"
+    },
+    {
+      "id": "zameen-54682720",
+      "source": "Zameen",
+      "title": "Faisal Town Phase-2 Block Overses Enclave 6 Plot size 35x70 Plot is available for sale Plot # 37 Final 38 lac",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 1644.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_faisal_town_phase-2_block_overses_enclave_6_plot_size_35x70_plot_is_available_for_sale_plot_37_final_38_lac-54682720-20466-2.html"
     },
     {
       "id": "zameen-54606776",
@@ -75,17 +86,6 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
-    },
-    {
-      "id": "zameen-54659979",
-      "source": "Zameen",
-      "title": "1 Kanal Prime Residential Plot | DHA Gandhara Phase 9",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1333.33,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_prime_residential_plot_dha_gandhara_phase_9-54659979-20514-2.html"
     },
     {
       "id": "graana-1544816",
