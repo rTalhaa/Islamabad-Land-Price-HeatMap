@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-31T04:51:14+00:00",
-  "listingCount": 1201,
-  "geocodingAccuracy": 0.9684,
+  "generatedAt": "2026-08-31T19:26:55+00:00",
+  "listingCount": 1191,
+  "geocodingAccuracy": 0.9689,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9725,
-  "duplicateRate": 0.2856,
-  "outlierCount": 7,
+  "freshnessWithin30Days": 0.9715,
+  "duplicateRate": 0.2762,
+  "outlierCount": 5,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1162,
-    "Medium": 37,
+    "High": 1153,
+    "Medium": 36,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1235.56,
+    "min": 1200.0,
     "max": 866666.67,
-    "median": 15111.11
+    "median": 16444.44
   },
   "topOutliers": [
     {
@@ -33,59 +33,37 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54641262",
+      "id": "zameen-54684879",
       "source": "Zameen",
-      "title": "Faisal Town Phase-2 Block K. 4 Plot Size 25x50 Plot Is Available For Sale",
+      "title": "10 Marla Plot, Golf Course Living ,On 3 Years Instalments For Sale",
+      "neighborhood": "Kashmir Highway",
+      "pricePerSqft": 16444.44,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_10_marla_plot_golf_course_living_on_3_years_instalments_for_sale-54684879-12602-2.html"
+    },
+    {
+      "id": "zameen-54475896",
+      "source": "Zameen",
+      "title": "5 Marla Park Face ( 25*50 In Block C ) In Demand: Rs 150 Lacs",
       "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 2044.44,
+      "pricePerSqft": 13333.33,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_faisal_town_phase-2_block_k_4_plot_size_25x50_plot_is_available_for_sale-54641262-20466-2.html"
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_park_face_25_50_in_block_c_in_demand_rs_150_lacs-54475896-16418-2.html"
     },
     {
-      "id": "zameen-54682720",
+      "id": "zameen-54483590",
       "source": "Zameen",
-      "title": "Faisal Town Phase-2 Block Overses Enclave 6 Plot size 35x70 Plot is available for sale Plot # 37 Final 38 lac",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1644.44,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_faisal_town_phase-2_block_overses_enclave_6_plot_size_35x70_plot_is_available_for_sale_plot_37_final_38_lac-54682720-20466-2.html"
-    },
-    {
-      "id": "zameen-54606776",
-      "source": "Zameen",
-      "title": "5Marla Good Location For Sale In Block-AA",
+      "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1555.56,
+      "pricePerSqft": 1200.0,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5marla_good_location_for_sale_in_block-aa-54606776-13693-2.html"
-    },
-    {
-      "id": "zameen-54606784",
-      "source": "Zameen",
-      "title": "5Marla Good Location For Sale In Block-AA",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa2_5marla_good_location_for_sale_in_block-aa-54606784-17123-2.html"
-    },
-    {
-      "id": "zameen-54544846",
-      "source": "Zameen",
-      "title": "5 Marla Good Location Plot For Sale In Block-AA",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1466.67,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54483590-9126-2.html"
     },
     {
       "id": "graana-1544816",
