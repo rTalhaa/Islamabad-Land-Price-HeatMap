@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-01T04:36:09+00:00",
-  "listingCount": 1206,
-  "geocodingAccuracy": 0.9693,
+  "generatedAt": "2026-09-01T16:45:38+00:00",
+  "listingCount": 1210,
+  "geocodingAccuracy": 0.9694,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9718,
-  "duplicateRate": 0.2828,
-  "outlierCount": 2,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9702,
+  "duplicateRate": 0.3066,
+  "outlierCount": 4,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1168,
-    "Medium": 36,
+    "High": 1171,
+    "Medium": 37,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1235.56,
+    "min": 55.56,
     "max": 866666.67,
-    "median": 16500.0
+    "median": 16000.0
   },
   "topOutliers": [
     {
@@ -31,6 +31,29 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54432512",
+      "source": "Zameen",
+      "title": "5 Marla Residential Plot For Sale In Beautiful Gulberg Residencia - Block AA1",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1600.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_residential_plot_for_sale_in_beautiful_gulberg_residencia_-_block_aa1-54432512-13693-2.html"
+    },
+    {
+      "id": "zameen-54689120",
+      "source": "Zameen",
+      "title": "Uper portion of 10 Marla house Without momtey in Sector G-13 Islamabad",
+      "neighborhood": "G-13",
+      "pricePerSqft": 55.56,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_g-13_uper_portion_of_10_marla_house_without_momtey_in_sector_g-13_islamabad-54689120-330-1.html"
     },
     {
       "id": "graana-1544816",
