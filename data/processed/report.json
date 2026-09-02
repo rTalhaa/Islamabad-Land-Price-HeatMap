@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T03:57:46+00:00",
-  "searchCardCount": 1439,
-  "uniqueListingCount": 1218,
-  "exportedListingCount": 1218,
+  "generatedAt": "2026-09-02T16:41:16+00:00",
+  "searchCardCount": 1438,
+  "uniqueListingCount": 1226,
+  "exportedListingCount": 1226,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 565,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 566,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 63,
+      "pageCountDiscovered": 64,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 162,
+      "pageCountDiscovered": 163,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1133,
+      "pageCountDiscovered": 1142,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 159,
+      "pageCountDiscovered": 160,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 365,
+      "pageCountDiscovered": 369,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-02T03:57:46+00:00",
+    "generatedAt": "2026-09-02T16:41:16+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1349,
-        "exportedListings": 1158,
-        "detailSuccess": 1148,
+        "parsedCards": 1348,
+        "exportedListings": 1166,
+        "detailSuccess": 1159,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3256,
+        "duplicateRate": 0.2899,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0009,
-          "imageUrl": 0.0855
+          "coordinates": 0.0,
+          "imageUrl": 0.0798
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 565,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 566,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 63,
+            "pageCountDiscovered": 64,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 162,
+            "pageCountDiscovered": 163,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1133,
+            "pageCountDiscovered": 1142,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 159,
+            "pageCountDiscovered": 160,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 365,
+            "pageCountDiscovered": 369,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,23 +364,23 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-02T03:57:46+00:00",
-    "listingCount": 1218,
-    "geocodingAccuracy": 0.968,
+    "generatedAt": "2026-09-02T16:41:16+00:00",
+    "listingCount": 1226,
+    "geocodingAccuracy": 0.969,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9704,
-    "duplicateRate": 0.3136,
-    "outlierCount": 6,
-    "suspiciousPpsfCount": 3,
+    "freshnessWithin30Days": 0.9706,
+    "duplicateRate": 0.2798,
+    "outlierCount": 9,
+    "suspiciousPpsfCount": 2,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1177,
-      "Medium": 38,
+      "High": 1187,
+      "Medium": 36,
       "Low": 3
     },
     "ppsfRange": {
-      "min": 55.56,
+      "min": 42.86,
       "max": 866666.67,
       "median": 15555.56
     },
@@ -398,49 +398,81 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54692600",
+        "id": "zameen-52273353",
         "source": "Zameen",
-        "title": "Jinnah garden phase 2",
-        "neighborhood": "FECHS",
-        "pricePerSqft": 1904.76,
+        "title": "50x50 Commercial Plot For Sale In Business Square, Gulberg Greens, Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 44444.44,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_gulberg_business_square_50x50_commercial_plot_for_sale_in_business_square_gulberg_greens_islamabad-52273353-11450-2.html"
+      },
+      {
+        "id": "zameen-54693985",
+        "source": "Zameen",
+        "title": "Good location Ideal Plot for Sale",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 12622.22,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_good_location_ideal_plot_for_sale-54693985-16418-2.html"
+      },
+      {
+        "id": "zameen-53569131",
+        "source": "Zameen",
+        "title": "Ideal 5 Kanal Farm House Plots Available In Gulberg Greens - Block D, Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 3555.56,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/jinnah_gardens_jinnah_gardens_phase_2_jinnah_garden_phase_2-54692600-1422-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_greens_gulberg_greens_-_block_d_ideal_5_kanal_farm_house_plots_available_in_gulberg_greens_-_block_d_islamabad-53569131-8316-1.html"
       },
       {
-        "id": "zameen-54689755",
+        "id": "zameen-54622104",
         "source": "Zameen",
-        "title": "5 Marla Booking of NOC approved Project Lake Shore City Islamabad, 12 Km from ShahAllhadita",
-        "neighborhood": "Top City 1",
-        "pricePerSqft": 1600.0,
+        "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1444.44,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/top_city_1_lakeshore_towers_5_marla_booking_of_noc_approved_project_lake_shore_city_islamabad_12_km_from_shahallhadita-54689755-20756-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622104-9126-2.html"
       },
       {
-        "id": "zameen-52247698",
+        "id": "zameen-54524276",
         "source": "Zameen",
-        "title": "Farm House Near DHA On M-2 Motorway Islamabad",
-        "neighborhood": "Lahore - Islamabad Motorway",
-        "pricePerSqft": 222.22,
+        "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1311.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54524276-9126-2.html"
+      },
+      {
+        "id": "zameen-54695711",
+        "source": "Zameen",
+        "title": "EGLANTINE 5 MARLA 12 PAID Plot File For Sale ALL DUES CLEAR",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1066.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_eglantine_sector_eglantine_5_marla_12_paid_plot_file_for_sale_all_dues_clear-54695711-3218-2.html"
+      },
+      {
+        "id": "graana-1553201",
+        "source": "Graana",
+        "title": "700 Ft\u00b2 Flat for Sale",
+        "neighborhood": "H-13",
+        "pricePerSqft": 42.86,
         "reasons": [
           "outside plausible ppsf range"
         ],
-        "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
-      },
-      {
-        "id": "zameen-54689120",
-        "source": "Zameen",
-        "title": "Uper portion of 10 Marla house Without momtey in Sector G-13 Islamabad",
-        "neighborhood": "G-13",
-        "pricePerSqft": 55.56,
-        "reasons": [
-          "outside plausible ppsf range",
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_g-13_uper_portion_of_10_marla_house_without_momtey_in_sector_g-13_islamabad-54689120-330-1.html"
+        "url": "https://www.graana.com/property/1553201"
       },
       {
         "id": "graana-1544816",
