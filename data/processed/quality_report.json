@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-01T16:45:38+00:00",
-  "listingCount": 1210,
-  "geocodingAccuracy": 0.9694,
+  "generatedAt": "2026-09-02T03:57:46+00:00",
+  "listingCount": 1218,
+  "geocodingAccuracy": 0.968,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9702,
-  "duplicateRate": 0.3066,
-  "outlierCount": 4,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9704,
+  "duplicateRate": 0.3136,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1171,
-    "Medium": 37,
-    "Low": 2
+    "High": 1177,
+    "Medium": 38,
+    "Low": 3
   },
   "ppsfRange": {
     "min": 55.56,
     "max": 866666.67,
-    "median": 16000.0
+    "median": 15555.56
   },
   "topOutliers": [
     {
@@ -33,15 +33,37 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54432512",
+      "id": "zameen-54692600",
       "source": "Zameen",
-      "title": "5 Marla Residential Plot For Sale In Beautiful Gulberg Residencia - Block AA1",
-      "neighborhood": "Gulberg",
+      "title": "Jinnah garden phase 2",
+      "neighborhood": "FECHS",
+      "pricePerSqft": 1904.76,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/jinnah_gardens_jinnah_gardens_phase_2_jinnah_garden_phase_2-54692600-1422-2.html"
+    },
+    {
+      "id": "zameen-54689755",
+      "source": "Zameen",
+      "title": "5 Marla Booking of NOC approved Project Lake Shore City Islamabad, 12 Km from ShahAllhadita",
+      "neighborhood": "Top City 1",
       "pricePerSqft": 1600.0,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_residential_plot_for_sale_in_beautiful_gulberg_residencia_-_block_aa1-54432512-13693-2.html"
+      "url": "https://www.zameen.com/Property/top_city_1_lakeshore_towers_5_marla_booking_of_noc_approved_project_lake_shore_city_islamabad_12_km_from_shahallhadita-54689755-20756-2.html"
+    },
+    {
+      "id": "zameen-52247698",
+      "source": "Zameen",
+      "title": "Farm House Near DHA On M-2 Motorway Islamabad",
+      "neighborhood": "Lahore - Islamabad Motorway",
+      "pricePerSqft": 222.22,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_lahore_-_islamabad_motorway_farm_house_near_dha_on_m-2_motorway_islamabad-52247698-21101-1.html"
     },
     {
       "id": "zameen-54689120",
