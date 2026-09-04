@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-03T16:30:23+00:00",
-  "listingCount": 1208,
-  "geocodingAccuracy": 0.9652,
+  "generatedAt": "2026-09-04T03:57:13+00:00",
+  "listingCount": 1214,
+  "geocodingAccuracy": 0.9662,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9702,
-  "duplicateRate": 0.2599,
-  "outlierCount": 3,
+  "freshnessWithin30Days": 0.9703,
+  "duplicateRate": 0.2817,
+  "outlierCount": 6,
   "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1164,
-    "Medium": 41,
+    "High": 1171,
+    "Medium": 40,
     "Low": 3
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 15480.43
   },
   "topOutliers": [
     {
@@ -31,6 +31,39 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54570704",
+      "source": "Zameen",
+      "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1133.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+    },
+    {
+      "id": "zameen-54631537",
+      "source": "Zameen",
+      "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 794.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
+    },
+    {
+      "id": "zameen-54631538",
+      "source": "Zameen",
+      "title": "8 Marla Residential Plot For sale In Beautiful DHA Valley - Lotus Sector",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 772.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lotus_sector_8_marla_residential_plot_for_sale_in_beautiful_dha_valley_-_lotus_sector-54631538-3224-2.html"
     },
     {
       "id": "graana-1553201",
