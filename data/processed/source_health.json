@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:17:38+00:00",
+  "generatedAt": "2026-09-05T03:59:26+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
@@ -16,7 +16,7 @@
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0167,
-        "coordinates": 0.6,
+        "coordinates": 0.5833,
         "imageUrl": 0.0333
       },
       "seedStats": [
@@ -84,17 +84,17 @@
       "disabledReason": null,
       "attemptedPages": 54,
       "fetchedPages": 54,
-      "parsedCards": 1342,
-      "exportedListings": 1162,
-      "detailSuccess": 1141,
+      "parsedCards": 1343,
+      "exportedListings": 1141,
+      "detailSuccess": 1135,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.2496,
+      "duplicateRate": 0.2375,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.0138,
-        "imageUrl": 0.0861
+        "coordinates": 0.0018,
+        "imageUrl": 0.0815
       },
       "seedStats": [
         {
@@ -104,7 +104,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 570,
+          "pageCountDiscovered": 569,
           "listingCardsCollected": 149,
           "cacheHits": 0,
           "httpFailures": 0
@@ -128,7 +128,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 64,
+          "pageCountDiscovered": 65,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -152,7 +152,7 @@
           "propertyGroup": "apartment",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 163,
+          "pageCountDiscovered": 162,
           "listingCardsCollected": 148,
           "cacheHits": 0,
           "httpFailures": 0
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1145,
+          "pageCountDiscovered": 1141,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -176,7 +176,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 161,
+          "pageCountDiscovered": 160,
           "listingCardsCollected": 149,
           "cacheHits": 0,
           "httpFailures": 0
@@ -188,8 +188,8 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 173,
-          "listingCardsCollected": 149,
+          "pageCountDiscovered": 172,
+          "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
         },
