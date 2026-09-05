@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-05T03:59:26+00:00",
-  "listingCount": 1201,
-  "geocodingAccuracy": 0.9692,
+  "generatedAt": "2026-09-05T15:18:11+00:00",
+  "listingCount": 1190,
+  "geocodingAccuracy": 0.9672,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9709,
-  "duplicateRate": 0.2281,
-  "outlierCount": 4,
+  "freshnessWithin30Days": 0.9706,
+  "duplicateRate": 0.3227,
+  "outlierCount": 5,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1163,
-    "Medium": 36,
+    "High": 1150,
+    "Medium": 38,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 711.11,
+    "min": 1404.44,
     "max": 866666.67,
-    "median": 14444.44
+    "median": 15806.45
   },
   "topOutliers": [
     {
@@ -33,26 +33,37 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54672541",
+      "id": "zameen-53619510",
       "source": "Zameen",
-      "title": "Residential Plot Available For sale In Faisal Town Phase 1 - Block A",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 11111.11,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_residential_plot_available_for_sale_in_faisal_town_phase_1_-_block_a-54672541-16416-2.html"
-    },
-    {
-      "id": "zameen-53741436",
-      "source": "Zameen",
-      "title": "Invest DHA 9 GANDHARA Islamabad 1 Kanal Residential plot | Pre-Launch price DHA Defence phase 9 For sale at good location",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1655.56,
+      "title": "Airport Green Garden - Block B Residential Plot Sized 5 Marla Is Available",
+      "neighborhood": "Kashmir Highway",
+      "pricePerSqft": 2488.89,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_invest_dha_9_gandhara_islamabad_1_kanal_residential_plot_pre-launch_price_dha_defence_phase_9_for_sale_at_good_location-53741436-20514-2.html"
+      "url": "https://www.zameen.com/Property/airport_green_garden_airport_green_garden_-_block_b_airport_green_garden_-_block_b_residential_plot_sized_5_marla_is_available-53619510-19372-2.html"
+    },
+    {
+      "id": "zameen-54126652",
+      "source": "Zameen",
+      "title": "Gulberg Residencia AA Block Affordable 5 Marla Plot In Gulberg Residencia AA Block Ideal For Investment",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1404.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_gulberg_residencia_aa_block_affordable_5_marla_plot_in_gulberg_residencia_aa_block_ideal_for_investment-54126652-13693-2.html"
+    },
+    {
+      "id": "zameen-54277562",
+      "source": "Zameen",
+      "title": "Affordable 5 Marla Plot Available In Block AA Gulberg Residencia",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1404.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_affordable_5_marla_plot_available_in_block_aa_gulberg_residencia-54277562-13693-2.html"
     },
     {
       "id": "graana-1544816",
