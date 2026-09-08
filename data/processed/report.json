@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T17:59:35+00:00",
-  "searchCardCount": 1435,
-  "uniqueListingCount": 1221,
-  "exportedListingCount": 1221,
+  "generatedAt": "2026-09-08T04:04:57+00:00",
+  "searchCardCount": 1434,
+  "uniqueListingCount": 1201,
+  "exportedListingCount": 1201,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 577,
+      "pageCountDiscovered": 573,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 65,
+      "pageCountDiscovered": 64,
       "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 161,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 160,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1149,
+      "pageCountDiscovered": 1145,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 161,
+      "pageCountDiscovered": 160,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 174,
+      "pageCountDiscovered": 173,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 372,
+      "pageCountDiscovered": 371,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-07T17:59:35+00:00",
+    "generatedAt": "2026-09-08T04:04:57+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1345,
-        "exportedListings": 1161,
-        "detailSuccess": 1149,
+        "parsedCards": 1344,
+        "exportedListings": 1141,
+        "detailSuccess": 1131,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2825,
+        "duplicateRate": 0.2936,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0009,
-          "imageUrl": 0.0887
+          "imageUrl": 0.1253
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 577,
+            "pageCountDiscovered": 573,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 65,
+            "pageCountDiscovered": 64,
             "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 161,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 160,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1149,
+            "pageCountDiscovered": 1145,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 161,
+            "pageCountDiscovered": 160,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 174,
+            "pageCountDiscovered": 173,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 372,
+            "pageCountDiscovered": 371,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-07T17:59:35+00:00",
-    "listingCount": 1221,
-    "geocodingAccuracy": 0.9689,
+    "generatedAt": "2026-09-08T04:04:57+00:00",
+    "listingCount": 1201,
+    "geocodingAccuracy": 0.9684,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9713,
-    "duplicateRate": 0.2703,
-    "outlierCount": 13,
+    "freshnessWithin30Days": 0.9709,
+    "duplicateRate": 0.2806,
+    "outlierCount": 5,
     "suspiciousPpsfCount": 2,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1182,
+      "High": 1162,
       "Medium": 36,
       "Low": 3
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 15070.58
+      "median": 15194.81
     },
     "topOutliers": [
       {
@@ -398,40 +398,18 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-52273353",
+        "id": "zameen-54708984",
         "source": "Zameen",
-        "title": "50x50 Commercial Plot For Sale In Business Square, Gulberg Greens, Islamabad",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 44444.44,
+        "title": "PLOT NO 22 CORNER , BLOCK I3 , 8 MARLA EXPRESSWAY COMMERCIAL , DHA 05 , ISLAMABAD",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 108333.33,
         "reasons": [
           "far above comparable median"
         ],
-        "url": "https://www.zameen.com/Property/gulberg_gulberg_business_square_50x50_commercial_plot_for_sale_in_business_square_gulberg_greens_islamabad-52273353-11450-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_phase_5_expressway_commercial_plot_no_22_corner_block_i3_8_marla_expressway_commercial_dha_05_islamabad-54708984-13293-2.html"
       },
       {
-        "id": "zameen-54715707",
-        "source": "Zameen",
-        "title": "Good location Ideal plot for Sale",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 12888.89,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_good_location_ideal_plot_for_sale-54715707-16416-2.html"
-      },
-      {
-        "id": "zameen-53367625",
-        "source": "Zameen",
-        "title": "V1 Green Ready-To-Move Apartments At The Lowest Price! Booking For Just 4.5 Million, Possession In 10 Months!",
-        "neighborhood": "B-17",
-        "pricePerSqft": 4255.32,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/islamabad_b-17_v1_green_ready-to-move_apartments_at_the_lowest_price_booking_for_just_4_5_million_possession_in_10_months-53367625-616-1.html"
-      },
-      {
-        "id": "zameen-54716926",
+        "id": "zameen-54716421",
         "source": "Zameen",
         "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
         "neighborhood": "DHA Defence",
@@ -439,73 +417,7 @@
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716926-20514-2.html"
-      },
-      {
-        "id": "zameen-54716929",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716929-20514-2.html"
-      },
-      {
-        "id": "zameen-54716930",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716930-20514-2.html"
-      },
-      {
-        "id": "zameen-54716932",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716932-20514-2.html"
-      },
-      {
-        "id": "zameen-54716934",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716934-20514-2.html"
-      },
-      {
-        "id": "zameen-54716936",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716936-20514-2.html"
-      },
-      {
-        "id": "zameen-54716937",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot File) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716937-20514-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_file_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716421-20514-2.html"
       },
       {
         "id": "graana-1553554",
