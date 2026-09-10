@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-09T16:28:56+00:00",
-  "listingCount": 1219,
-  "geocodingAccuracy": 0.968,
+  "generatedAt": "2026-09-10T04:07:12+00:00",
+  "listingCount": 1198,
+  "geocodingAccuracy": 0.9666,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9672,
-  "duplicateRate": 0.2773,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9666,
+  "duplicateRate": 0.2846,
+  "outlierCount": 9,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1178,
-    "Medium": 38,
+    "High": 1155,
+    "Medium": 40,
     "Low": 3
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 15666.67
+    "median": 15555.56
   },
   "topOutliers": [
     {
@@ -31,17 +31,6 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
-    },
-    {
-      "id": "zameen-54726750",
-      "source": "Zameen",
-      "title": "PLOT NO 08 , LIAQAT ALI KHAN BLVD CENTRAL COMMERCIAL , DHA 05 ISLAMABAD",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 79629.63,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_5_central_commercial_plot_no_08_liaqat_ali_khan_blvd_central_commercial_dha_05_islamabad-54726750-13294-2.html"
     },
     {
       "id": "zameen-53619510",
@@ -66,15 +55,48 @@
       "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622104-9126-2.html"
     },
     {
-      "id": "zameen-54622123",
+      "id": "zameen-54570704",
       "source": "Zameen",
-      "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1222.22,
+      "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1133.33,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622123-9126-2.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+    },
+    {
+      "id": "zameen-54631537",
+      "source": "Zameen",
+      "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 794.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
+    },
+    {
+      "id": "zameen-54631538",
+      "source": "Zameen",
+      "title": "8 Marla Residential Plot For sale In Beautiful DHA Valley - Lotus Sector",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 772.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lotus_sector_8_marla_residential_plot_for_sale_in_beautiful_dha_valley_-_lotus_sector-54631538-3224-2.html"
+    },
+    {
+      "id": "zameen-54726948",
+      "source": "Zameen",
+      "title": "1 Bedroom Apartment For Sale",
+      "neighborhood": "F-15",
+      "pricePerSqft": 100.0,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/f_15_f-15_1_1_bedroom_apartment_for_sale-54726948-3291-1.html"
     },
     {
       "id": "graana-1553554",
