@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-10T04:07:12+00:00",
-  "listingCount": 1198,
-  "geocodingAccuracy": 0.9666,
+  "generatedAt": "2026-09-10T16:31:32+00:00",
+  "listingCount": 1205,
+  "geocodingAccuracy": 0.9685,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9666,
-  "duplicateRate": 0.2846,
-  "outlierCount": 9,
-  "suspiciousPpsfCount": 3,
+  "freshnessWithin30Days": 0.9627,
+  "duplicateRate": 0.2689,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1155,
-    "Medium": 40,
-    "Low": 3
+    "High": 1165,
+    "Medium": 38,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 42.86,
+    "min": 488.89,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 15111.11
   },
   "topOutliers": [
     {
@@ -33,81 +33,48 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-53619510",
+      "id": "zameen-53684120",
       "source": "Zameen",
-      "title": "Airport Green Garden - Block B Residential Plot Sized 5 Marla Is Available",
-      "neighborhood": "Kashmir Highway",
-      "pricePerSqft": 2488.89,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/airport_green_garden_airport_green_garden_-_block_b_airport_green_garden_-_block_b_residential_plot_sized_5_marla_is_available-53619510-19372-2.html"
-    },
-    {
-      "id": "zameen-54622104",
-      "source": "Zameen",
-      "title": "1 Kanal Semi -Developed Residential Plot | P Block | Gulberg Residencia Islamabad",
-      "neighborhood": "Gulberg",
+      "title": "1 Kanal Residential Plot in DHA Gandhara Phase 9 Limited Time Offer at 65 Lacks",
+      "neighborhood": "DHA Defence",
       "pricePerSqft": 1444.44,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_1_kanal_semi_-developed_residential_plot_p_block_gulberg_residencia_islamabad-54622104-9126-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_residential_plot_in_dha_gandhara_phase_9_limited_time_offer_at_65_lacks-53684120-20514-2.html"
     },
     {
-      "id": "zameen-54570704",
+      "id": "zameen-54729648",
       "source": "Zameen",
-      "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
+      "title": "DHA GANDHRA PHASE 9 % DHA VERIFIED FILE AVAILABLE",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 1133.33,
+      "pricePerSqft": 1222.22,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhra_phase_9_dha_verified_file_available-54729648-20514-2.html"
     },
     {
-      "id": "zameen-54631537",
+      "id": "zameen-54695711",
       "source": "Zameen",
-      "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
+      "title": "EGLANTINE 5 MARLA 12 PAID Plot File For Sale ALL DUES CLEAR",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 794.44,
+      "pricePerSqft": 1066.67,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_eglantine_sector_eglantine_5_marla_12_paid_plot_file_for_sale_all_dues_clear-54695711-3218-2.html"
     },
     {
-      "id": "zameen-54631538",
+      "id": "zameen-54051029",
       "source": "Zameen",
-      "title": "8 Marla Residential Plot For sale In Beautiful DHA Valley - Lotus Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 772.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lotus_sector_8_marla_residential_plot_for_sale_in_beautiful_dha_valley_-_lotus_sector-54631538-3224-2.html"
-    },
-    {
-      "id": "zameen-54726948",
-      "source": "Zameen",
-      "title": "1 Bedroom Apartment For Sale",
-      "neighborhood": "F-15",
-      "pricePerSqft": 100.0,
+      "title": "JKCHS Zone 5 Merge Into Guldberg Plot For Sale",
+      "neighborhood": "J and K Zone 5",
+      "pricePerSqft": 488.89,
       "reasons": [
         "outside plausible ppsf range"
       ],
-      "url": "https://www.zameen.com/Property/f_15_f-15_1_1_bedroom_apartment_for_sale-54726948-3291-1.html"
-    },
-    {
-      "id": "graana-1553554",
-      "source": "Graana",
-      "title": "700 Ft\u00b2 Flat for Sale",
-      "neighborhood": "H-13",
-      "pricePerSqft": 42.86,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.graana.com/property/1553554"
+      "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jkchs_zone_5_merge_into_guldberg_plot_for_sale-54051029-425-2.html"
     },
     {
       "id": "graana-1544816",
