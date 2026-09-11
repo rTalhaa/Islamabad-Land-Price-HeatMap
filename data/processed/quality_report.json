@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-10T16:31:32+00:00",
-  "listingCount": 1205,
-  "geocodingAccuracy": 0.9685,
+  "generatedAt": "2026-09-11T04:05:26+00:00",
+  "listingCount": 1225,
+  "geocodingAccuracy": 0.9698,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9627,
-  "duplicateRate": 0.2689,
-  "outlierCount": 6,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9633,
+  "duplicateRate": 0.2539,
+  "outlierCount": 4,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1165,
-    "Medium": 38,
+    "High": 1187,
+    "Medium": 36,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 488.89,
+    "min": 1066.67,
     "max": 866666.67,
-    "median": 15111.11
+    "median": 16000.0
   },
   "topOutliers": [
     {
@@ -33,17 +33,6 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-53684120",
-      "source": "Zameen",
-      "title": "1 Kanal Residential Plot in DHA Gandhara Phase 9 Limited Time Offer at 65 Lacks",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1444.44,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_residential_plot_in_dha_gandhara_phase_9_limited_time_offer_at_65_lacks-53684120-20514-2.html"
-    },
-    {
       "id": "zameen-54729648",
       "source": "Zameen",
       "title": "DHA GANDHRA PHASE 9 % DHA VERIFIED FILE AVAILABLE",
@@ -55,26 +44,15 @@
       "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhra_phase_9_dha_verified_file_available-54729648-20514-2.html"
     },
     {
-      "id": "zameen-54695711",
+      "id": "zameen-54639804",
       "source": "Zameen",
-      "title": "EGLANTINE 5 MARLA 12 PAID Plot File For Sale ALL DUES CLEAR",
+      "title": "5 Marla open file for sale in DHA valley",
       "neighborhood": "DHA Defence",
       "pricePerSqft": 1066.67,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_eglantine_sector_eglantine_5_marla_12_paid_plot_file_for_sale_all_dues_clear-54695711-3218-2.html"
-    },
-    {
-      "id": "zameen-54051029",
-      "source": "Zameen",
-      "title": "JKCHS Zone 5 Merge Into Guldberg Plot For Sale",
-      "neighborhood": "J and K Zone 5",
-      "pricePerSqft": 488.89,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jkchs_zone_5_merge_into_guldberg_plot_for_sale-54051029-425-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_dha_valley_5_marla_open_file_for_sale_in_dha_valley-54639804-1333-2.html"
     },
     {
       "id": "graana-1544816",
