@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-11T16:35:06+00:00",
-  "listingCount": 1218,
-  "geocodingAccuracy": 0.9655,
+  "generatedAt": "2026-09-12T04:10:26+00:00",
+  "listingCount": 1182,
+  "geocodingAccuracy": 0.9704,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9639,
-  "duplicateRate": 0.2997,
-  "outlierCount": 4,
+  "freshnessWithin30Days": 0.9628,
+  "duplicateRate": 0.3088,
+  "outlierCount": 5,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1175,
-    "Medium": 41,
+    "High": 1146,
+    "Medium": 34,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1222.22,
+    "min": 533.33,
     "max": 866666.67,
-    "median": 14444.44
+    "median": 14888.89
   },
   "topOutliers": [
     {
@@ -33,26 +33,37 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54734199",
+      "id": "zameen-54735873",
       "source": "Zameen",
-      "title": "5 Marla Bautifuk Plot For Sale",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 11377.78,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_bautifuk_plot_for_sale-54734199-8260-2.html"
-    },
-    {
-      "id": "zameen-54733710",
-      "source": "Zameen",
-      "title": "10 kanal Farmhouse in B Block of Gulberg Greens.",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 4333.33,
+      "title": "DHA valley good location",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1155.56,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_greens_gulberg_greens_-_block_b_10_kanal_farmhouse_in_b_block_of_gulberg_greens-54733710-8314-1.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_bluebell_sector_dha_valley_good_location-54735873-3216-2.html"
+    },
+    {
+      "id": "zameen-54570704",
+      "source": "Zameen",
+      "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1133.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
+    },
+    {
+      "id": "zameen-54581090",
+      "source": "Zameen",
+      "title": "Marigold 8 Marla Plot For Sale In Dha Valley Islamabad Transferable",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 805.56,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_marigold_sector_marigold_8_marla_plot_for_sale_in_dha_valley_islamabad_transferable-54581090-3221-2.html"
     },
     {
       "id": "graana-1544816",
