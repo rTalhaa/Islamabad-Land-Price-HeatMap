@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-13T04:07:02+00:00",
-  "listingCount": 1220,
-  "geocodingAccuracy": 0.9697,
+  "generatedAt": "2026-09-13T16:19:08+00:00",
+  "listingCount": 1222,
+  "geocodingAccuracy": 0.9664,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9631,
-  "duplicateRate": 0.2885,
-  "outlierCount": 13,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9632,
+  "duplicateRate": 0.2921,
+  "outlierCount": 5,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1181,
-    "Medium": 37,
+    "High": 1180,
+    "Medium": 40,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 17.78,
+    "min": 977.78,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 16000.0
   },
   "topOutliers": [
     {
@@ -33,26 +33,26 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54686993",
+      "id": "zameen-52273353",
       "source": "Zameen",
-      "title": "10 MARLA PLOT FOR SALE In FAISAL TOWN PHASE-2",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1600.0,
+      "title": "50x50 Commercial Plot For Sale In Business Square, Gulberg Greens, Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 44444.44,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_10_marla_plot_for_sale_in_faisal_town_phase-2-54686993-20466-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_business_square_50x50_commercial_plot_for_sale_in_business_square_gulberg_greens_islamabad-52273353-11450-2.html"
     },
     {
-      "id": "zameen-54736770",
+      "id": "zameen-54741472",
       "source": "Zameen",
-      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1377.78,
+      "title": "5 Marla Residential Plot For Sale Is Available In Multi Residencia & Orchards - Block C",
+      "neighborhood": "Multi Residencia & Orchards",
+      "pricePerSqft": 16000.0,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54736770-13693-2.html"
+      "url": "https://www.zameen.com/Property/multi_residencia_orchards_multi_residencia_orchards_-_block_c_5_marla_residential_plot_for_sale_is_available_in_multi_residencia_orchards_-_block_c-54741472-10131-2.html"
     },
     {
       "id": "zameen-54716421",
@@ -64,95 +64,6 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716421-20514-2.html"
-    },
-    {
-      "id": "zameen-54739469",
-      "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739469-20514-2.html"
-    },
-    {
-      "id": "zameen-54739482",
-      "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739482-20514-2.html"
-    },
-    {
-      "id": "zameen-54739487",
-      "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739487-20514-2.html"
-    },
-    {
-      "id": "zameen-54739491",
-      "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739491-20514-2.html"
-    },
-    {
-      "id": "zameen-54739495",
-      "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739495-20514-2.html"
-    },
-    {
-      "id": "zameen-54631537",
-      "source": "Zameen",
-      "title": "Residential Plot Of 8 Marla Available For sale In DHA Valley - Iris Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 794.44,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_residential_plot_of_8_marla_available_for_sale_in_dha_valley_-_iris_sector-54631537-3223-2.html"
-    },
-    {
-      "id": "zameen-54631538",
-      "source": "Zameen",
-      "title": "8 Marla Residential Plot For sale In Beautiful DHA Valley - Lotus Sector",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 772.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lotus_sector_8_marla_residential_plot_for_sale_in_beautiful_dha_valley_-_lotus_sector-54631538-3224-2.html"
-    },
-    {
-      "id": "zameen-54739562",
-      "source": "Zameen",
-      "title": "DHA Phase 5 Best location near park school hospital commercial market and solar options available",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 17.78,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_5_dha_phase_5_best_location_near_park_school_hospital_commercial_market_and_solar_options_available-54739562-10991-1.html"
     },
     {
       "id": "graana-1544816",
