@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T16:19:08+00:00",
-  "searchCardCount": 1436,
-  "uniqueListingCount": 1222,
-  "exportedListingCount": 1222,
+  "generatedAt": "2026-09-14T04:24:58+00:00",
+  "searchCardCount": 1437,
+  "uniqueListingCount": 1218,
+  "exportedListingCount": 1218,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 584,
+      "pageCountDiscovered": 583,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -24,7 +24,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 64,
-      "listingCardsCollected": 147,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 68,
+      "pageCountDiscovered": 67,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 163,
+      "pageCountDiscovered": 162,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1157,
+      "pageCountDiscovered": 1154,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 370,
+      "pageCountDiscovered": 369,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-13T16:19:08+00:00",
+    "generatedAt": "2026-09-14T04:24:58+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1346,
-        "exportedListings": 1162,
+        "parsedCards": 1347,
+        "exportedListings": 1158,
         "detailSuccess": 1149,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3046,
+        "duplicateRate": 0.3221,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0052,
-          "imageUrl": 0.0809
+          "coordinates": 0.0035,
+          "imageUrl": 0.0959
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 584,
+            "pageCountDiscovered": 583,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -268,7 +268,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 64,
-            "listingCardsCollected": 147,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 68,
+            "pageCountDiscovered": 67,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 163,
+            "pageCountDiscovered": 162,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1157,
+            "pageCountDiscovered": 1154,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 370,
+            "pageCountDiscovered": 369,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-13T16:19:08+00:00",
-    "listingCount": 1222,
-    "geocodingAccuracy": 0.9664,
+    "generatedAt": "2026-09-14T04:24:58+00:00",
+    "listingCount": 1218,
+    "geocodingAccuracy": 0.968,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9632,
-    "duplicateRate": 0.2921,
+    "freshnessWithin30Days": 0.9631,
+    "duplicateRate": 0.3087,
     "outlierCount": 5,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1180,
-      "Medium": 40,
+      "High": 1178,
+      "Medium": 38,
       "Low": 2
     },
     "ppsfRange": {
-      "min": 977.78,
+      "min": 800.0,
       "max": 866666.67,
-      "median": 16000.0
+      "median": 16444.44
     },
     "topOutliers": [
       {
@@ -398,17 +398,6 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-52273353",
-        "source": "Zameen",
-        "title": "50x50 Commercial Plot For Sale In Business Square, Gulberg Greens, Islamabad",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 44444.44,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/gulberg_gulberg_business_square_50x50_commercial_plot_for_sale_in_business_square_gulberg_greens_islamabad-52273353-11450-2.html"
-      },
-      {
         "id": "zameen-54741472",
         "source": "Zameen",
         "title": "5 Marla Residential Plot For Sale Is Available In Multi Residencia & Orchards - Block C",
@@ -418,6 +407,17 @@
           "far above comparable median"
         ],
         "url": "https://www.zameen.com/Property/multi_residencia_orchards_multi_residencia_orchards_-_block_c_5_marla_residential_plot_for_sale_is_available_in_multi_residencia_orchards_-_block_c-54741472-10131-2.html"
+      },
+      {
+        "id": "zameen-54741756",
+        "source": "Zameen",
+        "title": "5 Marla Plot For Sale",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 12800.0,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_plot_for_sale-54741756-8260-2.html"
       },
       {
         "id": "zameen-54716421",
