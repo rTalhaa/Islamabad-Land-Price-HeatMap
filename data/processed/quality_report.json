@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-18T16:32:07+00:00",
-  "listingCount": 1192,
+  "generatedAt": "2026-09-19T04:11:15+00:00",
+  "listingCount": 1196,
   "geocodingAccuracy": 0.9732,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9765,
-  "duplicateRate": 0.3322,
-  "outlierCount": 5,
+  "freshnessWithin30Days": 0.9758,
+  "duplicateRate": 0.3094,
+  "outlierCount": 6,
   "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1158,
+    "High": 1162,
     "Medium": 31,
     "Low": 3
   },
   "ppsfRange": {
     "min": 262.22,
     "max": 866666.67,
-    "median": 16666.67
+    "median": 15555.56
   },
   "topOutliers": [
     {
@@ -44,15 +44,26 @@
       "url": "https://www.zameen.com/Property/gulberg_greens_gulberg_greens_-_b_greens_lake_facing_highted_5_marla_plots_at_b_greens_block_gulberg_green_islamabad-54763472-22598-2.html"
     },
     {
-      "id": "zameen-54605069",
+      "id": "zameen-54502401",
       "source": "Zameen",
-      "title": "Residential Plot For sale In Islamabad",
-      "neighborhood": "Kashmir Highway",
-      "pricePerSqft": 1955.56,
+      "title": "5 Marla Prime Location Solid Land Plot",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12888.89,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/airport_green_garden_airport_green_garden_-_block_c_residential_plot_for_sale_in_islamabad-54605069-19373-2.html"
+      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_prime_location_solid_land_plot-54502401-8260-2.html"
+    },
+    {
+      "id": "zameen-53531759",
+      "source": "Zameen",
+      "title": "5 Marla Residential Plot Available For Sale In Faisal Town Phase 1 Of Block C Islamabad Pakistan",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 11111.11,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_residential_plot_available_for_sale_in_faisal_town_phase_1_of_block_c_islamabad_pakistan-53531759-16418-2.html"
     },
     {
       "id": "graana-1554921",
