@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-20T16:10:26+00:00",
-  "listingCount": 1203,
-  "geocodingAccuracy": 0.9584,
+  "generatedAt": "2026-09-21T04:24:36+00:00",
+  "listingCount": 1210,
+  "geocodingAccuracy": 0.9711,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9701,
-  "duplicateRate": 0.3126,
-  "outlierCount": 7,
+  "freshnessWithin30Days": 0.9702,
+  "duplicateRate": 0.3256,
+  "outlierCount": 8,
   "suspiciousPpsfCount": 6,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1147,
-    "Medium": 53,
+    "High": 1169,
+    "Medium": 38,
     "Low": 3
   },
   "ppsfRange": {
     "min": 54.17,
     "max": 866666.67,
-    "median": 16000.0
+    "median": 15555.56
   },
   "topOutliers": [
     {
@@ -31,6 +31,17 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54715093",
+      "source": "Zameen",
+      "title": "5 Marla ( 25*50) In Block C ) ( On 40 Ft Road ) For Sale In Faisal Town Islamabad",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 11111.11,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_25_50_in_block_c_on_40_ft_road_for_sale_in_faisal_town_islamabad-54715093-8260-2.html"
     },
     {
       "id": "graana-1554921",
@@ -73,7 +84,7 @@
       "source": "Zameen",
       "title": "1 Bed Room Apartment Available For Rent and Sale only For families",
       "neighborhood": "E-11",
-      "pricePerSqft": 99.62,
+      "pricePerSqft": 100.0,
       "reasons": [
         "outside plausible ppsf range",
         "far below comparable median"
