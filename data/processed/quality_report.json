@@ -1,118 +1,46 @@
 {
-  "generatedAt": "2026-09-21T04:24:36+00:00",
-  "listingCount": 1210,
-  "geocodingAccuracy": 0.9711,
+  "generatedAt": "2026-09-21T18:31:02+00:00",
+  "listingCount": 1130,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9702,
-  "duplicateRate": 0.3256,
-  "outlierCount": 8,
-  "suspiciousPpsfCount": 6,
+  "areaParsingSuccess": 1.0,
+  "freshnessWithin30Days": 1.0,
+  "duplicateRate": 0.3434,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1169,
-    "Medium": 38,
-    "Low": 3
+    "High": 1130,
+    "Medium": 0,
+    "Low": 0
   },
   "ppsfRange": {
-    "min": 54.17,
-    "max": 866666.67,
-    "median": 15555.56
+    "min": 1222.22,
+    "max": 88888.89,
+    "median": 16919.02
   },
   "topOutliers": [
     {
-      "id": "graana-1545978",
-      "source": "Graana",
-      "title": "7.50 Ft\u00b2 Flat for Sale",
-      "neighborhood": "E-11",
-      "pricePerSqft": 866666.67,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
-      ],
-      "url": "https://www.graana.com/property/1545978"
-    },
-    {
-      "id": "zameen-54715093",
+      "id": "zameen-54716932",
       "source": "Zameen",
-      "title": "5 Marla ( 25*50) In Block C ) ( On 40 Ft Road ) For Sale In Faisal Town Islamabad",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 11111.11,
+      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1222.22,
       "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_25_50_in_block_c_on_40_ft_road_for_sale_in_faisal_town_islamabad-54715093-8260-2.html"
-    },
-    {
-      "id": "graana-1554921",
-      "source": "Graana",
-      "title": "5 Marla house for sale",
-      "neighborhood": "B-17",
-      "pricePerSqft": 262.22,
-      "reasons": [
-        "outside plausible ppsf range",
         "far below comparable median"
       ],
-      "url": "https://www.graana.com/property/1554921"
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716932-20514-2.html"
     },
     {
-      "id": "zameen-54768638",
+      "id": "zameen-54717005",
       "source": "Zameen",
-      "title": "1 Bed Room Apartment Available For Rent and Sale only For families",
-      "neighborhood": "E-11",
-      "pricePerSqft": 100.0,
+      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1222.22,
       "reasons": [
-        "outside plausible ppsf range",
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/e_11_4_margalla_gateway_tower_1_bed_room_apartment_available_for_rent_and_sale_only_for_families-54768638-20463-1.html"
-    },
-    {
-      "id": "zameen-54768920",
-      "source": "Zameen",
-      "title": "1 Bed Room Apartment Available For Rent and Sale only For families",
-      "neighborhood": "E-11",
-      "pricePerSqft": 100.0,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/e_11_4_margalla_gateway_tower_1_bed_room_apartment_available_for_rent_and_sale_only_for_families-54768920-20463-1.html"
-    },
-    {
-      "id": "zameen-54769167",
-      "source": "Zameen",
-      "title": "1 Bed Room Apartment Available For Rent and Sale only For families",
-      "neighborhood": "E-11",
-      "pricePerSqft": 100.0,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/e_11_4_margalla_gateway_tower_1_bed_room_apartment_available_for_rent_and_sale_only_for_families-54769167-20463-1.html"
-    },
-    {
-      "id": "zameen-54768496",
-      "source": "Zameen",
-      "title": "2 Bed Unfurnished Apartment Available For Rent and Sale",
-      "neighborhood": "E-11",
-      "pricePerSqft": 54.17,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/e_11_4_margalla_gateway_tower_2_bed_unfurnished_apartment_available_for_rent_and_sale-54768496-20463-1.html"
-    },
-    {
-      "id": "graana-1544816",
-      "source": "Graana",
-      "title": "Sector A Cube Studio Appartment for sale",
-      "neighborhood": "Bahria Enclave",
-      "pricePerSqft": null,
-      "reasons": [
-        "missing ppsf"
-      ],
-      "url": "https://www.graana.com/property/1544816"
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54717005-20514-2.html"
     }
   ],
   "fbrReference": {
