@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T18:31:02+00:00",
+  "generatedAt": "2026-09-22T04:22:51+00:00",
   "searchCardCount": 1345,
   "uniqueListingCount": 1130,
   "exportedListingCount": 1130,
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 585,
+      "pageCountDiscovered": 582,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1177,
+      "pageCountDiscovered": 1173,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 177,
+      "pageCountDiscovered": 176,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 372,
+      "pageCountDiscovered": 371,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-21T18:31:02+00:00",
+    "generatedAt": "2026-09-22T04:22:51+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -237,15 +237,15 @@
         "fetchedPages": 54,
         "parsedCards": 1345,
         "exportedListings": 1130,
-        "detailSuccess": 1126,
+        "detailSuccess": 1125,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3434,
+        "duplicateRate": 0.3265,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0717
+          "imageUrl": 0.0938
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 585,
+            "pageCountDiscovered": 582,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1177,
+            "pageCountDiscovered": 1173,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 177,
+            "pageCountDiscovered": 176,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 372,
+            "pageCountDiscovered": 371,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,14 +364,14 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-21T18:31:02+00:00",
+    "generatedAt": "2026-09-22T04:22:51+00:00",
     "listingCount": 1130,
     "geocodingAccuracy": 1.0,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
     "freshnessWithin30Days": 1.0,
-    "duplicateRate": 0.3434,
-    "outlierCount": 2,
+    "duplicateRate": 0.3265,
+    "outlierCount": 4,
     "suspiciousPpsfCount": 0,
     "confidenceMedian": 100.0,
     "confidenceBands": {
@@ -380,32 +380,54 @@
       "Low": 0
     },
     "ppsfRange": {
-      "min": 1222.22,
-      "max": 88888.89,
-      "median": 16919.02
+      "min": 805.56,
+      "max": 70175.44,
+      "median": 16888.89
     },
     "topOutliers": [
       {
-        "id": "zameen-54716932",
+        "id": "zameen-54689755",
         "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
+        "title": "5 Marla Booking of NOC approved Project Lake Shore City Islamabad, 12 Km from ShahAllhadita",
+        "neighborhood": "Top City 1",
+        "pricePerSqft": 1600.0,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716932-20514-2.html"
+        "url": "https://www.zameen.com/Property/top_city_1_lakeshore_towers_5_marla_booking_of_noc_approved_project_lake_shore_city_islamabad_12_km_from_shahallhadita-54689755-20756-2.html"
       },
       {
-        "id": "zameen-54717005",
+        "id": "zameen-54775329",
         "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
+        "title": "DHA PHASE 9 GANDHARA",
         "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
+        "pricePerSqft": 1066.67,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54717005-20514-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9_gandhara-54775329-20514-2.html"
+      },
+      {
+        "id": "zameen-54775481",
+        "source": "Zameen",
+        "title": "5 Marla non ballot plot for sale in dha valley Islamabad",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1066.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_eglantine_sector_5_marla_non_ballot_plot_for_sale_in_dha_valley_islamabad-54775481-3218-2.html"
+      },
+      {
+        "id": "zameen-54775478",
+        "source": "Zameen",
+        "title": "non ballot open file for sale in dha valley Islamabad",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 805.56,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_jasmine_sector_non_ballot_open_file_for_sale_in_dha_valley_islamabad-54775478-3215-2.html"
       }
     ],
     "fbrReference": {
