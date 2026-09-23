@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-23T04:00:33+00:00",
-  "searchCardCount": 1437,
-  "uniqueListingCount": 1217,
-  "exportedListingCount": 1217,
+  "generatedAt": "2026-09-23T16:52:11+00:00",
+  "searchCardCount": 1435,
+  "uniqueListingCount": 1208,
+  "exportedListingCount": 1208,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 587,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 592,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 75,
+      "pageCountDiscovered": 76,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 165,
-      "listingCardsCollected": 149,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1179,
+      "pageCountDiscovered": 1187,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 174,
+      "pageCountDiscovered": 176,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 178,
+      "pageCountDiscovered": 180,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 374,
+      "pageCountDiscovered": 377,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-23T04:00:33+00:00",
+    "generatedAt": "2026-09-23T16:52:11+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.5167,
+          "coordinates": 0.5833,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1347,
-        "exportedListings": 1157,
-        "detailSuccess": 1148,
+        "parsedCards": 1345,
+        "exportedListings": 1148,
+        "detailSuccess": 1142,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3207,
+        "duplicateRate": 0.3214,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0017,
-          "imageUrl": 0.0726
+          "coordinates": 0.0,
+          "imageUrl": 0.0889
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 587,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 592,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 75,
+            "pageCountDiscovered": 76,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 165,
-            "listingCardsCollected": 149,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1179,
+            "pageCountDiscovered": 1187,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 174,
+            "pageCountDiscovered": 176,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 178,
+            "pageCountDiscovered": 180,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 374,
+            "pageCountDiscovered": 377,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-23T04:00:33+00:00",
-    "listingCount": 1217,
-    "geocodingAccuracy": 0.9729,
+    "generatedAt": "2026-09-23T16:52:11+00:00",
+    "listingCount": 1208,
+    "geocodingAccuracy": 0.971,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9737,
-    "duplicateRate": 0.3155,
-    "outlierCount": 7,
+    "freshnessWithin30Days": 0.9743,
+    "duplicateRate": 0.3162,
+    "outlierCount": 6,
     "suspiciousPpsfCount": 4,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1182,
-      "Medium": 30,
+      "High": 1171,
+      "Medium": 32,
       "Low": 5
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 16118.06
+      "median": 16111.11
     },
     "topOutliers": [
       {
@@ -398,26 +398,15 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54654646",
+        "id": "zameen-54377713",
         "source": "Zameen",
-        "title": "Beautifully Constructed Main Double Road Residential Plot Is Available For Sale In Faisal Town Phase 1",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 14166.67,
+        "title": "Ideal House Is Available For Sale In Lehtrar Road",
+        "neighborhood": "Lehtrar Road",
+        "pricePerSqft": 3777.78,
         "reasons": [
-          "far above comparable median"
+          "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_1_beautifully_constructed_main_double_road_residential_plot_is_available_for_sale_in_faisal_town_phase_1-54654646-16415-2.html"
-      },
-      {
-        "id": "zameen-54709767",
-        "source": "Zameen",
-        "title": "FAISAL TOWN PHASE 1 C BLACK 30*60, ST 45 PLOT 1700 SERIAL D 1CORER 82 LAC",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 10111.11,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_1_faisal_town_phase_1_c_black_30_60_st_45_plot_1700_serial_d_1corer_82_lac-54709767-16415-2.html"
+        "url": "https://www.zameen.com/Property/islamabad_lehtrar_road_ideal_house_is_available_for_sale_in_lehtrar_road-54377713-3461-1.html"
       },
       {
         "id": "graana-1554921",
