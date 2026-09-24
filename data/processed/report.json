@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-24T04:11:59+00:00",
-  "searchCardCount": 1435,
-  "uniqueListingCount": 1205,
-  "exportedListingCount": 1205,
+  "generatedAt": "2026-09-24T17:13:26+00:00",
+  "searchCardCount": 1437,
+  "uniqueListingCount": 1216,
+  "exportedListingCount": 1216,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 591,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 595,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 76,
+      "pageCountDiscovered": 77,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 165,
-      "listingCardsCollected": 148,
+      "pageCountDiscovered": 167,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1183,
+      "pageCountDiscovered": 1190,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 179,
+      "pageCountDiscovered": 180,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 376,
+      "pageCountDiscovered": 378,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-24T04:11:59+00:00",
+    "generatedAt": "2026-09-24T17:13:26+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.5333,
+          "coordinates": 0.8833,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1345,
-        "exportedListings": 1145,
-        "detailSuccess": 1141,
+        "parsedCards": 1347,
+        "exportedListings": 1156,
+        "detailSuccess": 1151,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3301,
+        "duplicateRate": 0.3028,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0996
+          "imageUrl": 0.09
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 591,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 595,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 76,
+            "pageCountDiscovered": 77,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 165,
-            "listingCardsCollected": 148,
+            "pageCountDiscovered": 167,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1183,
+            "pageCountDiscovered": 1190,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 179,
+            "pageCountDiscovered": 180,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 376,
+            "pageCountDiscovered": 378,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,27 +364,38 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-24T04:11:59+00:00",
-    "listingCount": 1205,
-    "geocodingAccuracy": 0.9734,
+    "generatedAt": "2026-09-24T17:13:26+00:00",
+    "listingCount": 1216,
+    "geocodingAccuracy": 0.9564,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9743,
-    "duplicateRate": 0.3245,
+    "freshnessWithin30Days": 0.9745,
+    "duplicateRate": 0.2985,
     "outlierCount": 10,
-    "suspiciousPpsfCount": 4,
+    "suspiciousPpsfCount": 5,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1171,
-      "Medium": 29,
+      "High": 1160,
+      "Medium": 51,
       "Low": 5
     },
     "ppsfRange": {
       "min": 42.86,
-      "max": 866666.67,
-      "median": 16472.22
+      "max": 1555555.56,
+      "median": 16500.0
     },
     "topOutliers": [
+      {
+        "id": "zameen-54786833",
+        "source": "Zameen",
+        "title": "MAIN DOUBLE ROAD 5 KANAL PLOT FOR SALE",
+        "neighborhood": "Naval Farms Housing Scheme",
+        "pricePerSqft": 1555555.56,
+        "reasons": [
+          "outside plausible ppsf range"
+        ],
+        "url": "https://www.zameen.com/Property/naval_farms_housing_scheme_naval_farms_housing_scheme_sector_b_main_double_road_5_kanal_plot_for_sale-54786833-22303-2.html"
+      },
       {
         "id": "graana-1545978",
         "source": "Graana",
@@ -398,26 +409,26 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-53852963",
+        "id": "zameen-54786865",
         "source": "Zameen",
-        "title": "5 Marla Possession Able Plot For Sale",
-        "neighborhood": "Faisal Town - F-18",
-        "pricePerSqft": 11555.56,
-        "reasons": [
-          "far above comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_possession_able_plot_for_sale-53852963-16418-2.html"
-      },
-      {
-        "id": "zameen-54377713",
-        "source": "Zameen",
-        "title": "Ideal House Is Available For Sale In Lehtrar Road",
-        "neighborhood": "Lehtrar Road",
-        "pricePerSqft": 3777.78,
+        "title": "5 KANAL FARM HOUSE PLOT GOOD VIEW IN SECTOR -C",
+        "neighborhood": "Naval Farms Housing Scheme",
+        "pricePerSqft": 2511.11,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/islamabad_lehtrar_road_ideal_house_is_available_for_sale_in_lehtrar_road-54377713-3461-1.html"
+        "url": "https://www.zameen.com/Property/naval_farms_housing_scheme_naval_farms_housing_scheme_sector_c_5_kanal_farm_house_plot_good_view_in_sector_-c-54786865-22304-2.html"
+      },
+      {
+        "id": "zameen-49459099",
+        "source": "Zameen",
+        "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1466.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-49459099-13693-2.html"
       },
       {
         "id": "zameen-54784610",
@@ -431,26 +442,15 @@
         "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9_gandhara_files-54784610-20514-2.html"
       },
       {
-        "id": "zameen-54784874",
+        "id": "zameen-54627012",
         "source": "Zameen",
-        "title": "DHA Gandhara Islamabad Premium Residential | Secure Investment Opportunity",
+        "title": "5 Marla Residential Plot For Sale In DHA Valley - Eglantine Sector Islamabad",
         "neighborhood": "DHA Defence",
-        "pricePerSqft": 1266.67,
+        "pricePerSqft": 1155.56,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_gandhara_islamabad_premium_residential_secure_investment_opportunity-54784874-20514-2.html"
-      },
-      {
-        "id": "zameen-53789762",
-        "source": "Zameen",
-        "title": "5 Marla Residential Plot In DHA Valley - Daisy Sector, Islamabad Is Available As Of Now",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1200.0,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_daisy_sector_5_marla_residential_plot_in_dha_valley_-_daisy_sector_islamabad_is_available_as_of_now-53789762-3217-2.html"
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_eglantine_sector_5_marla_residential_plot_for_sale_in_dha_valley_-_eglantine_sector_islamabad-54627012-3218-2.html"
       },
       {
         "id": "graana-1554921",
