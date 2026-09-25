@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T04:28:11+00:00",
-  "searchCardCount": 1436,
-  "uniqueListingCount": 1210,
-  "exportedListingCount": 1210,
+  "generatedAt": "2026-09-25T17:19:20+00:00",
+  "searchCardCount": 1428,
+  "uniqueListingCount": 1217,
+  "exportedListingCount": 1217,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 593,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 596,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 166,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 147,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,8 +71,8 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1186,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 1193,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -83,8 +83,8 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 175,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 176,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -95,8 +95,8 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 179,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 180,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 376,
+      "pageCountDiscovered": 378,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-25T04:28:11+00:00",
+    "generatedAt": "2026-09-25T17:19:20+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.5167,
+          "coordinates": 0.5667,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1346,
-        "exportedListings": 1150,
-        "detailSuccess": 1141,
+        "parsedCards": 1338,
+        "exportedListings": 1157,
+        "detailSuccess": 1145,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3148,
+        "duplicateRate": 0.3008,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0009,
-          "imageUrl": 0.0687
+          "coordinates": 0.0017,
+          "imageUrl": 0.0648
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 593,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 596,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 166,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 147,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,8 +315,8 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1186,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 1193,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -327,8 +327,8 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 175,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 176,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -339,8 +339,8 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 179,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 180,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 376,
+            "pageCountDiscovered": 378,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-25T04:28:11+00:00",
-    "listingCount": 1210,
-    "geocodingAccuracy": 0.9736,
+    "generatedAt": "2026-09-25T17:19:20+00:00",
+    "listingCount": 1217,
+    "geocodingAccuracy": 0.9704,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9744,
-    "duplicateRate": 0.3099,
+    "freshnessWithin30Days": 0.9745,
+    "duplicateRate": 0.2966,
     "outlierCount": 8,
     "suspiciousPpsfCount": 4,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1174,
-      "Medium": 31,
+      "High": 1179,
+      "Medium": 33,
       "Low": 5
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 16888.89
+      "median": 16500.0
     },
     "topOutliers": [
       {
@@ -398,37 +398,37 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54787884",
+        "id": "zameen-54712027",
         "source": "Zameen",
-        "title": "DHA Margalla Enclave Islamabad 10 Marla Plot For Sale Only On Down Payment",
-        "neighborhood": "Margalla Enclave",
-        "pricePerSqft": 4355.56,
+        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1222.22,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/islamabad_margalla_enclave_dha_margalla_enclave_islamabad_10_marla_plot_for_sale_only_on_down_payment-54787884-22293-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54712027-20514-2.html"
       },
       {
-        "id": "zameen-54784610",
+        "id": "zameen-54712037",
         "source": "Zameen",
-        "title": "DHA PHASE 9 GANDHARA FILES",
+        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
         "neighborhood": "DHA Defence",
-        "pricePerSqft": 1288.89,
+        "pricePerSqft": 1222.22,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_dha_phase_9_gandhara_files-54784610-20514-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54712037-20514-2.html"
       },
       {
-        "id": "zameen-54627012",
+        "id": "zameen-54716421",
         "source": "Zameen",
-        "title": "5 Marla Residential Plot For Sale In DHA Valley - Eglantine Sector Islamabad",
+        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
         "neighborhood": "DHA Defence",
-        "pricePerSqft": 1155.56,
+        "pricePerSqft": 1222.22,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_eglantine_sector_5_marla_residential_plot_for_sale_in_dha_valley_-_eglantine_sector_islamabad-54627012-3218-2.html"
+        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716421-20514-2.html"
       },
       {
         "id": "graana-1554921",
