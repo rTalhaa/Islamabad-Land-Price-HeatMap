@@ -1,36 +1,25 @@
 {
-  "generatedAt": "2026-09-24T17:13:26+00:00",
-  "listingCount": 1216,
-  "geocodingAccuracy": 0.9564,
+  "generatedAt": "2026-09-25T04:28:11+00:00",
+  "listingCount": 1210,
+  "geocodingAccuracy": 0.9736,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9745,
-  "duplicateRate": 0.2985,
-  "outlierCount": 10,
-  "suspiciousPpsfCount": 5,
+  "freshnessWithin30Days": 0.9744,
+  "duplicateRate": 0.3099,
+  "outlierCount": 8,
+  "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1160,
-    "Medium": 51,
+    "High": 1174,
+    "Medium": 31,
     "Low": 5
   },
   "ppsfRange": {
     "min": 42.86,
-    "max": 1555555.56,
-    "median": 16500.0
+    "max": 866666.67,
+    "median": 16888.89
   },
   "topOutliers": [
-    {
-      "id": "zameen-54786833",
-      "source": "Zameen",
-      "title": "MAIN DOUBLE ROAD 5 KANAL PLOT FOR SALE",
-      "neighborhood": "Naval Farms Housing Scheme",
-      "pricePerSqft": 1555555.56,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.zameen.com/Property/naval_farms_housing_scheme_naval_farms_housing_scheme_sector_b_main_double_road_5_kanal_plot_for_sale-54786833-22303-2.html"
-    },
     {
       "id": "graana-1545978",
       "source": "Graana",
@@ -44,26 +33,15 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54786865",
+      "id": "zameen-54787884",
       "source": "Zameen",
-      "title": "5 KANAL FARM HOUSE PLOT GOOD VIEW IN SECTOR -C",
-      "neighborhood": "Naval Farms Housing Scheme",
-      "pricePerSqft": 2511.11,
+      "title": "DHA Margalla Enclave Islamabad 10 Marla Plot For Sale Only On Down Payment",
+      "neighborhood": "Margalla Enclave",
+      "pricePerSqft": 4355.56,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/naval_farms_housing_scheme_naval_farms_housing_scheme_sector_c_5_kanal_farm_house_plot_good_view_in_sector_-c-54786865-22304-2.html"
-    },
-    {
-      "id": "zameen-49459099",
-      "source": "Zameen",
-      "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1466.67,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-49459099-13693-2.html"
+      "url": "https://www.zameen.com/Property/islamabad_margalla_enclave_dha_margalla_enclave_islamabad_10_marla_plot_for_sale_only_on_down_payment-54787884-22293-2.html"
     },
     {
       "id": "zameen-54784610",
