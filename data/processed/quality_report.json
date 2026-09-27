@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-26T16:31:24+00:00",
-  "listingCount": 1213,
-  "geocodingAccuracy": 0.9703,
+  "generatedAt": "2026-09-27T04:24:50+00:00",
+  "listingCount": 1212,
+  "geocodingAccuracy": 0.9653,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
   "freshnessWithin30Days": 0.9744,
-  "duplicateRate": 0.3092,
-  "outlierCount": 10,
-  "suspiciousPpsfCount": 5,
+  "duplicateRate": 0.3152,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1174,
-    "Medium": 34,
+    "High": 1166,
+    "Medium": 41,
     "Low": 5
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 16500.0
+    "median": 15000.0
   },
   "topOutliers": [
     {
@@ -33,39 +33,6 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54796362",
-      "source": "Zameen",
-      "title": "Ultra-Luxury Designer House for Sale in F-6 Islamabad | Swimming Pool | Lift | Margalla View",
-      "neighborhood": "F-6",
-      "pricePerSqft": 156862.75,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_f-6_ultra-luxury_designer_house_for_sale_in_f-6_islamabad_swimming_pool_lift_margalla_view-54796362-164-1.html"
-    },
-    {
-      "id": "zameen-54689511",
-      "source": "Zameen",
-      "title": "8 MARLA FOOTBALL GROUND FACEING PLOT FOR SALE in FAISAL TOWN BLOCK A",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 12222.22,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_8_marla_football_ground_faceing_plot_for_sale_in_faisal_town_block_a-54689511-8260-2.html"
-    },
-    {
-      "id": "zameen-54700531",
-      "source": "Zameen",
-      "title": "5 MARLA PLOT FOR SALE in FAISAL TOWN BLOCK C",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 11111.11,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_plot_for_sale_in_faisal_town_block_c-54700531-16418-2.html"
-    },
-    {
       "id": "zameen-54795510",
       "source": "Zameen",
       "title": "Margalla Enclave ME-3 Prime Location Corner Plot Available for Sale",
@@ -75,17 +42,6 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
-    },
-    {
-      "id": "zameen-54795318",
-      "source": "Zameen",
-      "title": "5 Marla Open File For Sale in DHA phase 7 isb DHA Valley Rawalpindi Sector Eglentine",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1111.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_valley_5_marla_open_file_for_sale_in_dha_phase_7_isb_dha_valley_rawalpindi_sector_eglentine-54795318-1333-2.html"
     },
     {
       "id": "graana-1554921",
