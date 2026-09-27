@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-27T04:24:50+00:00",
-  "listingCount": 1212,
-  "geocodingAccuracy": 0.9653,
+  "generatedAt": "2026-09-27T17:07:23+00:00",
+  "listingCount": 1204,
+  "geocodingAccuracy": 0.9718,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9744,
-  "duplicateRate": 0.3152,
-  "outlierCount": 6,
+  "freshnessWithin30Days": 0.9743,
+  "duplicateRate": 0.304,
+  "outlierCount": 10,
   "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1166,
-    "Medium": 41,
+    "High": 1168,
+    "Medium": 31,
     "Low": 5
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 15000.0
+    "median": 15833.33
   },
   "topOutliers": [
     {
@@ -33,6 +33,39 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
+      "id": "zameen-54798863",
+      "source": "Zameen",
+      "title": "5 Marla Plot For Sale In C Block",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 11733.33,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_plot_for_sale_in_c_block-54798863-8260-2.html"
+    },
+    {
+      "id": "zameen-54797834",
+      "source": "Zameen",
+      "title": "Unfurnished 2 Bed Apartment Khudadad Height E-11 For Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 5962.06,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_unfurnished_2_bed_apartment_khudadad_height_e-11_for_sale-54797834-11524-1.html"
+    },
+    {
+      "id": "zameen-54799085",
+      "source": "Zameen",
+      "title": "C-14 Opposite Side Near To Iran Avenue",
+      "neighborhood": "Margalla Avenue",
+      "pricePerSqft": 3333.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_margalla_avenue_c-14_opposite_side_near_to_iran_avenue-54799085-21102-2.html"
+    },
+    {
       "id": "zameen-54795510",
       "source": "Zameen",
       "title": "Margalla Enclave ME-3 Prime Location Corner Plot Available for Sale",
@@ -42,6 +75,17 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
+    },
+    {
+      "id": "zameen-54277562",
+      "source": "Zameen",
+      "title": "Affordable 5 Marla Plot Available In Block AA Gulberg Residencia",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1404.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_affordable_5_marla_plot_available_in_block_aa_gulberg_residencia-54277562-13693-2.html"
     },
     {
       "id": "graana-1554921",
