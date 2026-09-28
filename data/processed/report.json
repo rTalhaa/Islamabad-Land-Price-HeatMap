@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T17:07:23+00:00",
-  "searchCardCount": 1437,
+  "generatedAt": "2026-09-28T04:27:28+00:00",
+  "searchCardCount": 1439,
   "uniqueListingCount": 1204,
   "exportedListingCount": 1204,
   "seedStats": [
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 598,
+      "pageCountDiscovered": 595,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 70,
+      "pageCountDiscovered": 69,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 79,
+      "pageCountDiscovered": 78,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 167,
-      "listingCardsCollected": 148,
+      "pageCountDiscovered": 166,
+      "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1195,
+      "pageCountDiscovered": 1193,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 177,
+      "pageCountDiscovered": 176,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-09-27T17:07:23+00:00",
+    "generatedAt": "2026-09-28T04:27:28+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.5667,
+          "coordinates": 0.5167,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1347,
+        "parsedCards": 1349,
         "exportedListings": 1144,
-        "detailSuccess": 1133,
+        "detailSuccess": 1132,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3086,
+        "duplicateRate": 0.333,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0673
+          "imageUrl": 0.0656
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 598,
+            "pageCountDiscovered": 595,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 70,
+            "pageCountDiscovered": 69,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 79,
+            "pageCountDiscovered": 78,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 167,
-            "listingCardsCollected": 148,
+            "pageCountDiscovered": 166,
+            "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1195,
+            "pageCountDiscovered": 1193,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 177,
+            "pageCountDiscovered": 176,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-09-27T17:07:23+00:00",
+    "generatedAt": "2026-09-28T04:27:28+00:00",
     "listingCount": 1204,
-    "geocodingAccuracy": 0.9718,
+    "geocodingAccuracy": 0.9743,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
     "freshnessWithin30Days": 0.9743,
-    "duplicateRate": 0.304,
-    "outlierCount": 10,
+    "duplicateRate": 0.3272,
+    "outlierCount": 12,
     "suspiciousPpsfCount": 4,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1168,
-      "Medium": 31,
+      "High": 1169,
+      "Medium": 30,
       "Low": 5
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 15833.33
+      "median": 15555.56
     },
     "topOutliers": [
       {
@@ -409,17 +409,6 @@
         "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_5_marla_plot_for_sale_in_c_block-54798863-8260-2.html"
       },
       {
-        "id": "zameen-54797834",
-        "source": "Zameen",
-        "title": "Unfurnished 2 Bed Apartment Khudadad Height E-11 For Sale",
-        "neighborhood": "E-11",
-        "pricePerSqft": 5962.06,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_unfurnished_2_bed_apartment_khudadad_height_e-11_for_sale-54797834-11524-1.html"
-      },
-      {
         "id": "zameen-54799085",
         "source": "Zameen",
         "title": "C-14 Opposite Side Near To Iran Avenue",
@@ -442,6 +431,28 @@
         "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
       },
       {
+        "id": "zameen-54784280",
+        "source": "Zameen",
+        "title": "5 Marla Residential Plot in AA Block in Rs. 1800,000 on Cash Payment, Gulbeerg Residencia, Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1600.0,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_residential_plot_in_aa_block_in_rs_1800_000_on_cash_payment_gulbeerg_residencia_islamabad-54784280-13693-2.html"
+      },
+      {
+        "id": "zameen-54799896",
+        "source": "Zameen",
+        "title": "5 Marla Plot on map available for sale in Gulberg Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1600.0,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_5_marla_plot_on_map_available_for_sale_in_gulberg_islamabad-54799896-8312-2.html"
+      },
+      {
         "id": "zameen-54277562",
         "source": "Zameen",
         "title": "Affordable 5 Marla Plot Available In Block AA Gulberg Residencia",
@@ -451,6 +462,17 @@
           "far below comparable median"
         ],
         "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_affordable_5_marla_plot_available_in_block_aa_gulberg_residencia-54277562-13693-2.html"
+      },
+      {
+        "id": "zameen-54570704",
+        "source": "Zameen",
+        "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad Open File",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 1133.33,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad_open_file-54570704-3213-2.html"
       },
       {
         "id": "graana-1554921",
