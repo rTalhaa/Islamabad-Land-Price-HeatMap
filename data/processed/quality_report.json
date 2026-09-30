@@ -1,36 +1,35 @@
 {
-  "generatedAt": "2026-09-29T18:11:03+00:00",
-  "listingCount": 1190,
-  "geocodingAccuracy": 0.9571,
+  "generatedAt": "2026-09-30T05:04:19+00:00",
+  "listingCount": 1142,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.979,
-  "duplicateRate": 0.3227,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 4,
+  "areaParsingSuccess": 1.0,
+  "freshnessWithin30Days": 1.0,
+  "duplicateRate": 0.3363,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1135,
-    "Medium": 50,
-    "Low": 5
+    "High": 1142,
+    "Medium": 0,
+    "Low": 0
   },
   "ppsfRange": {
-    "min": 42.86,
-    "max": 866666.67,
-    "median": 16000.0
+    "min": 1222.22,
+    "max": 109629.63,
+    "median": 15791.66
   },
   "topOutliers": [
     {
-      "id": "graana-1545978",
-      "source": "Graana",
-      "title": "7.50 Ft\u00b2 Flat for Sale",
-      "neighborhood": "E-11",
-      "pricePerSqft": 866666.67,
+      "id": "zameen-54699306",
+      "source": "Zameen",
+      "title": "Book Your Exclusive Corner And Park Facing 10 Marla Plot With 10% Down Payment Only",
+      "neighborhood": "Kashmir Highway",
+      "pricePerSqft": 16000.0,
       "reasons": [
-        "outside plausible ppsf range",
         "far above comparable median"
       ],
-      "url": "https://www.graana.com/property/1545978"
+      "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_book_your_exclusive_corner_and_park_facing_10_marla_plot_with_10_down_payment_only-54699306-12602-2.html"
     },
     {
       "id": "zameen-54017638",
@@ -42,62 +41,6 @@
         "far above comparable median"
       ],
       "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_plot_25_50_n_block_c_in_st_2_prime_location_in_faisal_town_f-18_islamabad-54017638-16418-2.html"
-    },
-    {
-      "id": "zameen-51544389",
-      "source": "Zameen",
-      "title": "Prime Location Studio Flat For Sale In Sector H-13 Islamabad",
-      "neighborhood": "H-13",
-      "pricePerSqft": 11428.57,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_h-13_prime_location_studio_flat_for_sale_in_sector_h-13_islamabad-51544389-1039-1.html"
-    },
-    {
-      "id": "graana-1554921",
-      "source": "Graana",
-      "title": "5 Marla house for sale",
-      "neighborhood": "B-17",
-      "pricePerSqft": 262.22,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.graana.com/property/1554921"
-    },
-    {
-      "id": "graana-1555630",
-      "source": "Graana",
-      "title": "700 Ft\u00b2 Flat for Sale",
-      "neighborhood": "H-13",
-      "pricePerSqft": 42.86,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.graana.com/property/1555630"
-    },
-    {
-      "id": "graana-1555635",
-      "source": "Graana",
-      "title": "700 Ft\u00b2 Flat for Sale",
-      "neighborhood": "H-13",
-      "pricePerSqft": 42.86,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.graana.com/property/1555635"
-    },
-    {
-      "id": "graana-1544816",
-      "source": "Graana",
-      "title": "Sector A Cube Studio Appartment for sale",
-      "neighborhood": "Bahria Enclave",
-      "pricePerSqft": null,
-      "reasons": [
-        "missing ppsf"
-      ],
-      "url": "https://www.graana.com/property/1544816"
     }
   ],
   "fbrReference": {
