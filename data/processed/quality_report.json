@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-01T18:42:24+00:00",
-  "listingCount": 1213,
-  "geocodingAccuracy": 0.9687,
+  "generatedAt": "2026-10-02T05:06:46+00:00",
+  "listingCount": 1218,
+  "geocodingAccuracy": 0.9688,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.981,
-  "duplicateRate": 0.291,
-  "outlierCount": 7,
+  "freshnessWithin30Days": 0.9811,
+  "duplicateRate": 0.3005,
+  "outlierCount": 10,
   "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1171,
+    "High": 1176,
     "Medium": 37,
     "Low": 5
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 16888.89
+    "median": 15815.09
   },
   "topOutliers": [
     {
@@ -33,26 +33,59 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54125977",
+      "id": "zameen-54700130",
       "source": "Zameen",
-      "title": "3 Bed Flat For Sale Meher Apartments",
-      "neighborhood": "H-13",
-      "pricePerSqft": 13333.33,
+      "title": "IT Hub Commercial 13 Marla Corner Plot for Sale | 5070",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 42393.16,
       "reasons": [
         "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_h-13_3_bed_flat_for_sale_meher_apartments-54125977-1039-1.html"
+      "url": "https://www.zameen.com/Property/gulberg_greens_block_c_it_hub_it_hub_commercial_13_marla_corner_plot_for_sale_5070-54700130-22481-2.html"
     },
     {
-      "id": "zameen-54745094",
+      "id": "zameen-54596576",
       "source": "Zameen",
-      "title": "Great Value 5 Marla Residential Plot in Hot Location AA1, Gulberg Residencia",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
+      "title": "Buying A Flat In Islamabad?",
+      "neighborhood": "F-11",
+      "pricePerSqft": 12808.64,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_great_value_5_marla_residential_plot_in_hot_location_aa1_gulberg_residencia-54745094-13693-2.html"
+      "url": "https://www.zameen.com/Property/f_11_f-11_markaz_buying_a_flat_in_islamabad-54596576-3286-1.html"
+    },
+    {
+      "id": "zameen-53569131",
+      "source": "Zameen",
+      "title": "Ideal 5 Kanal Farm House Plots Available In Gulberg Greens - Block D, Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 3555.56,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_greens_gulberg_greens_-_block_d_ideal_5_kanal_farm_house_plots_available_in_gulberg_greens_-_block_d_islamabad-53569131-8316-1.html"
+    },
+    {
+      "id": "zameen-49459099",
+      "source": "Zameen",
+      "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1333.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-49459099-13693-2.html"
+    },
+    {
+      "id": "zameen-54810371",
+      "source": "Zameen",
+      "title": "Buying A Residential Plot In Gulberg Residencia - Block P Islamabad?",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1333.33,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_buying_a_residential_plot_in_gulberg_residencia_-_block_p_islamabad-54810371-9126-2.html"
     },
     {
       "id": "graana-1554921",
