@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-03T16:25:02+00:00",
-  "listingCount": 1206,
-  "geocodingAccuracy": 0.9643,
+  "generatedAt": "2026-10-04T05:21:22+00:00",
+  "listingCount": 1189,
+  "geocodingAccuracy": 0.963,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9818,
-  "duplicateRate": 0.3043,
+  "freshnessWithin30Days": 0.9815,
+  "duplicateRate": 0.2994,
   "outlierCount": 8,
   "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1160,
-    "Medium": 42,
+    "High": 1142,
+    "Medium": 43,
     "Low": 4
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 16111.11
+    "median": 15333.33
   },
   "topOutliers": [
     {
@@ -33,15 +33,15 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54797906",
+      "id": "zameen-54730691",
       "source": "Zameen",
-      "title": "Ready To Buy A Residential Plot 5 Marla In Airport Green Garden",
+      "title": "10 Marla Plot Eighteen By Ora (OFFICIAL ACCOUNT)",
       "neighborhood": "Kashmir Highway",
-      "pricePerSqft": 3377.78,
+      "pricePerSqft": 16133.33,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/kashmir_highway_airport_green_garden_ready_to_buy_a_residential_plot_5_marla_in_airport_green_garden-54797906-15085-2.html"
+      "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_10_marla_plot_eighteen_by_ora_official_account-54730691-12602-2.html"
     },
     {
       "id": "zameen-54795510",
@@ -55,26 +55,26 @@
       "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
     },
     {
-      "id": "zameen-54760998",
+      "id": "zameen-54799896",
       "source": "Zameen",
-      "title": "Ready To Buy A Prime Location Residential Plot In Jinnah Gardens Phase 2 Islamabad",
-      "neighborhood": "FECHS",
-      "pricePerSqft": 2222.22,
+      "title": "5 Marla Plot On Map Available For Sale In Gulberg Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1600.0,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/jinnah_gardens_jinnah_gardens_phase_2_ready_to_buy_a_prime_location_residential_plot_in_jinnah_gardens_phase_2_islamabad-54760998-1422-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_5_marla_plot_on_map_available_for_sale_in_gulberg_islamabad-54799896-8312-2.html"
     },
     {
-      "id": "zameen-54744701",
+      "id": "zameen-53872089",
       "source": "Zameen",
-      "title": "5 Marla AA Residential Plot for Sale Prime Location",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
+      "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 745.56,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_aa_residential_plot_for_sale_prime_location-54744701-13693-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
     },
     {
       "id": "graana-1555630",
@@ -83,8 +83,7 @@
       "neighborhood": "H-13",
       "pricePerSqft": 42.86,
       "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
+        "outside plausible ppsf range"
       ],
       "url": "https://www.graana.com/property/1555630"
     },
@@ -95,8 +94,7 @@
       "neighborhood": "H-13",
       "pricePerSqft": 42.86,
       "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
+        "outside plausible ppsf range"
       ],
       "url": "https://www.graana.com/property/1555635"
     },
