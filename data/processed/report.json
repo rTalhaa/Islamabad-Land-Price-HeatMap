@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-04T17:08:00+00:00",
+  "generatedAt": "2026-10-05T04:58:57+00:00",
   "searchCardCount": 1439,
-  "uniqueListingCount": 1194,
-  "exportedListingCount": 1194,
+  "uniqueListingCount": 1186,
+  "exportedListingCount": 1186,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 602,
+      "pageCountDiscovered": 600,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 164,
+      "pageCountDiscovered": 163,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1183,
+      "pageCountDiscovered": 1172,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 174,
+      "pageCountDiscovered": 173,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 174,
+      "pageCountDiscovered": 172,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 377,
+      "pageCountDiscovered": 371,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-10-04T17:08:00+00:00",
+    "generatedAt": "2026-10-05T04:58:57+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.65,
+          "coordinates": 0.6833,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1349,
-        "exportedListings": 1134,
-        "detailSuccess": 1125,
+        "exportedListings": 1126,
+        "detailSuccess": 1111,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3069,
+        "duplicateRate": 0.3401,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0018,
-          "imageUrl": 0.0829
+          "imageUrl": 0.071
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 602,
+            "pageCountDiscovered": 600,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 164,
+            "pageCountDiscovered": 163,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1183,
+            "pageCountDiscovered": 1172,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 174,
+            "pageCountDiscovered": 173,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 174,
+            "pageCountDiscovered": 172,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 377,
+            "pageCountDiscovered": 371,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-10-04T17:08:00+00:00",
-    "listingCount": 1194,
-    "geocodingAccuracy": 0.9657,
+    "generatedAt": "2026-10-05T04:58:57+00:00",
+    "listingCount": 1186,
+    "geocodingAccuracy": 0.9637,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9816,
-    "duplicateRate": 0.2998,
-    "outlierCount": 6,
-    "suspiciousPpsfCount": 3,
+    "freshnessWithin30Days": 0.9815,
+    "duplicateRate": 0.3314,
+    "outlierCount": 8,
+    "suspiciousPpsfCount": 4,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1150,
-      "Medium": 40,
-      "Low": 4
+      "High": 1139,
+      "Medium": 42,
+      "Low": 5
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 15593.22
+      "median": 15053.76
     },
     "topOutliers": [
       {
@@ -398,15 +398,15 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
-        "id": "zameen-54826898",
+        "id": "zameen-54125977",
         "source": "Zameen",
-        "title": "4 READY-TO-MOVE FLATS FOR SALE B-17 ISLAMABADBlock E, Multi Gardens B-17, Islamabad",
-        "neighborhood": "B-17",
-        "pricePerSqft": 3285.02,
+        "title": "3 Bed Flat For Sale Meher Apartments",
+        "neighborhood": "H-13",
+        "pricePerSqft": 13333.33,
         "reasons": [
-          "far below comparable median"
+          "far above comparable median"
         ],
-        "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_e_4_ready-to-move_flats_for_sale_b-17_islamabadblock_e_multi_gardens_b-17_islamabad-54826898-3120-1.html"
+        "url": "https://www.zameen.com/Property/islamabad_h-13_3_bed_flat_for_sale_meher_apartments-54125977-1039-1.html"
       },
       {
         "id": "zameen-54418729",
@@ -418,6 +418,29 @@
           "far below comparable median"
         ],
         "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_k_one_kanal_open_cartefcat_for_sale_in_dha_phase_6-54418729-14633-2.html"
+      },
+      {
+        "id": "zameen-53872089",
+        "source": "Zameen",
+        "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 766.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
+      },
+      {
+        "id": "graana-1554921",
+        "source": "Graana",
+        "title": "5 Marla house for sale",
+        "neighborhood": "B-17",
+        "pricePerSqft": 262.22,
+        "reasons": [
+          "outside plausible ppsf range",
+          "far below comparable median"
+        ],
+        "url": "https://www.graana.com/property/1554921"
       },
       {
         "id": "graana-1555630",
