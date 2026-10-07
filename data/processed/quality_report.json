@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-06T18:35:46+00:00",
-  "listingCount": 1211,
-  "geocodingAccuracy": 0.9587,
+  "generatedAt": "2026-10-07T05:24:47+00:00",
+  "listingCount": 1230,
+  "geocodingAccuracy": 0.9602,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9835,
-  "duplicateRate": 0.2766,
-  "outlierCount": 4,
-  "suspiciousPpsfCount": 3,
+  "freshnessWithin30Days": 0.9837,
+  "duplicateRate": 0.2667,
+  "outlierCount": 7,
+  "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1158,
+    "High": 1177,
     "Medium": 49,
     "Low": 4
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 15555.56
+    "median": 16068.38
   },
   "topOutliers": [
     {
@@ -31,6 +31,39 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54667615",
+      "source": "Zameen",
+      "title": "CORNER PLOT FOR SALE",
+      "neighborhood": "Top City 1",
+      "pricePerSqft": 65435.9,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/top_city_1_top_city_1_-_kanwar_moiz_block_corner_plot_for_sale-54667615-22390-2.html"
+    },
+    {
+      "id": "zameen-54686840",
+      "source": "Zameen",
+      "title": "Atrium Hills Islamabad 4 Year Installment Plan",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 5263.16,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_2_atrium_hills_islamabad_4_year_installment_plan-54686840-339-1.html"
+    },
+    {
+      "id": "zameen-53515201",
+      "source": "Zameen",
+      "title": "1 Kanal Plot For Sale In CDA Approved Society Islamabad",
+      "neighborhood": "National Cooperative Housing Society",
+      "pricePerSqft": 177.78,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_national_cooperative_housing_society_1_kanal_plot_for_sale_in_cda_approved_society_islamabad-53515201-9274-2.html"
     },
     {
       "id": "graana-1555630",
