@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-08T05:34:49+00:00",
-  "listingCount": 1221,
-  "geocodingAccuracy": 0.9623,
+  "generatedAt": "2026-10-08T19:07:20+00:00",
+  "listingCount": 1210,
+  "geocodingAccuracy": 0.9603,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9836,
-  "duplicateRate": 0.2768,
-  "outlierCount": 5,
+  "freshnessWithin30Days": 0.9843,
+  "duplicateRate": 0.3174,
+  "outlierCount": 6,
   "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1172,
-    "Medium": 45,
+    "High": 1159,
+    "Medium": 47,
     "Low": 4
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 16361.11
+    "median": 16271.19
   },
   "topOutliers": [
     {
@@ -33,15 +33,26 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-52913506",
+      "id": "zameen-54833184",
       "source": "Zameen",
-      "title": "Beautiful Flat Available For Sale",
-      "neighborhood": "H-13",
-      "pricePerSqft": 14130.43,
+      "title": "10 Marla Pairs Commercial Avn 6 Main Blwd",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 42222.22,
       "reasons": [
         "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/islamabad_h-13_beautiful_flat_available_for_sale-52913506-1039-1.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_3_dha_phase_3_-_block_b_10_marla_pairs_commercial_avn_6_main_blwd-54833184-16227-2.html"
+    },
+    {
+      "id": "zameen-51544389",
+      "source": "Zameen",
+      "title": "Prime Location Studio Flat For Sale In Sector H-13 Islamabad",
+      "neighborhood": "H-13",
+      "pricePerSqft": 11428.57,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_h-13_prime_location_studio_flat_for_sale_in_sector_h-13_islamabad-51544389-1039-1.html"
     },
     {
       "id": "graana-1555630",
