@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-07T19:07:38+00:00",
+  "generatedAt": "2026-10-08T05:34:49+00:00",
   "searchCardCount": 1437,
-  "uniqueListingCount": 1207,
-  "exportedListingCount": 1207,
+  "uniqueListingCount": 1221,
+  "exportedListingCount": 1221,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 606,
+      "pageCountDiscovered": 603,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 71,
+      "pageCountDiscovered": 70,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 167,
+      "pageCountDiscovered": 166,
       "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1181,
+      "pageCountDiscovered": 1178,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 370,
+      "pageCountDiscovered": 369,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-10-07T19:07:38+00:00",
+    "generatedAt": "2026-10-08T05:34:49+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.8,
+          "coordinates": 0.7667,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1347,
-        "exportedListings": 1147,
-        "detailSuccess": 1139,
+        "exportedListings": 1161,
+        "detailSuccess": 1154,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3025,
+        "duplicateRate": 0.2825,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0689
+          "imageUrl": 0.0568
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 606,
+            "pageCountDiscovered": 603,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 71,
+            "pageCountDiscovered": 70,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 167,
+            "pageCountDiscovered": 166,
             "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1181,
+            "pageCountDiscovered": 1178,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 370,
+            "pageCountDiscovered": 369,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,38 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-10-07T19:07:38+00:00",
-    "listingCount": 1207,
-    "geocodingAccuracy": 0.9602,
+    "generatedAt": "2026-10-08T05:34:49+00:00",
+    "listingCount": 1221,
+    "geocodingAccuracy": 0.9623,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9834,
-    "duplicateRate": 0.2958,
-    "outlierCount": 20,
-    "suspiciousPpsfCount": 4,
+    "freshnessWithin30Days": 0.9836,
+    "duplicateRate": 0.2768,
+    "outlierCount": 5,
+    "suspiciousPpsfCount": 3,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1155,
-      "Medium": 48,
+      "High": 1172,
+      "Medium": 45,
       "Low": 4
     },
     "ppsfRange": {
       "min": 42.86,
-      "max": 1244444.44,
-      "median": 16888.89
+      "max": 866666.67,
+      "median": 16361.11
     },
     "topOutliers": [
-      {
-        "id": "zameen-54838637",
-        "source": "Zameen",
-        "title": "Naval Farms Housing Scheme Sector C 5 Kanal Residential Plot Up For Sale",
-        "neighborhood": "Naval Farms Housing Scheme",
-        "pricePerSqft": 1244444.44,
-        "reasons": [
-          "outside plausible ppsf range"
-        ],
-        "url": "https://www.zameen.com/Property/naval_farms_housing_scheme_naval_farms_housing_scheme_sector_c_naval_farms_housing_scheme_sector_c_5_kanal_residential_plot_up_for_sale-54838637-22304-2.html"
-      },
       {
         "id": "graana-1545978",
         "source": "Graana",
@@ -418,160 +407,6 @@
           "far above comparable median"
         ],
         "url": "https://www.zameen.com/Property/islamabad_h-13_beautiful_flat_available_for_sale-52913506-1039-1.html"
-      },
-      {
-        "id": "zameen-54738652",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738652-20514-2.html"
-      },
-      {
-        "id": "zameen-54738660",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738660-20514-2.html"
-      },
-      {
-        "id": "zameen-54738666",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738666-20514-2.html"
-      },
-      {
-        "id": "zameen-54738667",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738667-20514-2.html"
-      },
-      {
-        "id": "zameen-54738673",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738673-20514-2.html"
-      },
-      {
-        "id": "zameen-54738677",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738677-20514-2.html"
-      },
-      {
-        "id": "zameen-54738685",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54738685-20514-2.html"
-      },
-      {
-        "id": "zameen-54739427",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739427-20514-2.html"
-      },
-      {
-        "id": "zameen-54739469",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739469-20514-2.html"
-      },
-      {
-        "id": "zameen-54739482",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739482-20514-2.html"
-      },
-      {
-        "id": "zameen-54739487",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739487-20514-2.html"
-      },
-      {
-        "id": "zameen-54739491",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739491-20514-2.html"
-      },
-      {
-        "id": "zameen-54739495",
-        "source": "Zameen",
-        "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale on Investor Rate in DHA 9 (Gandhara Lake District) Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1222.22,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54739495-20514-2.html"
-      },
-      {
-        "id": "zameen-53382477",
-        "source": "Zameen",
-        "title": "DHA Valley Islamabad DHA Phase 7 Sector Iris",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1000.0,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_iris_sector_dha_valley_islamabad_dha_phase_7_sector_iris-53382477-3223-2.html"
       },
       {
         "id": "graana-1555630",
