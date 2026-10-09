@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-09T05:37:36+00:00",
-  "listingCount": 1215,
-  "geocodingAccuracy": 0.9613,
+  "generatedAt": "2026-10-09T18:38:07+00:00",
+  "listingCount": 1217,
+  "geocodingAccuracy": 0.954,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9844,
-  "duplicateRate": 0.3144,
-  "outlierCount": 9,
-  "suspiciousPpsfCount": 4,
+  "areaParsingSuccess": 1.0,
+  "freshnessWithin30Days": 0.9852,
+  "duplicateRate": 0.2909,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1164,
-    "Medium": 47,
-    "Low": 4
+    "High": 1158,
+    "Medium": 56,
+    "Low": 3
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 17097.22
+    "median": 17777.78
   },
   "topOutliers": [
     {
@@ -33,59 +33,37 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54833184",
+      "id": "zameen-54843566",
       "source": "Zameen",
-      "title": "10 Marla Pairs Commercial Avn 6 Main Blwd",
+      "title": "1 BHK Brand New Luxury Apartment for Sale in Bahria Enclave Sector C2 - 640 Sqft - Ideal for Investment & Living",
+      "neighborhood": "Bahria Town",
+      "pricePerSqft": 4551.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_c2_1_bhk_brand_new_luxury_apartment_for_sale_in_bahria_enclave_sector_c2_-_640_sqft_-_ideal_for_investment_living-54843566-11988-1.html"
+    },
+    {
+      "id": "zameen-54795510",
+      "source": "Zameen",
+      "title": "Margalla Enclave ME-3 Prime Location Corner Plot Available for Sale",
+      "neighborhood": "Margalla Avenue",
+      "pricePerSqft": 3000.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
+    },
+    {
+      "id": "zameen-53872089",
+      "source": "Zameen",
+      "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 42222.22,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_3_dha_phase_3_-_block_b_10_marla_pairs_commercial_avn_6_main_blwd-54833184-16227-2.html"
-    },
-    {
-      "id": "zameen-51544389",
-      "source": "Zameen",
-      "title": "Prime Location Studio Flat For Sale In Sector H-13 Islamabad",
-      "neighborhood": "H-13",
-      "pricePerSqft": 11428.57,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_h-13_prime_location_studio_flat_for_sale_in_sector_h-13_islamabad-51544389-1039-1.html"
-    },
-    {
-      "id": "zameen-53555863",
-      "source": "Zameen",
-      "title": "Faisal Town Phase 2 Plot Is Available For Sale",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 2000.0,
+      "pricePerSqft": 766.67,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_faisal_town_phase_2_plot_is_available_for_sale-53555863-20466-2.html"
-    },
-    {
-      "id": "zameen-54844450",
-      "source": "Zameen",
-      "title": "Residential Plot For sale In Beautiful Faisal Town Phase 2",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1777.78,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_residential_plot_for_sale_in_beautiful_faisal_town_phase_2-54844450-20466-2.html"
-    },
-    {
-      "id": "zameen-50784452",
-      "source": "Zameen",
-      "title": "Jammu And Kashmir Housing Society Plots Requird",
-      "neighborhood": "J and K Zone 5",
-      "pricePerSqft": 444.44,
-      "reasons": [
-        "outside plausible ppsf range"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jammu_and_kashmir_housing_society_plots_requird-50784452-425-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
     },
     {
       "id": "graana-1555630",
@@ -108,17 +86,6 @@
         "outside plausible ppsf range"
       ],
       "url": "https://www.graana.com/property/1555635"
-    },
-    {
-      "id": "graana-1544816",
-      "source": "Graana",
-      "title": "Sector A Cube Studio Appartment for sale",
-      "neighborhood": "Bahria Enclave",
-      "pricePerSqft": null,
-      "reasons": [
-        "missing ppsf"
-      ],
-      "url": "https://www.graana.com/property/1544816"
     }
   ],
   "fbrReference": {
