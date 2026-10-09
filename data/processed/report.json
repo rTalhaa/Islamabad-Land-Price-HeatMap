@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T19:07:20+00:00",
-  "searchCardCount": 1439,
-  "uniqueListingCount": 1210,
-  "exportedListingCount": 1210,
+  "generatedAt": "2026-10-09T05:37:36+00:00",
+  "searchCardCount": 1437,
+  "uniqueListingCount": 1215,
+  "exportedListingCount": 1215,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 610,
+      "pageCountDiscovered": 607,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 167,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 166,
+      "listingCardsCollected": 147,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1185,
+      "pageCountDiscovered": 1184,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 175,
+      "pageCountDiscovered": 176,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 372,
+      "pageCountDiscovered": 371,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-10-08T19:07:20+00:00",
+    "generatedAt": "2026-10-09T05:37:36+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1349,
-        "exportedListings": 1150,
-        "detailSuccess": 1143,
+        "parsedCards": 1347,
+        "exportedListings": 1155,
+        "detailSuccess": 1146,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3261,
+        "duplicateRate": 0.3229,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0017,
-          "imageUrl": 0.0843
+          "coordinates": 0.0009,
+          "imageUrl": 0.0866
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 610,
+            "pageCountDiscovered": 607,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 167,
-            "listingCardsCollected": 149,
+            "pageCountDiscovered": 166,
+            "listingCardsCollected": 147,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1185,
+            "pageCountDiscovered": 1184,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 175,
+            "pageCountDiscovered": 176,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 372,
+            "pageCountDiscovered": 371,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-10-08T19:07:20+00:00",
-    "listingCount": 1210,
-    "geocodingAccuracy": 0.9603,
+    "generatedAt": "2026-10-09T05:37:36+00:00",
+    "listingCount": 1215,
+    "geocodingAccuracy": 0.9613,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9843,
-    "duplicateRate": 0.3174,
-    "outlierCount": 6,
-    "suspiciousPpsfCount": 3,
+    "freshnessWithin30Days": 0.9844,
+    "duplicateRate": 0.3144,
+    "outlierCount": 9,
+    "suspiciousPpsfCount": 4,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1159,
+      "High": 1164,
       "Medium": 47,
       "Low": 4
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 16271.19
+      "median": 17097.22
     },
     "topOutliers": [
       {
@@ -418,6 +418,39 @@
           "far above comparable median"
         ],
         "url": "https://www.zameen.com/Property/islamabad_h-13_prime_location_studio_flat_for_sale_in_sector_h-13_islamabad-51544389-1039-1.html"
+      },
+      {
+        "id": "zameen-53555863",
+        "source": "Zameen",
+        "title": "Faisal Town Phase 2 Plot Is Available For Sale",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 2000.0,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_faisal_town_phase_2_plot_is_available_for_sale-53555863-20466-2.html"
+      },
+      {
+        "id": "zameen-54844450",
+        "source": "Zameen",
+        "title": "Residential Plot For sale In Beautiful Faisal Town Phase 2",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 1777.78,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_residential_plot_for_sale_in_beautiful_faisal_town_phase_2-54844450-20466-2.html"
+      },
+      {
+        "id": "zameen-50784452",
+        "source": "Zameen",
+        "title": "Jammu And Kashmir Housing Society Plots Requird",
+        "neighborhood": "J and K Zone 5",
+        "pricePerSqft": 444.44,
+        "reasons": [
+          "outside plausible ppsf range"
+        ],
+        "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jammu_and_kashmir_housing_society_plots_requird-50784452-425-2.html"
       },
       {
         "id": "graana-1555630",
