@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-10T05:22:52+00:00",
-  "listingCount": 1208,
-  "geocodingAccuracy": 0.9553,
+  "generatedAt": "2026-10-10T17:37:16+00:00",
+  "listingCount": 1229,
+  "geocodingAccuracy": 0.9585,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9851,
-  "duplicateRate": 0.2939,
-  "outlierCount": 6,
-  "suspiciousPpsfCount": 3,
+  "freshnessWithin30Days": 0.9854,
+  "duplicateRate": 0.2913,
+  "outlierCount": 5,
+  "suspiciousPpsfCount": 4,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1151,
-    "Medium": 54,
+    "High": 1174,
+    "Medium": 52,
     "Low": 3
   },
   "ppsfRange": {
     "min": 42.86,
     "max": 866666.67,
-    "median": 16000.0
+    "median": 17555.56
   },
   "topOutliers": [
     {
@@ -33,17 +33,6 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54845971",
-      "source": "Zameen",
-      "title": "Good location 5 Marla Plot Available for Sale",
-      "neighborhood": "Faisal Hills",
-      "pricePerSqft": 4711.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_c_good_location_5_marla_plot_available_for_sale-54845971-12657-1.html"
-    },
-    {
       "id": "zameen-54843566",
       "source": "Zameen",
       "title": "1 BHK Brand New Luxury Apartment for Sale in Bahria Enclave Sector C2 - 640 Sqft - Ideal for Investment & Living",
@@ -55,15 +44,15 @@
       "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_c2_1_bhk_brand_new_luxury_apartment_for_sale_in_bahria_enclave_sector_c2_-_640_sqft_-_ideal_for_investment_living-54843566-11988-1.html"
     },
     {
-      "id": "zameen-54795510",
+      "id": "zameen-50784452",
       "source": "Zameen",
-      "title": "Margalla Enclave ME-3 Prime Location Corner Plot Available for Sale",
-      "neighborhood": "Margalla Avenue",
-      "pricePerSqft": 3000.0,
+      "title": "Jammu And Kashmir Housing Society Plots Requird",
+      "neighborhood": "J and K Zone 5",
+      "pricePerSqft": 444.44,
       "reasons": [
-        "far below comparable median"
+        "outside plausible ppsf range"
       ],
-      "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
+      "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jammu_and_kashmir_housing_society_plots_requird-50784452-425-2.html"
     },
     {
       "id": "graana-1555630",
