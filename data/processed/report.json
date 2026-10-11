@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T17:37:16+00:00",
+  "generatedAt": "2026-10-11T05:09:00+00:00",
   "searchCardCount": 1433,
-  "uniqueListingCount": 1229,
-  "exportedListingCount": 1229,
+  "uniqueListingCount": 1216,
+  "exportedListingCount": 1216,
   "seedStats": [
     {
       "source": "zameen",
@@ -24,7 +24,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 66,
-      "listingCardsCollected": 146,
+      "listingCardsCollected": 147,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -59,8 +59,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 167,
-      "listingCardsCollected": 148,
+      "pageCountDiscovered": 166,
+      "listingCardsCollected": 147,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1184,
+      "pageCountDiscovered": 1186,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 174,
+      "pageCountDiscovered": 175,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-10-10T17:37:16+00:00",
+    "generatedAt": "2026-10-11T05:09:00+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.85,
+          "coordinates": 0.7667,
           "imageUrl": 0.0
         },
         "seedStats": [
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1343,
-        "exportedListings": 1169,
-        "detailSuccess": 1160,
+        "exportedListings": 1156,
+        "detailSuccess": 1148,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2985,
+        "duplicateRate": 0.2907,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0,
-          "imageUrl": 0.089
+          "coordinates": 0.0026,
+          "imageUrl": 0.0882
         },
         "seedStats": [
           {
@@ -268,7 +268,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 66,
-            "listingCardsCollected": 146,
+            "listingCardsCollected": 147,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -303,8 +303,8 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 167,
-            "listingCardsCollected": 148,
+            "pageCountDiscovered": 166,
+            "listingCardsCollected": 147,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1184,
+            "pageCountDiscovered": 1186,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 174,
+            "pageCountDiscovered": 175,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-10-10T17:37:16+00:00",
-    "listingCount": 1229,
-    "geocodingAccuracy": 0.9585,
+    "generatedAt": "2026-10-11T05:09:00+00:00",
+    "listingCount": 1216,
+    "geocodingAccuracy": 0.9597,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9854,
-    "duplicateRate": 0.2913,
-    "outlierCount": 5,
-    "suspiciousPpsfCount": 4,
+    "freshnessWithin30Days": 0.9852,
+    "duplicateRate": 0.2837,
+    "outlierCount": 10,
+    "suspiciousPpsfCount": 3,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1174,
-      "Medium": 52,
+      "High": 1164,
+      "Medium": 49,
       "Low": 3
     },
     "ppsfRange": {
       "min": 42.86,
       "max": 866666.67,
-      "median": 17555.56
+      "median": 17024.59
     },
     "topOutliers": [
       {
@@ -398,6 +398,28 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
+        "id": "zameen-54125977",
+        "source": "Zameen",
+        "title": "3 Bed Flat For Sale Meher Apartments",
+        "neighborhood": "H-13",
+        "pricePerSqft": 13333.33,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/islamabad_h-13_3_bed_flat_for_sale_meher_apartments-54125977-1039-1.html"
+      },
+      {
+        "id": "zameen-54845971",
+        "source": "Zameen",
+        "title": "Good location 5 Marla Plot Available for Sale",
+        "neighborhood": "Faisal Hills",
+        "pricePerSqft": 4711.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_c_good_location_5_marla_plot_available_for_sale-54845971-12657-1.html"
+      },
+      {
         "id": "zameen-54843566",
         "source": "Zameen",
         "title": "1 BHK Brand New Luxury Apartment for Sale in Bahria Enclave Sector C2 - 640 Sqft - Ideal for Investment & Living",
@@ -409,15 +431,48 @@
         "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_c2_1_bhk_brand_new_luxury_apartment_for_sale_in_bahria_enclave_sector_c2_-_640_sqft_-_ideal_for_investment_living-54843566-11988-1.html"
       },
       {
-        "id": "zameen-50784452",
+        "id": "zameen-54733710",
         "source": "Zameen",
-        "title": "Jammu And Kashmir Housing Society Plots Requird",
-        "neighborhood": "J and K Zone 5",
-        "pricePerSqft": 444.44,
+        "title": "10 Kanal Farmhouse In B Block Of Gulberg Greens.",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 4333.33,
         "reasons": [
-          "outside plausible ppsf range"
+          "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/islamabad_j_and_k_zone_5_jammu_and_kashmir_housing_society_plots_requird-50784452-425-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_greens_gulberg_greens_-_block_b_10_kanal_farmhouse_in_b_block_of_gulberg_greens-54733710-8314-1.html"
+      },
+      {
+        "id": "zameen-54736770",
+        "source": "Zameen",
+        "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1511.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54736770-13693-2.html"
+      },
+      {
+        "id": "zameen-54782255",
+        "source": "Zameen",
+        "title": "5 Marla Plot For Sale In Gulberg Islamabad AA Block",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1511.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_for_sale_in_gulberg_islamabad_aa_block-54782255-13693-2.html"
+      },
+      {
+        "id": "zameen-53872089",
+        "source": "Zameen",
+        "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 766.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
       },
       {
         "id": "graana-1555630",
