@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-14T04:00:28+00:00",
-  "listingCount": 1233,
-  "geocodingAccuracy": 0.9578,
+  "generatedAt": "2026-10-14T17:16:29+00:00",
+  "listingCount": 1196,
+  "geocodingAccuracy": 0.9582,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9838,
-  "duplicateRate": 0.3439,
-  "outlierCount": 10,
+  "areaParsingSuccess": 0.9983,
+  "freshnessWithin30Days": 0.9824,
+  "duplicateRate": 0.3487,
+  "outlierCount": 8,
   "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1179,
-    "Medium": 52,
-    "Low": 2
+    "High": 1143,
+    "Medium": 50,
+    "Low": 3
   },
   "ppsfRange": {
-    "min": 53.33,
+    "min": 1511.11,
     "max": 866666.67,
-    "median": 16666.67
+    "median": 16404.04
   },
   "topOutliers": [
     {
@@ -33,26 +33,16 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-52273353",
+      "id": "zameen-54867169",
       "source": "Zameen",
-      "title": "50x50 Commercial Plot For Sale In Business Square, Gulberg Greens, Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 44444.44,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_gulberg_business_square_50x50_commercial_plot_for_sale_in_business_square_gulberg_greens_islamabad-52273353-11450-2.html"
-    },
-    {
-      "id": "zameen-54833184",
-      "source": "Zameen",
-      "title": "10 Marla Pairs Commercial Avn 6 Main Blwd",
+      "title": "Dha Phase 5 Sector B 1kanal Main 4th Avenue Plot Available For",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 42222.22,
+      "pricePerSqft": 177777.78,
       "reasons": [
+        "outside plausible ppsf range",
         "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_3_dha_phase_3_-_block_b_10_marla_pairs_commercial_avn_6_main_blwd-54833184-16227-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_5_dha_phase_5_-_sector_b_dha_phase_5_sector_b_1kanal_main_4th_avenue_plot_available_for-54867169-8401-2.html"
     },
     {
       "id": "zameen-54861898",
@@ -88,38 +78,15 @@
       "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
     },
     {
-      "id": "zameen-54716932",
+      "id": "zameen-54736770",
       "source": "Zameen",
-      "title": "(Especial Offer) (DHA Verified Balloted 1 Kanal Plot) For Sale On Investor Rate In DHA 9 (Gandhara Lake District) Islamabad",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1222.22,
+      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1511.11,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_especial_offer_dha_verified_balloted_1_kanal_plot_for_sale_on_investor_rate_in_dha_9_gandhara_lake_district_islamabad-54716932-20514-2.html"
-    },
-    {
-      "id": "zameen-53872089",
-      "source": "Zameen",
-      "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 766.67,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
-    },
-    {
-      "id": "zameen-54861592",
-      "source": "Zameen",
-      "title": "25x40 House for Rent Beautiful 25x40 house available for rent. Well-designed layout, spacious rooms, modern kitchen, neat bathrooms, and a comfortable living area. Ideal for a small family. Excellent option for comfortable family living. Contact now for",
-      "neighborhood": "G-13",
-      "pricePerSqft": 53.33,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_g-13_25x40_house_for_rent_beautiful_25x40_house_available_for_rent_well-designed_layout_spacious_rooms_modern_kitchen_neat_bathrooms_and_a_comfortable_living_area_ideal_for_a_small_family_excellent_option_for_comfortable_family_living_contact_now_for-54861592-330-1.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54736770-13693-2.html"
     },
     {
       "id": "graana-1544816",
@@ -131,6 +98,17 @@
         "missing ppsf"
       ],
       "url": "https://www.graana.com/property/1544816"
+    },
+    {
+      "id": "zameen-54866947",
+      "source": "Zameen",
+      "title": "5 Marla Brand New Single-Storey House For Sale",
+      "neighborhood": "Bani Gala",
+      "pricePerSqft": null,
+      "reasons": [
+        "missing ppsf"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_bani_gala_5_marla_brand_new_single-storey_house_for_sale-54866947-340-1.html"
     }
   ],
   "fbrReference": {
