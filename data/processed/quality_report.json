@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-14T17:16:29+00:00",
-  "listingCount": 1196,
-  "geocodingAccuracy": 0.9582,
+  "generatedAt": "2026-10-15T04:12:19+00:00",
+  "listingCount": 1211,
+  "geocodingAccuracy": 0.9579,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9983,
-  "freshnessWithin30Days": 0.9824,
-  "duplicateRate": 0.3487,
-  "outlierCount": 8,
+  "areaParsingSuccess": 0.9992,
+  "freshnessWithin30Days": 0.9827,
+  "duplicateRate": 0.327,
+  "outlierCount": 5,
   "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1143,
-    "Medium": 50,
-    "Low": 3
+    "High": 1158,
+    "Medium": 51,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 1511.11,
+    "min": 1333.33,
     "max": 866666.67,
-    "median": 16404.04
+    "median": 16000.0
   },
   "topOutliers": [
     {
@@ -67,28 +67,6 @@
       "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_c_good_location_5_marla_plot_available_for_sale-54845971-12657-1.html"
     },
     {
-      "id": "zameen-54795510",
-      "source": "Zameen",
-      "title": "Margalla Enclave ME-3 Prime Location Corner Plot Available for Sale",
-      "neighborhood": "Margalla Avenue",
-      "pricePerSqft": 3000.0,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
-    },
-    {
-      "id": "zameen-54736770",
-      "source": "Zameen",
-      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54736770-13693-2.html"
-    },
-    {
       "id": "graana-1544816",
       "source": "Graana",
       "title": "Sector A Cube Studio Appartment for sale",
@@ -98,17 +76,6 @@
         "missing ppsf"
       ],
       "url": "https://www.graana.com/property/1544816"
-    },
-    {
-      "id": "zameen-54866947",
-      "source": "Zameen",
-      "title": "5 Marla Brand New Single-Storey House For Sale",
-      "neighborhood": "Bani Gala",
-      "pricePerSqft": null,
-      "reasons": [
-        "missing ppsf"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_bani_gala_5_marla_brand_new_single-storey_house_for_sale-54866947-340-1.html"
     }
   ],
   "fbrReference": {
