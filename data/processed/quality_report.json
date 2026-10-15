@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-15T04:12:19+00:00",
-  "listingCount": 1211,
-  "geocodingAccuracy": 0.9579,
+  "generatedAt": "2026-10-15T16:52:02+00:00",
+  "listingCount": 1210,
+  "geocodingAccuracy": 0.9595,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9827,
-  "duplicateRate": 0.327,
-  "outlierCount": 5,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 0.9826,
+  "duplicateRate": 0.2917,
+  "outlierCount": 9,
+  "suspiciousPpsfCount": 3,
   "confidenceMedian": 100.0,
   "confidenceBands": {
     "High": 1158,
-    "Medium": 51,
+    "Medium": 50,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1333.33,
+    "min": 266.67,
     "max": 866666.67,
-    "median": 16000.0
+    "median": 17272.73
   },
   "topOutliers": [
     {
@@ -31,18 +31,6 @@
         "far above comparable median"
       ],
       "url": "https://www.graana.com/property/1545978"
-    },
-    {
-      "id": "zameen-54867169",
-      "source": "Zameen",
-      "title": "Dha Phase 5 Sector B 1kanal Main 4th Avenue Plot Available For",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 177777.78,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_5_dha_phase_5_-_sector_b_dha_phase_5_sector_b_1kanal_main_4th_avenue_plot_available_for-54867169-8401-2.html"
     },
     {
       "id": "zameen-54861898",
@@ -65,6 +53,61 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_c_good_location_5_marla_plot_available_for_sale-54845971-12657-1.html"
+    },
+    {
+      "id": "zameen-53668853",
+      "source": "Zameen",
+      "title": "Islamabad 5 Marla Balloted Map Approved Plot Available For Sale In Just 16.50 Lac",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1511.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_islamabad_5_marla_balloted_map_approved_plot_available_for_sale_in_just_16_50_lac-53668853-13693-2.html"
+    },
+    {
+      "id": "zameen-54544846",
+      "source": "Zameen",
+      "title": "5 Marla Good Location Plot For Sale In Block-AA",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1466.67,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
+    },
+    {
+      "id": "zameen-54842270",
+      "source": "Zameen",
+      "title": "1 KANAL PLOT AVAILABLE FOR SALE IN DHA GANDHARA ISLAMABAD",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1222.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_9_1_kanal_plot_available_for_sale_in_dha_gandhara_islamabad-54842270-20514-2.html"
+    },
+    {
+      "id": "zameen-48597959",
+      "source": "Zameen",
+      "title": "1 Kanal Plot Available, National Cooperative Housing Society",
+      "neighborhood": "National Cooperative Housing Society",
+      "pricePerSqft": 266.67,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_national_cooperative_housing_society_1_kanal_plot_available_national_cooperative_housing_society-48597959-9274-2.html"
+    },
+    {
+      "id": "zameen-51562541",
+      "source": "Zameen",
+      "title": "1 Kanal Dream Plot Opportunity In Islamabad",
+      "neighborhood": "National Cooperative Housing Society",
+      "pricePerSqft": 266.67,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_national_cooperative_housing_society_1_kanal_dream_plot_opportunity_in_islamabad-51562541-9274-2.html"
     },
     {
       "id": "graana-1544816",
