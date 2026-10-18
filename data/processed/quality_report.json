@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-17T15:41:35+00:00",
-  "listingCount": 1200,
-  "geocodingAccuracy": 0.9575,
+  "generatedAt": "2026-10-18T04:04:03+00:00",
+  "listingCount": 1225,
+  "geocodingAccuracy": 0.9584,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9817,
-  "duplicateRate": 0.2933,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.982,
+  "duplicateRate": 0.2996,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1148,
-    "Medium": 50,
+    "High": 1172,
+    "Medium": 51,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 565.66,
+    "min": 1075.56,
     "max": 866666.67,
     "median": 17333.33
   },
@@ -33,26 +33,27 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54861898",
+      "id": "zameen-54867169",
       "source": "Zameen",
-      "title": "DHA PHASE 4 RWP SECTOR A ONE KANAL PLOT AVAILABLE FOR SALE",
+      "title": "Dha Phase 5 Sector B 1kanal Main 4th Avenue Plot Available For",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 5555.56,
+      "pricePerSqft": 177777.78,
       "reasons": [
-        "far below comparable median"
+        "outside plausible ppsf range",
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_a_dha_phase_4_rwp_sector_a_one_kanal_plot_available_for_sale-54861898-13956-1.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_5_dha_phase_5_-_sector_b_dha_phase_5_sector_b_1kanal_main_4th_avenue_plot_available_for-54867169-8401-2.html"
     },
     {
-      "id": "zameen-54845971",
+      "id": "zameen-54377713",
       "source": "Zameen",
-      "title": "Good location 5 Marla Plot Available for Sale",
-      "neighborhood": "Faisal Hills",
-      "pricePerSqft": 4711.11,
+      "title": "Ideal House Is Available For Sale In Lehtrar Road",
+      "neighborhood": "Lehtrar Road",
+      "pricePerSqft": 3777.78,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_c_good_location_5_marla_plot_available_for_sale-54845971-12657-1.html"
+      "url": "https://www.zameen.com/Property/islamabad_lehtrar_road_ideal_house_is_available_for_sale_in_lehtrar_road-54377713-3461-1.html"
     },
     {
       "id": "zameen-54795510",
@@ -66,26 +67,15 @@
       "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
     },
     {
-      "id": "zameen-54784280",
+      "id": "zameen-54786648",
       "source": "Zameen",
-      "title": "5 Marla Residential Plot in AA Block in Rs. 1800,000 on Cash Payment, Gulbeerg Residencia, Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1600.0,
+      "title": "Lavender 5 Marla 11 Paid Open For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1075.56,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_residential_plot_in_aa_block_in_rs_1800_000_on_cash_payment_gulbeerg_residencia_islamabad-54784280-13693-2.html"
-    },
-    {
-      "id": "zameen-54856212",
-      "source": "Zameen",
-      "title": "11 Marla Residential Plot For Sale In G-16/2 Islamabad In Only Rs. 1400000",
-      "neighborhood": "G-16",
-      "pricePerSqft": 565.66,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/g_16_g-16_2_11_marla_residential_plot_for_sale_in_g-16_2_islamabad_in_only_rs_1400000-54856212-14948-2.html"
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_lavander_sector_lavender_5_marla_11_paid_open_for_sale-54786648-3225-2.html"
     },
     {
       "id": "graana-1544816",
