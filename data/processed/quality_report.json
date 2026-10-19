@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-19T04:15:37+00:00",
-  "listingCount": 1233,
-  "geocodingAccuracy": 0.9578,
+  "generatedAt": "2026-10-19T18:50:04+00:00",
+  "listingCount": 1213,
+  "geocodingAccuracy": 0.9588,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 0.9984,
-  "freshnessWithin30Days": 0.9822,
-  "duplicateRate": 0.3187,
-  "outlierCount": 6,
-  "suspiciousPpsfCount": 2,
+  "areaParsingSuccess": 0.9992,
+  "freshnessWithin30Days": 0.9819,
+  "duplicateRate": 0.2877,
+  "outlierCount": 4,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1178,
-    "Medium": 52,
-    "Low": 3
+    "High": 1162,
+    "Medium": 49,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 0.0,
+    "min": 894.22,
     "max": 866666.67,
-    "median": 16311.11
+    "median": 17555.56
   },
   "topOutliers": [
     {
@@ -33,26 +33,26 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54861898",
+      "id": "zameen-54772267",
       "source": "Zameen",
-      "title": "DHA PHASE 4 RWP SECTOR A ONE KANAL PLOT AVAILABLE FOR SALE",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 5555.56,
+      "title": "7 Marla Corner Plot For Sale In T Block",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 76190.48,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_a_dha_phase_4_rwp_sector_a_one_kanal_plot_available_for_sale-54861898-13956-1.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_t_7_marla_corner_plot_for_sale_in_t_block-54772267-9130-2.html"
     },
     {
-      "id": "zameen-54830044",
+      "id": "zameen-53736900",
       "source": "Zameen",
-      "title": "P Block 2 Kanal Non Develop Plot Highted Location Plot Available For Sale Gulberg Residencia Block P",
+      "title": "Beautiful Location Plot For Sale",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1333.33,
+      "pricePerSqft": 1422.22,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_p_block_2_kanal_non_develop_plot_highted_location_plot_available_for_sale_gulberg_residencia_block_p-54830044-9126-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_beautiful_location_plot_for_sale-53736900-13693-2.html"
     },
     {
       "id": "graana-1544816",
@@ -64,29 +64,6 @@
         "missing ppsf"
       ],
       "url": "https://www.graana.com/property/1544816"
-    },
-    {
-      "id": "zameen-54870371",
-      "source": "Zameen",
-      "title": "10 Marla Grey Structure House for Sale in E-16/2, Islamabad",
-      "neighborhood": "E-16",
-      "pricePerSqft": 0.0,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/e_16_2_cdechs_-_cabinet_division_employees_cooperative_housing_society_10_marla_grey_structure_house_for_sale_in_e-16_2_islamabad-54870371-11221-1.html"
-    },
-    {
-      "id": "zameen-54880693",
-      "source": "Zameen",
-      "title": "5 merla house dubel Story beautiful house For sale in Fasli Hilis",
-      "neighborhood": "Faisal Hills",
-      "pricePerSqft": null,
-      "reasons": [
-        "missing ppsf"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_hills_faisal_hills_-_block_a_5_merla_house_dubel_story_beautiful_house_for_sale_in_fasli_hilis-54880693-12655-1.html"
     }
   ],
   "fbrReference": {
