@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T16:03:41+00:00",
-  "searchCardCount": 1435,
-  "uniqueListingCount": 1207,
-  "exportedListingCount": 1207,
+  "generatedAt": "2026-10-19T04:15:37+00:00",
+  "searchCardCount": 1438,
+  "uniqueListingCount": 1233,
+  "exportedListingCount": 1233,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 625,
+      "pageCountDiscovered": 623,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 68,
+      "pageCountDiscovered": 67,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 84,
+      "pageCountDiscovered": 83,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 166,
-      "listingCardsCollected": 145,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-10-18T16:03:41+00:00",
+    "generatedAt": "2026-10-19T04:15:37+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -167,7 +167,7 @@
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0167,
-          "coordinates": 0.8167,
+          "coordinates": 0.85,
           "imageUrl": 0.0167
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1345,
-        "exportedListings": 1147,
-        "detailSuccess": 1140,
+        "parsedCards": 1348,
+        "exportedListings": 1173,
+        "detailSuccess": 1155,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3078,
+        "duplicateRate": 0.3282,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0009,
-          "coordinates": 0.0,
-          "imageUrl": 0.0706
+          "coordinates": 0.0009,
+          "imageUrl": 0.0588
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 625,
+            "pageCountDiscovered": 623,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 68,
+            "pageCountDiscovered": 67,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 84,
+            "pageCountDiscovered": 83,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 166,
-            "listingCardsCollected": 145,
+            "listingCardsCollected": 148,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-10-18T16:03:41+00:00",
-    "listingCount": 1207,
-    "geocodingAccuracy": 0.9594,
+    "generatedAt": "2026-10-19T04:15:37+00:00",
+    "listingCount": 1233,
+    "geocodingAccuracy": 0.9578,
     "priceParsingSuccess": 1.0,
-    "areaParsingSuccess": 0.9983,
-    "freshnessWithin30Days": 0.9818,
-    "duplicateRate": 0.2991,
-    "outlierCount": 3,
-    "suspiciousPpsfCount": 1,
+    "areaParsingSuccess": 0.9984,
+    "freshnessWithin30Days": 0.9822,
+    "duplicateRate": 0.3187,
+    "outlierCount": 6,
+    "suspiciousPpsfCount": 2,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1156,
-      "Medium": 48,
+      "High": 1178,
+      "Medium": 52,
       "Low": 3
     },
     "ppsfRange": {
-      "min": 1422.22,
+      "min": 0.0,
       "max": 866666.67,
-      "median": 16057.35
+      "median": 16311.11
     },
     "topOutliers": [
       {
@@ -398,6 +398,28 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
+        "id": "zameen-54861898",
+        "source": "Zameen",
+        "title": "DHA PHASE 4 RWP SECTOR A ONE KANAL PLOT AVAILABLE FOR SALE",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 5555.56,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_a_dha_phase_4_rwp_sector_a_one_kanal_plot_available_for_sale-54861898-13956-1.html"
+      },
+      {
+        "id": "zameen-54830044",
+        "source": "Zameen",
+        "title": "P Block 2 Kanal Non Develop Plot Highted Location Plot Available For Sale Gulberg Residencia Block P",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1333.33,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_p_p_block_2_kanal_non_develop_plot_highted_location_plot_available_for_sale_gulberg_residencia_block_p-54830044-9126-2.html"
+      },
+      {
         "id": "graana-1544816",
         "source": "Graana",
         "title": "Sector A Cube Studio Appartment for sale",
@@ -407,6 +429,18 @@
           "missing ppsf"
         ],
         "url": "https://www.graana.com/property/1544816"
+      },
+      {
+        "id": "zameen-54870371",
+        "source": "Zameen",
+        "title": "10 Marla Grey Structure House for Sale in E-16/2, Islamabad",
+        "neighborhood": "E-16",
+        "pricePerSqft": 0.0,
+        "reasons": [
+          "outside plausible ppsf range",
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/e_16_2_cdechs_-_cabinet_division_employees_cooperative_housing_society_10_marla_grey_structure_house_for_sale_in_e-16_2_islamabad-54870371-11221-1.html"
       },
       {
         "id": "zameen-54880693",
