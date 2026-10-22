@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-22T04:15:38+00:00",
-  "listingCount": 1198,
-  "geocodingAccuracy": 0.9591,
+  "generatedAt": "2026-10-22T16:50:07+00:00",
+  "listingCount": 1211,
+  "geocodingAccuracy": 0.9554,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.9816,
-  "duplicateRate": 0.3164,
-  "outlierCount": 4,
+  "freshnessWithin30Days": 0.981,
+  "duplicateRate": 0.2907,
+  "outlierCount": 7,
   "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1148,
-    "Medium": 48,
+    "High": 1156,
+    "Medium": 53,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1688.89,
+    "min": 1200.0,
     "max": 866666.67,
     "median": 17555.56
   },
@@ -33,6 +33,17 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
+      "id": "zameen-54872572",
+      "source": "Zameen",
+      "title": "1 Kanal Plot At Eighteen On Installments",
+      "neighborhood": "Kashmir Highway",
+      "pricePerSqft": 16377.78,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_1_kanal_plot_at_eighteen_on_installments-54872572-12602-2.html"
+    },
+    {
       "id": "zameen-54820412",
       "source": "Zameen",
       "title": "### 10 Kanal Luxury Farmhouse for Sale In Front of Bahria Enclave, Sector M, Islamabad",
@@ -44,15 +55,37 @@
       "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_for_sale_in_front_of_bahria_enclave_sector_m_islamabad-54820412-11977-1.html"
     },
     {
-      "id": "zameen-51554536",
+      "id": "zameen-54795510",
       "source": "Zameen",
-      "title": "AA Block 5 Marla Plot Available For Sale",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1688.89,
+      "title": "Margalla Enclave ME-3 Prime Location Corner Plot Available for Sale",
+      "neighborhood": "Margalla Avenue",
+      "pricePerSqft": 3000.0,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_aa_block_5_marla_plot_available_for_sale-51554536-13693-2.html"
+      "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
+    },
+    {
+      "id": "zameen-54127302",
+      "source": "Zameen",
+      "title": "Park Face 5 marla J block Faisal Town phase 2",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 2044.44,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_park_face_5_marla_j_block_faisal_town_phase_2-54127302-20466-2.html"
+    },
+    {
+      "id": "zameen-54900158",
+      "source": "Zameen",
+      "title": "Gloxinia Block 5 Marla Open File For sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1200.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_gloxinia_sector_gloxinia_block_5_marla_open_file_for_sale-54900158-3222-2.html"
     },
     {
       "id": "graana-1544816",
