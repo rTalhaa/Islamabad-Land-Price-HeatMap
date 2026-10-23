@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-22T16:50:07+00:00",
-  "listingCount": 1211,
-  "geocodingAccuracy": 0.9554,
+  "generatedAt": "2026-10-23T04:20:36+00:00",
+  "listingCount": 1227,
+  "geocodingAccuracy": 0.9584,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 0.9992,
-  "freshnessWithin30Days": 0.981,
-  "duplicateRate": 0.2907,
-  "outlierCount": 7,
-  "suspiciousPpsfCount": 1,
+  "freshnessWithin30Days": 0.9813,
+  "duplicateRate": 0.2901,
+  "outlierCount": 8,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1156,
-    "Medium": 53,
+    "High": 1174,
+    "Medium": 51,
     "Low": 2
   },
   "ppsfRange": {
-    "min": 1200.0,
+    "min": 266.67,
     "max": 866666.67,
     "median": 17555.56
   },
@@ -33,15 +33,15 @@
       "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54872572",
+      "id": "zameen-54898436",
       "source": "Zameen",
-      "title": "1 Kanal Plot At Eighteen On Installments",
-      "neighborhood": "Kashmir Highway",
-      "pricePerSqft": 16377.78,
+      "title": "Flat for Sale in Khudadad Heights Islamabad",
+      "neighborhood": "E-11",
+      "pricePerSqft": 6606.61,
       "reasons": [
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/kashmir_highway_eighteen_1_kanal_plot_at_eighteen_on_installments-54872572-12602-2.html"
+      "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_flat_for_sale_in_khudadad_heights_islamabad-54898436-11524-1.html"
     },
     {
       "id": "zameen-54820412",
@@ -66,15 +66,15 @@
       "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_margalla_enclave_me-3_prime_location_corner_plot_available_for_sale-54795510-21436-2.html"
     },
     {
-      "id": "zameen-54127302",
+      "id": "zameen-54873138",
       "source": "Zameen",
-      "title": "Park Face 5 marla J block Faisal Town phase 2",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 2044.44,
+      "title": "5 Marla develop possession plot for sale",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1511.11,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_park_face_5_marla_j_block_faisal_town_phase_2-54127302-20466-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa2_5_marla_develop_possession_plot_for_sale-54873138-17123-2.html"
     },
     {
       "id": "zameen-54900158",
@@ -86,6 +86,17 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_gloxinia_sector_gloxinia_block_5_marla_open_file_for_sale-54900158-3222-2.html"
+    },
+    {
+      "id": "zameen-48597959",
+      "source": "Zameen",
+      "title": "1 Kanal Plot Available, National Cooperative Housing Society",
+      "neighborhood": "National Cooperative Housing Society",
+      "pricePerSqft": 266.67,
+      "reasons": [
+        "outside plausible ppsf range"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_national_cooperative_housing_society_1_kanal_plot_available_national_cooperative_housing_society-48597959-9274-2.html"
     },
     {
       "id": "graana-1544816",
