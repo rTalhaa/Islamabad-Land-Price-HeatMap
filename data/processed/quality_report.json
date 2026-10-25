@@ -1,68 +1,47 @@
 {
-  "generatedAt": "2026-10-25T04:13:28+00:00",
-  "listingCount": 1169,
-  "geocodingAccuracy": 1.0,
+  "generatedAt": "2026-10-25T16:16:03+00:00",
+  "listingCount": 1136,
+  "geocodingAccuracy": 0.9991,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3405,
-  "outlierCount": 4,
-  "suspiciousPpsfCount": 0,
+  "duplicateRate": 0.3055,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1169,
-    "Medium": 0,
+    "High": 1134,
+    "Medium": 2,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 766.67,
-    "max": 111776.45,
-    "median": 16717.64
+    "min": 124.44,
+    "max": 111111.11,
+    "median": 16666.67
   },
   "topOutliers": [
     {
-      "id": "zameen-54905116",
+      "id": "zameen-54392119",
       "source": "Zameen",
-      "title": "5 Marla Level & Sun Face Plot for Sale in Block-C Faisal Town Phase 1",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 12888.89,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
-    },
-    {
-      "id": "zameen-54862020",
-      "source": "Zameen",
-      "title": "5 MARLA PLOT FOR SALE In FAISAL TOWN BLOCK C",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 11377.78,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_plot_for_sale_in_faisal_town_block_c-54862020-16418-2.html"
-    },
-    {
-      "id": "zameen-53872089",
-      "source": "Zameen",
-      "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 766.67,
+      "title": "I15/3 Plot #158 Street 46 Main Double Road Ke Back 50 Feet Road D-90 Lack",
+      "neighborhood": "I-15",
+      "pricePerSqft": 942.22,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
+      "url": "https://www.zameen.com/Property/i_15_i-15_3_i15_3_plot_158_street_46_main_double_road_ke_back_50_feet_road_d-90_lack-54392119-8264-2.html"
     },
     {
-      "id": "zameen-54896347",
+      "id": "zameen-54897564",
       "source": "Zameen",
-      "title": "DHA Phase 2 Extn Open Certificate Sector M 1 Kanal",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 766.67,
+      "title": "Flat For Sale",
+      "neighborhood": "G-10",
+      "pricePerSqft": 124.44,
       "reasons": [
+        "outside plausible ppsf range",
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_m_dha_phase_2_extn_open_certificate_sector_m_1_kanal-54896347-14639-2.html"
+      "url": "https://www.zameen.com/Property/g_10_markaz_veranda_executive_flat_for_sale-54897564-21775-1.html"
     }
   ],
   "fbrReference": {
