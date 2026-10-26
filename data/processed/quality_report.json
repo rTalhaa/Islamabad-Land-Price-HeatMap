@@ -1,49 +1,25 @@
 {
-  "generatedAt": "2026-10-25T16:16:03+00:00",
-  "listingCount": 1136,
-  "geocodingAccuracy": 0.9991,
+  "generatedAt": "2026-10-26T04:16:14+00:00",
+  "listingCount": 1160,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3055,
-  "outlierCount": 2,
-  "suspiciousPpsfCount": 1,
+  "duplicateRate": 0.2905,
+  "outlierCount": 0,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1134,
-    "Medium": 2,
+    "High": 1160,
+    "Medium": 0,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 124.44,
+    "min": 777.78,
     "max": 111111.11,
     "median": 16666.67
   },
-  "topOutliers": [
-    {
-      "id": "zameen-54392119",
-      "source": "Zameen",
-      "title": "I15/3 Plot #158 Street 46 Main Double Road Ke Back 50 Feet Road D-90 Lack",
-      "neighborhood": "I-15",
-      "pricePerSqft": 942.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/i_15_i-15_3_i15_3_plot_158_street_46_main_double_road_ke_back_50_feet_road_d-90_lack-54392119-8264-2.html"
-    },
-    {
-      "id": "zameen-54897564",
-      "source": "Zameen",
-      "title": "Flat For Sale",
-      "neighborhood": "G-10",
-      "pricePerSqft": 124.44,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/g_10_markaz_veranda_executive_flat_for_sale-54897564-21775-1.html"
-    }
-  ],
+  "topOutliers": [],
   "fbrReference": {
     "label": "FBR Islamabad immovable property valuation",
     "url": "https://www.fbr.gov.pk/propertyValuation/17653",
