@@ -1,25 +1,93 @@
 {
-  "generatedAt": "2026-10-26T04:16:14+00:00",
-  "listingCount": 1160,
-  "geocodingAccuracy": 1.0,
+  "generatedAt": "2026-10-26T18:46:47+00:00",
+  "listingCount": 1201,
+  "geocodingAccuracy": 0.9559,
   "priceParsingSuccess": 1.0,
-  "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.2905,
-  "outlierCount": 0,
-  "suspiciousPpsfCount": 0,
+  "areaParsingSuccess": 0.9992,
+  "freshnessWithin30Days": 0.98,
+  "duplicateRate": 0.3031,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1160,
-    "Medium": 0,
-    "Low": 0
+    "High": 1147,
+    "Medium": 52,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 777.78,
-    "max": 111111.11,
-    "median": 16666.67
+    "min": 888.89,
+    "max": 866666.67,
+    "median": 17777.78
   },
-  "topOutliers": [],
+  "topOutliers": [
+    {
+      "id": "graana-1545978",
+      "source": "Graana",
+      "title": "7.50 Ft\u00b2 Flat for Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 866666.67,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far above comparable median"
+      ],
+      "url": "https://www.graana.com/property/1545978"
+    },
+    {
+      "id": "zameen-54819510",
+      "source": "Zameen",
+      "title": "10 Marla Under Developed Plot In B Block Of Gulberg Islamabad.",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 42222.22,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_residencia_10_marla_under_developed_plot_in_b_block_of_gulberg_islamabad-54819510-8319-2.html"
+    },
+    {
+      "id": "zameen-54905116",
+      "source": "Zameen",
+      "title": "5 Marla Level & Sun Face Plot For Sale In Block-C Faisal Town Phase 1",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12888.89,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
+    },
+    {
+      "id": "zameen-54862020",
+      "source": "Zameen",
+      "title": "5 MARLA PLOT FOR SALE In FAISAL TOWN BLOCK C",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 11377.78,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_plot_for_sale_in_faisal_town_block_c-54862020-16418-2.html"
+    },
+    {
+      "id": "zameen-54915101",
+      "source": "Zameen",
+      "title": "Top-Floor 3-Bed Apartment | Margalla View Heights, E-11/4",
+      "neighborhood": "E-11",
+      "pricePerSqft": 7007.01,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_e-11_top-floor_3-bed_apartment_margalla_view_heights_e-11_4-54915101-329-1.html"
+    },
+    {
+      "id": "graana-1544816",
+      "source": "Graana",
+      "title": "Sector A Cube Studio Appartment for sale",
+      "neighborhood": "Bahria Enclave",
+      "pricePerSqft": null,
+      "reasons": [
+        "missing ppsf"
+      ],
+      "url": "https://www.graana.com/property/1544816"
+    }
+  ],
   "fbrReference": {
     "label": "FBR Islamabad immovable property valuation",
     "url": "https://www.fbr.gov.pk/propertyValuation/17653",
