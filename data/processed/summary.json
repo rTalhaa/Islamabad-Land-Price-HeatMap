@@ -1,88 +1,88 @@
 {
-  "generatedAt": "2026-10-26T18:46:47+00:00",
+  "generatedAt": "2026-10-27T04:39:01+00:00",
   "city": "Islamabad",
-  "trackedListings": 1201,
-  "mappedListings": 1148,
-  "outlierCount": 6,
-  "neighborhoodCount": 99,
-  "medianPricePkr": 32000000.0,
-  "medianPricePerSqft": 17777.78,
-  "medianPricePerMarla": 4000000.0,
-  "medianFreshnessHours": 8.0,
+  "trackedListings": 1186,
+  "mappedListings": 1135,
+  "outlierCount": 7,
+  "neighborhoodCount": 101,
+  "medianPricePkr": 31500000.0,
+  "medianPricePerSqft": 17555.56,
+  "medianPricePerMarla": 3950000.0,
+  "medianFreshnessHours": 14.0,
   "medianConfidenceScore": 100.0,
   "confidenceBands": {
-    "High": 1147,
-    "Medium": 52,
+    "High": 1134,
+    "Medium": 50,
     "Low": 2
   },
   "sourceMix": {
     "Graana": {
       "label": "Graana",
       "count": 60,
-      "share": 0.05
+      "share": 0.0506
     },
     "Zameen": {
       "label": "Zameen",
-      "count": 1141,
-      "share": 0.95
+      "count": 1126,
+      "share": 0.9494
     }
   },
   "propertyGroups": [
     {
       "propertyGroup": "house",
       "label": "Houses | 10 Marla",
-      "listingCount": 554,
-      "mappedCount": 528,
-      "outlierCount": 1,
-      "medianPricePkr": 58000000.0,
-      "medianPricePerSqft": 25396.83
+      "listingCount": 548,
+      "mappedCount": 522,
+      "outlierCount": 0,
+      "medianPricePkr": 58250000.0,
+      "medianPricePerSqft": 25400.0
     },
     {
       "propertyGroup": "plot",
       "label": "Residential Plots | 1 Kanal",
-      "listingCount": 492,
-      "mappedCount": 490,
-      "outlierCount": 3,
-      "medianPricePkr": 21500000.0,
-      "medianPricePerSqft": 8888.89
+      "listingCount": 494,
+      "mappedCount": 494,
+      "outlierCount": 5,
+      "medianPricePkr": 18500000.0,
+      "medianPricePerSqft": 7936.51
     },
     {
       "propertyGroup": "apartment",
       "label": "Flats & Apartments",
-      "listingCount": 155,
-      "mappedCount": 130,
+      "listingCount": 144,
+      "mappedCount": 119,
       "outlierCount": 2,
-      "medianPricePkr": 17000000.0,
-      "medianPricePerSqft": 14655.17
+      "medianPricePkr": 17500000.0,
+      "medianPricePerSqft": 15070.58
     }
   ],
   "topNeighborhoods": [
     {
       "neighborhood": "F-6",
-      "listingCount": 5,
-      "mappedCount": 5,
-      "outlierCount": 0,
-      "medianPricePkr": 800000000.0,
-      "medianPricePerSqft": 88888.89,
-      "medianPricePerMarla": 20000000.0
-    },
-    {
-      "neighborhood": "F-10",
       "listingCount": 6,
       "mappedCount": 6,
       "outlierCount": 0,
-      "medianPricePkr": 195000000.0,
-      "medianPricePerSqft": 57017.23,
-      "medianPricePerMarla": 12828877.0
+      "medianPricePkr": 1025000000.0,
+      "medianPricePerSqft": 77777.78,
+      "medianPricePerMarla": 17500000.0
     },
     {
-      "neighborhood": "F-7",
-      "listingCount": 6,
-      "mappedCount": 6,
+      "neighborhood": "New Blue Area",
+      "listingCount": 2,
+      "mappedCount": 2,
       "outlierCount": 0,
-      "medianPricePkr": 385000000.0,
-      "medianPricePerSqft": 53069.15,
-      "medianPricePerMarla": 11940559.44
+      "medianPricePkr": 250000000.0,
+      "medianPricePerSqft": 63928.57,
+      "medianPricePerMarla": 14383928.57
+    },
+    {
+      "neighborhood": "F-8",
+      "listingCount": 4,
+      "mappedCount": 4,
+      "outlierCount": 0,
+      "medianPricePkr": 157500000.0,
+      "medianPricePerSqft": 58863.64,
+      "medianPricePerMarla": 13244318.19
     },
     {
       "neighborhood": "Centaurus",
@@ -95,39 +95,39 @@
     },
     {
       "neighborhood": "D-12",
-      "listingCount": 26,
-      "mappedCount": 26,
+      "listingCount": 21,
+      "mappedCount": 21,
       "outlierCount": 0,
       "medianPricePkr": 75000000.0,
-      "medianPricePerSqft": 50888.89,
-      "medianPricePerMarla": 11450000.0
+      "medianPricePerSqft": 50666.67,
+      "medianPricePerMarla": 11400000.0
     },
     {
-      "neighborhood": "F-8",
-      "listingCount": 6,
-      "mappedCount": 6,
-      "outlierCount": 0,
-      "medianPricePkr": 232500000.0,
-      "medianPricePerSqft": 49873.74,
-      "medianPricePerMarla": 11221590.91
-    },
-    {
-      "neighborhood": "I-8",
+      "neighborhood": "F-7",
       "listingCount": 5,
       "mappedCount": 5,
       "outlierCount": 0,
-      "medianPricePkr": 180000000.0,
+      "medianPricePkr": 480000000.0,
+      "medianPricePerSqft": 49572.65,
+      "medianPricePerMarla": 11153846.15
+    },
+    {
+      "neighborhood": "I-8",
+      "listingCount": 3,
+      "mappedCount": 3,
+      "outlierCount": 0,
+      "medianPricePkr": 220000000.0,
       "medianPricePerSqft": 48888.89,
       "medianPricePerMarla": 11000000.0
     },
     {
-      "neighborhood": "Margalla Town",
-      "listingCount": 1,
-      "mappedCount": 1,
+      "neighborhood": "G-14",
+      "listingCount": 2,
+      "mappedCount": 2,
       "outlierCount": 0,
-      "medianPricePkr": 50000000.0,
-      "medianPricePerSqft": 44444.44,
-      "medianPricePerMarla": 10000000.0
+      "medianPricePkr": 77000000.0,
+      "medianPricePerSqft": 46222.22,
+      "medianPricePerMarla": 10400000.0
     }
   ],
   "seedStats": [
@@ -138,7 +138,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 619,
+      "pageCountDiscovered": 616,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -162,7 +162,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 72,
+      "pageCountDiscovered": 71,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -186,8 +186,8 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 167,
-      "listingCardsCollected": 149,
+      "pageCountDiscovered": 166,
+      "listingCardsCollected": 148,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -198,7 +198,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1202,
+      "pageCountDiscovered": 1192,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -210,7 +210,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 181,
+      "pageCountDiscovered": 179,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -222,7 +222,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 177,
+      "pageCountDiscovered": 176,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -234,7 +234,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 371,
+      "pageCountDiscovered": 368,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
