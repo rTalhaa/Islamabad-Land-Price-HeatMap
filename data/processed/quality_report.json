@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-27T18:10:37+00:00",
-  "listingCount": 1144,
-  "geocodingAccuracy": 1.0,
+  "generatedAt": "2026-10-28T05:06:47+00:00",
+  "listingCount": 1150,
+  "geocodingAccuracy": 0.9913,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3164,
-  "outlierCount": 3,
+  "duplicateRate": 0.3061,
+  "outlierCount": 1,
   "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1144,
-    "Medium": 0,
+    "High": 1140,
+    "Medium": 10,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 777.78,
+    "min": 555.56,
     "max": 119047.62,
-    "median": 17828.28
+    "median": 17555.56
   },
   "topOutliers": [
     {
@@ -30,28 +30,6 @@
         "far above comparable median"
       ],
       "url": "https://www.zameen.com/Property/gulberg_gulberg_residencia_10_marla_under_developed_plot_in_b_block_of_gulberg_islamabad-54819510-8319-2.html"
-    },
-    {
-      "id": "zameen-53850038",
-      "source": "Zameen",
-      "title": "5 Marla Brand New House",
-      "neighborhood": "Chak Shahzad",
-      "pricePerSqft": 22222.22,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_chak_shahzad_5_marla_brand_new_house-53850038-158-1.html"
-    },
-    {
-      "id": "zameen-54905116",
-      "source": "Zameen",
-      "title": "5 Marla Level & Sun Face Plot For Sale In Block-C Faisal Town Phase 1",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 12888.89,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
     }
   ],
   "fbrReference": {
