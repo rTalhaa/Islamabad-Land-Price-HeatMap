@@ -1,47 +1,57 @@
 {
-  "generatedAt": "2026-10-30T18:20:16+00:00",
-  "listingCount": 1156,
-  "geocodingAccuracy": 0.9888,
+  "generatedAt": "2026-10-31T05:06:20+00:00",
+  "listingCount": 1145,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.2958,
-  "outlierCount": 2,
-  "suspiciousPpsfCount": 1,
+  "duplicateRate": 0.2952,
+  "outlierCount": 3,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1142,
-    "Medium": 14,
+    "High": 1145,
+    "Medium": 0,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 822.22,
-    "max": 186666.67,
-    "median": 16000.0
+    "min": 1377.78,
+    "max": 111111.11,
+    "median": 16055.56
   },
   "topOutliers": [
     {
-      "id": "zameen-54793475",
+      "id": "zameen-53634981",
       "source": "Zameen",
-      "title": "PARK VIEW CITY ISLAMABAD Down Commercial 8 Marla Lake Facing Plot Available For Sale",
-      "neighborhood": "Park View City",
-      "pricePerSqft": 186666.67,
+      "title": "5-Marla Possession Able Plot For Sale",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 2222.22,
       "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/park_view_city_park_view_city_-_downtown_block_park_view_city_islamabad_down_commercial_8_marla_lake_facing_plot_available_for_sale-54793475-20871-2.html"
+      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_5-marla_possession_able_plot_for_sale-53634981-20466-2.html"
     },
     {
-      "id": "zameen-54819510",
+      "id": "zameen-54922239",
       "source": "Zameen",
-      "title": "10 Marla Under Developed Plot In B Block Of Gulberg Islamabad.",
+      "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 42222.22,
+      "pricePerSqft": 1422.22,
       "reasons": [
-        "far above comparable median"
+        "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_gulberg_residencia_10_marla_under_developed_plot_in_b_block_of_gulberg_islamabad-54819510-8319-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-54922239-13693-2.html"
+    },
+    {
+      "id": "zameen-52487287",
+      "source": "Zameen",
+      "title": "AA 5 Marla Available For Sale In Gulberg Green Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1377.78,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_aa_5_marla_available_for_sale_in_gulberg_green_islamabad-52487287-13693-2.html"
     }
   ],
   "fbrReference": {
