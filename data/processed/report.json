@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T05:28:16+00:00",
-  "searchCardCount": 1440,
-  "uniqueListingCount": 1235,
-  "exportedListingCount": 1235,
+  "generatedAt": "2026-11-02T22:02:21+00:00",
+  "searchCardCount": 1439,
+  "uniqueListingCount": 1214,
+  "exportedListingCount": 1214,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 618,
+      "pageCountDiscovered": 616,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 72,
+      "pageCountDiscovered": 71,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 168,
-      "listingCardsCollected": 150,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1202,
+      "pageCountDiscovered": 1201,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 183,
+      "pageCountDiscovered": 184,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-02T05:28:16+00:00",
+    "generatedAt": "2026-11-02T22:02:21+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,11 +163,11 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0952,
+        "duplicateRate": 0.0635,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0159,
-          "coordinates": 0.8095,
+          "coordinates": 0.7937,
           "imageUrl": 0.0159
         },
         "seedStats": [
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1350,
-        "exportedListings": 1172,
-        "detailSuccess": 1162,
+        "parsedCards": 1349,
+        "exportedListings": 1151,
+        "detailSuccess": 1141,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.302,
+        "duplicateRate": 0.3423,
         "missingFieldRates": {
           "pricePkr": 0.0,
-          "areaSqft": 0.0009,
-          "coordinates": 0.0,
-          "imageUrl": 0.0794
+          "areaSqft": 0.0,
+          "coordinates": 0.0009,
+          "imageUrl": 0.066
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 618,
+            "pageCountDiscovered": 616,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 72,
+            "pageCountDiscovered": 71,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 168,
-            "listingCardsCollected": 150,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1202,
+            "pageCountDiscovered": 1201,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 183,
+            "pageCountDiscovered": 184,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-02T05:28:16+00:00",
-    "listingCount": 1235,
-    "geocodingAccuracy": 0.9587,
+    "generatedAt": "2026-11-02T22:02:21+00:00",
+    "listingCount": 1214,
+    "geocodingAccuracy": 0.958,
     "priceParsingSuccess": 1.0,
-    "areaParsingSuccess": 0.9984,
-    "freshnessWithin30Days": 0.9789,
-    "duplicateRate": 0.2915,
-    "outlierCount": 3,
+    "areaParsingSuccess": 0.9992,
+    "freshnessWithin30Days": 0.9786,
+    "duplicateRate": 0.3278,
+    "outlierCount": 6,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1182,
+      "High": 1162,
       "Medium": 50,
-      "Low": 3
+      "Low": 2
     },
     "ppsfRange": {
-      "min": 666.67,
+      "min": 766.67,
       "max": 866666.67,
-      "median": 17222.22
+      "median": 18153.53
     },
     "topOutliers": [
       {
@@ -398,6 +398,50 @@
         "url": "https://www.graana.com/property/1545978"
       },
       {
+        "id": "zameen-54905116",
+        "source": "Zameen",
+        "title": "5 Marla Level & Sun Face Plot For Sale In Block-C Faisal Town Phase 1",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 12888.89,
+        "reasons": [
+          "far above comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
+      },
+      {
+        "id": "zameen-54935918",
+        "source": "Zameen",
+        "title": "5 Marla Spacious Residential Plot Available In Airport Green Garden - Block B For Sale",
+        "neighborhood": "Kashmir Highway",
+        "pricePerSqft": 3111.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/airport_green_garden_airport_green_garden_-_block_b_5_marla_spacious_residential_plot_available_in_airport_green_garden_-_block_b_for_sale-54935918-19372-2.html"
+      },
+      {
+        "id": "zameen-53872089",
+        "source": "Zameen",
+        "title": "DHA Phase 2 Extension Open Certificate 1 Kanal Plot For Sale",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 766.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_defence_phase_2_dha_phase_2_extension_dha_phase_2_extension_open_certificate_1_kanal_plot_for_sale-53872089-3204-2.html"
+      },
+      {
+        "id": "zameen-54896347",
+        "source": "Zameen",
+        "title": "DHA Phase 2 Extn Open Certificate Sector M 1 Kanal",
+        "neighborhood": "DHA Defence",
+        "pricePerSqft": 766.67,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_m_dha_phase_2_extn_open_certificate_sector_m_1_kanal-54896347-14639-2.html"
+      },
+      {
         "id": "graana-1544816",
         "source": "Graana",
         "title": "Sector A Cube Studio Appartment for sale",
@@ -407,17 +451,6 @@
           "missing ppsf"
         ],
         "url": "https://www.graana.com/property/1544816"
-      },
-      {
-        "id": "zameen-54938853",
-        "source": "Zameen",
-        "title": "5 Marla Brand New House For Sale Sector F DHA Phase 5 Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": null,
-        "reasons": [
-          "missing ppsf"
-        ],
-        "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_5_5_marla_brand_new_house_for_sale_sector_f_dha_phase_5_islamabad-54938853-10991-1.html"
       }
     ],
     "fbrReference": {
