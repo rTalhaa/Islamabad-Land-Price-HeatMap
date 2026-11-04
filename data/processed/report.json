@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T19:45:34+00:00",
+  "generatedAt": "2026-11-04T05:48:56+00:00",
   "searchCardCount": 1439,
-  "uniqueListingCount": 1234,
-  "exportedListingCount": 1234,
+  "uniqueListingCount": 1194,
+  "exportedListingCount": 1194,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 620,
+      "pageCountDiscovered": 619,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 72,
+      "pageCountDiscovered": 71,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1212,
+      "pageCountDiscovered": 1209,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 374,
+      "pageCountDiscovered": 373,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-03T19:45:34+00:00",
+    "generatedAt": "2026-11-04T05:48:56+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -236,16 +236,16 @@
         "attemptedPages": 54,
         "fetchedPages": 54,
         "parsedCards": 1349,
-        "exportedListings": 1171,
-        "detailSuccess": 1162,
+        "exportedListings": 1131,
+        "detailSuccess": 1122,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3015,
+        "duplicateRate": 0.2997,
         "missingFieldRates": {
           "pricePkr": 0.0,
-          "areaSqft": 0.0009,
-          "coordinates": 0.0009,
-          "imageUrl": 0.0743
+          "areaSqft": 0.0,
+          "coordinates": 0.0,
+          "imageUrl": 0.0663
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 620,
+            "pageCountDiscovered": 619,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 72,
+            "pageCountDiscovered": 71,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1212,
+            "pageCountDiscovered": 1209,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 374,
+            "pageCountDiscovered": 373,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-03T19:45:34+00:00",
-    "listingCount": 1234,
-    "geocodingAccuracy": 0.9595,
+    "generatedAt": "2026-11-04T05:48:56+00:00",
+    "listingCount": 1194,
+    "geocodingAccuracy": 0.959,
     "priceParsingSuccess": 1.0,
-    "areaParsingSuccess": 0.9992,
-    "freshnessWithin30Days": 0.9814,
-    "duplicateRate": 0.2909,
-    "outlierCount": 6,
+    "areaParsingSuccess": 1.0,
+    "freshnessWithin30Days": 0.9799,
+    "duplicateRate": 0.2889,
+    "outlierCount": 5,
     "suspiciousPpsfCount": 3,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1180,
-      "Medium": 51,
-      "Low": 3
+      "High": 1142,
+      "Medium": 50,
+      "Low": 2
     },
     "ppsfRange": {
       "min": 53.33,
       "max": 866666.67,
-      "median": 16666.67
+      "median": 16444.44
     },
     "topOutliers": [
       {
@@ -421,15 +421,15 @@
         "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_five_marla_solid_land_plot_for_sale-52260025-8260-2.html"
       },
       {
-        "id": "zameen-54820412",
+        "id": "zameen-54947014",
         "source": "Zameen",
-        "title": "### 10 Kanal Luxury Farmhouse for Sale In Front of Bahria Enclave, Sector M, Islamabad",
-        "neighborhood": "Bahria Town",
-        "pricePerSqft": 4000.0,
+        "title": "5 Marla plot available for sale in A block",
+        "neighborhood": "Gulberg",
+        "pricePerSqft": 1422.22,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/bahria_enclave_bahria_enclave_-_sector_m_10_kanal_luxury_farmhouse_for_sale_in_front_of_bahria_enclave_sector_m_islamabad-54820412-11977-1.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_available_for_sale_in_a_block-54947014-13693-2.html"
       },
       {
         "id": "zameen-54946306",
@@ -442,17 +442,6 @@
           "far below comparable median"
         ],
         "url": "https://www.zameen.com/Property/g_13_g-13_markaz_35x70_upper_portion_for_rent-54946306-3341-1.html"
-      },
-      {
-        "id": "zameen-54947113",
-        "source": "Zameen",
-        "title": "5 Marla brand new single story house for sale in Gulshan e sheat E18 islsmabad",
-        "neighborhood": "E-18",
-        "pricePerSqft": null,
-        "reasons": [
-          "missing ppsf"
-        ],
-        "url": "https://www.zameen.com/Property/gulshan_e_sehat_2_gulshan-e-sehat_2_-_block_e_5_marla_brand_new_single_story_house_for_sale_in_gulshan_e_sheat_e18_islsmabad-54947113-3267-1.html"
       }
     ],
     "fbrReference": {
