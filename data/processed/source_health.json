@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-04T05:48:56+00:00",
+  "generatedAt": "2026-11-04T20:01:42+00:00",
   "sources": {
     "graana": {
       "label": "Graana",
       "enabled": true,
       "disabledReason": null,
-      "attemptedPages": 6,
-      "fetchedPages": 6,
-      "parsedCards": 90,
-      "exportedListings": 63,
+      "attemptedPages": 5,
+      "fetchedPages": 5,
+      "parsedCards": 60,
+      "exportedListings": 37,
       "detailSuccess": 0,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.0952,
+      "duplicateRate": 0.1081,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
-        "coordinates": 0.7778,
-        "imageUrl": 0.0159
+        "coordinates": 0.7838,
+        "imageUrl": 0.027
       },
       "seedStats": [
         {
@@ -38,9 +38,9 @@
           "label": "Graana Flats & Apartments",
           "propertyGroup": "apartment",
           "enabled": true,
-          "pagesScraped": 2,
-          "pageCountDiscovered": 2,
-          "listingCardsCollected": 30,
+          "pagesScraped": 1,
+          "pageCountDiscovered": 1,
+          "listingCardsCollected": 0,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -84,17 +84,17 @@
       "disabledReason": null,
       "attemptedPages": 54,
       "fetchedPages": 54,
-      "parsedCards": 1349,
-      "exportedListings": 1131,
-      "detailSuccess": 1122,
+      "parsedCards": 1348,
+      "exportedListings": 1153,
+      "detailSuccess": 1140,
       "cacheHitRate": 0.0,
       "httpFailures": 0,
-      "duplicateRate": 0.2997,
+      "duplicateRate": 0.2801,
       "missingFieldRates": {
         "pricePkr": 0.0,
         "areaSqft": 0.0,
         "coordinates": 0.0,
-        "imageUrl": 0.0663
+        "imageUrl": 0.072
       },
       "seedStats": [
         {
@@ -104,8 +104,8 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 619,
-          "listingCardsCollected": 150,
+          "pageCountDiscovered": 623,
+          "listingCardsCollected": 149,
           "cacheHits": 0,
           "httpFailures": 0
         },
@@ -128,7 +128,7 @@
           "propertyGroup": "house",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 71,
+          "pageCountDiscovered": 72,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -152,7 +152,7 @@
           "propertyGroup": "apartment",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 171,
+          "pageCountDiscovered": 172,
           "listingCardsCollected": 149,
           "cacheHits": 0,
           "httpFailures": 0
@@ -164,7 +164,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 1209,
+          "pageCountDiscovered": 1219,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -176,7 +176,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 182,
+          "pageCountDiscovered": 183,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -188,7 +188,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 185,
+          "pageCountDiscovered": 186,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0
@@ -200,7 +200,7 @@
           "propertyGroup": "plot",
           "enabled": true,
           "pagesScraped": 6,
-          "pageCountDiscovered": 373,
+          "pageCountDiscovered": 377,
           "listingCardsCollected": 150,
           "cacheHits": 0,
           "httpFailures": 0

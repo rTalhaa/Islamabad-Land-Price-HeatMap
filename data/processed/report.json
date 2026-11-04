@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-04T05:48:56+00:00",
-  "searchCardCount": 1439,
-  "uniqueListingCount": 1194,
-  "exportedListingCount": 1194,
+  "generatedAt": "2026-11-04T20:01:42+00:00",
+  "searchCardCount": 1408,
+  "uniqueListingCount": 1190,
+  "exportedListingCount": 1190,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,8 +11,8 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 619,
-      "listingCardsCollected": 150,
+      "pageCountDiscovered": 623,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -35,7 +35,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 71,
+      "pageCountDiscovered": 72,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -59,7 +59,7 @@
       "propertyGroup": "apartment",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 171,
+      "pageCountDiscovered": 172,
       "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1209,
+      "pageCountDiscovered": 1219,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 182,
+      "pageCountDiscovered": 183,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 185,
+      "pageCountDiscovered": 186,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 373,
+      "pageCountDiscovered": 377,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -130,9 +130,9 @@
       "label": "Graana Flats & Apartments",
       "propertyGroup": "apartment",
       "enabled": true,
-      "pagesScraped": 2,
-      "pageCountDiscovered": 2,
-      "listingCardsCollected": 30,
+      "pagesScraped": 1,
+      "pageCountDiscovered": 1,
+      "listingCardsCollected": 0,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -150,25 +150,25 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-04T05:48:56+00:00",
+    "generatedAt": "2026-11-04T20:01:42+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
         "enabled": true,
         "disabledReason": null,
-        "attemptedPages": 6,
-        "fetchedPages": 6,
-        "parsedCards": 90,
-        "exportedListings": 63,
+        "attemptedPages": 5,
+        "fetchedPages": 5,
+        "parsedCards": 60,
+        "exportedListings": 37,
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0952,
+        "duplicateRate": 0.1081,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.7778,
-          "imageUrl": 0.0159
+          "coordinates": 0.7838,
+          "imageUrl": 0.027
         },
         "seedStats": [
           {
@@ -189,9 +189,9 @@
             "label": "Graana Flats & Apartments",
             "propertyGroup": "apartment",
             "enabled": true,
-            "pagesScraped": 2,
-            "pageCountDiscovered": 2,
-            "listingCardsCollected": 30,
+            "pagesScraped": 1,
+            "pageCountDiscovered": 1,
+            "listingCardsCollected": 0,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1349,
-        "exportedListings": 1131,
-        "detailSuccess": 1122,
+        "parsedCards": 1348,
+        "exportedListings": 1153,
+        "detailSuccess": 1140,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.2997,
+        "duplicateRate": 0.2801,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 0.0,
-          "imageUrl": 0.0663
+          "imageUrl": 0.072
         },
         "seedStats": [
           {
@@ -255,8 +255,8 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 619,
-            "listingCardsCollected": 150,
+            "pageCountDiscovered": 623,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -279,7 +279,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 71,
+            "pageCountDiscovered": 72,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -303,7 +303,7 @@
             "propertyGroup": "apartment",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 171,
+            "pageCountDiscovered": 172,
             "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1209,
+            "pageCountDiscovered": 1219,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 182,
+            "pageCountDiscovered": 183,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 185,
+            "pageCountDiscovered": 186,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 373,
+            "pageCountDiscovered": 377,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,39 +364,27 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-04T05:48:56+00:00",
-    "listingCount": 1194,
-    "geocodingAccuracy": 0.959,
+    "generatedAt": "2026-11-04T20:01:42+00:00",
+    "listingCount": 1190,
+    "geocodingAccuracy": 0.9756,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.9799,
-    "duplicateRate": 0.2889,
-    "outlierCount": 5,
-    "suspiciousPpsfCount": 3,
+    "freshnessWithin30Days": 1.0,
+    "duplicateRate": 0.2748,
+    "outlierCount": 4,
+    "suspiciousPpsfCount": 1,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1142,
-      "Medium": 50,
-      "Low": 2
+      "High": 1160,
+      "Medium": 29,
+      "Low": 1
     },
     "ppsfRange": {
-      "min": 53.33,
-      "max": 866666.67,
-      "median": 16444.44
+      "min": 1277.78,
+      "max": 213157.89,
+      "median": 17333.33
     },
     "topOutliers": [
-      {
-        "id": "graana-1545978",
-        "source": "Graana",
-        "title": "7.50 Ft\u00b2 Flat for Sale",
-        "neighborhood": "E-11",
-        "pricePerSqft": 866666.67,
-        "reasons": [
-          "outside plausible ppsf range",
-          "far above comparable median"
-        ],
-        "url": "https://www.graana.com/property/1545978"
-      },
       {
         "id": "graana-1559715",
         "source": "Graana",
@@ -404,44 +392,42 @@
         "neighborhood": "Soan Garden",
         "pricePerSqft": 213157.89,
         "reasons": [
-          "outside plausible ppsf range",
-          "far above comparable median"
+          "outside plausible ppsf range"
         ],
         "url": "https://www.graana.com/property/1559715"
       },
       {
-        "id": "zameen-52260025",
+        "id": "zameen-54905116",
         "source": "Zameen",
-        "title": "Five Marla Solid Land Plot For Sale",
+        "title": "5 Marla Level & Sun Face Plot For Sale In Block-C Faisal Town Phase 1",
         "neighborhood": "Faisal Town - F-18",
         "pricePerSqft": 12888.89,
         "reasons": [
           "far above comparable median"
         ],
-        "url": "https://www.zameen.com/Property/islamabad_faisal_town_-_f-18_five_marla_solid_land_plot_for_sale-52260025-8260-2.html"
+        "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
       },
       {
-        "id": "zameen-54947014",
+        "id": "zameen-54898436",
         "source": "Zameen",
-        "title": "5 Marla plot available for sale in A block",
-        "neighborhood": "Gulberg",
-        "pricePerSqft": 1422.22,
+        "title": "Flat for Sale in Khudadad Heights Islamabad",
+        "neighborhood": "E-11",
+        "pricePerSqft": 6606.61,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_available_for_sale_in_a_block-54947014-13693-2.html"
+        "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_flat_for_sale_in_khudadad_heights_islamabad-54898436-11524-1.html"
       },
       {
-        "id": "zameen-54946306",
+        "id": "zameen-54951939",
         "source": "Zameen",
-        "title": "35x70 upper portion for rent",
-        "neighborhood": "G-13",
-        "pricePerSqft": 53.33,
+        "title": "budget friendly corner plot",
+        "neighborhood": "B-17",
+        "pricePerSqft": 1277.78,
         "reasons": [
-          "outside plausible ppsf range",
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/g_13_g-13_markaz_35x70_upper_portion_for_rent-54946306-3341-1.html"
+        "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_e_budget_friendly_corner_plot-54951939-3120-2.html"
       }
     ],
     "fbrReference": {
