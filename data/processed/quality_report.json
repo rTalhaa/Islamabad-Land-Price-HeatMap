@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-04T20:01:42+00:00",
-  "listingCount": 1190,
-  "geocodingAccuracy": 0.9756,
+  "generatedAt": "2026-11-05T06:10:40+00:00",
+  "listingCount": 1146,
+  "geocodingAccuracy": 0.9991,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.2748,
-  "outlierCount": 4,
-  "suspiciousPpsfCount": 1,
+  "duplicateRate": 0.308,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1160,
-    "Medium": 29,
-    "Low": 1
+    "High": 1145,
+    "Medium": 1,
+    "Low": 0
   },
   "ppsfRange": {
-    "min": 1277.78,
-    "max": 213157.89,
-    "median": 17333.33
+    "min": 1666.67,
+    "max": 111111.11,
+    "median": 16373.62
   },
   "topOutliers": [
     {
-      "id": "graana-1559715",
-      "source": "Graana",
-      "title": "Kazani Heights 950 Sq. Ft. flat for sale",
-      "neighborhood": "Soan Garden",
-      "pricePerSqft": 213157.89,
+      "id": "zameen-54775740",
+      "source": "Zameen",
+      "title": "( Direct Owner ) ( Plot No: 204 A ) ( 5 Marla Plot ( 25*50 In Block A )",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 14222.22,
       "reasons": [
-        "outside plausible ppsf range"
+        "far above comparable median"
       ],
-      "url": "https://www.graana.com/property/1559715"
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_direct_owner_plot_no_204_a_5_marla_plot_25_50_in_block_a-54775740-16416-2.html"
     },
     {
       "id": "zameen-54905116",
@@ -43,26 +43,48 @@
       "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
     },
     {
-      "id": "zameen-54898436",
+      "id": "zameen-54952720",
       "source": "Zameen",
-      "title": "Flat for Sale in Khudadad Heights Islamabad",
-      "neighborhood": "E-11",
-      "pricePerSqft": 6606.61,
+      "title": "5 MARLA PLOT FOR SALE IN FAISAL TOWN BLOCK C",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12767.68,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_flat_for_sale_in_khudadad_heights_islamabad-54898436-11524-1.html"
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_plot_for_sale_in_faisal_town_block_c-54952720-16418-2.html"
     },
     {
-      "id": "zameen-54951939",
+      "id": "zameen-54775756",
       "source": "Zameen",
-      "title": "budget friendly corner plot",
+      "title": "Direct Owner - Plot No: 1012 Corner - 10 Marla Plot -35*70 in Block B",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12444.44,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_b_direct_owner_-_plot_no_1012_corner_-_10_marla_plot_-35_70_in_block_b-54775756-16417-2.html"
+    },
+    {
+      "id": "zameen-53953786",
+      "source": "Zameen",
+      "title": "( Direct Owner ) ( Plot No: 1406 ) ( 5 Marla Plot ( 25*50 in Block C )",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12000.0,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_direct_owner_plot_no_1406_5_marla_plot_25_50_in_block_c-53953786-16418-2.html"
+    },
+    {
+      "id": "zameen-54826898",
+      "source": "Zameen",
+      "title": "4 READY-TO-MOVE FLATS FOR SALE B-17 ISLAMABADBlock E, Multi Gardens B-17, Islamabad",
       "neighborhood": "B-17",
-      "pricePerSqft": 1277.78,
+      "pricePerSqft": 3434.34,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_e_budget_friendly_corner_plot-54951939-3120-2.html"
+      "url": "https://www.zameen.com/Property/mpchs_multi_gardens_mpchs_-_block_e_4_ready-to-move_flats_for_sale_b-17_islamabadblock_e_multi_gardens_b-17_islamabad-54826898-3120-1.html"
     }
   ],
   "fbrReference": {
