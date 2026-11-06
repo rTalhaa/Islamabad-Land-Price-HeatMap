@@ -1,46 +1,59 @@
 {
-  "generatedAt": "2026-11-05T20:10:52+00:00",
-  "listingCount": 1133,
-  "geocodingAccuracy": 0.9947,
+  "generatedAt": "2026-11-06T06:08:11+00:00",
+  "listingCount": 1217,
+  "geocodingAccuracy": 0.9581,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.346,
-  "outlierCount": 2,
-  "suspiciousPpsfCount": 0,
+  "freshnessWithin30Days": 0.9803,
+  "duplicateRate": 0.3164,
+  "outlierCount": 3,
+  "suspiciousPpsfCount": 2,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1127,
-    "Medium": 6,
-    "Low": 0
+    "High": 1164,
+    "Medium": 51,
+    "Low": 2
   },
   "ppsfRange": {
-    "min": 1511.11,
-    "max": 111111.11,
-    "median": 17333.33
+    "min": 1444.44,
+    "max": 866666.67,
+    "median": 17555.56
   },
   "topOutliers": [
     {
-      "id": "zameen-54897253",
-      "source": "Zameen",
-      "title": "DHA-6 Sector D1 Plot For Sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 2111.11,
+      "id": "graana-1545978",
+      "source": "Graana",
+      "title": "7.50 Ft\u00b2 Flat for Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 866666.67,
       "reasons": [
-        "far below comparable median"
+        "outside plausible ppsf range",
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_defence_dha_defence_phase_6_dha-6_sector_d1_plot_for_sale-54897253-17408-2.html"
+      "url": "https://www.graana.com/property/1545978"
     },
     {
-      "id": "zameen-54782255",
+      "id": "graana-1559715",
+      "source": "Graana",
+      "title": "Kazani Heights 950 Sq. Ft. flat for sale",
+      "neighborhood": "Soan Garden",
+      "pricePerSqft": 213157.89,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far above comparable median"
+      ],
+      "url": "https://www.graana.com/property/1559715"
+    },
+    {
+      "id": "zameen-54846617",
       "source": "Zameen",
-      "title": "5 Marla Plot For Sale In Gulberg Islamabad AA Block",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
+      "title": "Spacious 1 Kanal Residential Plot Available For Sale In Margalla Enclave",
+      "neighborhood": "Margalla Avenue",
+      "pricePerSqft": 3333.33,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_for_sale_in_gulberg_islamabad_aa_block-54782255-13693-2.html"
+      "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_spacious_1_kanal_residential_plot_available_for_sale_in_margalla_enclave-54846617-21436-2.html"
     }
   ],
   "fbrReference": {
