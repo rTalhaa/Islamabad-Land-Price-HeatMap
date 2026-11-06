@@ -1,59 +1,91 @@
 {
-  "generatedAt": "2026-11-06T06:08:11+00:00",
-  "listingCount": 1217,
-  "geocodingAccuracy": 0.9581,
+  "generatedAt": "2026-11-06T20:12:12+00:00",
+  "listingCount": 1154,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 0.9803,
-  "duplicateRate": 0.3164,
-  "outlierCount": 3,
-  "suspiciousPpsfCount": 2,
+  "freshnessWithin30Days": 1.0,
+  "duplicateRate": 0.2851,
+  "outlierCount": 6,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1164,
-    "Medium": 51,
-    "Low": 2
+    "High": 1153,
+    "Medium": 1,
+    "Low": 0
   },
   "ppsfRange": {
-    "min": 1444.44,
-    "max": 866666.67,
+    "min": 43.33,
+    "max": 111111.11,
     "median": 17555.56
   },
   "topOutliers": [
     {
-      "id": "graana-1545978",
-      "source": "Graana",
-      "title": "7.50 Ft\u00b2 Flat for Sale",
-      "neighborhood": "E-11",
-      "pricePerSqft": 866666.67,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
-      ],
-      "url": "https://www.graana.com/property/1545978"
-    },
-    {
-      "id": "graana-1559715",
-      "source": "Graana",
-      "title": "Kazani Heights 950 Sq. Ft. flat for sale",
-      "neighborhood": "Soan Garden",
-      "pricePerSqft": 213157.89,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far above comparable median"
-      ],
-      "url": "https://www.graana.com/property/1559715"
-    },
-    {
-      "id": "zameen-54846617",
+      "id": "zameen-54797834",
       "source": "Zameen",
-      "title": "Spacious 1 Kanal Residential Plot Available For Sale In Margalla Enclave",
-      "neighborhood": "Margalla Avenue",
-      "pricePerSqft": 3333.33,
+      "title": "Unfurnished 2 Bed Apartment Khudadad Height E-11 For Sale",
+      "neighborhood": "E-11",
+      "pricePerSqft": 5962.06,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/margalla_avenue_margalla_enclave_spacious_1_kanal_residential_plot_available_for_sale_in_margalla_enclave-54846617-21436-2.html"
+      "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_unfurnished_2_bed_apartment_khudadad_height_e-11_for_sale-54797834-11524-1.html"
+    },
+    {
+      "id": "zameen-54736770",
+      "source": "Zameen",
+      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1511.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54736770-13693-2.html"
+    },
+    {
+      "id": "zameen-54768489",
+      "source": "Zameen",
+      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1511.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54768489-13693-2.html"
+    },
+    {
+      "id": "zameen-54799896",
+      "source": "Zameen",
+      "title": "5 Marla Plot On Map Available For Sale In Gulberg Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1422.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_5_marla_plot_on_map_available_for_sale_in_gulberg_islamabad-54799896-8312-2.html"
+    },
+    {
+      "id": "zameen-54947014",
+      "source": "Zameen",
+      "title": "5 Marla Plot Available For Sale In A Block",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 1422.22,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_available_for_sale_in_a_block-54947014-13693-2.html"
+    },
+    {
+      "id": "zameen-54959043",
+      "source": "Zameen",
+      "title": "500 Sq Yards Separate Gate Upper Portion available for Rent",
+      "neighborhood": "E-11",
+      "pricePerSqft": 43.33,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/islamabad_e-11_500_sq_yards_separate_gate_upper_portion_available_for_rent-54959043-329-1.html"
     }
   ],
   "fbrReference": {
