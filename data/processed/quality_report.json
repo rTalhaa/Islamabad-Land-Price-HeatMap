@@ -1,91 +1,46 @@
 {
-  "generatedAt": "2026-11-06T20:12:12+00:00",
-  "listingCount": 1154,
-  "geocodingAccuracy": 1.0,
+  "generatedAt": "2026-11-07T06:15:13+00:00",
+  "listingCount": 1150,
+  "geocodingAccuracy": 0.9974,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.2851,
-  "outlierCount": 6,
-  "suspiciousPpsfCount": 1,
+  "duplicateRate": 0.287,
+  "outlierCount": 2,
+  "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1153,
-    "Medium": 1,
+    "High": 1147,
+    "Medium": 3,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 43.33,
+    "min": 933.33,
     "max": 111111.11,
-    "median": 17555.56
+    "median": 16666.67
   },
   "topOutliers": [
     {
-      "id": "zameen-54797834",
+      "id": "zameen-54872275",
       "source": "Zameen",
-      "title": "Unfurnished 2 Bed Apartment Khudadad Height E-11 For Sale",
-      "neighborhood": "E-11",
-      "pricePerSqft": 5962.06,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_unfurnished_2_bed_apartment_khudadad_height_e-11_for_sale-54797834-11524-1.html"
-    },
-    {
-      "id": "zameen-54736770",
-      "source": "Zameen",
-      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
+      "title": "2 kanal commercial plot in IT park of Gulberg Greens Islamabad",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
+      "pricePerSqft": 38888.89,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54736770-13693-2.html"
+      "url": "https://www.zameen.com/Property/gulberg_greens_gulberg_greens_-_block_a_2_kanal_commercial_plot_in_it_park_of_gulberg_greens_islamabad-54872275-8313-2.html"
     },
     {
-      "id": "zameen-54768489",
+      "id": "zameen-54922239",
       "source": "Zameen",
-      "title": "5 Marla Plot In AA Block Of Gulberg Islamabad",
+      "title": "Prime Investment Plot Available Gulberg Residencia Islamabad | AA Block",
       "neighborhood": "Gulberg",
-      "pricePerSqft": 1511.11,
+      "pricePerSqft": 1333.33,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_in_aa_block_of_gulberg_islamabad-54768489-13693-2.html"
-    },
-    {
-      "id": "zameen-54799896",
-      "source": "Zameen",
-      "title": "5 Marla Plot On Map Available For Sale In Gulberg Islamabad",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1422.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_gulberg_greens_5_marla_plot_on_map_available_for_sale_in_gulberg_islamabad-54799896-8312-2.html"
-    },
-    {
-      "id": "zameen-54947014",
-      "source": "Zameen",
-      "title": "5 Marla Plot Available For Sale In A Block",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1422.22,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_plot_available_for_sale_in_a_block-54947014-13693-2.html"
-    },
-    {
-      "id": "zameen-54959043",
-      "source": "Zameen",
-      "title": "500 Sq Yards Separate Gate Upper Portion available for Rent",
-      "neighborhood": "E-11",
-      "pricePerSqft": 43.33,
-      "reasons": [
-        "outside plausible ppsf range",
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/islamabad_e-11_500_sq_yards_separate_gate_upper_portion_available_for_rent-54959043-329-1.html"
+      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_prime_investment_plot_available_gulberg_residencia_islamabad_aa_block-54922239-13693-2.html"
     }
   ],
   "fbrReference": {
