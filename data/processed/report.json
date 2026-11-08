@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-08T06:10:48+00:00",
-  "searchCardCount": 1348,
-  "uniqueListingCount": 1173,
-  "exportedListingCount": 1173,
+  "generatedAt": "2026-11-08T18:46:09+00:00",
+  "searchCardCount": 1349,
+  "uniqueListingCount": 1134,
+  "exportedListingCount": 1134,
   "seedStats": [
     {
       "source": "zameen",
@@ -11,7 +11,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 624,
+      "pageCountDiscovered": 627,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -23,7 +23,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 69,
+      "pageCountDiscovered": 70,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -47,7 +47,7 @@
       "propertyGroup": "house",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 82,
+      "pageCountDiscovered": 83,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -60,7 +60,7 @@
       "enabled": true,
       "pagesScraped": 6,
       "pageCountDiscovered": 174,
-      "listingCardsCollected": 148,
+      "listingCardsCollected": 149,
       "cacheHits": 0,
       "httpFailures": 0
     },
@@ -71,7 +71,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 1217,
+      "pageCountDiscovered": 1222,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -83,7 +83,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 182,
+      "pageCountDiscovered": 183,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -95,7 +95,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 186,
+      "pageCountDiscovered": 187,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -107,7 +107,7 @@
       "propertyGroup": "plot",
       "enabled": true,
       "pagesScraped": 6,
-      "pageCountDiscovered": 377,
+      "pageCountDiscovered": 379,
       "listingCardsCollected": 150,
       "cacheHits": 0,
       "httpFailures": 0
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-08T06:10:48+00:00",
+    "generatedAt": "2026-11-08T18:46:09+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -235,17 +235,17 @@
         "disabledReason": null,
         "attemptedPages": 54,
         "fetchedPages": 54,
-        "parsedCards": 1348,
-        "exportedListings": 1173,
-        "detailSuccess": 1152,
+        "parsedCards": 1349,
+        "exportedListings": 1134,
+        "detailSuccess": 1124,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.3146,
+        "duplicateRate": 0.3175,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
-          "coordinates": 0.0034,
-          "imageUrl": 0.0929
+          "coordinates": 0.0009,
+          "imageUrl": 0.0829
         },
         "seedStats": [
           {
@@ -255,7 +255,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 624,
+            "pageCountDiscovered": 627,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -267,7 +267,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 69,
+            "pageCountDiscovered": 70,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -291,7 +291,7 @@
             "propertyGroup": "house",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 82,
+            "pageCountDiscovered": 83,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -304,7 +304,7 @@
             "enabled": true,
             "pagesScraped": 6,
             "pageCountDiscovered": 174,
-            "listingCardsCollected": 148,
+            "listingCardsCollected": 149,
             "cacheHits": 0,
             "httpFailures": 0
           },
@@ -315,7 +315,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 1217,
+            "pageCountDiscovered": 1222,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -327,7 +327,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 182,
+            "pageCountDiscovered": 183,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -339,7 +339,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 186,
+            "pageCountDiscovered": 187,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -351,7 +351,7 @@
             "propertyGroup": "plot",
             "enabled": true,
             "pagesScraped": 6,
-            "pageCountDiscovered": 377,
+            "pageCountDiscovered": 379,
             "listingCardsCollected": 150,
             "cacheHits": 0,
             "httpFailures": 0
@@ -364,59 +364,59 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-08T06:10:48+00:00",
-    "listingCount": 1173,
-    "geocodingAccuracy": 0.9966,
+    "generatedAt": "2026-11-08T18:46:09+00:00",
+    "listingCount": 1134,
+    "geocodingAccuracy": 0.9991,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
     "freshnessWithin30Days": 1.0,
-    "duplicateRate": 0.3146,
+    "duplicateRate": 0.3175,
     "outlierCount": 3,
     "suspiciousPpsfCount": 0,
     "confidenceMedian": 100.0,
     "confidenceBands": {
-      "High": 1169,
-      "Medium": 4,
+      "High": 1133,
+      "Medium": 1,
       "Low": 0
     },
     "ppsfRange": {
-      "min": 1133.33,
-      "max": 111111.11,
-      "median": 15555.56
+      "min": 666.67,
+      "max": 119047.62,
+      "median": 15961.57
     },
     "topOutliers": [
       {
-        "id": "zameen-54898436",
+        "id": "zameen-54964228",
         "source": "Zameen",
-        "title": "Flat for Sale in Khudadad Heights Islamabad",
-        "neighborhood": "E-11",
-        "pricePerSqft": 6606.61,
+        "title": "10 MARLA PLOT FOR SALE in FAISAL TOWN BLOCK PHASE-2",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 1688.89,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/e_11_2_khudadad_heights_flat_for_sale_in_khudadad_heights_islamabad-54898436-11524-1.html"
+        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_10_marla_plot_for_sale_in_faisal_town_block_phase-2-54964228-20466-2.html"
       },
       {
-        "id": "zameen-54962496",
+        "id": "zameen-54964263",
         "source": "Zameen",
-        "title": "Gulberg Residencia AA-1 & AA-2 Islamabad | Investment Files Available | Excellent Investment Opportunity",
+        "title": "10 MARLA PLOT FOR SALE in FAISAL TOWN PHASE-2",
+        "neighborhood": "Faisal Town - F-18",
+        "pricePerSqft": 1688.89,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_10_marla_plot_for_sale_in_faisal_town_phase-2-54964263-20466-2.html"
+      },
+      {
+        "id": "zameen-54544846",
+        "source": "Zameen",
+        "title": "5 Marla Good Location Plot For Sale In Block-AA",
         "neighborhood": "Gulberg",
-        "pricePerSqft": 1422.22,
+        "pricePerSqft": 1466.67,
         "reasons": [
           "far below comparable median"
         ],
-        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_gulberg_residencia_aa-1_aa-2_islamabad_investment_files_available_excellent_investment_opportunity-54962496-13693-2.html"
-      },
-      {
-        "id": "zameen-54569413",
-        "source": "Zameen",
-        "title": "Non Ballot Corner Plot For Sale In Dha Valley Islamabad",
-        "neighborhood": "DHA Defence",
-        "pricePerSqft": 1133.33,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_oleander_sector_non_ballot_corner_plot_for_sale_in_dha_valley_islamabad-54569413-3213-2.html"
+        "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
       }
     ],
     "fbrReference": {
