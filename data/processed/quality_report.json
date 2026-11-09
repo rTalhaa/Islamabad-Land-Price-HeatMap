@@ -1,47 +1,25 @@
 {
-  "generatedAt": "2026-11-08T18:46:09+00:00",
-  "listingCount": 1134,
-  "geocodingAccuracy": 0.9991,
+  "generatedAt": "2026-11-09T06:18:47+00:00",
+  "listingCount": 1177,
+  "geocodingAccuracy": 0.9983,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3175,
-  "outlierCount": 3,
+  "duplicateRate": 0.294,
+  "outlierCount": 2,
   "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1133,
-    "Medium": 1,
+    "High": 1175,
+    "Medium": 2,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 666.67,
+    "min": 766.67,
     "max": 119047.62,
-    "median": 15961.57
+    "median": 15555.56
   },
   "topOutliers": [
-    {
-      "id": "zameen-54964228",
-      "source": "Zameen",
-      "title": "10 MARLA PLOT FOR SALE in FAISAL TOWN BLOCK PHASE-2",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1688.89,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_10_marla_plot_for_sale_in_faisal_town_block_phase-2-54964228-20466-2.html"
-    },
-    {
-      "id": "zameen-54964263",
-      "source": "Zameen",
-      "title": "10 MARLA PLOT FOR SALE in FAISAL TOWN PHASE-2",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 1688.89,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_f_18_faisal_town_phase_2_10_marla_plot_for_sale_in_faisal_town_phase-2-54964263-20466-2.html"
-    },
     {
       "id": "zameen-54544846",
       "source": "Zameen",
@@ -52,6 +30,17 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
+    },
+    {
+      "id": "zameen-54896347",
+      "source": "Zameen",
+      "title": "DHA Phase 2 Extn Open Certificate Sector M 1 Kanal",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 766.67,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_m_dha_phase_2_extn_open_certificate_sector_m_1_kanal-54896347-14639-2.html"
     }
   ],
   "fbrReference": {
