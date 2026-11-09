@@ -1,46 +1,113 @@
 {
-  "generatedAt": "2026-11-09T06:18:47+00:00",
-  "listingCount": 1177,
-  "geocodingAccuracy": 0.9983,
+  "generatedAt": "2026-11-09T23:13:18+00:00",
+  "listingCount": 1141,
+  "geocodingAccuracy": 1.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.294,
-  "outlierCount": 2,
-  "suspiciousPpsfCount": 0,
+  "duplicateRate": 0.3059,
+  "outlierCount": 8,
+  "suspiciousPpsfCount": 1,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1175,
-    "Medium": 2,
+    "High": 1140,
+    "Medium": 1,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 766.67,
-    "max": 119047.62,
-    "median": 15555.56
+    "min": 26.67,
+    "max": 111111.11,
+    "median": 16666.67
   },
   "topOutliers": [
     {
-      "id": "zameen-54544846",
+      "id": "zameen-54837290",
       "source": "Zameen",
-      "title": "5 Marla Good Location Plot For Sale In Block-AA",
-      "neighborhood": "Gulberg",
-      "pricePerSqft": 1466.67,
+      "title": "Prime Location Plot Available For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 59444.44,
       "reasons": [
-        "far below comparable median"
+        "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/gulberg_residencia_gulberg_residencia_-_block_aa1_5_marla_good_location_plot_for_sale_in_block-aa-54544846-13693-2.html"
+      "url": "https://www.zameen.com/Property/dha_defence_phase_5_expressway_commercial_prime_location_plot_available_for_sale-54837290-13293-2.html"
     },
     {
-      "id": "zameen-54896347",
+      "id": "zameen-52273353",
       "source": "Zameen",
-      "title": "DHA Phase 2 Extn Open Certificate Sector M 1 Kanal",
+      "title": "50x50 Commercial Plot For Sale In Business Square, Gulberg Greens, Islamabad",
+      "neighborhood": "Gulberg",
+      "pricePerSqft": 44444.44,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/gulberg_gulberg_business_square_50x50_commercial_plot_for_sale_in_business_square_gulberg_greens_islamabad-52273353-11450-2.html"
+    },
+    {
+      "id": "zameen-54693985",
+      "source": "Zameen",
+      "title": "Good Location Ideal Plot For Sale",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 14666.67,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_good_location_ideal_plot_for_sale-54693985-16418-2.html"
+    },
+    {
+      "id": "zameen-54905116",
+      "source": "Zameen",
+      "title": "5 Marla Level & Sun Face Plot For Sale In Block-C Faisal Town Phase 1",
+      "neighborhood": "Faisal Town - F-18",
+      "pricePerSqft": 12888.89,
+      "reasons": [
+        "far above comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
+    },
+    {
+      "id": "zameen-54966125",
+      "source": "Zameen",
+      "title": "5 Marla Residential plot In Sector E street No 10 Available For Sale",
       "neighborhood": "DHA Defence",
-      "pricePerSqft": 766.67,
+      "pricePerSqft": 5600.0,
       "reasons": [
         "far below comparable median"
       ],
-      "url": "https://www.zameen.com/Property/dha_phase_2_extension_dha_phase_2_extension_-_sector_m_dha_phase_2_extn_open_certificate_sector_m_1_kanal-54896347-14639-2.html"
+      "url": "https://www.zameen.com/Property/river_view_north_river_view_north_-_block_e_5_marla_residential_plot_in_sector_e_street_no_10_available_for_sale-54966125-22324-1.html"
+    },
+    {
+      "id": "zameen-54966141",
+      "source": "Zameen",
+      "title": "5 Marla Residential plot Available For Sale",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 4711.11,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/river_view_north_river_view_north_-_block_b_5_marla_residential_plot_available_for_sale-54966141-22321-1.html"
+    },
+    {
+      "id": "zameen-53789762",
+      "source": "Zameen",
+      "title": "5 Marla Residential Plot In DHA Valley - Daisy Sector, Islamabad Is Available As Of Now",
+      "neighborhood": "DHA Defence",
+      "pricePerSqft": 1200.0,
+      "reasons": [
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/dha_valley_dha_valley_-_daisy_sector_5_marla_residential_plot_in_dha_valley_-_daisy_sector_islamabad_is_available_as_of_now-53789762-3217-2.html"
+    },
+    {
+      "id": "zameen-54966727",
+      "source": "Zameen",
+      "title": "Kanal Upper Portion C Block J7 Speparate Gate Laga Howa",
+      "neighborhood": "B-17",
+      "pricePerSqft": 26.67,
+      "reasons": [
+        "outside plausible ppsf range",
+        "far below comparable median"
+      ],
+      "url": "https://www.zameen.com/Property/b_17_mpchs_-_multi_gardens_kanal_upper_portion_c_block_j7_speparate_gate_laga_howa-54966727-3115-1.html"
     }
   ],
   "fbrReference": {
