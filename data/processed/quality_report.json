@@ -1,36 +1,25 @@
 {
-  "generatedAt": "2026-11-10T07:35:50+00:00",
-  "listingCount": 1152,
-  "geocodingAccuracy": 0.9991,
+  "generatedAt": "2026-11-10T19:28:54+00:00",
+  "listingCount": 1156,
+  "geocodingAccuracy": 0.9983,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
   "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.3299,
-  "outlierCount": 6,
+  "duplicateRate": 0.2682,
+  "outlierCount": 3,
   "suspiciousPpsfCount": 0,
   "confidenceMedian": 100.0,
   "confidenceBands": {
-    "High": 1151,
-    "Medium": 1,
+    "High": 1154,
+    "Medium": 2,
     "Low": 0
   },
   "ppsfRange": {
-    "min": 1511.11,
-    "max": 111111.11,
-    "median": 16583.33
+    "min": 555.56,
+    "max": 122222.22,
+    "median": 17777.78
   },
   "topOutliers": [
-    {
-      "id": "zameen-54693985",
-      "source": "Zameen",
-      "title": "Good Location Ideal Plot For Sale",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 14666.67,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_good_location_ideal_plot_for_sale-54693985-16418-2.html"
-    },
     {
       "id": "zameen-54905116",
       "source": "Zameen",
@@ -41,17 +30,6 @@
         "far above comparable median"
       ],
       "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
-    },
-    {
-      "id": "zameen-54715707",
-      "source": "Zameen",
-      "title": "Good Location Ideal Plot For Sale",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 12000.0,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_good_location_ideal_plot_for_sale-54715707-16416-2.html"
     },
     {
       "id": "zameen-54966125",
@@ -74,17 +52,6 @@
         "far below comparable median"
       ],
       "url": "https://www.zameen.com/Property/river_view_north_river_view_north_-_block_b_5_marla_residential_plot_available_for_sale-54966141-22321-1.html"
-    },
-    {
-      "id": "zameen-54650153",
-      "source": "Zameen",
-      "title": "M All Dues Clear File Available For Sale",
-      "neighborhood": "DHA Defence",
-      "pricePerSqft": 1511.11,
-      "reasons": [
-        "far below comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/dha_defence_phase_4_dha_phase_4_-_sector_m_m_all_dues_clear_file_available_for_sale-54650153-13969-2.html"
     }
   ],
   "fbrReference": {
