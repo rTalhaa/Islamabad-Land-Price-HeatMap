@@ -1,46 +1,36 @@
 {
-  "generatedAt": "2026-11-12T06:14:39+00:00",
-  "listingCount": 1140,
-  "geocodingAccuracy": 0.9991,
+  "generatedAt": "2026-11-21T18:48:17+00:00",
+  "listingCount": 61,
+  "geocodingAccuracy": 0.0,
   "priceParsingSuccess": 1.0,
   "areaParsingSuccess": 1.0,
-  "freshnessWithin30Days": 1.0,
-  "duplicateRate": 0.286,
-  "outlierCount": 2,
-  "suspiciousPpsfCount": 0,
-  "confidenceMedian": 100.0,
+  "freshnessWithin30Days": 0.7869,
+  "duplicateRate": 0.0656,
+  "outlierCount": 1,
+  "suspiciousPpsfCount": 1,
+  "confidenceMedian": 80.0,
   "confidenceBands": {
-    "High": 1139,
-    "Medium": 1,
-    "Low": 0
+    "High": 0,
+    "Medium": 60,
+    "Low": 1
   },
   "ppsfRange": {
-    "min": 933.33,
-    "max": 122222.22,
-    "median": 16831.54
+    "min": 3611.11,
+    "max": 213157.89,
+    "median": 19259.26
   },
   "topOutliers": [
     {
-      "id": "zameen-54437636",
-      "source": "Zameen",
-      "title": "( Direct Owner ) ( Plot No: 204A Corner Plot ) 5 Marla Plot ( 25*50 in Block A )",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 14666.67,
+      "id": "graana-1559715",
+      "source": "Graana",
+      "title": "Kazani Heights 950 Sq. Ft. flat for sale",
+      "neighborhood": "Soan Garden",
+      "pricePerSqft": 213157.89,
       "reasons": [
+        "outside plausible ppsf range",
         "far above comparable median"
       ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_a_direct_owner_plot_no_204a_corner_plot_5_marla_plot_25_50_in_block_a-54437636-16416-2.html"
-    },
-    {
-      "id": "zameen-54905116",
-      "source": "Zameen",
-      "title": "5 Marla Level & Sun Face Plot For Sale In Block-C Faisal Town Phase 1",
-      "neighborhood": "Faisal Town - F-18",
-      "pricePerSqft": 12888.89,
-      "reasons": [
-        "far above comparable median"
-      ],
-      "url": "https://www.zameen.com/Property/faisal_town_phase_1_faisal_town_phase_1_-_block_c_5_marla_level_sun_face_plot_for_sale_in_block-c_faisal_town_phase_1-54905116-16418-2.html"
+      "url": "https://www.graana.com/property/1559715"
     }
   ],
   "fbrReference": {
