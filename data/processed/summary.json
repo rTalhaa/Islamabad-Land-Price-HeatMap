@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-22T19:10:39+00:00",
+  "generatedAt": "2026-11-23T06:18:40+00:00",
   "city": "Islamabad",
   "trackedListings": 61,
   "mappedListings": 0,
   "outlierCount": 1,
-  "neighborhoodCount": 21,
-  "medianPricePkr": 26500000.0,
+  "neighborhoodCount": 25,
+  "medianPricePkr": 22000000.0,
   "medianPricePerSqft": 19185.18,
   "medianPricePerMarla": 4316666.67,
-  "medianFreshnessHours": 65.8,
+  "medianFreshnessHours": 76.4,
   "medianConfidenceScore": 80.0,
   "confidenceBands": {
     "High": 0,
@@ -29,8 +29,8 @@
       "listingCount": 30,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 38250000.0,
-      "medianPricePerSqft": 22888.89
+      "medianPricePkr": 33000000.0,
+      "medianPricePerSqft": 21746.03
     },
     {
       "propertyGroup": "apartment",
@@ -53,22 +53,40 @@
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "DHA Phase 2",
-      "listingCount": 13,
+      "neighborhood": "D-12",
+      "listingCount": 1,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 130000000.0,
-      "medianPricePerSqft": 32222.22,
-      "medianPricePerMarla": 7250000.0
+      "medianPricePkr": 65000000.0,
+      "medianPricePerSqft": 57777.78,
+      "medianPricePerMarla": 13000000.0
     },
     {
-      "neighborhood": "DHA Phase 3",
-      "listingCount": 2,
+      "neighborhood": "DHA Phase 2",
+      "listingCount": 7,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 140000000.0,
+      "medianPricePkr": 90000000.0,
+      "medianPricePerSqft": 37500.0,
+      "medianPricePerMarla": 8437500.0
+    },
+    {
+      "neighborhood": "DHA Phase 5",
+      "listingCount": 3,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 85000000.0,
       "medianPricePerSqft": 31111.11,
       "medianPricePerMarla": 7000000.0
+    },
+    {
+      "neighborhood": "DHA Phase 4",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 135000000.0,
+      "medianPricePerSqft": 30000.0,
+      "medianPricePerMarla": 6750000.0
     },
     {
       "neighborhood": "G-11/4",
@@ -80,6 +98,15 @@
       "medianPricePerMarla": 6545454.55
     },
     {
+      "neighborhood": "Multi Garden",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 42500000.0,
+      "medianPricePerSqft": 26984.13,
+      "medianPricePerMarla": 6071428.57
+    },
+    {
       "neighborhood": "G-11/3",
       "listingCount": 3,
       "mappedCount": 0,
@@ -89,40 +116,13 @@
       "medianPricePerMarla": 5869565.22
     },
     {
-      "neighborhood": "E-11/1",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 11000000.0,
-      "medianPricePerSqft": 22916.67,
-      "medianPricePerMarla": 5156250.0
-    },
-    {
-      "neighborhood": "F-11",
+      "neighborhood": "DHA Phase 3",
       "listingCount": 4,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 56750000.0,
-      "medianPricePerSqft": 22426.47,
-      "medianPricePerMarla": 5045955.88
-    },
-    {
-      "neighborhood": "Sector O-9",
-      "listingCount": 2,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 34000000.0,
-      "medianPricePerSqft": 21000.0,
-      "medianPricePerMarla": 4725000.0
-    },
-    {
-      "neighborhood": "Jinnah Garden",
-      "listingCount": 5,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 32500000.0,
-      "medianPricePerSqft": 20634.92,
-      "medianPricePerMarla": 4642857.14
+      "medianPricePkr": 80000000.0,
+      "medianPricePerSqft": 25555.56,
+      "medianPricePerMarla": 5750000.0
     }
   ],
   "seedStats": [

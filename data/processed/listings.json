@@ -1,5 +1,56 @@
 [
   {
+    "id": "graana-1562026",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562026",
+    "canonicalKey": "house|d-12|650|45|4",
+    "detailUrl": "https://www.graana.com/property/1562026",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Compact",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562026",
+    "title": "Brand New 5 Marla House for Sale in Sector D-12, Islamabad",
+    "priceText": "65000000.00",
+    "pricePkr": 65000000,
+    "areaText": "5 marla",
+    "areaSqft": 1125.0,
+    "pricePerSqft": 57777.78,
+    "pricePerMarla": 13000000.0,
+    "beds": 4,
+    "baths": 4,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "D-12, Islamabad",
+    "neighborhood": "D-12",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Shahid Malik",
+    "imageUrl": "https://www.graana.com/images/original/596c449abc0b4932bf3ba1e3958bd8c0.jpg",
+    "addedText": "2026-11-23T05:05:18.000Z",
+    "updatedText": "2026-11-23T05:05:18.000Z",
+    "freshnessHours": 1.2173448958333335,
+    "confidenceScore": 80
+  },
+  {
     "id": "graana-1561711",
     "source": "Graana",
     "sourceKey": "graana",
@@ -18,7 +69,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -47,7 +98,58 @@
     "imageUrl": "https://www.graana.com/images/original/8c0ceb3231d945abbfd176414ea8a490.jpg",
     "addedText": "2026-11-21T07:16:47.000Z",
     "updatedText": "2026-11-21T07:16:47.000Z",
-    "freshnessHours": 35.895609765555555,
+    "freshnessHours": 47.025956066111114,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562068",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562068",
+    "canonicalKey": "house|dha-phase-2|900|90|5",
+    "detailUrl": "https://www.graana.com/property/1562068",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Mid-size",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562068",
+    "title": "10 Marla House For Sale",
+    "priceText": "90000000.00",
+    "pricePkr": 90000000,
+    "areaText": "10 marla",
+    "areaSqft": 2250.0,
+    "pricePerSqft": 40000.0,
+    "pricePerMarla": 9000000.0,
+    "beds": 5,
+    "baths": 6,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Phase 2, Islamabad",
+    "neighborhood": "DHA Phase 2",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Ishfaq Hussain",
+    "imageUrl": "https://www.graana.com/images/original/c8e53f6fbd2f4b4c865ffd46bfa1be17.jpg",
+    "addedText": "2026-11-23T05:51:16.000Z",
+    "updatedText": "2026-11-23T05:51:16.000Z",
+    "freshnessHours": 0.45123374499999996,
     "confidenceScore": 80
   },
   {
@@ -69,7 +171,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -98,7 +200,58 @@
     "imageUrl": "https://www.graana.com/images/original/dc742a35f35f4132b8e258fc06b88e22.jpg",
     "addedText": "2026-11-21T07:12:21.000Z",
     "updatedText": "2026-11-21T07:12:21.000Z",
-    "freshnessHours": 35.96949865972222,
+    "freshnessHours": 47.09984496027778,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562065",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562065",
+    "canonicalKey": "house|dha-phase-5|850|90|5",
+    "detailUrl": "https://www.graana.com/property/1562065",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Mid-size",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562065",
+    "title": "10 Marla House For Sale",
+    "priceText": "85000000.00",
+    "pricePkr": 85000000,
+    "areaText": "10 marla",
+    "areaSqft": 2250.0,
+    "pricePerSqft": 37777.78,
+    "pricePerMarla": 8500000.0,
+    "beds": 5,
+    "baths": 6,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Phase 5, Islamabad",
+    "neighborhood": "DHA Phase 5",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Ishfaq Hussain",
+    "imageUrl": "https://www.graana.com/images/original/fe9348b80c2b484aac562a5dbe6cb956.jpg",
+    "addedText": "2026-11-23T05:47:45.000Z",
+    "updatedText": "2026-11-23T05:47:45.000Z",
+    "freshnessHours": 0.5098448619444444,
     "confidenceScore": 80
   },
   {
@@ -120,7 +273,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -149,109 +302,7 @@
     "imageUrl": "https://www.graana.com/images/original/d1e1cc3791814073b86aef8ff111fb01.png",
     "addedText": "2026-11-21T09:18:30.000Z",
     "updatedText": "2026-11-21T09:18:30.000Z",
-    "freshnessHours": 33.86891704111111,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561623",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561623",
-    "canonicalKey": "house|dha-phase-2|1600|180|6",
-    "detailUrl": "https://www.graana.com/property/1561623",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561623",
-    "title": "20 Marla House for Sale",
-    "priceText": "160000000.00",
-    "pricePkr": 160000000,
-    "areaText": "20 marla",
-    "areaSqft": 4500.0,
-    "pricePerSqft": 35555.56,
-    "pricePerMarla": 8000000.0,
-    "beds": 6,
-    "baths": 7,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/a84adcee75f0983db82a9540d9bfcc86",
-    "addedText": "2026-11-20T01:45:41.000Z",
-    "updatedText": "2026-11-20T01:45:41.000Z",
-    "freshnessHours": 65.41394315138888,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561620",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561620",
-    "canonicalKey": "house|dha-phase-2|1500|180|6",
-    "detailUrl": "https://www.graana.com/property/1561620",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561620",
-    "title": "20 Marla House for Sale",
-    "priceText": "150000000.00",
-    "pricePkr": 150000000,
-    "areaText": "20 marla",
-    "areaSqft": 4500.0,
-    "pricePerSqft": 33333.33,
-    "pricePerMarla": 7500000.0,
-    "beds": 6,
-    "baths": 7,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/46f7910a9eeb6590559c7cb515207345",
-    "addedText": "2026-11-20T01:39:23.000Z",
-    "updatedText": "2026-11-20T01:39:23.000Z",
-    "freshnessHours": 65.51894316333333,
+    "freshnessHours": 45.00200878277778,
     "confidenceScore": 80
   },
   {
@@ -273,7 +324,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Large",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -302,58 +353,7 @@
     "imageUrl": "https://www.graana.com/images/original/0bc9da02412c410997b5bfef9e82af8b.jpg",
     "addedText": "2026-11-21T07:31:58.000Z",
     "updatedText": "2026-11-21T07:31:58.000Z",
-    "freshnessHours": 35.64255418472222,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561621",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561621",
-    "canonicalKey": "house|dha-phase-2|1450|180|6",
-    "detailUrl": "https://www.graana.com/property/1561621",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561621",
-    "title": "20 Marla House for Sale",
-    "priceText": "145000000.00",
-    "pricePkr": 145000000,
-    "areaText": "20 marla",
-    "areaSqft": 4500.0,
-    "pricePerSqft": 32222.22,
-    "pricePerMarla": 7250000.0,
-    "beds": 6,
-    "baths": 7,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/112c6c603a647adb6315954c3983b0f6",
-    "addedText": "2026-11-20T01:40:46.000Z",
-    "updatedText": "2026-11-20T01:40:46.000Z",
-    "freshnessHours": 65.49588760361111,
+    "freshnessHours": 46.77290048527778,
     "confidenceScore": 80
   },
   {
@@ -375,7 +375,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Large",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -404,16 +404,16 @@
     "imageUrl": "https://www.graana.com/images/original/1191098f61bc4b83914de450e1f4e263.jpg",
     "addedText": "2026-11-21T07:20:43.000Z",
     "updatedText": "2026-11-21T07:20:43.000Z",
-    "freshnessHours": 35.830054205833335,
+    "freshnessHours": 46.960400505555555,
     "confidenceScore": 80
   },
   {
-    "id": "graana-1561622",
+    "id": "graana-1562078",
     "source": "Graana",
     "sourceKey": "graana",
-    "sourceListingId": "1561622",
-    "canonicalKey": "house|dha-phase-2|1400|180|6",
-    "detailUrl": "https://www.graana.com/property/1561622",
+    "sourceListingId": "1562078",
+    "canonicalKey": "house|dha-phase-5|1400|180|5",
+    "detailUrl": "https://www.graana.com/property/1562078",
     "benchmark": {
       "label": "FBR benchmark",
       "status": "unmatched",
@@ -426,36 +426,36 @@
     "confidenceBand": "Medium",
     "sizeBand": "Large",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
-    "url": "https://www.graana.com/property/1561622",
-    "title": "20 Marla House for Sale",
+    "url": "https://www.graana.com/property/1562078",
+    "title": "Luxurious 1 Kanal Designer House for Sale \u2013 DHA Phase 5",
     "priceText": "140000000.00",
     "pricePkr": 140000000,
-    "areaText": "20 marla",
+    "areaText": "1 Kanal",
     "areaSqft": 4500.0,
     "pricePerSqft": 31111.11,
     "pricePerMarla": 7000000.0,
-    "beds": 6,
-    "baths": 7,
+    "beds": 5,
+    "baths": 6,
     "propertyGroup": "house",
     "propertyGroupLabel": "Graana Houses",
     "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
+    "location": "DHA Phase 5, Islamabad",
+    "neighborhood": "DHA Phase 5",
     "city": "Islamabad",
     "latitude": null,
     "longitude": null,
     "coordinateSource": "invalid-or-missing",
     "listingState": "active",
     "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/77e76595e72222ee3c7ba927d3adb10f",
-    "addedText": "2026-11-20T01:42:40.000Z",
-    "updatedText": "2026-11-20T01:42:40.000Z",
-    "freshnessHours": 65.46422093305556,
+    "agency": "Hassan Faizi",
+    "imageUrl": "https://www.graana.com/images/original/6517f098f3d44ca6b1399c4934a4dd42.jpg",
+    "addedText": "2026-11-23T06:02:42.000Z",
+    "updatedText": "2026-11-23T06:02:42.000Z",
+    "freshnessHours": 0.26067816805555555,
     "confidenceScore": 80
   },
   {
@@ -476,8 +476,8 @@
     "outlierReasons": [],
     "confidenceBand": "Medium",
     "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "recencyBucket": "Recent",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -506,7 +506,58 @@
     "imageUrl": "https://www.graana.com/images/original/934e37dbd4f94be9f0da2119685422ff",
     "addedText": "2026-11-20T01:53:18.000Z",
     "updatedText": "2026-11-20T01:53:18.000Z",
-    "freshnessHours": 65.28699868777778,
+    "freshnessHours": 76.41734499666667,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562080",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562080",
+    "canonicalKey": "house|dha-phase-4|1350|180|5",
+    "detailUrl": "https://www.graana.com/property/1562080",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Large",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562080",
+    "title": "Luxurious 1 Kanal Designer House for Sale \u2013 DHA Phase 4",
+    "priceText": "135000000.00",
+    "pricePkr": 135000000,
+    "areaText": "1 Kanal",
+    "areaSqft": 4500.0,
+    "pricePerSqft": 30000.0,
+    "pricePerMarla": 6750000.0,
+    "beds": 5,
+    "baths": 6,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Phase 4, Islamabad",
+    "neighborhood": "DHA Phase 4",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Hassan Faizi",
+    "imageUrl": "https://www.graana.com/images/original/ac16302714d6448a91db93bccd02dd13.jpg",
+    "addedText": "2026-11-23T06:05:54.000Z",
+    "updatedText": "2026-11-23T06:05:54.000Z",
+    "freshnessHours": 0.20734481972222224,
     "confidenceScore": 80
   },
   {
@@ -528,7 +579,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -557,7 +608,7 @@
     "imageUrl": "https://www.graana.com/images/original/e667913dc760fdc90b7d74c54aed3893",
     "addedText": "2026-10-05T00:04:19.000Z",
     "updatedText": "2026-10-05T00:04:19.000Z",
-    "freshnessHours": 1171.1043797197221,
+    "freshnessHours": 1182.2347857625002,
     "confidenceScore": 80
   },
   {
@@ -578,8 +629,8 @@
     "outlierReasons": [],
     "confidenceBand": "Medium",
     "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "recencyBucket": "Recent",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -608,7 +659,7 @@
     "imageUrl": "https://www.graana.com/images/original/a29d58e08416ab9660d3e76dcf16724e",
     "addedText": "2026-11-20T01:52:20.000Z",
     "updatedText": "2026-11-20T01:52:20.000Z",
-    "freshnessHours": 65.3031098025,
+    "freshnessHours": 76.43345611333334,
     "confidenceScore": 80
   },
   {
@@ -630,7 +681,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Large",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -659,7 +710,7 @@
     "imageUrl": "https://www.graana.com/images/original/2fd8bc09da214fcdbc591214a445619a.jpg",
     "addedText": "2026-11-21T07:25:23.000Z",
     "updatedText": "2026-11-21T07:25:23.000Z",
-    "freshnessHours": 35.752276415833336,
+    "freshnessHours": 46.88262271805556,
     "confidenceScore": 80
   },
   {
@@ -681,7 +732,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -710,16 +761,16 @@
     "imageUrl": "https://www.graana.com/images/original/d049f78ccedc9f61204b7d8f2b442c3b",
     "addedText": "2026-11-13T01:12:40.000Z",
     "updatedText": "2026-11-13T01:12:40.000Z",
-    "freshnessHours": 233.9652129825,
+    "freshnessHours": 245.09561899666667,
     "confidenceScore": 80
   },
   {
-    "id": "graana-1561625",
+    "id": "graana-1562034",
     "source": "Graana",
     "sourceKey": "graana",
-    "sourceListingId": "1561625",
-    "canonicalKey": "house|dha-phase-2|1250|180|6",
-    "detailUrl": "https://www.graana.com/property/1561625",
+    "sourceListingId": "1562034",
+    "canonicalKey": "house|multi-garden|425|63|4",
+    "detailUrl": "https://www.graana.com/property/1562034",
     "benchmark": {
       "label": "FBR benchmark",
       "status": "unmatched",
@@ -730,89 +781,38 @@
     "isOutlier": false,
     "outlierReasons": [],
     "confidenceBand": "Medium",
-    "sizeBand": "Large",
+    "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
-    "url": "https://www.graana.com/property/1561625",
-    "title": "20 Marla House for Sale",
-    "priceText": "125000000.00",
-    "pricePkr": 125000000,
-    "areaText": "20 marla",
-    "areaSqft": 4500.0,
-    "pricePerSqft": 27777.78,
-    "pricePerMarla": 6250000.0,
-    "beds": 6,
-    "baths": 7,
+    "url": "https://www.graana.com/property/1562034",
+    "title": "Brand New 7 Marla House for Sale in B-17 Multi Gardens, Islamabad",
+    "priceText": "42500000.00",
+    "pricePkr": 42500000,
+    "areaText": "7 marla",
+    "areaSqft": 1575.0,
+    "pricePerSqft": 26984.13,
+    "pricePerMarla": 6071428.57,
+    "beds": 4,
+    "baths": 4,
     "propertyGroup": "house",
     "propertyGroupLabel": "Graana Houses",
     "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
+    "location": "Multi Garden, B-17, Islamabad",
+    "neighborhood": "Multi Garden",
     "city": "Islamabad",
     "latitude": null,
     "longitude": null,
     "coordinateSource": "invalid-or-missing",
     "listingState": "active",
     "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/91c365d8b069473cb3d907e5d50a8896",
-    "addedText": "2026-11-20T01:48:44.000Z",
-    "updatedText": "2026-11-20T01:48:44.000Z",
-    "freshnessHours": 65.36310981,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561624",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561624",
-    "canonicalKey": "house|dha-phase-2|1200|180|6",
-    "detailUrl": "https://www.graana.com/property/1561624",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561624",
-    "title": "20 Marla House for Sale",
-    "priceText": "120000000.00",
-    "pricePkr": 120000000,
-    "areaText": "20 marla",
-    "areaSqft": 4500.0,
-    "pricePerSqft": 26666.67,
-    "pricePerMarla": 6000000.0,
-    "beds": 6,
-    "baths": 7,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/d62da34928216484a3de11935aafeff1",
-    "addedText": "2026-11-20T01:47:41.000Z",
-    "updatedText": "2026-11-20T01:47:41.000Z",
-    "freshnessHours": 65.38060981444444,
+    "agency": "Bilal Khan",
+    "imageUrl": "https://www.graana.com/images/original/a0ba23cda7e347598904893a2923869c.jpg",
+    "addedText": "2026-11-23T05:15:20.000Z",
+    "updatedText": "2026-11-23T05:15:20.000Z",
+    "freshnessHours": 1.050122666388889,
     "confidenceScore": 80
   },
   {
@@ -834,7 +834,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -863,58 +863,7 @@
     "imageUrl": "https://www.graana.com/images/original/ad77aa0f90bdc170637208245ec02eb4",
     "addedText": "2026-11-13T01:22:54.000Z",
     "updatedText": "2026-11-13T01:22:54.000Z",
-    "freshnessHours": 233.7946574225,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561626",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561626",
-    "canonicalKey": "house|dha-phase-2|1100|180|6",
-    "detailUrl": "https://www.graana.com/property/1561626",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561626",
-    "title": "20 Marla House for Sale",
-    "priceText": "110000000.00",
-    "pricePkr": 110000000,
-    "areaText": "20 marla",
-    "areaSqft": 4500.0,
-    "pricePerSqft": 24444.44,
-    "pricePerMarla": 5500000.0,
-    "beds": 6,
-    "baths": 7,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Phase 2, Islamabad",
-    "neighborhood": "DHA Phase 2",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Rana Awais",
-    "imageUrl": "https://www.graana.com/images/original/5ea0863c54d9c9ec39696ff419f2bf5a",
-    "addedText": "2026-11-20T01:49:55.000Z",
-    "updatedText": "2026-11-20T01:49:55.000Z",
-    "freshnessHours": 65.34338758416666,
+    "freshnessHours": 244.92506343416665,
     "confidenceScore": 80
   },
   {
@@ -935,8 +884,8 @@
     "outlierReasons": [],
     "confidenceBand": "Medium",
     "sizeBand": "Large",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "recencyBucket": "Recent",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -965,7 +914,7 @@
     "imageUrl": "https://www.graana.com/images/original/945d456c00c0ed4449771392605876f2",
     "addedText": "2026-11-20T01:29:35.000Z",
     "updatedText": "2026-11-20T01:29:35.000Z",
-    "freshnessHours": 65.68326852388888,
+    "freshnessHours": 76.81367453416667,
     "confidenceScore": 80
   },
   {
@@ -987,7 +936,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1016,58 +965,7 @@
     "imageUrl": "https://www.graana.com/images/original/56302df89d0476a026887ca641392325",
     "addedText": "2026-09-22T00:09:11.000Z",
     "updatedText": "2026-09-22T00:09:11.000Z",
-    "freshnessHours": 1483.0232686266668,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561619",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561619",
-    "canonicalKey": "house|sector-o-9|265|45|4",
-    "detailUrl": "https://www.graana.com/property/1561619",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Compact",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561619",
-    "title": "5 Marla House for Sale",
-    "priceText": "26500000.00",
-    "pricePkr": 26500000,
-    "areaText": "5 marla",
-    "areaSqft": 1125.0,
-    "pricePerSqft": 23555.56,
-    "pricePerMarla": 5300000.0,
-    "beds": 4,
-    "baths": 5,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "Sector O-9, National Police Foundation, Islamabad",
-    "neighborhood": "Sector O-9",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Usman Riasat",
-    "imageUrl": "https://www.graana.com/images/original/c80712ead1466333159119fff97e1761",
-    "addedText": "2026-11-20T01:36:28.000Z",
-    "updatedText": "2026-11-20T01:36:28.000Z",
-    "freshnessHours": 65.56755427833333,
+    "freshnessHours": 1494.1536746780557,
     "confidenceScore": 80
   },
   {
@@ -1089,7 +987,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1118,7 +1016,7 @@
     "imageUrl": "https://www.graana.com/images/original/8b3dc5d02e2f84010aacb57a15710878",
     "addedText": "2026-11-09T23:54:10.000Z",
     "updatedText": "2026-11-09T23:54:10.000Z",
-    "freshnessHours": 307.27354633944447,
+    "freshnessHours": 318.40395236666666,
     "confidenceScore": 80
   },
   {
@@ -1140,7 +1038,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1169,7 +1067,7 @@
     "imageUrl": "https://www.graana.com/images/original/0ec7ccd795feca6a2f77fe4a6235a2eb",
     "addedText": "2026-11-09T05:49:13.000Z",
     "updatedText": "2026-11-09T05:49:13.000Z",
-    "freshnessHours": 325.3560463458333,
+    "freshnessHours": 336.4864523716667,
     "confidenceScore": 80
   },
   {
@@ -1191,7 +1089,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1220,7 +1118,58 @@
     "imageUrl": "https://www.graana.com/images/original/e960781c0c8142bcb8cc91ec16699b35.jpg",
     "addedText": "2026-11-21T07:43:30.000Z",
     "updatedText": "2026-11-21T07:43:30.000Z",
-    "freshnessHours": 35.450331946111106,
+    "freshnessHours": 46.580678246944444,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562064",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562064",
+    "canonicalKey": "house|dha-phase-3|300|54|4",
+    "detailUrl": "https://www.graana.com/property/1562064",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Mid-size",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562064",
+    "title": "Brand New 6 Marla Modern House for Sale \u2013 DHA Phase 3",
+    "priceText": "30000000.00",
+    "pricePkr": 30000000,
+    "areaText": "6 marla",
+    "areaSqft": 1350.0,
+    "pricePerSqft": 22222.22,
+    "pricePerMarla": 5000000.0,
+    "beds": 4,
+    "baths": 5,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Phase 3, Islamabad",
+    "neighborhood": "DHA Phase 3",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Ishfaq Hussain",
+    "imageUrl": "https://www.graana.com/images/original/0187cc71816c43d8a5d46c89a55eacc5.jpg",
+    "addedText": "2026-11-23T05:43:50.000Z",
+    "updatedText": "2026-11-23T05:43:50.000Z",
+    "freshnessHours": 0.5751226472222223,
     "confidenceScore": 80
   },
   {
@@ -1242,7 +1191,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Large",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1271,7 +1220,7 @@
     "imageUrl": "https://www.graana.com/images/original/b886734bc1bdace6f450e649291ac4a2",
     "addedText": "2026-11-04T23:32:33.000Z",
     "updatedText": "2026-11-04T23:32:33.000Z",
-    "freshnessHours": 427.6338241383333,
+    "freshnessHours": 438.76423016999996,
     "confidenceScore": 80
   },
   {
@@ -1293,7 +1242,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1322,7 +1271,7 @@
     "imageUrl": "https://www.graana.com/images/original/8009fab96f044b598ec547e431ada81f.jpg",
     "addedText": "2026-11-21T07:35:38.000Z",
     "updatedText": "2026-11-21T07:35:38.000Z",
-    "freshnessHours": 35.58144306888889,
+    "freshnessHours": 46.71178936833333,
     "confidenceScore": 80
   },
   {
@@ -1344,7 +1293,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1373,7 +1322,7 @@
     "imageUrl": "https://www.graana.com/images/original/c3e57b70095940078ebe58514d6bef3c.jpg",
     "addedText": "2026-11-21T07:50:29.000Z",
     "updatedText": "2026-11-21T07:50:29.000Z",
-    "freshnessHours": 35.33394304388889,
+    "freshnessHours": 46.464289352777776,
     "confidenceScore": 80
   },
   {
@@ -1395,7 +1344,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1424,7 +1373,7 @@
     "imageUrl": "https://www.graana.com/images/original/d72f34d5cd81426c9bc54d7aa93c31ff.jpg",
     "addedText": "2026-11-21T07:31:27.000Z",
     "updatedText": "2026-11-21T07:31:27.000Z",
-    "freshnessHours": 35.651165300277775,
+    "freshnessHours": 46.781511601388885,
     "confidenceScore": 80
   },
   {
@@ -1446,7 +1395,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1475,7 +1424,58 @@
     "imageUrl": "https://www.graana.com/images/original/2ea2750f0f2a006b2f318d177cac6465",
     "addedText": "2026-11-10T02:22:51.000Z",
     "updatedText": "2026-11-10T02:22:51.000Z",
-    "freshnessHours": 304.79549077666667,
+    "freshnessHours": 315.92589680111115,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562060",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562060",
+    "canonicalKey": "house|dha-phase-3|225|45|3",
+    "detailUrl": "https://www.graana.com/property/1562060",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Compact",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562060",
+    "title": "5 Marla House For Sale",
+    "priceText": "22500000.00",
+    "pricePkr": 22500000,
+    "areaText": "5 marla",
+    "areaSqft": 1125.0,
+    "pricePerSqft": 20000.0,
+    "pricePerMarla": 4500000.0,
+    "beds": 3,
+    "baths": 5,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Phase 3, Islamabad",
+    "neighborhood": "DHA Phase 3",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Ishfaq Hussain",
+    "imageUrl": "https://www.graana.com/images/original/9c72bb26973b459ab3bad8d5f0647f7c.jpg",
+    "addedText": "2026-11-23T05:39:25.000Z",
+    "updatedText": "2026-11-23T05:39:25.000Z",
+    "freshnessHours": 0.6487337700000001,
     "confidenceScore": 80
   },
   {
@@ -1497,7 +1497,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1526,7 +1526,7 @@
     "imageUrl": "https://www.graana.com/images/original/db2082388c8f4e7db2340a8cc32541f7.jpg",
     "addedText": "2026-11-21T06:52:04.000Z",
     "updatedText": "2026-11-21T06:52:04.000Z",
-    "freshnessHours": 36.30755423527778,
+    "freshnessHours": 47.437900541944444,
     "confidenceScore": 80
   },
   {
@@ -1548,7 +1548,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1577,7 +1577,7 @@
     "imageUrl": "https://www.graana.com/images/original/9e2f8e98a35c4742bff2ab76c1988234.jpg",
     "addedText": "2026-11-21T07:07:34.000Z",
     "updatedText": "2026-11-21T07:07:34.000Z",
-    "freshnessHours": 36.04922088611111,
+    "freshnessHours": 47.17956718805556,
     "confidenceScore": 80
   },
   {
@@ -1599,7 +1599,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1628,7 +1628,7 @@
     "imageUrl": "https://www.graana.com/images/original/a6e2f2490e25496eac90055c5822b34b.jpg",
     "addedText": "2026-11-21T07:40:07.000Z",
     "updatedText": "2026-11-21T07:40:07.000Z",
-    "freshnessHours": 35.50672084166667,
+    "freshnessHours": 46.63706714083333,
     "confidenceScore": 80
   },
   {
@@ -1650,7 +1650,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1679,58 +1679,7 @@
     "imageUrl": "https://www.graana.com/images/original/7ce3ed7d1d514fd49011f137eca32bb3.jpg",
     "addedText": "2026-11-21T07:05:03.000Z",
     "updatedText": "2026-11-21T07:05:03.000Z",
-    "freshnessHours": 36.09116533472222,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561618",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561618",
-    "canonicalKey": "house|sector-o-9|415|90|3",
-    "detailUrl": "https://www.graana.com/property/1561618",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Mid-size",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561618",
-    "title": "10 Marla House for Sale",
-    "priceText": "41500000.00",
-    "pricePkr": 41500000,
-    "areaText": "10 marla",
-    "areaSqft": 2250.0,
-    "pricePerSqft": 18444.44,
-    "pricePerMarla": 4150000.0,
-    "beds": 3,
-    "baths": 4,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "Sector O-9, National Police Foundation, Islamabad",
-    "neighborhood": "Sector O-9",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Usman Riasat",
-    "imageUrl": "https://www.graana.com/images/original/f4886e150f66defdebfd944245bcfd57",
-    "addedText": "2026-11-20T01:32:24.000Z",
-    "updatedText": "2026-11-20T01:32:24.000Z",
-    "freshnessHours": 65.63533206,
+    "freshnessHours": 47.2215116375,
     "confidenceScore": 80
   },
   {
@@ -1752,7 +1701,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1781,7 +1730,7 @@
     "imageUrl": "https://www.graana.com/images/original/ae0c845c457bd0adefcbc05f50db10d0",
     "addedText": "2026-10-01T23:01:11.000Z",
     "updatedText": "2026-10-01T23:01:11.000Z",
-    "freshnessHours": 1244.1566019494444,
+    "freshnessHours": 1255.287007995278,
     "confidenceScore": 80
   },
   {
@@ -1803,7 +1752,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1832,7 +1781,7 @@
     "imageUrl": "https://www.graana.com/images/original/670b15518bfd4cb2aa9a4e3f21db12db.jpg",
     "addedText": "2026-11-21T07:00:17.000Z",
     "updatedText": "2026-11-21T07:00:17.000Z",
-    "freshnessHours": 36.17060978333333,
+    "freshnessHours": 47.30095608694444,
     "confidenceScore": 80
   },
   {
@@ -1854,7 +1803,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1883,7 +1832,7 @@
     "imageUrl": "https://www.graana.com/images/original/680f34534ad90e04af2149a97a53eaca",
     "addedText": "2026-11-10T00:48:41.000Z",
     "updatedText": "2026-11-10T00:48:41.000Z",
-    "freshnessHours": 306.364935225,
+    "freshnessHours": 317.49534125055555,
     "confidenceScore": 80
   },
   {
@@ -1905,7 +1854,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1934,7 +1883,7 @@
     "imageUrl": "https://www.graana.com/images/original/37f2d603fcd541cfb8198224c2f4f38f.jpg",
     "addedText": "2026-11-21T06:56:26.000Z",
     "updatedText": "2026-11-21T06:56:26.000Z",
-    "freshnessHours": 36.23477645388889,
+    "freshnessHours": 47.36512275916667,
     "confidenceScore": 80
   },
   {
@@ -1956,7 +1905,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Large",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -1985,7 +1934,7 @@
     "imageUrl": "https://www.graana.com/images/original/e3b625f6f3139166cbfcc146b1537581",
     "addedText": "2026-11-09T00:03:01.000Z",
     "updatedText": "2026-11-09T00:03:01.000Z",
-    "freshnessHours": 331.12604635722226,
+    "freshnessHours": 342.2564523863889,
     "confidenceScore": 80
   },
   {
@@ -2007,7 +1956,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2036,7 +1985,7 @@
     "imageUrl": "https://www.graana.com/images/original/f884e574f061436884ff51dc357a12af.jpg",
     "addedText": "2026-11-21T06:51:01.000Z",
     "updatedText": "2026-11-21T06:51:01.000Z",
-    "freshnessHours": 36.32505423916667,
+    "freshnessHours": 47.45540054666667,
     "confidenceScore": 80
   },
   {
@@ -2058,7 +2007,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2087,7 +2036,7 @@
     "imageUrl": "https://www.graana.com/images/original/a0c48fdd03ba53d494e61183c4bf5011",
     "addedText": "2026-11-09T03:47:51.000Z",
     "updatedText": "2026-11-09T03:47:51.000Z",
-    "freshnessHours": 327.37882412722223,
+    "freshnessHours": 338.5092301575,
     "confidenceScore": 80
   },
   {
@@ -2109,7 +2058,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2138,58 +2087,7 @@
     "imageUrl": "https://www.graana.com/images/original/bf0dd3d254284224a11388ad909c1590.jpg",
     "addedText": "2026-11-21T07:24:14.000Z",
     "updatedText": "2026-11-21T07:24:14.000Z",
-    "freshnessHours": 35.771443089444446,
-    "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561614",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561614",
-    "canonicalKey": "house|dha-valley|285|72|4",
-    "detailUrl": "https://www.graana.com/property/1561614",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Mid-size",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates"
-    ],
-    "url": "https://www.graana.com/property/1561614",
-    "title": "8 Marla House for Sale",
-    "priceText": "28500000.00",
-    "pricePkr": 28500000,
-    "areaText": "8 marla",
-    "areaSqft": 1800.0,
-    "pricePerSqft": 15833.33,
-    "pricePerMarla": 3562500.0,
-    "beds": 4,
-    "baths": 5,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Valley, Islamabad",
-    "neighborhood": "DHA Valley",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Nauman Abbasi",
-    "imageUrl": "https://www.graana.com/images/original/518cfbcc2d3272ba996bb076d4026377",
-    "addedText": "2026-11-20T01:22:35.000Z",
-    "updatedText": "2026-11-20T01:22:35.000Z",
-    "freshnessHours": 65.79894317472223,
+    "freshnessHours": 46.90178938972222,
     "confidenceScore": 80
   },
   {
@@ -2211,7 +2109,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2240,60 +2138,8 @@
     "imageUrl": "https://www.graana.com/images/original/939b3eb5e3951c1008c235cc324f1c14",
     "addedText": "2026-09-26T10:58:07.000Z",
     "updatedText": "2026-09-26T10:58:07.000Z",
-    "freshnessHours": 1376.2077130675,
+    "freshnessHours": 1387.3381191166666,
     "confidenceScore": 80
-  },
-  {
-    "id": "graana-1561608",
-    "source": "Graana",
-    "sourceKey": "graana",
-    "sourceListingId": "1561608",
-    "canonicalKey": "house|dha-valley|265|72|4",
-    "detailUrl": "https://www.graana.com/property/1561608",
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "isOutlier": false,
-    "outlierReasons": [],
-    "confidenceBand": "Medium",
-    "sizeBand": "Mid-size",
-    "recencyBucket": "Fresh",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
-    "parseWarnings": [
-      "missing:coordinates",
-      "missing:image"
-    ],
-    "url": "https://www.graana.com/property/1561608",
-    "title": "8 Marla House for Sale",
-    "priceText": "26500000.00",
-    "pricePkr": 26500000,
-    "areaText": "8 marla",
-    "areaSqft": 1800.0,
-    "pricePerSqft": 14722.22,
-    "pricePerMarla": 3312500.0,
-    "beds": 4,
-    "baths": 5,
-    "propertyGroup": "house",
-    "propertyGroupLabel": "Graana Houses",
-    "seed": "graana-houses",
-    "location": "DHA Valley, Islamabad",
-    "neighborhood": "DHA Valley",
-    "city": "Islamabad",
-    "latitude": null,
-    "longitude": null,
-    "coordinateSource": "invalid-or-missing",
-    "listingState": "active",
-    "referenceId": null,
-    "agency": "Nauman Abbasi",
-    "imageUrl": "",
-    "addedText": "2026-11-20T01:21:27.000Z",
-    "updatedText": "2026-11-20T01:21:27.000Z",
-    "freshnessHours": 65.81783206611111,
-    "confidenceScore": 76
   },
   {
     "id": "graana-1554590",
@@ -2314,7 +2160,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2343,7 +2189,7 @@
     "imageUrl": "https://www.graana.com/images/original/ced19a31dcc4b0b06ee3d56785454dcd",
     "addedText": "2026-09-14T04:56:05.000Z",
     "updatedText": "2026-09-14T04:56:05.000Z",
-    "freshnessHours": 1670.2416019688887,
+    "freshnessHours": 1681.3720080230555,
     "confidenceScore": 80
   },
   {
@@ -2365,7 +2211,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2394,7 +2240,7 @@
     "imageUrl": "https://www.graana.com/images/original/e52cb2467dda3d4a7b05e2d81370d399",
     "addedText": "2026-11-13T00:18:10.000Z",
     "updatedText": "2026-11-13T00:18:10.000Z",
-    "freshnessHours": 234.87354632027777,
+    "freshnessHours": 246.00395233972222,
     "confidenceScore": 80
   },
   {
@@ -2416,7 +2262,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2445,7 +2291,7 @@
     "imageUrl": "https://www.graana.com/images/original/6250917c897b091f7a3bc49993aa4af2",
     "addedText": "2026-11-13T00:01:33.000Z",
     "updatedText": "2026-11-13T00:01:33.000Z",
-    "freshnessHours": 235.15049077277777,
+    "freshnessHours": 246.28089679583334,
     "confidenceScore": 80
   },
   {
@@ -2467,7 +2313,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2496,7 +2342,7 @@
     "imageUrl": "https://www.graana.com/images/original/2a9755311cf9f29936b8ac4d63740d90",
     "addedText": "2026-11-13T00:09:29.000Z",
     "updatedText": "2026-11-13T00:09:29.000Z",
-    "freshnessHours": 235.01826854666666,
+    "freshnessHours": 246.14867456805555,
     "confidenceScore": 80
   },
   {
@@ -2518,7 +2364,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2547,7 +2393,7 @@
     "imageUrl": "https://www.graana.com/images/original/89486ab4d683f593149ea09a93800379",
     "addedText": "2026-08-19T17:07:53.000Z",
     "updatedText": "2026-08-19T17:07:53.000Z",
-    "freshnessHours": 2282.0449353133336,
+    "freshnessHours": 2293.1753413730553,
     "confidenceScore": 80
   },
   {
@@ -2569,7 +2415,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2598,7 +2444,7 @@
     "imageUrl": "https://www.graana.com/images/original/eeaeecfdd1bf2d48f565ba1a6bb87516",
     "addedText": "2026-11-03T00:46:23.000Z",
     "updatedText": "2026-11-03T00:46:23.000Z",
-    "freshnessHours": 474.40326859444446,
+    "freshnessHours": 485.5336746302778,
     "confidenceScore": 80
   },
   {
@@ -2620,7 +2466,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2649,7 +2495,7 @@
     "imageUrl": "https://www.graana.com/images/original/950caa5aa04f20d9b04b5469e533fe21",
     "addedText": "2026-11-03T00:47:55.000Z",
     "updatedText": "2026-11-03T00:47:55.000Z",
-    "freshnessHours": 474.37771303527774,
+    "freshnessHours": 485.50811906944443,
     "confidenceScore": 80
   },
   {
@@ -2671,7 +2517,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2700,7 +2546,58 @@
     "imageUrl": "https://www.graana.com/images/original/3178d7a11739eff4f727e5aa3cc69c1d",
     "addedText": "2026-09-28T17:24:30.000Z",
     "updatedText": "2026-09-28T17:24:30.000Z",
-    "freshnessHours": 1321.7679908419445,
+    "freshnessHours": 1332.8983968894445,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562071",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562071",
+    "canonicalKey": "house|dha-valley|140|45|3",
+    "detailUrl": "https://www.graana.com/property/1562071",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Compact",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562071",
+    "title": "5 Marla House For Sale",
+    "priceText": "14000000.00",
+    "pricePkr": 14000000,
+    "areaText": "5 marla",
+    "areaSqft": 1125.0,
+    "pricePerSqft": 12444.44,
+    "pricePerMarla": 2800000.0,
+    "beds": 3,
+    "baths": 4,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Valley, Islamabad",
+    "neighborhood": "DHA Valley",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Ishfaq Hussain",
+    "imageUrl": "https://www.graana.com/images/original/7f71dfee16ae4eb1bf895da2e7b3bce7.jpg",
+    "addedText": "2026-11-23T05:54:26.000Z",
+    "updatedText": "2026-11-23T05:54:26.000Z",
+    "freshnessHours": 0.3984559611111111,
     "confidenceScore": 80
   },
   {
@@ -2722,7 +2619,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2751,7 +2648,7 @@
     "imageUrl": "https://www.graana.com/images/original/680262f0907cd38f61cd47f229f961fe",
     "addedText": "2026-11-03T00:49:51.000Z",
     "updatedText": "2026-11-03T00:49:51.000Z",
-    "freshnessHours": 474.3454908091667,
+    "freshnessHours": 485.47589684166667,
     "confidenceScore": 80
   },
   {
@@ -2773,7 +2670,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2802,7 +2699,109 @@
     "imageUrl": "https://www.graana.com/images/original/ab79989325eaef4064ecf9e384bdf71d",
     "addedText": "2026-08-25T06:05:36.000Z",
     "updatedText": "2026-08-25T06:05:36.000Z",
-    "freshnessHours": 2149.0829908611113,
+    "freshnessHours": 2160.2133969172223,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562075",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562075",
+    "canonicalKey": "house|dha-homes|185|72|4",
+    "detailUrl": "https://www.graana.com/property/1562075",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Mid-size",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562075",
+    "title": "8 Marla House For Sale",
+    "priceText": "18500000.00",
+    "pricePkr": 18500000,
+    "areaText": "8 marla",
+    "areaSqft": 1800.0,
+    "pricePerSqft": 10277.78,
+    "pricePerMarla": 2312500.0,
+    "beds": 4,
+    "baths": 5,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "DHA Homes, Islamabad",
+    "neighborhood": "DHA Homes",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Hassan Faizi",
+    "imageUrl": "https://www.graana.com/images/original/90d2e42ce89b4b1ea8cdb917c8ec64bd.jpg",
+    "addedText": "2026-11-23T05:59:05.000Z",
+    "updatedText": "2026-11-23T05:59:05.000Z",
+    "freshnessHours": 0.32095595444444447,
+    "confidenceScore": 80
+  },
+  {
+    "id": "graana-1562021",
+    "source": "Graana",
+    "sourceKey": "graana",
+    "sourceListingId": "1562021",
+    "canonicalKey": "house|jhangi-syedan|92|36|2",
+    "detailUrl": "https://www.graana.com/property/1562021",
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "isOutlier": false,
+    "outlierReasons": [],
+    "confidenceBand": "Medium",
+    "sizeBand": "Compact",
+    "recencyBucket": "Fresh",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
+    "parseWarnings": [
+      "missing:coordinates"
+    ],
+    "url": "https://www.graana.com/property/1562021",
+    "title": "4 Marla house for sale",
+    "priceText": "9200000.00",
+    "pricePkr": 9200000,
+    "areaText": "4 marla",
+    "areaSqft": 900.0,
+    "pricePerSqft": 10222.22,
+    "pricePerMarla": 2300000.0,
+    "beds": 2,
+    "baths": 2,
+    "propertyGroup": "house",
+    "propertyGroupLabel": "Graana Houses",
+    "seed": "graana-houses",
+    "location": "Jhangi Syedan, Islamabad",
+    "neighborhood": "Jhangi Syedan",
+    "city": "Islamabad",
+    "latitude": null,
+    "longitude": null,
+    "coordinateSource": "invalid-or-missing",
+    "listingState": "active",
+    "referenceId": null,
+    "agency": "Sk Investment consultant",
+    "imageUrl": "https://www.graana.com/images/original/e53d208dd8d2488b90023d37ef52c715.jpeg",
+    "addedText": "2026-11-23T04:51:31.000Z",
+    "updatedText": "2026-11-23T04:51:31.000Z",
+    "freshnessHours": 1.4470671241666666,
     "confidenceScore": 80
   },
   {
@@ -2824,7 +2823,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2853,7 +2852,7 @@
     "imageUrl": "https://www.graana.com/images/original/df4189925e98ea9a35d0cdda341871e1",
     "addedText": "2026-10-08T11:46:58.000Z",
     "updatedText": "2026-10-08T11:46:58.000Z",
-    "freshnessHours": 1087.3935463783334,
+    "freshnessHours": 1098.5239524172223,
     "confidenceScore": 80
   },
   {
@@ -2875,7 +2874,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Compact",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2904,7 +2903,7 @@
     "imageUrl": "https://www.graana.com/images/original/6a787ad5a0d41145c5ea3e572bd21878",
     "addedText": "2026-10-07T13:34:49.000Z",
     "updatedText": "2026-10-07T13:34:49.000Z",
-    "freshnessHours": 1109.596046382222,
+    "freshnessHours": 1120.7264524225,
     "confidenceScore": 80
   },
   {
@@ -2926,7 +2925,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -2955,7 +2954,7 @@
     "imageUrl": "https://www.graana.com/images/original/7ac13843708e10da1a25b9b3d9c37d22",
     "addedText": "2026-10-04T06:16:34.000Z",
     "updatedText": "2026-10-04T06:16:34.000Z",
-    "freshnessHours": 1188.9002130569445,
+    "freshnessHours": 1200.0306191011111,
     "confidenceScore": 80
   },
   {
@@ -2977,7 +2976,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -3006,7 +3005,7 @@
     "imageUrl": "https://www.graana.com/images/original/74cc8289426176e5994491f8f01d6d74",
     "addedText": "2026-08-20T22:50:36.000Z",
     "updatedText": "2026-08-20T22:50:36.000Z",
-    "freshnessHours": 2252.3329908652777,
+    "freshnessHours": 2263.463396922778,
     "confidenceScore": 80
   },
   {
@@ -3028,7 +3027,7 @@
     "confidenceBand": "Medium",
     "sizeBand": "Mid-size",
     "recencyBucket": "Stale",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates"
     ],
@@ -3057,7 +3056,7 @@
     "imageUrl": "https://www.graana.com/images/original/74cc8289426176e5994491f8f01d6d74",
     "addedText": "2026-09-16T04:57:31.000Z",
     "updatedText": "2026-09-16T04:57:31.000Z",
-    "freshnessHours": 1622.2177130755554,
+    "freshnessHours": 1633.3481191286112,
     "confidenceScore": 80
   },
   {
@@ -3082,7 +3081,7 @@
     "confidenceBand": "Low",
     "sizeBand": "Compact",
     "recencyBucket": "Recent",
-    "sourceFetchedAt": "2026-11-22T19:10:39+00:00",
+    "sourceFetchedAt": "2026-11-23T06:18:40+00:00",
     "parseWarnings": [
       "missing:coordinates",
       "suspicious:pricePerSqft",
@@ -3113,7 +3112,7 @@
     "imageUrl": "",
     "addedText": "2026-11-02T11:51:31.000Z",
     "updatedText": "2026-11-02T11:51:31.000Z",
-    "freshnessHours": 487.3177130413889,
+    "freshnessHours": 498.4481190786111,
     "confidenceScore": 56
   }
 ]
