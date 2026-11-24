@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-11-23T23:30:59+00:00",
+  "generatedAt": "2026-11-24T08:53:23+00:00",
   "city": "Islamabad",
-  "trackedListings": 61,
+  "trackedListings": 60,
   "mappedListings": 0,
-  "outlierCount": 1,
-  "neighborhoodCount": 31,
-  "medianPricePkr": 30000000.0,
-  "medianPricePerSqft": 21455.42,
-  "medianPricePerMarla": 4827468.49,
-  "medianFreshnessHours": 64.0,
+  "outlierCount": 2,
+  "neighborhoodCount": 26,
+  "medianPricePkr": 29750000.0,
+  "medianPricePerSqft": 21719.57,
+  "medianPricePerMarla": 4886904.77,
+  "medianFreshnessHours": 27.1,
   "medianConfidenceScore": 80.0,
   "confidenceBands": {
     "High": 0,
-    "Medium": 60,
+    "Medium": 59,
     "Low": 1
   },
   "sourceMix": {
     "Graana": {
       "label": "Graana",
-      "count": 61,
+      "count": 60,
       "share": 1.0
     }
   },
@@ -29,38 +29,20 @@
       "listingCount": 30,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 42250000.0,
-      "medianPricePerSqft": 28492.07
+      "medianPricePkr": 56500000.0,
+      "medianPricePerSqft": 27777.78
     },
     {
       "propertyGroup": "apartment",
       "label": "Graana Flats & Apartments",
       "listingCount": 30,
       "mappedCount": 0,
-      "outlierCount": 1,
-      "medianPricePkr": 12000000.0,
-      "medianPricePerSqft": 14642.86
-    },
-    {
-      "propertyGroup": "plot",
-      "label": "Graana Residential Plots",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 13125000.0,
-      "medianPricePerSqft": 37500.0
+      "outlierCount": 2,
+      "medianPricePkr": 11750000.0,
+      "medianPricePerSqft": 16101.74
     }
   ],
   "topNeighborhoods": [
-    {
-      "neighborhood": "D-12",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 65000000.0,
-      "medianPricePerSqft": 57777.78,
-      "medianPricePerMarla": 13000000.0
-    },
     {
       "neighborhood": "G-13/2",
       "listingCount": 1,
@@ -78,15 +60,6 @@
       "medianPricePkr": 42000000.0,
       "medianPricePerSqft": 46666.67,
       "medianPricePerMarla": 10500000.0
-    },
-    {
-      "neighborhood": "G-10",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 100000000.0,
-      "medianPricePerSqft": 44444.44,
-      "medianPricePerMarla": 10000000.0
     },
     {
       "neighborhood": "G-14/4",
@@ -108,12 +81,12 @@
     },
     {
       "neighborhood": "DHA Phase 2",
-      "listingCount": 3,
+      "listingCount": 2,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 85000000.0,
-      "medianPricePerSqft": 37777.78,
-      "medianPricePerMarla": 8500000.0
+      "medianPricePkr": 87500000.0,
+      "medianPricePerSqft": 38888.89,
+      "medianPricePerMarla": 8750000.0
     },
     {
       "neighborhood": "G-13/4",
@@ -123,6 +96,24 @@
       "medianPricePkr": 114000000.0,
       "medianPricePerSqft": 36190.48,
       "medianPricePerMarla": 8142857.14
+    },
+    {
+      "neighborhood": "DHA Phase 4",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 135000000.0,
+      "medianPricePerSqft": 30000.0,
+      "medianPricePerMarla": 6750000.0
+    },
+    {
+      "neighborhood": "G-11/4",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 32000000.0,
+      "medianPricePerSqft": 29090.91,
+      "medianPricePerMarla": 6545454.55
     }
   ],
   "seedStats": [

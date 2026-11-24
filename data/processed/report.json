@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T23:30:59+00:00",
+  "generatedAt": "2026-11-24T08:53:23+00:00",
   "searchCardCount": 90,
-  "uniqueListingCount": 61,
-  "exportedListingCount": 61,
+  "uniqueListingCount": 60,
+  "exportedListingCount": 60,
   "seedStats": [
     {
       "source": "zameen",
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-23T23:30:59+00:00",
+    "generatedAt": "2026-11-24T08:53:23+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -159,16 +159,16 @@
         "attemptedPages": 6,
         "fetchedPages": 6,
         "parsedCards": 90,
-        "exportedListings": 61,
+        "exportedListings": 60,
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.0656,
+        "duplicateRate": 0.0667,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
           "coordinates": 1.0,
-          "imageUrl": 0.0164
+          "imageUrl": 0.0167
         },
         "seedStats": [
           {
@@ -364,25 +364,25 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-23T23:30:59+00:00",
-    "listingCount": 61,
+    "generatedAt": "2026-11-24T08:53:23+00:00",
+    "listingCount": 60,
     "geocodingAccuracy": 0.0,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.7869,
-    "duplicateRate": 0.0656,
-    "outlierCount": 1,
+    "freshnessWithin30Days": 0.8333,
+    "duplicateRate": 0.0667,
+    "outlierCount": 2,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 80.0,
     "confidenceBands": {
       "High": 0,
-      "Medium": 60,
+      "Medium": 59,
       "Low": 1
     },
     "ppsfRange": {
       "min": 3611.11,
       "max": 213157.89,
-      "median": 21587.3
+      "median": 21719.57
     },
     "topOutliers": [
       {
@@ -392,10 +392,20 @@
         "neighborhood": "Soan Garden",
         "pricePerSqft": 213157.89,
         "reasons": [
-          "outside plausible ppsf range",
-          "far above comparable median"
+          "outside plausible ppsf range"
         ],
         "url": "https://www.graana.com/property/1559715"
+      },
+      {
+        "id": "graana-1554931",
+        "source": "Graana",
+        "title": "1800 Ft\u00b2 Flat for Sale",
+        "neighborhood": "Soan Garden",
+        "pricePerSqft": 3611.11,
+        "reasons": [
+          "far below comparable median"
+        ],
+        "url": "https://www.graana.com/property/1554931"
       }
     ],
     "fbrReference": {
