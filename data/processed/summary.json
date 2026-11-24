@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T08:53:23+00:00",
+  "generatedAt": "2026-11-24T22:00:28+00:00",
   "city": "Islamabad",
   "trackedListings": 60,
   "mappedListings": 0,
   "outlierCount": 2,
-  "neighborhoodCount": 26,
-  "medianPricePkr": 29750000.0,
-  "medianPricePerSqft": 21719.57,
-  "medianPricePerMarla": 4886904.77,
-  "medianFreshnessHours": 27.1,
+  "neighborhoodCount": 24,
+  "medianPricePkr": 31000000.0,
+  "medianPricePerSqft": 22063.49,
+  "medianPricePerMarla": 4964285.71,
+  "medianFreshnessHours": 38.8,
   "medianConfidenceScore": 80.0,
   "confidenceBands": {
     "High": 0,
@@ -29,8 +29,8 @@
       "listingCount": 30,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 56500000.0,
-      "medianPricePerSqft": 27777.78
+      "medianPricePkr": 65000000.0,
+      "medianPricePerSqft": 28888.89
     },
     {
       "propertyGroup": "apartment",
@@ -44,31 +44,13 @@
   ],
   "topNeighborhoods": [
     {
-      "neighborhood": "G-13/2",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 75000000.0,
-      "medianPricePerSqft": 47619.05,
-      "medianPricePerMarla": 10714285.71
-    },
-    {
-      "neighborhood": "G-13/1",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 42000000.0,
-      "medianPricePerSqft": 46666.67,
-      "medianPricePerMarla": 10500000.0
-    },
-    {
       "neighborhood": "G-14/4",
-      "listingCount": 1,
+      "listingCount": 7,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 48000000.0,
-      "medianPricePerSqft": 42666.67,
-      "medianPricePerMarla": 9600000.0
+      "medianPricePkr": 73500000.0,
+      "medianPricePerSqft": 46349.21,
+      "medianPricePerMarla": 10428571.43
     },
     {
       "neighborhood": "G-13/3",
@@ -80,15 +62,6 @@
       "medianPricePerMarla": 8800000.0
     },
     {
-      "neighborhood": "DHA Phase 2",
-      "listingCount": 2,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 87500000.0,
-      "medianPricePerSqft": 38888.89,
-      "medianPricePerMarla": 8750000.0
-    },
-    {
       "neighborhood": "G-13/4",
       "listingCount": 2,
       "mappedCount": 0,
@@ -98,15 +71,6 @@
       "medianPricePerMarla": 8142857.14
     },
     {
-      "neighborhood": "DHA Phase 4",
-      "listingCount": 1,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 135000000.0,
-      "medianPricePerSqft": 30000.0,
-      "medianPricePerMarla": 6750000.0
-    },
-    {
       "neighborhood": "G-11/4",
       "listingCount": 1,
       "mappedCount": 0,
@@ -114,6 +78,42 @@
       "medianPricePkr": 32000000.0,
       "medianPricePerSqft": 29090.91,
       "medianPricePerMarla": 6545454.55
+    },
+    {
+      "neighborhood": "DHA Phase 3",
+      "listingCount": 5,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 65000000.0,
+      "medianPricePerSqft": 28888.89,
+      "medianPricePerMarla": 6500000.0
+    },
+    {
+      "neighborhood": "Bahria Town Phase 5",
+      "listingCount": 2,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 65000000.0,
+      "medianPricePerSqft": 28888.89,
+      "medianPricePerMarla": 6500000.0
+    },
+    {
+      "neighborhood": "DHA Phase 5",
+      "listingCount": 4,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 117500000.0,
+      "medianPricePerSqft": 26111.11,
+      "medianPricePerMarla": 5875000.0
+    },
+    {
+      "neighborhood": "G-11/3",
+      "listingCount": 3,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 27000000.0,
+      "medianPricePerSqft": 26086.96,
+      "medianPricePerMarla": 5869565.22
     }
   ],
   "seedStats": [
