@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-25T07:29:45+00:00",
+  "generatedAt": "2026-11-25T21:14:08+00:00",
   "city": "Islamabad",
   "trackedListings": 60,
   "mappedListings": 0,
   "outlierCount": 2,
-  "neighborhoodCount": 24,
-  "medianPricePkr": 32000000.0,
-  "medianPricePerSqft": 22222.22,
-  "medianPricePerMarla": 5000000.0,
-  "medianFreshnessHours": 48.2,
+  "neighborhoodCount": 25,
+  "medianPricePkr": 33000000.0,
+  "medianPricePerSqft": 23223.04,
+  "medianPricePerMarla": 5225183.83,
+  "medianFreshnessHours": 39.2,
   "medianConfidenceScore": 80.0,
   "confidenceBands": {
     "High": 0,
@@ -29,8 +29,8 @@
       "listingCount": 30,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 67250000.0,
-      "medianPricePerSqft": 28888.89
+      "medianPricePkr": 72750000.0,
+      "medianPricePerSqft": 29444.44
     },
     {
       "propertyGroup": "apartment",
@@ -71,13 +71,22 @@
       "medianPricePerMarla": 10428571.43
     },
     {
-      "neighborhood": "G-13/4",
+      "neighborhood": "DHA Phase 3",
+      "listingCount": 4,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 75000000.0,
+      "medianPricePerSqft": 33333.33,
+      "medianPricePerMarla": 7500000.0
+    },
+    {
+      "neighborhood": "G-15",
       "listingCount": 1,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 115000000.0,
-      "medianPricePerSqft": 36507.94,
-      "medianPricePerMarla": 8214285.71
+      "medianPricePkr": 140000000.0,
+      "medianPricePerSqft": 30925.56,
+      "medianPricePerMarla": 6958250.5
     },
     {
       "neighborhood": "G-11/4",
@@ -89,8 +98,8 @@
       "medianPricePerMarla": 6545454.55
     },
     {
-      "neighborhood": "DHA Phase 3",
-      "listingCount": 5,
+      "neighborhood": "Bahria Town Phase 4",
+      "listingCount": 3,
       "mappedCount": 0,
       "outlierCount": 0,
       "medianPricePkr": 65000000.0,
@@ -105,15 +114,6 @@
       "medianPricePkr": 65000000.0,
       "medianPricePerSqft": 28888.89,
       "medianPricePerMarla": 6500000.0
-    },
-    {
-      "neighborhood": "DHA Phase 5",
-      "listingCount": 4,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 117500000.0,
-      "medianPricePerSqft": 26111.11,
-      "medianPricePerMarla": 5875000.0
     }
   ],
   "seedStats": [

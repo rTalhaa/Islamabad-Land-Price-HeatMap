@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:29:45+00:00",
+  "generatedAt": "2026-11-25T21:14:08+00:00",
   "searchCardCount": 90,
   "uniqueListingCount": 60,
   "exportedListingCount": 60,
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-25T07:29:45+00:00",
+    "generatedAt": "2026-11-25T21:14:08+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -163,7 +163,7 @@
         "detailSuccess": 0,
         "cacheHitRate": 0.0,
         "httpFailures": 0,
-        "duplicateRate": 0.1,
+        "duplicateRate": 0.0667,
         "missingFieldRates": {
           "pricePkr": 0.0,
           "areaSqft": 0.0,
@@ -364,13 +364,13 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-25T07:29:45+00:00",
+    "generatedAt": "2026-11-25T21:14:08+00:00",
     "listingCount": 60,
     "geocodingAccuracy": 0.0,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
     "freshnessWithin30Days": 0.8333,
-    "duplicateRate": 0.1,
+    "duplicateRate": 0.0667,
     "outlierCount": 2,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 80.0,
@@ -382,7 +382,7 @@
     "ppsfRange": {
       "min": 3611.11,
       "max": 213157.89,
-      "median": 22222.22
+      "median": 23223.04
     },
     "topOutliers": [
       {
