@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T22:00:28+00:00",
+  "generatedAt": "2026-11-25T07:29:45+00:00",
   "city": "Islamabad",
   "trackedListings": 60,
   "mappedListings": 0,
   "outlierCount": 2,
   "neighborhoodCount": 24,
-  "medianPricePkr": 31000000.0,
-  "medianPricePerSqft": 22063.49,
-  "medianPricePerMarla": 4964285.71,
-  "medianFreshnessHours": 38.8,
+  "medianPricePkr": 32000000.0,
+  "medianPricePerSqft": 22222.22,
+  "medianPricePerMarla": 5000000.0,
+  "medianFreshnessHours": 48.2,
   "medianConfidenceScore": 80.0,
   "confidenceBands": {
     "High": 0,
@@ -29,7 +29,7 @@
       "listingCount": 30,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 65000000.0,
+      "medianPricePkr": 67250000.0,
       "medianPricePerSqft": 28888.89
     },
     {
@@ -44,6 +44,24 @@
   ],
   "topNeighborhoods": [
     {
+      "neighborhood": "D-12",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 145000000.0,
+      "medianPricePerSqft": 64444.44,
+      "medianPricePerMarla": 14500000.0
+    },
+    {
+      "neighborhood": "F-10/2",
+      "listingCount": 1,
+      "mappedCount": 0,
+      "outlierCount": 0,
+      "medianPricePkr": 230000000.0,
+      "medianPricePerSqft": 51111.11,
+      "medianPricePerMarla": 11500000.0
+    },
+    {
       "neighborhood": "G-14/4",
       "listingCount": 7,
       "mappedCount": 0,
@@ -53,22 +71,13 @@
       "medianPricePerMarla": 10428571.43
     },
     {
-      "neighborhood": "G-13/3",
+      "neighborhood": "G-13/4",
       "listingCount": 1,
       "mappedCount": 0,
       "outlierCount": 0,
-      "medianPricePkr": 88000000.0,
-      "medianPricePerSqft": 39111.11,
-      "medianPricePerMarla": 8800000.0
-    },
-    {
-      "neighborhood": "G-13/4",
-      "listingCount": 2,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 114000000.0,
-      "medianPricePerSqft": 36190.48,
-      "medianPricePerMarla": 8142857.14
+      "medianPricePkr": 115000000.0,
+      "medianPricePerSqft": 36507.94,
+      "medianPricePerMarla": 8214285.71
     },
     {
       "neighborhood": "G-11/4",
@@ -105,15 +114,6 @@
       "medianPricePkr": 117500000.0,
       "medianPricePerSqft": 26111.11,
       "medianPricePerMarla": 5875000.0
-    },
-    {
-      "neighborhood": "G-11/3",
-      "listingCount": 3,
-      "mappedCount": 0,
-      "outlierCount": 0,
-      "medianPricePkr": 27000000.0,
-      "medianPricePerSqft": 26086.96,
-      "medianPricePerMarla": 5869565.22
     }
   ],
   "seedStats": [
