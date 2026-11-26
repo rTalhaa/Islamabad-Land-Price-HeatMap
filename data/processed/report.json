@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:14:08+00:00",
+  "generatedAt": "2026-11-26T07:17:51+00:00",
   "searchCardCount": 90,
   "uniqueListingCount": 60,
   "exportedListingCount": 60,
@@ -150,7 +150,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-11-25T21:14:08+00:00",
+    "generatedAt": "2026-11-26T07:17:51+00:00",
     "sources": {
       "graana": {
         "label": "Graana",
@@ -364,14 +364,14 @@
     }
   },
   "quality": {
-    "generatedAt": "2026-11-25T21:14:08+00:00",
+    "generatedAt": "2026-11-26T07:17:51+00:00",
     "listingCount": 60,
     "geocodingAccuracy": 0.0,
     "priceParsingSuccess": 1.0,
     "areaParsingSuccess": 1.0,
-    "freshnessWithin30Days": 0.8333,
+    "freshnessWithin30Days": 0.8667,
     "duplicateRate": 0.0667,
-    "outlierCount": 2,
+    "outlierCount": 1,
     "suspiciousPpsfCount": 1,
     "confidenceMedian": 80.0,
     "confidenceBands": {
@@ -380,9 +380,9 @@
       "Low": 1
     },
     "ppsfRange": {
-      "min": 3611.11,
+      "min": 4444.44,
       "max": 213157.89,
-      "median": 23223.04
+      "median": 19444.44
     },
     "topOutliers": [
       {
@@ -395,17 +395,6 @@
           "outside plausible ppsf range"
         ],
         "url": "https://www.graana.com/property/1559715"
-      },
-      {
-        "id": "graana-1554931",
-        "source": "Graana",
-        "title": "1800 Ft\u00b2 Flat for Sale",
-        "neighborhood": "Soan Garden",
-        "pricePerSqft": 3611.11,
-        "reasons": [
-          "far below comparable median"
-        ],
-        "url": "https://www.graana.com/property/1554931"
       }
     ],
     "fbrReference": {

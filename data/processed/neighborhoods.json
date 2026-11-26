@@ -1,32 +1,32 @@
 [
   {
-    "name": "G-14/4",
+    "name": "Bahria Enclave",
     "centroid": {
       "latitude": null,
       "longitude": null
     },
-    "listingCount": 7,
+    "listingCount": 6,
     "mappedCount": 0,
     "outlierCount": 0,
     "confidenceMedian": 80.0,
-    "medianPricePkr": 73500000.0,
-    "medianPricePerSqft": 46349.21,
-    "medianPricePerMarla": 10428571.43,
-    "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 38.0,
-    "minPricePkr": 69500000,
-    "maxPricePkr": 108000000,
+    "medianPricePkr": 49500000.0,
+    "medianPricePerSqft": 26000.0,
+    "medianPricePerMarla": 5850000.0,
+    "medianAreaSqft": 1912.5,
+    "medianFreshnessHours": 1.58,
+    "minPricePkr": 12000000,
+    "maxPricePkr": 58500000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 7,
-        "share": 1.0
+        "count": 5,
+        "share": 0.8333
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
+        "count": 1,
+        "share": 0.1667
       },
       "plot": {
         "label": "Residential Plots",
@@ -37,7 +37,7 @@
     "sourceMix": {
       "Graana": {
         "label": "Graana",
-        "count": 7,
+        "count": 6,
         "share": 1.0
       }
     },
@@ -48,51 +48,51 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 99.58,
-    "cityMedianTicketDeltaPct": 122.73,
-    "priceTier": "Ultra Prime",
+    "cityMedianPpsfDeltaPct": 37.65,
+    "cityMedianTicketDeltaPct": 83.33,
+    "priceTier": "Premium",
     "sampleListings": [
       {
-        "id": "graana-1562454",
+        "id": "graana-1563486",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
-        "title": "7 Marla House For Sale",
-        "pricePkr": 76500000,
-        "pricePerSqft": 48571.43,
-        "pricePerMarla": 10928571.43,
-        "beds": 5,
-        "areaSqft": 1575.0,
-        "imageUrl": "https://www.graana.com/images/original/7fa93980f7f64566920acb47822bdab7.jpg",
-        "url": "https://www.graana.com/property/1562454"
+        "title": "5 Marla House For Sale",
+        "pricePkr": 38500000,
+        "pricePerSqft": 34222.22,
+        "pricePerMarla": 7700000.0,
+        "beds": 4,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://www.graana.com/images/original/7a5c37ea937f44d79deb316f1b8f88ad.jpg",
+        "url": "https://www.graana.com/property/1563486"
       },
       {
-        "id": "graana-1562442",
+        "id": "graana-1563418",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
         "title": "7 Marla House For Sale",
-        "pricePkr": 75000000,
-        "pricePerSqft": 47619.05,
-        "pricePerMarla": 10714285.71,
-        "beds": 5,
+        "pricePkr": 42500000,
+        "pricePerSqft": 26984.13,
+        "pricePerMarla": 6071428.57,
+        "beds": 4,
         "areaSqft": 1575.0,
-        "imageUrl": "https://www.graana.com/images/original/8392879fa514420193625779a9483bc3.jpg",
-        "url": "https://www.graana.com/property/1562442"
+        "imageUrl": "https://www.graana.com/images/original/bef6e637680c4060acec0357a4792e10.jpg",
+        "url": "https://www.graana.com/property/1563418"
       },
       {
-        "id": "graana-1562458",
+        "id": "graana-1562991",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
-        "title": "7 Marla House For Sale",
-        "pricePkr": 73500000,
-        "pricePerSqft": 46666.67,
-        "pricePerMarla": 10500000.0,
-        "beds": 5,
-        "areaSqft": 1575.0,
-        "imageUrl": "https://www.graana.com/images/original/b4d2998c89f04a09995db7df9ea73cbd.jpg",
-        "url": "https://www.graana.com/property/1562458"
+        "title": "10 Marla House For Sale",
+        "pricePkr": 58500000,
+        "pricePerSqft": 26000.0,
+        "pricePerMarla": 5850000.0,
+        "beds": 4,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://www.graana.com/images/original/4f41ee464dbd478cb85f58c4c316be57.jpg",
+        "url": "https://www.graana.com/property/1562991"
       }
     ]
   },
@@ -110,7 +110,7 @@
     "medianPricePerSqft": 13323.13,
     "medianPricePerMarla": 2997705.02,
     "medianAreaSqft": 690.0,
-    "medianFreshnessHours": 428.81,
+    "medianFreshnessHours": 438.87,
     "minPricePkr": 5800000,
     "maxPricePkr": 12500000,
     "dominantPropertyGroup": "apartment",
@@ -145,8 +145,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -42.63,
-    "cityMedianTicketDeltaPct": -73.18,
+    "cityMedianPpsfDeltaPct": -29.47,
+    "cityMedianTicketDeltaPct": -67.22,
     "priceTier": "Value",
     "sampleListings": [
       {
@@ -194,27 +194,27 @@
     ]
   },
   {
-    "name": "DHA Phase 3",
+    "name": "DHA Valley",
     "centroid": {
       "latitude": null,
       "longitude": null
     },
-    "listingCount": 4,
+    "listingCount": 6,
     "mappedCount": 0,
     "outlierCount": 0,
     "confidenceMedian": 80.0,
-    "medianPricePkr": 75000000.0,
-    "medianPricePerSqft": 33333.33,
-    "medianPricePerMarla": 7500000.0,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 14.72,
-    "minPricePkr": 22500000,
-    "maxPricePkr": 77500000,
+    "medianPricePkr": 14000000.0,
+    "medianPricePerSqft": 12222.22,
+    "medianPricePerMarla": 2750000.0,
+    "medianAreaSqft": 1125.0,
+    "medianFreshnessHours": 24.52,
+    "minPricePkr": 12500000,
+    "maxPricePkr": 18500000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 4,
+        "count": 6,
         "share": 1.0
       },
       "apartment": {
@@ -231,7 +231,7 @@
     "sourceMix": {
       "Graana": {
         "label": "Graana",
-        "count": 4,
+        "count": 6,
         "share": 1.0
       }
     },
@@ -242,10 +242,121 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 43.54,
-    "cityMedianTicketDeltaPct": 127.27,
+    "cityMedianPpsfDeltaPct": -35.29,
+    "cityMedianTicketDeltaPct": -48.15,
+    "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": "graana-1563049",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "5 Marla House For Sale",
+        "pricePkr": 14500000,
+        "pricePerSqft": 12888.89,
+        "pricePerMarla": 2900000.0,
+        "beds": 3,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://www.graana.com/images/original/8c10001d25184338a7d7b53af1e6a6ce.jpg",
+        "url": "https://www.graana.com/property/1563049"
+      },
+      {
+        "id": "graana-1562946",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "5 Marla House For Sale",
+        "pricePkr": 14000000,
+        "pricePerSqft": 12444.44,
+        "pricePerMarla": 2800000.0,
+        "beds": 3,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://www.graana.com/images/original/d085501cee2e4628a82456811a3cb1b6.jpg",
+        "url": "https://www.graana.com/property/1562946"
+      },
+      {
+        "id": "graana-1563518",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "5 Marla House For Sale",
+        "pricePkr": 14000000,
+        "pricePerSqft": 12444.44,
+        "pricePerMarla": 2800000.0,
+        "beds": 3,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://www.graana.com/images/original/c2756d6c7afc4068b00ecd5dc5c6245c.jpg",
+        "url": "https://www.graana.com/property/1563518"
+      }
+    ]
+  },
+  {
+    "name": "DHA Phase 3",
+    "centroid": {
+      "latitude": null,
+      "longitude": null
+    },
+    "listingCount": 5,
+    "mappedCount": 0,
+    "outlierCount": 0,
+    "confidenceMedian": 80.0,
+    "medianPricePkr": 75000000.0,
+    "medianPricePerSqft": 33333.33,
+    "medianPricePerMarla": 7500000.0,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 24.82,
+    "minPricePkr": 22500000,
+    "maxPricePkr": 80000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 5,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "sourceMix": {
+      "Graana": {
+        "label": "Graana",
+        "count": 5,
+        "share": 1.0
+      }
+    },
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "cityMedianPpsfDeltaPct": 76.47,
+    "cityMedianTicketDeltaPct": 177.78,
     "priceTier": "Ultra Prime",
     "sampleListings": [
+      {
+        "id": "graana-1562963",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "10 Marla House For Sale",
+        "pricePkr": 80000000,
+        "pricePerSqft": 35555.56,
+        "pricePerMarla": 8000000.0,
+        "beds": 4,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://www.graana.com/images/original/f73594c705e149d1bf11439f1f78d01a.jpg",
+        "url": "https://www.graana.com/property/1562963"
+      },
       {
         "id": "graana-1563028",
         "source": "Graana",
@@ -273,117 +384,6 @@
         "areaSqft": 2250.0,
         "imageUrl": "https://www.graana.com/images/original/b97a14873df949ac84adc94bb01b0079.jpg",
         "url": "https://www.graana.com/property/1562989"
-      },
-      {
-        "id": "graana-1563002",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "10 Marla House For Sale",
-        "pricePkr": 75000000,
-        "pricePerSqft": 33333.33,
-        "pricePerMarla": 7500000.0,
-        "beds": 4,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://www.graana.com/images/original/f00b3fd0ec724d868435b14dff4f3a73.jpg",
-        "url": "https://www.graana.com/property/1563002"
-      }
-    ]
-  },
-  {
-    "name": "F-11",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 4,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 56750000.0,
-    "medianPricePerSqft": 22426.47,
-    "medianPricePerMarla": 5045955.88,
-    "medianAreaSqft": 2700.0,
-    "medianFreshnessHours": 393.26,
-    "minPricePkr": 40000000,
-    "maxPricePkr": 72500000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 4,
-        "share": 1.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 4,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": -3.43,
-    "cityMedianTicketDeltaPct": 71.97,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": "graana-1561617",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "3000 Ft\u00b2 Flat for Sale",
-        "pricePkr": 72500000,
-        "pricePerSqft": 24166.67,
-        "pricePerMarla": 5437500.0,
-        "beds": 3,
-        "areaSqft": 3000.0,
-        "imageUrl": "https://www.graana.com/images/original/945d456c00c0ed4449771392605876f2",
-        "url": "https://www.graana.com/property/1561617"
-      },
-      {
-        "id": "graana-1560471",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "1700 Ft\u00b2 Flat for Sale",
-        "pricePkr": 40000000,
-        "pricePerSqft": 23529.41,
-        "pricePerMarla": 5294117.65,
-        "beds": 2,
-        "areaSqft": 1700.0,
-        "imageUrl": "https://www.graana.com/images/original/8b3dc5d02e2f84010aacb57a15710878",
-        "url": "https://www.graana.com/property/1560471"
-      },
-      {
-        "id": "graana-1559949",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "3400 Ft\u00b2 Flat for Sale",
-        "pricePkr": 72500000,
-        "pricePerSqft": 21323.53,
-        "pricePerMarla": 4797794.12,
-        "beds": 4,
-        "areaSqft": 3400.0,
-        "imageUrl": "https://www.graana.com/images/original/b886734bc1bdace6f450e649291ac4a2",
-        "url": "https://www.graana.com/property/1559949"
       }
     ]
   },
@@ -393,16 +393,16 @@
       "latitude": null,
       "longitude": null
     },
-    "listingCount": 4,
+    "listingCount": 5,
     "mappedCount": 0,
     "outlierCount": 0,
     "confidenceMedian": 80.0,
-    "medianPricePkr": 7150000.0,
-    "medianPricePerSqft": 13615.39,
-    "medianPricePerMarla": 3063461.54,
-    "medianAreaSqft": 550.0,
-    "medianFreshnessHours": 40.18,
-    "minPricePkr": 6000000,
+    "medianPricePkr": 6300000.0,
+    "medianPricePerSqft": 16666.67,
+    "medianPricePerMarla": 3750000.0,
+    "medianAreaSqft": 450.0,
+    "medianFreshnessHours": 50.17,
+    "minPricePkr": 5000000,
     "maxPricePkr": 8500000,
     "dominantPropertyGroup": "apartment",
     "propertyMix": {
@@ -413,7 +413,7 @@
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 4,
+        "count": 5,
         "share": 1.0
       },
       "plot": {
@@ -425,7 +425,7 @@
     "sourceMix": {
       "Graana": {
         "label": "Graana",
-        "count": 4,
+        "count": 5,
         "share": 1.0
       }
     },
@@ -436,9 +436,9 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -41.37,
-    "cityMedianTicketDeltaPct": -78.33,
-    "priceTier": "Value",
+    "cityMedianPpsfDeltaPct": -11.76,
+    "cityMedianTicketDeltaPct": -76.67,
+    "priceTier": "Mid-market",
     "sampleListings": [
       {
         "id": "graana-1562243",
@@ -469,115 +469,18 @@
         "url": "https://www.graana.com/property/1557307"
       },
       {
-        "id": "graana-1562252",
+        "id": "graana-1563407",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
-        "title": "650 Sq. Ft. Flat For Sale",
-        "pricePkr": 6000000,
-        "pricePerSqft": 9230.77,
-        "pricePerMarla": 2076923.08,
-        "beds": 1,
-        "areaSqft": 650.0,
-        "imageUrl": "https://www.graana.com/images/original/fff68180f5ac4521a566203f837a806e.jpg",
-        "url": "https://www.graana.com/property/1562252"
-      }
-    ]
-  },
-  {
-    "name": "Bahria Town Phase 4",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 3,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 65000000.0,
-    "medianPricePerSqft": 28888.89,
-    "medianPricePerMarla": 6500000.0,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 14.61,
-    "minPricePkr": 7000000,
-    "maxPricePkr": 135000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 2,
-        "share": 0.6667
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 0.3333
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 3,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": 24.4,
-    "cityMedianTicketDeltaPct": 96.97,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": "graana-1563023",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "1 Kanal House For Sale",
-        "pricePkr": 135000000,
-        "pricePerSqft": 30000.0,
-        "pricePerMarla": 6750000.0,
-        "beds": 5,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://www.graana.com/images/original/aec1e3516f734f369acfdec2339d66a4.jpg",
-        "url": "https://www.graana.com/property/1563023"
-      },
-      {
-        "id": "graana-1563011",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "10 Marla House For Sale",
-        "pricePkr": 65000000,
-        "pricePerSqft": 28888.89,
-        "pricePerMarla": 6500000.0,
-        "beds": 5,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://www.graana.com/images/original/94f3df32f65f4af39a8b6c63bb20ddc2.jpg",
-        "url": "https://www.graana.com/property/1563011"
-      },
-      {
-        "id": "graana-1557606",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "7 Marla flat for sale",
-        "pricePkr": 7000000,
-        "pricePerSqft": 4444.44,
-        "pricePerMarla": 1000000.0,
-        "beds": 1,
-        "areaSqft": 1575.0,
-        "imageUrl": "https://www.graana.com/images/original/7ac13843708e10da1a25b9b3d9c37d22",
-        "url": "https://www.graana.com/property/1557606"
+        "title": "300 Sq. Ft. Flat For Sale",
+        "pricePkr": 5000000,
+        "pricePerSqft": 16666.67,
+        "pricePerMarla": 3750000.0,
+        "beds": -1,
+        "areaSqft": 300.0,
+        "imageUrl": "https://www.graana.com/images/original/038803fa1dfd4a29ae67878de4729855.jpg",
+        "url": "https://www.graana.com/property/1563407"
       }
     ]
   },
@@ -587,28 +490,28 @@
       "latitude": null,
       "longitude": null
     },
-    "listingCount": 3,
+    "listingCount": 4,
     "mappedCount": 0,
     "outlierCount": 0,
     "confidenceMedian": 80.0,
-    "medianPricePkr": 60000000.0,
-    "medianPricePerSqft": 26666.67,
-    "medianPricePerMarla": 6000000.0,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 14.56,
+    "medianPricePkr": 67500000.0,
+    "medianPricePerSqft": 23627.46,
+    "medianPricePerMarla": 5316176.47,
+    "medianAreaSqft": 3375.0,
+    "medianFreshnessHours": 24.97,
     "minPricePkr": 35000000,
     "maxPricePkr": 120000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 2,
-        "share": 0.6667
+        "count": 3,
+        "share": 0.75
       },
       "apartment": {
         "label": "Flats & Apartments",
         "count": 1,
-        "share": 0.3333
+        "share": 0.25
       },
       "plot": {
         "label": "Residential Plots",
@@ -619,7 +522,7 @@
     "sourceMix": {
       "Graana": {
         "label": "Graana",
-        "count": 3,
+        "count": 4,
         "share": 1.0
       }
     },
@@ -630,8 +533,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 14.83,
-    "cityMedianTicketDeltaPct": 81.82,
+    "cityMedianPpsfDeltaPct": 25.09,
+    "cityMedianTicketDeltaPct": 150.0,
     "priceTier": "Premium",
     "sampleListings": [
       {
@@ -679,6 +582,297 @@
     ]
   },
   {
+    "name": "F-11",
+    "centroid": {
+      "latitude": null,
+      "longitude": null
+    },
+    "listingCount": 4,
+    "mappedCount": 0,
+    "outlierCount": 0,
+    "confidenceMedian": 80.0,
+    "medianPricePkr": 56750000.0,
+    "medianPricePerSqft": 22426.47,
+    "medianPricePerMarla": 5045955.88,
+    "medianAreaSqft": 2700.0,
+    "medianFreshnessHours": 403.32,
+    "minPricePkr": 40000000,
+    "maxPricePkr": 72500000,
+    "dominantPropertyGroup": "apartment",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 0,
+        "share": 0.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 4,
+        "share": 1.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "sourceMix": {
+      "Graana": {
+        "label": "Graana",
+        "count": 4,
+        "share": 1.0
+      }
+    },
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "cityMedianPpsfDeltaPct": 18.73,
+    "cityMedianTicketDeltaPct": 110.19,
+    "priceTier": "Mid-market",
+    "sampleListings": [
+      {
+        "id": "graana-1561617",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "3000 Ft\u00b2 Flat for Sale",
+        "pricePkr": 72500000,
+        "pricePerSqft": 24166.67,
+        "pricePerMarla": 5437500.0,
+        "beds": 3,
+        "areaSqft": 3000.0,
+        "imageUrl": "https://www.graana.com/images/original/945d456c00c0ed4449771392605876f2",
+        "url": "https://www.graana.com/property/1561617"
+      },
+      {
+        "id": "graana-1560471",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "1700 Ft\u00b2 Flat for Sale",
+        "pricePkr": 40000000,
+        "pricePerSqft": 23529.41,
+        "pricePerMarla": 5294117.65,
+        "beds": 2,
+        "areaSqft": 1700.0,
+        "imageUrl": "https://www.graana.com/images/original/8b3dc5d02e2f84010aacb57a15710878",
+        "url": "https://www.graana.com/property/1560471"
+      },
+      {
+        "id": "graana-1559949",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "3400 Ft\u00b2 Flat for Sale",
+        "pricePkr": 72500000,
+        "pricePerSqft": 21323.53,
+        "pricePerMarla": 4797794.12,
+        "beds": 4,
+        "areaSqft": 3400.0,
+        "imageUrl": "https://www.graana.com/images/original/b886734bc1bdace6f450e649291ac4a2",
+        "url": "https://www.graana.com/property/1559949"
+      }
+    ]
+  },
+  {
+    "name": "Bani Gala",
+    "centroid": {
+      "latitude": null,
+      "longitude": null
+    },
+    "listingCount": 4,
+    "mappedCount": 0,
+    "outlierCount": 0,
+    "confidenceMedian": 80.0,
+    "medianPricePkr": 33000000.0,
+    "medianPricePerSqft": 15000.0,
+    "medianPricePerMarla": 3375000.0,
+    "medianAreaSqft": 2475.0,
+    "medianFreshnessHours": 0.74,
+    "minPricePkr": 24500000,
+    "maxPricePkr": 120000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 4,
+        "share": 1.0
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 0,
+        "share": 0.0
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "sourceMix": {
+      "Graana": {
+        "label": "Graana",
+        "count": 4,
+        "share": 1.0
+      }
+    },
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "cityMedianPpsfDeltaPct": -20.59,
+    "cityMedianTicketDeltaPct": 22.22,
+    "priceTier": "Value",
+    "sampleListings": [
+      {
+        "id": "graana-1562999",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "1 Kanal House For Sale",
+        "pricePkr": 120000000,
+        "pricePerSqft": 26666.67,
+        "pricePerMarla": 6000000.0,
+        "beds": 6,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://www.graana.com/images/original/97ce3679515647bcb44d08a767d40980.jpg",
+        "url": "https://www.graana.com/property/1562999"
+      },
+      {
+        "id": "graana-1563516",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "8 Marla House For Sale",
+        "pricePkr": 29500000,
+        "pricePerSqft": 16388.89,
+        "pricePerMarla": 3687500.0,
+        "beds": 4,
+        "areaSqft": 1800.0,
+        "imageUrl": "https://www.graana.com/images/original/6f714e433045439e904d6e6a3c3dab98.jpg",
+        "url": "https://www.graana.com/property/1563516"
+      },
+      {
+        "id": "graana-1563507",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "8 Marla House For Sale",
+        "pricePkr": 24500000,
+        "pricePerSqft": 13611.11,
+        "pricePerMarla": 3062500.0,
+        "beds": 5,
+        "areaSqft": 1800.0,
+        "imageUrl": "https://www.graana.com/images/original/dcec817cac254726ada5e16dcf6c4d6c.jpg",
+        "url": "https://www.graana.com/property/1563507"
+      }
+    ]
+  },
+  {
+    "name": "Bahria Town Phase 4",
+    "centroid": {
+      "latitude": null,
+      "longitude": null
+    },
+    "listingCount": 3,
+    "mappedCount": 0,
+    "outlierCount": 0,
+    "confidenceMedian": 80.0,
+    "medianPricePkr": 65000000.0,
+    "medianPricePerSqft": 28888.89,
+    "medianPricePerMarla": 6500000.0,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 24.67,
+    "minPricePkr": 7000000,
+    "maxPricePkr": 135000000,
+    "dominantPropertyGroup": "house",
+    "propertyMix": {
+      "house": {
+        "label": "Houses",
+        "count": 2,
+        "share": 0.6667
+      },
+      "apartment": {
+        "label": "Flats & Apartments",
+        "count": 1,
+        "share": 0.3333
+      },
+      "plot": {
+        "label": "Residential Plots",
+        "count": 0,
+        "share": 0.0
+      }
+    },
+    "sourceMix": {
+      "Graana": {
+        "label": "Graana",
+        "count": 3,
+        "share": 1.0
+      }
+    },
+    "benchmark": {
+      "label": "FBR benchmark",
+      "status": "unmatched",
+      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
+      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
+      "deltaPct": null
+    },
+    "cityMedianPpsfDeltaPct": 52.94,
+    "cityMedianTicketDeltaPct": 140.74,
+    "priceTier": "Ultra Prime",
+    "sampleListings": [
+      {
+        "id": "graana-1563023",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "1 Kanal House For Sale",
+        "pricePkr": 135000000,
+        "pricePerSqft": 30000.0,
+        "pricePerMarla": 6750000.0,
+        "beds": 5,
+        "areaSqft": 4500.0,
+        "imageUrl": "https://www.graana.com/images/original/aec1e3516f734f369acfdec2339d66a4.jpg",
+        "url": "https://www.graana.com/property/1563023"
+      },
+      {
+        "id": "graana-1563011",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "10 Marla House For Sale",
+        "pricePkr": 65000000,
+        "pricePerSqft": 28888.89,
+        "pricePerMarla": 6500000.0,
+        "beds": 5,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://www.graana.com/images/original/94f3df32f65f4af39a8b6c63bb20ddc2.jpg",
+        "url": "https://www.graana.com/property/1563011"
+      },
+      {
+        "id": "graana-1557606",
+        "source": "Graana",
+        "confidenceScore": 80,
+        "isOutlier": false,
+        "title": "7 Marla flat for sale",
+        "pricePkr": 7000000,
+        "pricePerSqft": 4444.44,
+        "pricePerMarla": 1000000.0,
+        "beds": 1,
+        "areaSqft": 1575.0,
+        "imageUrl": "https://www.graana.com/images/original/7ac13843708e10da1a25b9b3d9c37d22",
+        "url": "https://www.graana.com/property/1557606"
+      }
+    ]
+  },
+  {
     "name": "G-11/3",
     "centroid": {
       "latitude": null,
@@ -692,7 +886,7 @@
     "medianPricePerSqft": 26086.96,
     "medianPricePerMarla": 5869565.22,
     "medianAreaSqft": 1150.0,
-    "medianFreshnessHours": 308.02,
+    "medianFreshnessHours": 318.09,
     "minPricePkr": 20000000,
     "maxPricePkr": 30000000,
     "dominantPropertyGroup": "apartment",
@@ -727,8 +921,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 12.33,
-    "cityMedianTicketDeltaPct": -18.18,
+    "cityMedianPpsfDeltaPct": 38.11,
+    "cityMedianTicketDeltaPct": 0.0,
     "priceTier": "Premium",
     "sampleListings": [
       {
@@ -776,283 +970,6 @@
     ]
   },
   {
-    "name": "Jinnah Garden",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 3,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 34000000.0,
-    "medianPricePerSqft": 21904.76,
-    "medianPricePerMarla": 4928571.43,
-    "medianAreaSqft": 1575.0,
-    "medianFreshnessHours": 38.67,
-    "minPricePkr": 27000000,
-    "maxPricePkr": 34500000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 3,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 3,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": -5.68,
-    "cityMedianTicketDeltaPct": 3.03,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": "graana-1562986",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "5 Marla House For Sale",
-        "pricePkr": 27000000,
-        "pricePerSqft": 24000.0,
-        "pricePerMarla": 5400000.0,
-        "beds": 4,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://www.graana.com/images/original/a63a2b0e25364c2a82b3f5c202715acc.jpg",
-        "url": "https://www.graana.com/property/1562986"
-      },
-      {
-        "id": "graana-1562371",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "7 Marla House For Sale",
-        "pricePkr": 34500000,
-        "pricePerSqft": 21904.76,
-        "pricePerMarla": 4928571.43,
-        "beds": 4,
-        "areaSqft": 1575.0,
-        "imageUrl": "https://www.graana.com/images/original/c60f3a5a490d490b87bdcda027c9d96e.jpg",
-        "url": "https://www.graana.com/property/1562371"
-      },
-      {
-        "id": "graana-1562361",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "7 Marla House For Sale",
-        "pricePkr": 34000000,
-        "pricePerSqft": 21587.3,
-        "pricePerMarla": 4857142.86,
-        "beds": 4,
-        "areaSqft": 1575.0,
-        "imageUrl": "https://www.graana.com/images/original/1866dc69dd844a54bd76fcb8a82e8f8e.jpg",
-        "url": "https://www.graana.com/property/1562361"
-      }
-    ]
-  },
-  {
-    "name": "DHA Valley",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 3,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 14500000.0,
-    "medianPricePerSqft": 11111.11,
-    "medianPricePerMarla": 2500000.0,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 14.42,
-    "minPricePkr": 12500000,
-    "maxPricePkr": 18500000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 3,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 3,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": -52.15,
-    "cityMedianTicketDeltaPct": -56.06,
-    "priceTier": "Value",
-    "sampleListings": [
-      {
-        "id": "graana-1563049",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "5 Marla House For Sale",
-        "pricePkr": 14500000,
-        "pricePerSqft": 12888.89,
-        "pricePerMarla": 2900000.0,
-        "beds": 3,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://www.graana.com/images/original/8c10001d25184338a7d7b53af1e6a6ce.jpg",
-        "url": "https://www.graana.com/property/1563049"
-      },
-      {
-        "id": "graana-1563018",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "5 Marla House For Sale",
-        "pricePkr": 12500000,
-        "pricePerSqft": 11111.11,
-        "pricePerMarla": 2500000.0,
-        "beds": 3,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://www.graana.com/images/original/374ec6853a2d48e6835b8e9b61cacd16.jpg",
-        "url": "https://www.graana.com/property/1563018"
-      },
-      {
-        "id": "graana-1563024",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "8 Marla House For Sale",
-        "pricePkr": 18500000,
-        "pricePerSqft": 10277.78,
-        "pricePerMarla": 2312500.0,
-        "beds": 4,
-        "areaSqft": 1800.0,
-        "imageUrl": "https://www.graana.com/images/original/dbc48e933355495b880be1fe08f312b4.jpg",
-        "url": "https://www.graana.com/property/1563024"
-      }
-    ]
-  },
-  {
-    "name": "Bahria Town Phase 5",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 2,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 65000000.0,
-    "medianPricePerSqft": 28888.89,
-    "medianPricePerMarla": 6500000.0,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 37.96,
-    "minPricePkr": 65000000,
-    "maxPricePkr": 65000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 2,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 2,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": 24.4,
-    "cityMedianTicketDeltaPct": 96.97,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": "graana-1562459",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "10 Marla House For Sale",
-        "pricePkr": 65000000,
-        "pricePerSqft": 28888.89,
-        "pricePerMarla": 6500000.0,
-        "beds": 6,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://www.graana.com/images/original/1a0a6b73db104d8994f093f833d1e113.jpg",
-        "url": "https://www.graana.com/property/1562459"
-      },
-      {
-        "id": "graana-1562467",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "10 Marla House For Sale",
-        "pricePkr": 65000000,
-        "pricePerSqft": 28888.89,
-        "pricePerMarla": 6500000.0,
-        "beds": 6,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://www.graana.com/images/original/2efc6d1508154de2bd2de83df5f2b36d.jpg",
-        "url": "https://www.graana.com/property/1562467"
-      }
-    ]
-  },
-  {
     "name": "E-11/3",
     "centroid": {
       "latitude": null,
@@ -1066,7 +983,7 @@
     "medianPricePerSqft": 24920.64,
     "medianPricePerMarla": 5607142.86,
     "medianAreaSqft": 2775.0,
-    "medianFreshnessHours": 198.26,
+    "medianFreshnessHours": 208.33,
     "minPricePkr": 18500000,
     "maxPricePkr": 145000000,
     "dominantPropertyGroup": "house",
@@ -1101,8 +1018,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 7.31,
-    "cityMedianTicketDeltaPct": 147.73,
+    "cityMedianPpsfDeltaPct": 31.93,
+    "cityMedianTicketDeltaPct": 202.78,
     "priceTier": "Premium",
     "sampleListings": [
       {
@@ -1136,7 +1053,7 @@
     ]
   },
   {
-    "name": "Bahria Enclave",
+    "name": "E-11/4",
     "centroid": {
       "latitude": null,
       "longitude": null
@@ -1145,24 +1062,24 @@
     "mappedCount": 0,
     "outlierCount": 0,
     "confidenceMedian": 80.0,
-    "medianPricePkr": 35250000.0,
-    "medianPricePerSqft": 19543.08,
-    "medianPricePerMarla": 4397191.93,
-    "medianAreaSqft": 1583.5,
-    "medianFreshnessHours": 705.32,
-    "minPricePkr": 12000000,
-    "maxPricePkr": 58500000,
-    "dominantPropertyGroup": "house",
+    "medianPricePkr": 9500000.0,
+    "medianPricePerSqft": 16604.01,
+    "medianPricePerMarla": 3735902.25,
+    "medianAreaSqft": 715.0,
+    "medianFreshnessHours": 784.64,
+    "minPricePkr": 9000000,
+    "maxPricePkr": 10000000,
+    "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 1,
-        "share": 0.5
+        "count": 0,
+        "share": 0.0
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 1,
-        "share": 0.5
+        "count": 2,
+        "share": 1.0
       },
       "plot": {
         "label": "Residential Plots",
@@ -1184,37 +1101,37 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -15.85,
-    "cityMedianTicketDeltaPct": 6.82,
+    "cityMedianPpsfDeltaPct": -12.1,
+    "cityMedianTicketDeltaPct": -64.81,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
-        "id": "graana-1562991",
+        "id": "graana-1555637",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
-        "title": "10 Marla House For Sale",
-        "pricePkr": 58500000,
-        "pricePerSqft": 26000.0,
-        "pricePerMarla": 5850000.0,
-        "beds": 4,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://www.graana.com/images/original/4f41ee464dbd478cb85f58c4c316be57.jpg",
-        "url": "https://www.graana.com/property/1562991"
+        "title": "380 Ft\u00b2 Flat for Sale",
+        "pricePkr": 9000000,
+        "pricePerSqft": 23684.21,
+        "pricePerMarla": 5328947.37,
+        "beds": 1,
+        "areaSqft": 380.0,
+        "imageUrl": "https://www.graana.com/images/original/56302df89d0476a026887ca641392325",
+        "url": "https://www.graana.com/property/1555637"
       },
       {
-        "id": "graana-1556770",
+        "id": "graana-1563360",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
-        "title": "917 Sq. Ft. flat for sale",
-        "pricePkr": 12000000,
-        "pricePerSqft": 13086.15,
-        "pricePerMarla": 2944383.86,
+        "title": "1050 Sq. Ft. Flat For Sale",
+        "pricePkr": 10000000,
+        "pricePerSqft": 9523.81,
+        "pricePerMarla": 2142857.14,
         "beds": 2,
-        "areaSqft": 917.0,
-        "imageUrl": "https://www.graana.com/images/original/3178d7a11739eff4f727e5aa3cc69c1d",
-        "url": "https://www.graana.com/property/1556770"
+        "areaSqft": 1050.0,
+        "imageUrl": "https://www.graana.com/images/original/6f6e2f7672ec49d186b62ce33cffe43f.jpg",
+        "url": "https://www.graana.com/property/1563360"
       }
     ]
   },
@@ -1232,7 +1149,7 @@
     "medianPricePerSqft": 8717.1,
     "medianPricePerMarla": 1961348.69,
     "medianAreaSqft": 912.0,
-    "medianFreshnessHours": 1172.55,
+    "medianFreshnessHours": 1182.61,
     "minPricePkr": 7200000,
     "maxPricePkr": 8700000,
     "dominantPropertyGroup": "apartment",
@@ -1267,8 +1184,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -62.46,
-    "cityMedianTicketDeltaPct": -75.91,
+    "cityMedianPpsfDeltaPct": -53.85,
+    "cityMedianTicketDeltaPct": -70.56,
     "priceTier": "Value",
     "sampleListings": [
       {
@@ -1302,33 +1219,33 @@
     ]
   },
   {
-    "name": "Soan Garden",
+    "name": "F-11/2",
     "centroid": {
       "latitude": null,
       "longitude": null
     },
-    "listingCount": 2,
+    "listingCount": 1,
     "mappedCount": 0,
-    "outlierCount": 2,
-    "confidenceMedian": 68.0,
-    "medianPricePkr": null,
-    "medianPricePerSqft": null,
-    "medianPricePerMarla": null,
-    "medianAreaSqft": null,
-    "medianFreshnessHours": 1128.83,
-    "minPricePkr": 6500000,
-    "maxPricePkr": 202500000,
-    "dominantPropertyGroup": "apartment",
+    "outlierCount": 0,
+    "confidenceMedian": 80.0,
+    "medianPricePkr": 110000000.0,
+    "medianPricePerSqft": 48888.89,
+    "medianPricePerMarla": 11000000.0,
+    "medianAreaSqft": 2250.0,
+    "medianFreshnessHours": 2.21,
+    "minPricePkr": 110000000,
+    "maxPricePkr": 110000000,
+    "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
         "label": "Houses",
-        "count": 0,
-        "share": 0.0
+        "count": 1,
+        "share": 1.0
       },
       "apartment": {
         "label": "Flats & Apartments",
-        "count": 2,
-        "share": 1.0
+        "count": 0,
+        "share": 0.0
       },
       "plot": {
         "label": "Residential Plots",
@@ -1339,7 +1256,7 @@
     "sourceMix": {
       "Graana": {
         "label": "Graana",
-        "count": 2,
+        "count": 1,
         "share": 1.0
       }
     },
@@ -1350,42 +1267,28 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": null,
-    "cityMedianTicketDeltaPct": null,
-    "priceTier": "Value",
+    "cityMedianPpsfDeltaPct": 158.82,
+    "cityMedianTicketDeltaPct": 307.41,
+    "priceTier": "Ultra Prime",
     "sampleListings": [
       {
-        "id": "graana-1559715",
-        "source": "Graana",
-        "confidenceScore": 56,
-        "isOutlier": true,
-        "title": "Kazani Heights 950 Sq. Ft. flat for sale",
-        "pricePkr": 202500000,
-        "pricePerSqft": 213157.89,
-        "pricePerMarla": 47960526.32,
-        "beds": 2,
-        "areaSqft": 950.0,
-        "imageUrl": "",
-        "url": "https://www.graana.com/property/1559715"
-      },
-      {
-        "id": "graana-1554931",
+        "id": "graana-1563353",
         "source": "Graana",
         "confidenceScore": 80,
-        "isOutlier": true,
-        "title": "1800 Ft\u00b2 Flat for Sale",
-        "pricePkr": 6500000,
-        "pricePerSqft": 3611.11,
-        "pricePerMarla": 812500.0,
-        "beds": 3,
-        "areaSqft": 1800.0,
-        "imageUrl": "https://www.graana.com/images/original/74cc8289426176e5994491f8f01d6d74",
-        "url": "https://www.graana.com/property/1554931"
+        "isOutlier": false,
+        "title": "10 Marla House For Sale",
+        "pricePkr": 110000000,
+        "pricePerSqft": 48888.89,
+        "pricePerMarla": 11000000.0,
+        "beds": 9,
+        "areaSqft": 2250.0,
+        "imageUrl": "https://www.graana.com/images/original/61e7867001ad4b78a0343ee11641684a.jpg",
+        "url": "https://www.graana.com/property/1563353"
       }
     ]
   },
   {
-    "name": "D-12",
+    "name": "DHA Phase 2",
     "centroid": {
       "latitude": null,
       "longitude": null
@@ -1395,10 +1298,10 @@
     "outlierCount": 0,
     "confidenceMedian": 80.0,
     "medianPricePkr": 145000000.0,
-    "medianPricePerSqft": 64444.44,
-    "medianPricePerMarla": 14500000.0,
-    "medianAreaSqft": 2250.0,
-    "medianFreshnessHours": 16.16,
+    "medianPricePerSqft": 32222.22,
+    "medianPricePerMarla": 7250000.0,
+    "medianAreaSqft": 4500.0,
+    "medianFreshnessHours": 25.04,
     "minPricePkr": 145000000,
     "maxPricePkr": 145000000,
     "dominantPropertyGroup": "house",
@@ -1433,92 +1336,23 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 177.5,
-    "cityMedianTicketDeltaPct": 339.39,
+    "cityMedianPpsfDeltaPct": 70.59,
+    "cityMedianTicketDeltaPct": 437.04,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
-        "id": "graana-1562787",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "10 Marla House For Sale",
-        "pricePkr": 145000000,
-        "pricePerSqft": 64444.44,
-        "pricePerMarla": 14500000.0,
-        "beds": 5,
-        "areaSqft": 2250.0,
-        "imageUrl": "https://www.graana.com/images/original/0a97caa9a91a48c79a05324df7c7b929.jpg",
-        "url": "https://www.graana.com/property/1562787"
-      }
-    ]
-  },
-  {
-    "name": "F-10/2",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 1,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 230000000.0,
-    "medianPricePerSqft": 51111.11,
-    "medianPricePerMarla": 11500000.0,
-    "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 16.65,
-    "minPricePkr": 230000000,
-    "maxPricePkr": 230000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": 120.09,
-    "cityMedianTicketDeltaPct": 596.97,
-    "priceTier": "Ultra Prime",
-    "sampleListings": [
-      {
-        "id": "graana-1562758",
+        "id": "graana-1562971",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
         "title": "1 Kanal House For Sale",
-        "pricePkr": 230000000,
-        "pricePerSqft": 51111.11,
-        "pricePerMarla": 11500000.0,
-        "beds": 6,
+        "pricePkr": 145000000,
+        "pricePerSqft": 32222.22,
+        "pricePerMarla": 7250000.0,
+        "beds": 5,
         "areaSqft": 4500.0,
-        "imageUrl": "https://www.graana.com/images/original/3ba4d9842aac46cdbdffc467bfe8b4fe.jpg",
-        "url": "https://www.graana.com/property/1562758"
+        "imageUrl": "https://www.graana.com/images/original/4fab47c9a7294dd0aa2b927b8de8482d.jpg",
+        "url": "https://www.graana.com/property/1562971"
       }
     ]
   },
@@ -1536,7 +1370,7 @@
     "medianPricePerSqft": 30925.56,
     "medianPricePerMarla": 6958250.5,
     "medianAreaSqft": 4527.0,
-    "medianFreshnessHours": 7.77,
+    "medianFreshnessHours": 17.84,
     "minPricePkr": 140000000,
     "maxPricePkr": 140000000,
     "dominantPropertyGroup": "house",
@@ -1571,8 +1405,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 33.17,
-    "cityMedianTicketDeltaPct": 324.24,
+    "cityMedianPpsfDeltaPct": 63.72,
+    "cityMedianTicketDeltaPct": 418.52,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -1605,7 +1439,7 @@
     "medianPricePerSqft": 29090.91,
     "medianPricePerMarla": 6545454.55,
     "medianAreaSqft": 1100.0,
-    "medianFreshnessHours": 1245.16,
+    "medianFreshnessHours": 1255.22,
     "minPricePkr": 32000000,
     "maxPricePkr": 32000000,
     "dominantPropertyGroup": "apartment",
@@ -1640,8 +1474,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 25.27,
-    "cityMedianTicketDeltaPct": -3.03,
+    "cityMedianPpsfDeltaPct": 54.01,
+    "cityMedianTicketDeltaPct": 18.52,
     "priceTier": "Ultra Prime",
     "sampleListings": [
       {
@@ -1661,7 +1495,7 @@
     ]
   },
   {
-    "name": "Bani Gala",
+    "name": "Jinnah Garden",
     "centroid": {
       "latitude": null,
       "longitude": null
@@ -1670,13 +1504,13 @@
     "mappedCount": 0,
     "outlierCount": 0,
     "confidenceMedian": 80.0,
-    "medianPricePkr": 120000000.0,
-    "medianPricePerSqft": 26666.67,
-    "medianPricePerMarla": 6000000.0,
-    "medianAreaSqft": 4500.0,
-    "medianFreshnessHours": 14.73,
-    "minPricePkr": 120000000,
-    "maxPricePkr": 120000000,
+    "medianPricePkr": 27000000.0,
+    "medianPricePerSqft": 24000.0,
+    "medianPricePerMarla": 5400000.0,
+    "medianAreaSqft": 1125.0,
+    "medianFreshnessHours": 24.93,
+    "minPricePkr": 27000000,
+    "maxPricePkr": 27000000,
     "dominantPropertyGroup": "house",
     "propertyMix": {
       "house": {
@@ -1709,92 +1543,23 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": 14.83,
-    "cityMedianTicketDeltaPct": 263.64,
+    "cityMedianPpsfDeltaPct": 27.06,
+    "cityMedianTicketDeltaPct": 0.0,
     "priceTier": "Premium",
     "sampleListings": [
       {
-        "id": "graana-1562999",
+        "id": "graana-1562986",
         "source": "Graana",
         "confidenceScore": 80,
         "isOutlier": false,
-        "title": "1 Kanal House For Sale",
-        "pricePkr": 120000000,
-        "pricePerSqft": 26666.67,
-        "pricePerMarla": 6000000.0,
-        "beds": 6,
-        "areaSqft": 4500.0,
-        "imageUrl": "https://www.graana.com/images/original/97ce3679515647bcb44d08a767d40980.jpg",
-        "url": "https://www.graana.com/property/1562999"
-      }
-    ]
-  },
-  {
-    "name": "E-11/4",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 1,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 9000000.0,
-    "medianPricePerSqft": 23684.21,
-    "medianPricePerMarla": 5328947.37,
-    "medianAreaSqft": 380.0,
-    "medianFreshnessHours": 1557.08,
-    "minPricePkr": 9000000,
-    "maxPricePkr": 9000000,
-    "dominantPropertyGroup": "apartment",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 0,
-        "share": 0.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 1,
-        "share": 1.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": 1.99,
-    "cityMedianTicketDeltaPct": -72.73,
-    "priceTier": "Premium",
-    "sampleListings": [
-      {
-        "id": "graana-1555637",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "380 Ft\u00b2 Flat for Sale",
-        "pricePkr": 9000000,
-        "pricePerSqft": 23684.21,
-        "pricePerMarla": 5328947.37,
-        "beds": 1,
-        "areaSqft": 380.0,
-        "imageUrl": "https://www.graana.com/images/original/56302df89d0476a026887ca641392325",
-        "url": "https://www.graana.com/property/1555637"
+        "title": "5 Marla House For Sale",
+        "pricePkr": 27000000,
+        "pricePerSqft": 24000.0,
+        "pricePerMarla": 5400000.0,
+        "beds": 4,
+        "areaSqft": 1125.0,
+        "imageUrl": "https://www.graana.com/images/original/a63a2b0e25364c2a82b3f5c202715acc.jpg",
+        "url": "https://www.graana.com/property/1562986"
       }
     ]
   },
@@ -1812,7 +1577,7 @@
     "medianPricePerSqft": 22916.67,
     "medianPricePerMarla": 5156250.0,
     "medianAreaSqft": 480.0,
-    "medianFreshnessHours": 399.41,
+    "medianFreshnessHours": 409.48,
     "minPricePkr": 11000000,
     "maxPricePkr": 11000000,
     "dominantPropertyGroup": "apartment",
@@ -1847,8 +1612,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -1.32,
-    "cityMedianTicketDeltaPct": -66.67,
+    "cityMedianPpsfDeltaPct": 21.32,
+    "cityMedianTicketDeltaPct": -59.26,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
@@ -1868,75 +1633,6 @@
     ]
   },
   {
-    "name": "Sector O-9",
-    "centroid": {
-      "latitude": null,
-      "longitude": null
-    },
-    "listingCount": 1,
-    "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 25000000.0,
-    "medianPricePerSqft": 22222.22,
-    "medianPricePerMarla": 5000000.0,
-    "medianAreaSqft": 1125.0,
-    "medianFreshnessHours": 37.82,
-    "minPricePkr": 25000000,
-    "maxPricePkr": 25000000,
-    "dominantPropertyGroup": "house",
-    "propertyMix": {
-      "house": {
-        "label": "Houses",
-        "count": 1,
-        "share": 1.0
-      },
-      "apartment": {
-        "label": "Flats & Apartments",
-        "count": 0,
-        "share": 0.0
-      },
-      "plot": {
-        "label": "Residential Plots",
-        "count": 0,
-        "share": 0.0
-      }
-    },
-    "sourceMix": {
-      "Graana": {
-        "label": "Graana",
-        "count": 1,
-        "share": 1.0
-      }
-    },
-    "benchmark": {
-      "label": "FBR benchmark",
-      "status": "unmatched",
-      "referenceUrl": "https://www.fbr.gov.pk/propertyValuation/17653",
-      "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
-      "deltaPct": null
-    },
-    "cityMedianPpsfDeltaPct": -4.31,
-    "cityMedianTicketDeltaPct": -24.24,
-    "priceTier": "Mid-market",
-    "sampleListings": [
-      {
-        "id": "graana-1562478",
-        "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "5 Marla House For Sale",
-        "pricePkr": 25000000,
-        "pricePerSqft": 22222.22,
-        "pricePerMarla": 5000000.0,
-        "beds": 4,
-        "areaSqft": 1125.0,
-        "imageUrl": "https://www.graana.com/images/original/f765025d3c89443abe08790f777bdff2.jpg",
-        "url": "https://www.graana.com/property/1562478"
-      }
-    ]
-  },
-  {
     "name": "Zarkon Heights",
     "centroid": {
       "latitude": null,
@@ -1950,7 +1646,7 @@
     "medianPricePerSqft": 15328.47,
     "medianPricePerMarla": 3448905.11,
     "medianAreaSqft": 1233.0,
-    "medianFreshnessHours": 1450.27,
+    "medianFreshnessHours": 1460.33,
     "minPricePkr": 18900000,
     "maxPricePkr": 18900000,
     "dominantPropertyGroup": "apartment",
@@ -1985,8 +1681,8 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -33.99,
-    "cityMedianTicketDeltaPct": -42.73,
+    "cityMedianPpsfDeltaPct": -18.85,
+    "cityMedianTicketDeltaPct": -30.0,
     "priceTier": "Mid-market",
     "sampleListings": [
       {
@@ -2006,22 +1702,22 @@
     ]
   },
   {
-    "name": "DHA Phase 1",
+    "name": "Soan Garden",
     "centroid": {
       "latitude": null,
       "longitude": null
     },
     "listingCount": 1,
     "mappedCount": 0,
-    "outlierCount": 0,
-    "confidenceMedian": 80.0,
-    "medianPricePkr": 8200000.0,
-    "medianPricePerSqft": 14642.86,
-    "medianPricePerMarla": 3294642.86,
-    "medianAreaSqft": 560.0,
-    "medianFreshnessHours": 1744.3,
-    "minPricePkr": 8200000,
-    "maxPricePkr": 8200000,
+    "outlierCount": 1,
+    "confidenceMedian": 56.0,
+    "medianPricePkr": null,
+    "medianPricePerSqft": null,
+    "medianPricePerMarla": null,
+    "medianAreaSqft": null,
+    "medianFreshnessHours": 571.44,
+    "minPricePkr": 202500000,
+    "maxPricePkr": 202500000,
     "dominantPropertyGroup": "apartment",
     "propertyMix": {
       "house": {
@@ -2054,23 +1750,23 @@
       "documentUrl": "https://download1.fbr.gov.pk/SROs/2026416174174449SRO644.pdf",
       "deltaPct": null
     },
-    "cityMedianPpsfDeltaPct": -36.95,
-    "cityMedianTicketDeltaPct": -75.15,
+    "cityMedianPpsfDeltaPct": null,
+    "cityMedianTicketDeltaPct": null,
     "priceTier": "Value",
     "sampleListings": [
       {
-        "id": "graana-1554590",
+        "id": "graana-1559715",
         "source": "Graana",
-        "confidenceScore": 80,
-        "isOutlier": false,
-        "title": "560 Sq. Ft. flat for sale",
-        "pricePkr": 8200000,
-        "pricePerSqft": 14642.86,
-        "pricePerMarla": 3294642.86,
-        "beds": 1,
-        "areaSqft": 560.0,
-        "imageUrl": "https://www.graana.com/images/original/ced19a31dcc4b0b06ee3d56785454dcd",
-        "url": "https://www.graana.com/property/1554590"
+        "confidenceScore": 56,
+        "isOutlier": true,
+        "title": "Kazani Heights 950 Sq. Ft. flat for sale",
+        "pricePkr": 202500000,
+        "pricePerSqft": 213157.89,
+        "pricePerMarla": 47960526.32,
+        "beds": 2,
+        "areaSqft": 950.0,
+        "imageUrl": "",
+        "url": "https://www.graana.com/property/1559715"
       }
     ]
   }
